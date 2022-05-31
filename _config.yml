@@ -26,7 +26,7 @@ baseurl: ''
 title: 'Microsoft 365 Tips and Tricks'
 description: 'Articles on Powershell and Microsoft 365 services'
 permalink: pretty
-logo: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c?s=52"
+logo: "https://i.picsum.photos/id/8/80/80.jpg"
 
 # Pagination
 paginate: 5
@@ -49,11 +49,10 @@ navigation_footer:
 # Collections
 collections:
   posts:
-    title: Posts
+    title: News & Novelties
     output: true
     description: "My thoughts and ideas"
-    feature_text: |
-      Welcome to my articles
+    feature_text: Welcome to my articles
     feature_image: "https://picsum.photos/2560/600?image=866"
 
 # Collection settings
@@ -63,7 +62,7 @@ defaults:
       path: ""
       type: "posts"
     values:
-      layout: post # Set the default layout for posts
+      layout: pages # Set the default layout for posts
   -
     scope:
       path: ""
