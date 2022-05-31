@@ -1,5 +1,5 @@
 ---
-title: Welcome to my website
+title: 
 feature_image: "https://picsum.photos/1300/400?image=866"
 feature_text: |
   ## Hello world :)
