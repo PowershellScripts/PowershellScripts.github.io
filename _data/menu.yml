@@ -59,15 +59,6 @@
       link: /docs/page-components/video/
 
 
-- label: Products
-  items:
-    - name: Product Pages
-      link: /docs/products/product-pages/
-    - name: Product Reviews
-      link: /docs/products/product-reviews/
-    - name: Category Page
-      link: /docs/products/category-page/
-
 - label: Recipes
   items:
     - name: Recipes
