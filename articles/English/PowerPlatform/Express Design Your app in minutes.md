@@ -10,6 +10,7 @@ Express Design accepts a broad range of inputs. It can work with PDFs, sketches 
 
 
 Express Design creating an app from a sheet of paper.
+![This is an image](/articles/images/ExpressDesign.png)
 Image Source: https://powerapps.microsoft.com/en-us/blog/new-express-design-in-power-apps-converts-images-and-designs-to-apps-in-seconds/
 
 

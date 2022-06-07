@@ -1,6 +1,6 @@
-- label: PowerPlatform
+- label: Power Platform
   items:
-    - name: Express Design Your app in minutes
+    - name: 'Express Design: Your app in minutes'
       link: /articles/English/PowerPlatform/Express Design Your app in minutes/
     - name: Configuration
       link: /_articles/getting-started/configuration/
