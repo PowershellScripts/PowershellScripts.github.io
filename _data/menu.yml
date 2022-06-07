@@ -1,7 +1,7 @@
 - label: PowerPlatform
   items:
     - name: Express Design Your app in minutes
-      link: /_articles/English/PowerPlatform/Express Design Your app in minutes/
+      link: /articles/English/PowerPlatform/Express Design Your app in minutes/
     - name: Configuration
       link: /_articles/getting-started/configuration/
     - name: Theming
