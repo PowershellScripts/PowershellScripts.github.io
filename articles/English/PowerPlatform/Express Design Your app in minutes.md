@@ -4,6 +4,7 @@ title: 'Express Design: Your App in Minutes'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 show_sidebar: false
+hero_height: is-small
 ---
 
 
