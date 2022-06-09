@@ -10,8 +10,8 @@ show_sidebar: false
 ## Introduction
 
 Using PnP you can easily retrieve users who are creating flows and extract data statistics. That allows you to get the most prolific Power Automate creators who created the most flows.
-
-
+<br/>
+<br/>
 
 ## Get Flow Properties
 
@@ -21,17 +21,18 @@ Connect-PnpOnline
 $environment = Get-PnPPowerPlatformEnvironment
 $Flows = Get-PnPFlow -Environment $environment -AsAdmin | select -expandProperty Properties
 ```
-<img src="/articles/images/flow18.png" width="400"> 
+<img src="/articles/images/flows18.PNG" width="400"> 
 
 One of those properties is the Creator. If you expand it, you obtain ObjectId, which is Azure Active Directory ObjectId.
-<img src="/articles/images/flow104.png" width="400"> 
+<img src="/articles/images/flows104.PNG" width="400"> 
 
 Using ```Group-Object``` and ```Sort-Object``` cmdlets, you get the users who created most flows.
 ```
 $props.Creator | Group-Object -Property ObjectId -NoElement  | Sort-Object -Descending
 ```
  
-<img src="/articles/images/flow19.png" width="400"> 
+<img src="/articles/images/flows19.PNG" width="400"> 
+<br/>
 
 
 ## Get Azure Active Directory Users
@@ -44,7 +45,10 @@ Get-MsolUser | where {$_.ObjectId -eq "f655dd56-ffea-45ad-aa45-775e4e0eeb9b"}
 
 
 <br/>
+<br/>
+
 ## Full Script
+
 ```
 Connect-PnPOnline
 $environment = Get-PnPPowerPlatformEnvironment
@@ -61,6 +65,6 @@ $MostProlific | Foreach-Object {
     $user | Export-CSV -Path yourcsvpath.csv -Append
 }
 ```
-<img src="/articles/images/flow21.png" width="400">  
+<img src="/articles/images/flows21.png" width="400">  
 
 
