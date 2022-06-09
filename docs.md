@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Docs
+title: Microsoft 365 Tips and Tricks
 menubar: docs_menu
 show_sidebar: false
 ---
