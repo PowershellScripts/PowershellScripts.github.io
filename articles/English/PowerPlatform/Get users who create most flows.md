@@ -3,7 +3,7 @@ layout: page
 title: 'Get users who create most flows'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
-hero_image: '/PowershellScripts.github.io/img/recipe-example.jpg'
+hero_image: '/img/recipe-example.jpg'
 show_sidebar: false
 hero_height: is-small
 ---
