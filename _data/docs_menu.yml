@@ -2,8 +2,8 @@
   items:
     - name: 'Express Design: Your app in minutes'
       link: /articles/English/PowerPlatform/Express Design Your app in minutes/
-    - name: Configuration
-      link: /_articles/getting-started/configuration/
+    - name: 'Get users who create most flows'
+      link: /articles/English/PowerPlatform/Get users who create most flows/
     - name: Theming
       link: /_articles/getting-started/theming/
     - name: Sidebar
@@ -39,28 +39,4 @@
     - name: Series
       link: /docs/posts/post-series/
 
-- label: Page Components
-  items: 
-    - name: Callouts
-      link: /docs/page-components/callouts/
-    - name: Image Gallery
-      link: /docs/page-components/image-gallery/
-    - name: Image Modal
-      link: /docs/page-components/image-modal/
-    - name: Notifications
-      link: /docs/page-components/notifications/
-    - name: Showcases
-      link: /docs/page-components/showcases/
-    - name: Tabs
-      link: /docs/page-components/tabs/
-    - name: Tags
-      link: /docs/page-components/tags/
-    - name: Video
-      link: /docs/page-components/video/
-
-
-- label: Recipes
-  items:
-    - name: Recipes
-      link: /docs/recipes/recipes/
 
