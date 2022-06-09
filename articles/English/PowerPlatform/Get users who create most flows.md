@@ -5,6 +5,7 @@ menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/PowershellScripts.github.io/img/recipe-example.jpg'
 show_sidebar: false
+hero_height: is-small
 ---
 
 
