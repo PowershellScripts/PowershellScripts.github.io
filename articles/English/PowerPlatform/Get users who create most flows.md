@@ -23,17 +23,17 @@ Connect-PnpOnline
 $environment = Get-PnPPowerPlatformEnvironment
 $Flows = Get-PnPFlow -Environment $environment -AsAdmin | select -expandProperty Properties
 ```
-<img src="/articles/images/flows18.PNG" width="400"> 
+<img src="/articles/images/flows18.PNG" width="600"> 
 
 One of those properties is the Creator. If you expand it, you obtain ObjectId, which is Azure Active Directory ObjectId.
-<img src="/articles/images/flows104.PNG" width="400"> 
+<img src="/articles/images/flows104.PNG" width="600"> 
 
 Using ```Group-Object``` and ```Sort-Object``` cmdlets, you get the users who created most flows.
 ```
 $props.Creator | Group-Object -Property ObjectId -NoElement  | Sort-Object -Descending
 ```
  
-<img src="/articles/images/flows19.PNG" width="400"> 
+<img src="/articles/images/flows19.PNG" width="600"> 
 <br/>
 
 
@@ -67,6 +67,6 @@ $MostProlific | Foreach-Object {
     $user | Export-CSV -Path yourcsvpath.csv -Append
 }
 ```
-<img src="/articles/images/flow21.PNG" width="400">  
+<img src="/articles/images/flow21.PNG" width="600">  
 
 
