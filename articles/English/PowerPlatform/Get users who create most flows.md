@@ -65,6 +65,6 @@ $MostProlific | Foreach-Object {
     $user | Export-CSV -Path yourcsvpath.csv -Append
 }
 ```
-<img src="/articles/images/flows21.png" width="400">  
+<img src="/articles/images/flow21.PNG" width="400">  
 
 
