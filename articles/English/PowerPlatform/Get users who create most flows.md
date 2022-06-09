@@ -1,11 +1,20 @@
-Introduction
+---
+layout: page
+title: 'Get users who create most flows'
+menubar: docs_menu
+image: 'https://unsplash.com/s/photos/random'
+show_sidebar: false
+---
+
+
+## Introduction
 
 
 Managing your flows using PnP is fabulously easy. Faster to code than CSOM, more options than classic SharePoint Online Management Shell. Using PnP you can easily retrieve users who are creating flows and extract data statistics.
 
 
 
-Get Flow Properties
+## Get Flow Properties
 
 First, retrieve properties of the flow. Remember to use -AsAdmin switch. Otherwise you will get only your own flows.
 Connect-PnpOnline
@@ -25,7 +34,7 @@ $props.Creator | Group-Object -Property ObjectId -NoElement  | Sort-Object -Desc
 
 
 
-Get Azure Active Directory Users
+## Get Azure Active Directory Users
 
 
 Use Azure Active Directory ObjectId to obtain user's UPN or email address.
@@ -34,7 +43,7 @@ Get-MsolUser | where {$_.ObjectId -eq "f655dd56-ffea-45ad-aa45-775e4e0eeb9b"}
 
 
 
-Full Script
+## Full Script
 
 Connect-PnPOnline
 $environment = Get-PnPPowerPlatformEnvironment
