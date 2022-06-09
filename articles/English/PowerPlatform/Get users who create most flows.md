@@ -9,35 +9,32 @@ show_sidebar: false
 
 ## Introduction
 
-
-Managing your flows using PnP is fabulously easy. Faster to code than CSOM, more options than classic SharePoint Online Management Shell. Using PnP you can easily retrieve users who are creating flows and extract data statistics.
+Using PnP you can easily retrieve users who are creating flows and extract data statistics. That allows you to get the most prolific Power Automate creators who created the most flows.
 
 
 
 ## Get Flow Properties
 
-First, retrieve properties of the flow. Remember to use -AsAdmin switch. Otherwise you will get only your own flows.
+First, in order to see who created a flow, retrieve properties of the flow. Remember to use -AsAdmin switch. Otherwise you will get only your own flows.
 ```
 Connect-PnpOnline
 $environment = Get-PnPPowerPlatformEnvironment
 $Flows = Get-PnPFlow -Environment $environment -AsAdmin | select -expandProperty Properties
 ```
- 
+<img src="/articles/images/flow18.png" width="400"> 
 
 One of those properties is the Creator. If you expand it, you obtain ObjectId, which is Azure Active Directory ObjectId.
- 
-
+<img src="/articles/images/flow104.png" width="400"> 
 
 Using ```Group-Object``` and ```Sort-Object``` cmdlets, you get the users who created most flows.
 ```
 $props.Creator | Group-Object -Property ObjectId -NoElement  | Sort-Object -Descending
 ```
  
-
+<img src="/articles/images/flow19.png" width="400"> 
 
 
 ## Get Azure Active Directory Users
-
 
 Use Azure Active Directory ObjectId to obtain user's UPN or email address.
 ```
@@ -46,6 +43,7 @@ Get-MsolUser | where {$_.ObjectId -eq "f655dd56-ffea-45ad-aa45-775e4e0eeb9b"}
 ```
 
 
+<br/>
 ## Full Script
 ```
 Connect-PnPOnline
@@ -63,6 +61,6 @@ $MostProlific | Foreach-Object {
     $user | Export-CSV -Path yourcsvpath.csv -Append
 }
 ```
- 
+<img src="/articles/images/flow21.png" width="400">  
 
 
