@@ -12,7 +12,7 @@
       link: /_articles/getting-started/scripts/
 
 
-- label: Navigation
+- label: Sensitivity Labels
   items:
     - name: Top navigation
       link: /_articles/navigation/top-navigation/
@@ -20,8 +20,12 @@
       link: /_articles/navigation/footer-navigation/
     - name: Menubar
       link: /_articles/navigation/menubar/
+    - label: testSubLabel
+      items:
+        - name: Top navigation
+          link: /_articles/navigation/top-navigation/
 
-- label: Pages
+- label: Exchange Online
   items:
     - name: Creating a page
       link: /_articles/pages/creating-a-page/
