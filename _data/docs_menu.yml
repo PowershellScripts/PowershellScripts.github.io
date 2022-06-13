@@ -4,8 +4,8 @@
       link: /articles/English/PowerPlatform/Express Design Your app in minutes/
     - name: 'Get users who create most flows'
       link: /articles/English/PowerPlatform/Get users who create most flows/
-    - name: Theming
-      link: /_articles/getting-started/theming/
+    - name: 'Recycle vs delete SharePoint list'
+      link: /_articles/English/PowerPlatform/Recycle vs Delete SharePoint list/
     - name: Sidebar
       link: /_articles/getting-started/sidebar/
     - name: Scripts
@@ -34,13 +34,6 @@
     - name: Table of Contents
       link: /docs/pages/table-of-contents/
 
-- label: Posts
-  items:
-    - name: Creating a Post
-      link: /docs/posts/creating-a-post/
-    - name: Excerpt & Summary
-      link: /docs/posts/post-excerpt-summary/
-    - name: Series
-      link: /docs/posts/post-series/
+
 
 
