@@ -69,4 +69,23 @@ $MostProlific | Foreach-Object {
 ```
 <img src="/articles/images/flow21.PNG" width="600">  
 
-
+<!-- Default Statcounter code for Github - Most Flow
+Creators
+https://powershellscripts.github.io/articles/English/PowerPlatform/Get%20users%20who%20create%20most
+-->
+<script type="text/javascript">
+var sc_project=12763867; 
+var sc_invisible=0; 
+var sc_security="3cad39f3"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12763867/0/3cad39f3/0/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
