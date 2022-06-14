@@ -5,11 +5,9 @@
     - name: 'Get users who create most flows'
       link: /articles/English/PowerPlatform/Get users who create most flows/
     - name: 'Recycle vs delete SharePoint list'
-      link: /_articles/English/PowerPlatform/Recycle vs Delete SharePoint list/
-    - name: Sidebar
-      link: /_articles/getting-started/sidebar/
+      link: /articles/English/PowerPlatform/Recycle vs Delete SharePoint list/
     - name: Scripts
-      link: /_articles/getting-started/scripts/
+      link: /articles/getting-started/scripts/
 
 
 - label: Sensitivity Labels
