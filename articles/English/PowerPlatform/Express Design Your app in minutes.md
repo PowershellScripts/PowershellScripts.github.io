@@ -36,3 +36,24 @@ You can test Express Design in your Microsoft 365 tenant, by navigating [here](h
 <br/>
 ## Official announcement
 [Turn images and designs into apps using AI-powered express design](https://powerapps.microsoft.com/en-us/blog/new-express-design-in-power-apps-converts-images-and-designs-to-apps-in-seconds/)
+
+
+<!-- Default Statcounter code for Express Design
+https://powershellscripts.github.io/articles/English/PowerPlatform/Express%20Design%20Your%20app%20i
+-->
+<script type="text/javascript">
+var sc_project=12763879; 
+var sc_invisible=0; 
+var sc_security="fb261598"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12763879/0/fb261598/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
