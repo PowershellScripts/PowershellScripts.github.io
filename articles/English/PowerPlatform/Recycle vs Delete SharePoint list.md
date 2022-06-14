@@ -1,5 +1,14 @@
+---
+layout: page
+title: 'Recycle vs Delete SharePoint Online list'
+menubar: docs_menu
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+---
+
 ## Introduction
-Using SharePoint HTTP connector called Send an HTTP request to SharePoint in Power Automate gives you freedom to use REST API and perform multiple actions that have not been predefined in Power Automate actions.
+Using SharePoint HTTP connector called ```Send an HTTP request to SharePoint in Power Automate``` gives you freedom to use REST API and perform multiple actions that have not been predefined in Power Automate actions.
 
 
 ## Delete vs Recycle 
