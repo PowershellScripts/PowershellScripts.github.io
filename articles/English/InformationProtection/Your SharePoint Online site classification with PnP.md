@@ -17,7 +17,7 @@ You can enable the capability using [**Enable-PnPSiteClassification**](https://p
 
 If you are interested in more details, you can find them in a more dev-oriented [Implement Sharepoint site classification solution Guidance](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/implement-a-sharepoint-site-classification-solution) from Microsoft.
 
-If you are getting any errors at this point, you may want to resort to AzureADPreview Powershell module and check your AD settings for any existing templates, using **Get-AzureADDirectorySetting** cmdlet.
+If you are getting any errors at this point, you may want to resort to AzureADPreview Powershell module and check your AD settings for any existing templates, using [**Get-AzureADDirectorySetting**](https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureaddirectorysetting?view=azureadps-2.0-preview) cmdlet.
 
 ### Troubleshoot with AzureADPreview module
 ```
@@ -49,11 +49,11 @@ Get-PnPSiteClassification
 
  
 ### Using AzureADPreview
-Use **Get-AzureADDirectorySetting** cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification.
+Use [**Get-AzureADDirectorySetting**](https://docs.microsoft.com/en-us/powershell/module/azuread/get-azureaddirectorysetting?view=azureadps-2.0-preview) cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification.
 
 
 
-## Results
+### Results
 In the User Interface you can see these values when you create a new site:
 
  <img src="/articles/images/classification2.PNG" width="400">
@@ -62,13 +62,18 @@ In the User Interface you can see these values when you create a new site:
 
 
 ## Update Site Classification options
-Use Update-PnPSiteClassification cmdlet to set the available classifications.
+Use **Update-PnPSiteClassification** cmdlet to set the available classifications or usage guidelines url.
 
+```
 Update-PnPSiteClassification -Classifications "HBI", "CRI", "LBI"
+```
+ <img src="/articles/images/classification4.PNG" width="400"> 
 
- 
 
-<the rest coming soon>
- 
+```
+Update-PnPSiteClassification -UsageGuidelinesUrl "https://powershellscripts.github.io/"
+```
+ <img src="/articles/images/classification6.PNG" width="400">
+
 
 
