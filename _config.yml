@@ -22,7 +22,7 @@ plugins:
 - jekyll-remote-theme
 
 # Site settings
-url: 'https://mydomain.com'
+url: 'https://powershellscripts.github.io/'
 baseurl: ''
 title: 'Microsoft 365 Tips and Tricks'
 description: 'Articles on Powershell and Microsoft 365 services'
