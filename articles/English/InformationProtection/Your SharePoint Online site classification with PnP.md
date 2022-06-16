@@ -3,20 +3,40 @@
 Site classification has to be enabled at the Azure AD level.
 After enabling the site classification capability at the Azure AD level, you see an additional field *How sensitive is your data?* while creating new sites. Site classification allows you to define the sensitivity of your data on site level and group your sites based on the sensitivity of the information they contain.
 
-You can enable the capability using ** cmdlet.
+You can enable the capability using [**Enable-PnPSiteClassification**](https://pnp.github.io/powershell/cmdlets/Enable-PnPSiteClassification.html) cmdlet.
 
-Mind you, if you already, e.g. this might not work. 
+If you are interested in more details, you can find them in a more dev-oriented [Implement Sharepoint site classification solution Guidance](https://docs.microsoft.com/en-us/sharepoint/dev/solution-guidance/implement-a-sharepoint-site-classification-solution) from Microsoft.
+
+If you are getting any errors at this point, you may want to resort to AzureADPreview Powershell module and check your AD settings for any existing templates, using **Get-AzureADDirectorySetting** cmdlet.
+
+### Troubleshoot with AzureADPreview module
+```
+# Install the Azure AD Preview Module for PowerShell
+Install-Module AzureADPreview
+
+# Connect to Azure AD
+Connect-AzureAD
+
+# Get existing settings
+Get-AzureADDirectorySetting
+```
+
+<img src="/articles/images/classification8.PNG" width="200">
 
 
+If you see any existing settings like in the screenshot above, probably someone else in your organization already set them.
 
-Verify the existing site classification
-Use Get-PnPSiteClassification cmdlet to retrieve the existing site classification settings. As a result, you receive UsageGuidelinesUrl, Classifications, and DefaultClassification values. DefaultClassification value has to be also in the list of values you see under Classifications.
+
+## Verify the existing site classification
+
+### Using PnP
+Use Get-PnPSiteClassification cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification. DefaultClassification value has to be also in the list of values you see under Classifications.
 
 ```
 Get-PnPSiteClassification
 ```
  
-
+### Using AzureADPreview
 In the User Interface you can see these values when you create a new site:
 
  
@@ -24,7 +44,7 @@ In the User Interface you can see these values when you create a new site:
 
 
 
-Update Site Classification options
+## Update Site Classification options
 Use Update-PnPSiteClassification cmdlet to set the available classifications.
 
 Update-PnPSiteClassification -Classifications "HBI", "CRI", "LBI"
