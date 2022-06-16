@@ -8,7 +8,6 @@ show_sidebar: false
 hero_height: is-small
 ---
 <title> Express Design </title>
-
 ## Express Design
 Announced at Microsoft Build 2022 Express Design can speed up app development and POC creation. It translates notes, pictures or just a handwritten piece of paper to a fully fledged app, and then allows you to modify it further to better suit your needs.
 <br/>
