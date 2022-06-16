@@ -13,7 +13,7 @@
 - label: Information Protection
   items:
     - name: Site classification with PnP
-      link: \articles\English\InformationProtection\Your SharePoint Online site classification with PnP.md
+      link: /articles/English/InformationProtection/Your SharePoint Online site classification with PnP.md
     - name: Sensitivity Labels
       link: /_articles/navigation/footer-navigation/
     - name: Menubar
