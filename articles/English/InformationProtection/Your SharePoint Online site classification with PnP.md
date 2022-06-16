@@ -1,3 +1,12 @@
+---
+layout: page
+title: 'SharePoint Online site classification'
+menubar: docs_menu
+image: 'https://unsplash.com/s/photos/random'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+---
 
 ## First: Enable the capability
 Site classification has to be enabled at the Azure AD level.
@@ -21,7 +30,7 @@ Connect-AzureAD
 Get-AzureADDirectorySetting
 ```
 
-<img src="/articles/images/classification8.PNG" width="200">
+<img src="/articles/images/classification8.PNG" width="400">
 
 
 If you see any existing settings like in the screenshot above, probably someone else in your organization already set them.
@@ -30,16 +39,23 @@ If you see any existing settings like in the screenshot above, probably someone 
 ## Verify the existing site classification
 
 ### Using PnP
-Use Get-PnPSiteClassification cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification. DefaultClassification value has to be also in the list of values you see under Classifications.
+Use **Get-PnPSiteClassification** cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification. DefaultClassification value has to be also in the list of values you see under Classifications.
 
 ```
 Get-PnPSiteClassification
 ```
- 
-### Using AzureADPreview
-In the User Interface you can see these values when you create a new site:
+<img src="/articles/images/classification3.PNG" width="400">
 
  
+### Using AzureADPreview
+Use **Get-AzureADDirectorySetting** cmdlet to retrieve the existing site classification settings. As a result, you receive the values of UsageGuidelinesUrl, Classifications, and DefaultClassification.
+
+
+
+## Results
+In the User Interface you can see these values when you create a new site:
+
+ <img src="/articles/images/classification2.PNG" width="400">
 
 
 
