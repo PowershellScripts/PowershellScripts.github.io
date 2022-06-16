@@ -10,11 +10,11 @@
       link: /articles/getting-started/scripts/
 
 
-- label: Sensitivity Labels
+- label: Information Protection
   items:
-    - name: Top navigation
-      link: /_articles/navigation/top-navigation/
-    - name: Footer navigation
+    - name: Site classification with PnP
+      link: articles\English\InformationProtection\Your SharePoint Online site classification with PnP.md
+    - name: Sensitivity Labels
       link: /_articles/navigation/footer-navigation/
     - name: Menubar
       link: /_articles/navigation/menubar/
@@ -23,7 +23,7 @@
         - name: Top navigation
           link: /_articles/navigation/top-navigation/
 
-- label: Exchange Online
+- label: SharePoint Online
   items:
     - name: Creating a page
       link: /_articles/pages/creating-a-page/
