@@ -42,3 +42,25 @@ Get All Label Actions
 
 
 See Also
+
+
+
+<!-- Default Statcounter code for Audit sensitivity labels
+with PS
+https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivit
+-->
+<script type="text/javascript">
+var sc_project=12764960; 
+var sc_invisible=1; 
+var sc_security="9671f253"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12764960/0/9671f253/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
