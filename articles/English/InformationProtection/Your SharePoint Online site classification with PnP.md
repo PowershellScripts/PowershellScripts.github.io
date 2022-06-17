@@ -61,15 +61,17 @@ In the User Interface you can see these values when you create a new site:
 
 
 
-## Update Site Classification options
+## Update Site Classification
 Use **Update-PnPSiteClassification** cmdlet to set the available classifications or usage guidelines url.
 
+### Update Site classification options
 ```
 Update-PnPSiteClassification -Classifications "HBI", "CRI", "LBI"
 ```
  <img src="/articles/images/classification4.PNG" width="400"> 
 
 
+### Update usage guidelines url
 ```
 Update-PnPSiteClassification -UsageGuidelinesUrl "https://powershellscripts.github.io/"
 ```
@@ -77,3 +79,13 @@ Update-PnPSiteClassification -UsageGuidelinesUrl "https://powershellscripts.gith
 
 
 
+# See Also
+
+Another solution for classifying your sites - sensitivity labels, 
+offering a more holistic approach on entire tenant scale, including also e.g. Exchange Online 
+[Protecting your information: the power of labels](https://social.technet.microsoft.com/wiki/contents/articles/54468.protecting-your-information-the-power-of-labels.aspx)
+[Sensitivity labels: Powershell your way around](https://social.technet.microsoft.com/wiki/contents/articles/54497.sensitivity-labels-powershell-your-way-around.aspx)
+[Audit your sensitivity labels with Powershell](https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/)
+
+Absolutely necessary one-time step to enable sensitivity labels on site level:
+[Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
