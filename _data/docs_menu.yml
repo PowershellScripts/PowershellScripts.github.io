@@ -14,14 +14,11 @@
   items:
     - name: Site classification with PnP
       link: /articles/English/InformationProtection/Your SharePoint Online site classification with PnP/
-    - name: Sensitivity Labels
-      link: /_articles/navigation/footer-navigation/
-    - name: Menubar
-      link: /_articles/navigation/menubar/
-    - label: testSubLabel
-      items:
-        - name: Top navigation
-          link: /_articles/navigation/top-navigation/
+    - name: Audit your sensitivity labels with Powershell
+      link: /articles/English/InformationProtection/Audit your sensitivity labels with Powershell/
+    - name: Records management with regulatory records
+      link: /articles/English/InformationProtection/Records management with regulatory records/
+
 
 - label: SharePoint Online
   items:
