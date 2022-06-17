@@ -1,5 +1,7 @@
 ---
-title: About this website
+title: Arleta Wanat
 ---
 
-I'm not sure yet what this website is about, but I'm sure I'll work it out soon.
+Hi, my name is Arleta and I am SharePoint MCSA, Productivity MSCE, and Microsoft MVP :) 
+
+Welcome to my articles!
