@@ -32,12 +32,12 @@ Use Get-Label cmdlet to see the available labels in your environment, their scop
 
 
 
-Get All Details on a Label
+## Get All Details on a Label
 
 
 
 
-Get All Label Actions
+## Get All Label Actions
 
 
 
