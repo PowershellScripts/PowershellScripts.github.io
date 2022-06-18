@@ -24,10 +24,7 @@
   items:
     - name: Creating a page
       link: /_articles/pages/creating-a-page/
-    - name: Hero
-      link: /docs/pages/hero/
-    - name: Table of Contents
-      link: /docs/pages/table-of-contents/
+
 
 
 
