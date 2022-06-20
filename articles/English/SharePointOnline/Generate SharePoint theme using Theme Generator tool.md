@@ -126,14 +126,44 @@ Add-SPOTheme -Identity "ArletasThemeFromSPOShell" -Palette $themepalette -IsInve
 
 
 # Apply
+Once available in your tenant, the theme can be applied.
 
+### Apply site theme using PnP
 
-Set-SPOWebTheme -Theme "Custom cyan" -Web https://contoso.sharepoint.com/sites/Contoso1
+Set the theme on the website you are connected to
+```powershell
+Set-PnPWebTheme -Theme "ArletasTheme"
+```
 
-Set-PnPWebTheme
-Set-PnPWebTheme -Theme MyTheme
-Set-PnPWebTheme -Theme "MyCompanyTheme" -WebUrl https://contoso.sharepoint.com/sites/MyWeb
-Get-PnPTheme
+Set the theme on MySite
+```powershell
+Set-PnPWebTheme -Theme "ArletasTheme" -WebUrl https://MyTenant.sharepoint.com/sites/MySite
+```
+
+### Apply site theme using SharePoint Online Management Shell
+
+Set the theme on MySite
+```powershell
+Set-SPOWebTheme -Theme "ArletasTheme" -Web https://MyTenant.sharepoint.com/sites/MySite
+```
+
+Set the theme on all sites (requires SharePoint Online Admin)
+```powershell
+$sites = Get-SPOSite
+
+foreach($site in $sites){
+    Set-SPOWebTheme -Theme "ArletasTheme" -Web $site.Url
+}
+```
+
+Set the theme on selected sites, provided through CSV. Make sure one of the columns/properties in your CSV file is SiteUrl.
+```powershell
+$sites = Import-CSV C:\yourCSVPath.csv
+
+foreach($site in $sites){
+    Set-SPOWebTheme -Theme "ArletasTheme" -Web $site.SiteUrl
+}
+```
 
 # See Also
 
