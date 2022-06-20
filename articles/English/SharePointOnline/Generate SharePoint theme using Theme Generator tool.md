@@ -17,23 +17,23 @@ Your organization's SharePoint Online themes are usually a tricky subject. Devel
 
 # Online Theme Generator tool
 
-I found the Theme Generator tool very helpful in these scenarios. It's a free tool that helps you design your color palette. A single SharePoint Online site design consists of tens of different colors. The Theme Generator explains, where which of these colors is used - links, buttons, etc. It allows you to choose the colors using RGB, #HEX or UI. Then it generates the desired palette theme in a SharePoint Admin-friendly format - Powershell, JSON or ZIP. 
+I found the Theme Generator tool very helpful in these scenarios. It's a free tool that helps you design your color palette. A single SharePoint Online site theme consists of tens of different colors. The Theme Generator explains, where which of these colors is used - links, buttons, etc. It allows you to choose the colors using RGB, #HEX or UI. Then it generates the desired palette theme in a SharePoint Admin-friendly format - Powershell, JSON or ZIP. 
 
 
 # Step 1 Pick your colors
 Navigate to the [online Theme Generator tool](https://fluentuipr.z22.web.core.windows.net/heads/master/theming-designer/index.html)
 
-On the left you can pick the main 3 colors for your design. If you click on the color, you can define them using color picker. On the right you immediately see the effects on a small but good sample site layout. You can see how the chosen colors affect links, buttons, background and mouseover highlights.
+On the left you can pick the main 3 colors for your design. If you click on the color, you can define it using color picker. On the right you immediately see the effects on a small but good sample site layout. You can see how the chosen colors affect links, buttons, background and mouseover highlights.
 
 <br/>
-<img src="/articles/images/header1.png" width="200">
+<img src="/articles/images/header1.PNG" width="200">
 <br/>
 
 
 If that's not enough for the Graphic Designer (it probably isn't!), scroll down the Theme Generator page for more options. The fabric palette slots allow you to define your new site theme in a greater level of detail. Same as before, click on the little square to set the color for a particular property.
 
 <br/>
-<img src="/articles/images/header4.png" width="200">
+<img src="/articles/images/header4.PNG" width="200">
 <br/>
 
 If that's still not the level of detail you need and you have to know exactly where each of the defined colors occur, check out [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences) in official Microsoft Docs to see where in SharePoint the tokens are applied.
@@ -47,15 +47,17 @@ and show any potential accessibility errors with your color palette.
 
 
 <br/>
-<img src="/articles/images/header3.png" width="200">
+<img src="/articles/images/header3.PNG" width="200">
 <br/>
 
 
 # Step 3 Generate your theme
 
-Once you are ready with your theme, picked the desired colors and verified accessibility requirements, you can proceed to export it. IN the top right corner click the button **Export theme**. Choose the right format and export it.
+Once you are ready with your site theme, picked the desired colors and verified accessibility requirements, you can proceed to export it. In the top right corner click the button **Export theme**. Choose the right format and export it.
 
-
+<br/>
+<img src="/articles/images/header2.PNG" width="200">
+<br/>
 
 # Step 4 Deploy 
 There are quite a few ways to deploy your SharePoint Online site theme. You can do it using [Javascript and REST](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-rest-api), C#, SharePoint Online Management Shell or PnP cmdlets. Below, you can find two examples using PowerShell.
@@ -125,12 +127,12 @@ Add-SPOTheme -Identity "ArletasThemeFromSPOShell" -Palette $themepalette -IsInve
 ```
 
 
-# Apply
+# Step 5 Apply
 Once available in your tenant, the theme can be applied.
 
 ### Apply site theme using PnP
 
-Set the theme on the website you are connected to
+Set the theme on the website you are connected to.
 ```powershell
 Set-PnPWebTheme -Theme "ArletasTheme"
 ```
@@ -149,7 +151,7 @@ Set-SPOWebTheme -Theme "ArletasTheme" -Web https://MyTenant.sharepoint.com/sites
 
 Set the theme on all sites (requires SharePoint Online Admin)
 ```powershell
-$sites = Get-SPOSite
+$sites = Get-SPOSite -Limit All
 
 foreach($site in $sites){
     Set-SPOWebTheme -Theme "ArletasTheme" -Web $site.Url
@@ -165,5 +167,5 @@ foreach($site in $sites){
 }
 ```
 
-# See Also
+# Done!
 
