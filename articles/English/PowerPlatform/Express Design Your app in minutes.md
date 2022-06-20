@@ -6,6 +6,7 @@ image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
+date: '2022-05-30'
 ---
 <title> Express Design </title>
 <meta name="google-site-verification" content="YiZ2odC3G8-xZLzrPRFpLrUaHv5c-vI8XGYpJhgTfa8" />

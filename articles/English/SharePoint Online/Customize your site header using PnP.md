@@ -37,7 +37,10 @@ Set-PnPWebHeader -HeaderEmphasis
 Accepted values: None, Neutral, Soft, Strong
 
 
-They refer to the colors defined in your theme palette
+They refer to the colors defined in your theme palette.
+An [online Theme Generator tool](https://fluentuipr.z22.web.core.windows.net/heads/master/theming-designer/index.html) that you can use to define new custom themes.
+Check out this link to see which properties are available for what: 
+https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences
 
 
 ## Remove Site Title
@@ -50,7 +53,7 @@ Set-PnPWebHeader -HideTitleInHeader
 
 # Set Header Background Image
 
-
+Set-PnPWebHeader
 [-HeaderBackgroundImageUrl <string>] [-HeaderBackgroundImageFocalX <double>] [-HeaderBackgroundImageFocalY <double>] 
 
 
