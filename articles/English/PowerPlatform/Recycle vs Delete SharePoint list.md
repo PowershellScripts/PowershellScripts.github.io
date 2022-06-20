@@ -20,7 +20,7 @@ So what's the difference? The difference is in Recycle Bin. If you use DELETE Me
 If you want to hard delete your SharePoint list, use _api/web/lists/getbytitle('YOURLISTNAME') endpoint and DELETE method.
 
  <br/>
-<img src="/articles/images/recycleVSdelete2.png" width="200">
+<img src="/articles/images/recycleVSdelete2.png" width="400">
 <br/>
 
 
@@ -29,7 +29,7 @@ If you want to hard delete your SharePoint list, use _api/web/lists/getbytitle('
 If you want to recycle your list and find it later in the recycle bin of your site, use _api/web/lists/getbytitle('YOURLISTNAME')/recycle() endpoint and POST method.
  
 <br/>
-<img src="/articles/images/recycleVSdelete.PNG" width="200">
+<img src="/articles/images/recycleVSdelete.PNG" width="400">
 <br/>
 
 

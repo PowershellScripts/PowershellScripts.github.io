@@ -58,6 +58,7 @@ Once you are ready with your site theme, picked the desired colors and verified 
 <br/>
 <img src="/articles/images/header2.PNG" width="200">
 <br/>
+<br/>
 
 # Step 4 Deploy 
 There are quite a few ways to deploy your SharePoint Online site theme. You can do it using [Javascript and REST](https://docs.microsoft.com/en-us/sharepoint/dev/declarative-customization/site-theming/sharepoint-site-theming-rest-api), C#, SharePoint Online Management Shell or PnP cmdlets. Below, you can find two examples using PowerShell.
@@ -125,7 +126,7 @@ $themepalette = @{
 
 Add-SPOTheme -Identity "ArletasThemeFromSPOShell" -Palette $themepalette -IsInverted $false
 ```
-
+<br/>
 
 # Step 5 Apply
 Once available in your tenant, the theme can be applied.
