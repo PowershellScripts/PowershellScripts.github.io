@@ -104,7 +104,7 @@ disqus:
 #   style: compressed
 #   source_dir: _sass
 
-# #google_analytics: UA-code-here
+google_analytics: UA-code-here
 
 # defaults:
 #   -
