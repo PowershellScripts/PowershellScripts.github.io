@@ -17,7 +17,7 @@ Using PnP cmdlets you can do amazing stuff to customize your SharePoint Online s
 
 
 
-Set Header Size
+## Set Header Size
 There are 2 PnP cmdlets which you can use to set the size of your SharePoint Online site header: [**Set-PnPWeb**] and [**Set-PnPWeb**].
 
 Set-PnPWeb -HeaderLayout
@@ -27,4 +27,9 @@ Set-PnPWebHeader -HeaderLayout
 Accepted values are: None, Standard, Compact, Minimal, Extended
 
 
-Remove Site Title
+## Remove Site Title
+
+
+Set-PnPWeb -HideTitleInHeader
+
+Set-PnPWebHeader -HideTitleInHeader
