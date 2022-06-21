@@ -6,8 +6,7 @@
       link: /articles/English/PowerPlatform/Who created most flows/
     - name: 'Recycle vs delete SharePoint list'
       link: /articles/English/PowerPlatform/Recycle vs Delete SharePoint list/
-    - name: Scripts
-      link: /articles/getting-started/scripts/
+
 
 
 - label: Information Protection
@@ -16,8 +15,6 @@
       link: /articles/English/InformationProtection/Your SharePoint Online site classification with PnP/
     - name: Audit your sensitivity labels with Powershell
       link: /articles/English/InformationProtection/Audit your sensitivity labels with Powershell/
-    - name: Records management with regulatory records
-      link: /articles/English/InformationProtection/Records management with regulatory records/
 
 
 - label: SharePoint Online
