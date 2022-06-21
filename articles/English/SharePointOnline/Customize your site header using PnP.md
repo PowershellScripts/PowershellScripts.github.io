@@ -85,7 +85,7 @@ Set-PnPWebHeader -LogoAlignment Middle
 Set-PnPWebHeader -LogoAlignment Right
 ```
 <img src="/articles/images/header14.png" width="400"><br/>
-
+<br/><br/>
 
 ## Set Site Header Background Image
 ```powershell
@@ -97,7 +97,7 @@ Set-PnPWebHeader -HeaderBackgroundImageUrl /sites/floow1/SiteAssets/sitelogo.jpg
 ### Set Focal Point of the Header Background Image
 The cmdlets work only with Extended Header Layout. They set the position of the yellow circle that you can see in the User Interface (the focal point):
 
-<img src="/articles/images/header17.png" width="400"><br/>
+<img src="/articles/images/header17.PNG" width="400"><br/>
 
 ```powershell
 Set-PnPWebHeader -HeaderBackgroundImageFocalX 200
