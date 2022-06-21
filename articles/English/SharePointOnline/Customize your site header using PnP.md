@@ -36,11 +36,17 @@ Accepted values are: None, Standard, Compact, Minimal, Extended
 ## Set Header Color
 There are 2 PnP cmdlets which you can use to set the color of your SharePoint Online site header: [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) and [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html).
 
-Set-PnPWeb -HeaderEmphasis
-
-Set-PnPWebHeader -HeaderEmphasis
-
+```powershell
+Set-PnPWeb -HeaderEmphasis Soft
+```
+```powershell
+Set-PnPWebHeader -HeaderEmphasis Strong
+```
 Accepted values: None, Neutral, Soft, Strong
+
+| None     | Neutral| Soft| Strong |
+| <br/><img src="/articles/images/header9.png" width="200"><br/> | <br/><img src="/articles/images/header10neu.PNG" width="200"><br/> | <br/><img src="/articles/images/header11.PNG" width="200"><br/> |<br/><img src="/articles/images/header12.PNG" width="200"><br/> |
+
 
 
 They refer to the colors defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/English/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/)
