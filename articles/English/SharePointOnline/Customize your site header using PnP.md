@@ -18,7 +18,7 @@ Using PnP cmdlets you can do amazing stuff to customize your SharePoint Online s
 
 
 ## Set Header Size
-There are 2 PnP cmdlets which you can use to set the size of your SharePoint Online site header: [**Set-PnPWeb**] and [**Set-PnPWeb**].
+There are 2 PnP cmdlets which you can use to set the size of your SharePoint Online site header: [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) and [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html).
 
 ```powershell
 Set-PnPWeb -HeaderLayout Standard
@@ -29,15 +29,12 @@ Set-PnPWebHeader -HeaderLayout Compact
 Accepted values are: None, Standard, Compact, Minimal, Extended
 
 
-| Value     | Effect |
-| ----------- | ----------- |
-| None    | <br/><img src="/articles/images/header5.PNG" width="200"><br/>      |
-| Compact   | <br/><img src="/articles/images/header6.PNG" width="200"><br/>      |
-| Extended   | <br/><img src="/articles/images/header7.PNG" width="200"><br/>      |
-| Minimal   | <br/><img src="/articles/images/header8.PNG" width="200"><br/>      |
+| None     | Compact | Extended | Minimal |
+| <br/><img src="/articles/images/header5.png" width="200"><br/> | <br/><img src="/articles/images/header6.PNG" width="200"><br/> | <br/><img src="/articles/images/header7.PNG" width="200"><br/> |<br/><img src="/articles/images/header8.PNG" width="200"><br/> |
+
 
 ## Set Header Color
-There are 2 PnP cmdlets which you can use to set the color of your SharePoint Online site header: [**Set-PnPWeb**] and [**Set-PnPWeb**].
+There are 2 PnP cmdlets which you can use to set the color of your SharePoint Online site header: [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) and [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html).
 
 Set-PnPWeb -HeaderEmphasis
 
