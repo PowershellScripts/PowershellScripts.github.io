@@ -82,10 +82,11 @@ Update-PnPSiteClassification -UsageGuidelinesUrl "https://powershellscripts.gith
 # See Also
 
 Another solution for classifying your sites - sensitivity labels, 
-offering a more holistic approach on entire tenant scale, including also e.g. Exchange Online 
-[Protecting your information: the power of labels](https://social.technet.microsoft.com/wiki/contents/articles/54468.protecting-your-information-the-power-of-labels.aspx)
-[Sensitivity labels: Powershell your way around](https://social.technet.microsoft.com/wiki/contents/articles/54497.sensitivity-labels-powershell-your-way-around.aspx)
-[Audit your sensitivity labels with Powershell](https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/)
+offering a more holistic approach on entire tenant scale, including also e.g. Exchange Online <br/>
+[Protecting your information: the power of labels](https://social.technet.microsoft.com/wiki/contents/articles/54468.protecting-your-information-the-power-of-labels.aspx) <br/>
+[Sensitivity labels: Powershell your way around](https://social.technet.microsoft.com/wiki/contents/articles/54497.sensitivity-labels-powershell-your-way-around.aspx) <br/>
+[Audit your sensitivity labels with Powershell](https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/)<br/>
+<br/>
 
-Absolutely necessary one-time step to enable sensitivity labels on site level:
+Absolutely necessary one-time step to enable sensitivity labels on site level:<br/>
 [Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
