@@ -34,7 +34,7 @@ Accepted values are: None, Standard, Compact, Minimal, Extended
 
 
 ## Set Header Color
-There are 2 PnP cmdlets which you can use to set the color of your SharePoint Online site header: [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) and [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html).
+There are 2 PnP cmdlets which you can use to set the emphasis of your SharePoint Online site header which is reflected in its color: [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) and [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html).
 
 ```powershell
 Set-PnPWeb -HeaderEmphasis Soft
@@ -49,22 +49,45 @@ Accepted values: None, Neutral, Soft, Strong
 
 
 
-They refer to the colors defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/English/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/)
+The exact colors are defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/English/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/) and [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences).
 
 
 ## Remove Site Title
-
-
+There are 2 PnP cmdlets that can make site title invisible on your site.
+```powershell
 Set-PnPWeb -HideTitleInHeader
-
+```
+```powershell
 Set-PnPWebHeader -HideTitleInHeader
+```
+
+# Set Site Logo
+Using [**Set-PnPWeb**](https://pnp.github.io/powershell/cmdlets/Set-PnPWeb.html) or [**Set-PnPWebHeader**](https://pnp.github.io/powershell/cmdlets/Set-PnPWebHeader.html) you can set the image of your site logo.
+
+```powershell
+Set-PnPWeb -SiteLogoUrl /sites/floow1/SiteAssets/sitelogo.jpg
+```
+```powershell
+Set-PnPWebHeader -SiteLogoUrl /sites/floow1/SiteAssets/sitelogo.jpg
+```
+
+You can also set the position of your SharePoint Online site logo. <strong>Important!</strong> Works only with Extended Layout.
+```powershell
+Set-PnPWebHeader -LogoAlignment Middle
+```
+<br/><img src="/articles/images/header15.png" width="400"><br/>
+
+
+```powershell
+Set-PnPWebHeader -LogoAlignment Right
+```
+<br/><img src="/articles/images/header14.png" width="400"><br/>
 
 
 # Set Header Background Image
-
+```powershell
 Set-PnPWebHeader
 [-HeaderBackgroundImageUrl <string>] [-HeaderBackgroundImageFocalX <double>] [-HeaderBackgroundImageFocalY <double>] 
+```
 
 
-
-# Set Site Logo
