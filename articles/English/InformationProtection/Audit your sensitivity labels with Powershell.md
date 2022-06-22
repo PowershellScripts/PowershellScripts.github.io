@@ -20,28 +20,36 @@ The sensitivity labels will show as already applied labels, or as labels that th
 ## Prerequisites
 
 Install Exchange Online module and Connect to Security & Compliance Center PowerShell.
-```
+```powershell
 Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.5
 Connect-IPPSSession -UserPrincipalName User@contoso.com
 ```
 
 ## Verify existing labels 
-Use Get-Label cmdlet to see the available labels in your environment, their scopes and priorities.
+Use **Get-Label** cmdlet to see the available labels in your environment, their scopes and priorities.
 
-
+```powershell
+Get-Label
+```
+ <img src="/articles/images/sens30.PNG" width="400">
 
 
 
 ## Get All Details on a Label
 
-
+```powershell
+Get-Label -Identity keyword-label | fl
+```
+ <img src="/articles/images/sens31.PNG" width="400">
 
 
 ## Get All Label Actions
+If you use **-IncludeDetailedLabelActions** parameter, you will see the particular actions assigned to each label.
 
 
-
-See Also
+## Which Label Causes Trouble
+If you are getting 
+## See Also
 
 
 
