@@ -13,8 +13,8 @@ date: '2022-06-18'
 
 ## Introduction
 
-Using PnP cmdlets you can do amazing stuff to customize your SharePoint Online site. If you haven't installed the module yet, visit the [PnP PowerShell Site](https://pnp.github.io/powershell/index.html) for detailed instructions.
-In this article we will focus on customizing SharePoint site header, at the top of the SharePoint site.
+Using PnP cmdlets you can do amazing stuff to customize your SharePoint Online site. In this article we will focus on customizing SharePoint site header, at the top of the SharePoint site. If you haven't installed the module yet, visit the [PnP PowerShell Site](https://pnp.github.io/powershell/index.html) for detailed instructions.
+
 
 
 ## Set Header Size
@@ -95,9 +95,9 @@ Set-PnPWebHeader -HeaderBackgroundImageUrl /sites/floow1/SiteAssets/sitelogo.jpg
 
 
 ### Set Focal Point of the Header Background Image
-The cmdlets work only with Extended Header Layout. They set the position of the yellow circle that you can see in the User Interface (the focal point):
+These cmdlets work only with Extended Header Layout. They set the position of the focal point (the yellow circle that you can see in the User Interface):
 
-<img src="/articles/images/header17.PNG" width="400"><br/>
+<img src="/articles/images/header17.PNG" width="200"><br/>
 
 ```powershell
 Set-PnPWebHeader -HeaderBackgroundImageFocalX 200
@@ -111,7 +111,7 @@ Site Header Background Image after the update:
 <br/><br/>
 
 # Multiple sites
-Usually it doesn't make sense to use PowerShell for changing the settings only for one SharePoint site. UI provides similar options and is more accessible for non-developer users. However, for introducing unified settings for a thousand sites, nothing matches good ol' Powershell.
+Usually it doesn't make sense to use PowerShell for changing the settings only for one SharePoint site. UI provides similar options and is more accessible for non-developer users. However, for introducing unified settings for thousand sites, nothing matches good ol' Powershell.
 
 
 
