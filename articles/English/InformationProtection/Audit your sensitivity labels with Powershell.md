@@ -57,10 +57,12 @@ Get-Label -IncludeDetailedLabelActions $true | select Applywatermarkingtext, dis
 
 
 ```powershell
-Get-Label -IncludeDetailedLabelActions $true | select encryptionenabled, displayname
+Get-Label -IncludeDetailedLabelActions $true | select EncryptionEnabled, displayname
 ```
 <img src="/articles/images/sens35.PNG" width="400">
 
+
+## Audit Matrix for Label Actions
 
 
 ## See Also
