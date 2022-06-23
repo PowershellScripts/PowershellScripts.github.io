@@ -40,15 +40,29 @@ Get-Label
 ```powershell
 Get-Label -Identity keyword-label | fl
 ```
- <img src="/articles/images/sens31.PNG" width="400">
+<img src="/articles/images/sens31.PNG" width="400">
 
 
 ## Get All Label Actions
 If you use **-IncludeDetailedLabelActions** parameter, you will see the particular actions assigned to each label.
-
+<img src="/articles/images/sens32.PNG" width="400">
 
 ## Which Label Causes Trouble
-If you are getting 
+If you are unsure which label is applying specific policy, you can check which labels perform which actions.
+
+```powershell
+Get-Label -IncludeDetailedLabelActions $true | select Applywatermarkingtext, displayname
+```
+<img src="/articles/images/sens34.PNG" width="400">
+
+
+```powershell
+Get-Label -IncludeDetailedLabelActions $true | select encryptionenabled, displayname
+```
+<img src="/articles/images/sens35.PNG" width="400">
+
+
+
 ## See Also
 
 
