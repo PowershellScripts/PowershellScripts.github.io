@@ -64,6 +64,10 @@ Get-Label -IncludeDetailedLabelActions $true | select EncryptionEnabled, display
 
 ## Audit Matrix for Label Actions
 
+<img src="/articles/images/sens36.PNG" width="400">
+
+<img src="/articles/images/sens37.PNG" width="400">
+
 
 ## See Also
 
