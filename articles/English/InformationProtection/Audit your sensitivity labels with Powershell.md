@@ -13,7 +13,7 @@ date: '2022-06-17'
 ## Sensitivity labels
 
 Sensitivity labels are part of Microsoft Information Protection solution. Sensitivity labels classify and protect your organization's data, by applying appropriate permissions and restrictions on the classified content. As opposed to retention labels, which are published to locations such as all Exchange mailboxes, sensitivity labels are published to users or groups. That means that everywhere where the labels are supported, your users will be able to use them. Apps that support sensitivity labels will display them to the users and groups they were published to. 
-The sensitivity labels will show as already applied labels, or as labels that they can apply, depending whether the Compliance Administrator decided that they can be applied by users or automatically.
+The sensitivity labels will show as already applied labels, if they are being applied automatically; or as labels that they can apply, if the Compliance Administrator decided that they can be applied by users.
 
 
 
@@ -61,8 +61,15 @@ Get-Label -IncludeDetailedLabelActions $true | select EncryptionEnabled, display
 ```
 <img src="/articles/images/sens35.PNG" width="400">
 
+## Find auto-labeling labels
+Each label has a property called "capabilities". Using it, you can discover which labels are automatically applied to the content.
+
+```powershell
+Get-Label | select Capabilities, DisplayName
+```
 
 ## Audit Matrix for Label Actions
+Audit matrix allows you to see the entire overview of labels, their actions, capabilities and settings at a given point of time. It is a simple Excel file, but may be useful if your organization needs to store the settings for compliance reasons. 
 
 <img src="/articles/images/sens36.PNG" width="400">
 
@@ -70,7 +77,9 @@ Get-Label -IncludeDetailedLabelActions $true | select EncryptionEnabled, display
 
 
 ## See Also
+[M365 Information protection: Understanding Sensitivity labels vs sensitive information types](https://social.technet.microsoft.com/wiki/contents/articles/54457.m365-information-protection-understanding-sensitivity-labels-vs-sensitive-information-types.aspx)
 
+[Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
 
 
 <!-- Default Statcounter code for Audit sensitivity labels
