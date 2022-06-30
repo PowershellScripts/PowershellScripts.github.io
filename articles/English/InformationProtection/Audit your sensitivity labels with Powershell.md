@@ -13,7 +13,7 @@ date: '2022-06-17'
 ## Sensitivity labels
 
 Sensitivity labels are part of Microsoft Information Protection solution. Sensitivity labels classify and protect your organization's data, by applying appropriate permissions and restrictions on the classified content. As opposed to retention labels, which are published to locations such as all Exchange mailboxes, sensitivity labels are published to users or groups. That means that everywhere where the labels are supported, your users will be able to use them. Apps that support sensitivity labels will display them to the users and groups they were published to. 
-The sensitivity labels will show as already applied labels, if they are being applied automatically; or as labels that they can apply, if the Compliance Administrator decided that they can be applied by users.
+The sensitivity labels will show as already applied labels, if they are being applied automatically; or as labels that can be applied, if the Compliance Administrator decided that they can be applied by users.
 
 
 
