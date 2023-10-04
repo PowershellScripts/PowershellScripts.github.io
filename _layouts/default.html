@@ -16,7 +16,7 @@
  lang="{{ site.lang | default: 'en' }}"
  {% if site.fixed_navbar %}class="has-navbar-fixed-{{ site.fixed_navbar }}"{% endif %}>
   {% include head.html %}
-  <body>
+  <body background-color="black">
     {% include header.html %}
     {% unless page.hide_hero %}
         {% include hero.html %}
@@ -38,7 +38,6 @@
                 <div class="column {{ content_width }}">
                     {% include tabs.html %}
                     {% include showcase.html %}
-                    {% include sponsors.html %}
                     {% include gallery.html %}
                     {{ content }}
                 </div>

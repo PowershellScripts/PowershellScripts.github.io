@@ -1,13 +1,3 @@
-title: 
-feature_image: "https://picsum.photos/1300/400?image=866"
-feature_text: |
-  ## Hello world :)
-  
-subtitle: This is under construction
-layout: page
-callouts: home_callouts
-show_sidebar: true  
----
 
 Hi all
 
@@ -17,30 +7,3 @@ It is under construction but you can already find some of the tips and tricks in
 
 Enjoy!
 
-```yml
-remote_theme: chrisrhymes/bulma-clean-theme
-```
-
-
-## Page Layouts
-
-This demo site showcases the available page layout options. 
-
-* Sidebar
-* Menubar
-* Tabs
-* Footer
-* Hero
-* Contents
-* Landing Page With Callouts
-* Sponsors Page
-* Image Gallery
-* Recipe Page
-* Blog
-* Post
-
-## Supported By JetBrains
-
-JetBrains have kindly provided an Open Source licence to aid in the future development of Bulma Clean Theme.
-
-[![JetBrains](img/jetbrains-variant-4.svg)](https://www.jetbrains.com/?from=bulma-clean-theme)
