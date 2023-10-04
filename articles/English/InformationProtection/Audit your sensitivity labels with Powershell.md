@@ -43,6 +43,7 @@ Get-Label -Identity keyword-label | fl
 
 ## Get All Label Actions
 If you use **-IncludeDetailedLabelActions** parameter, you will see the particular actions assigned to each label.
+<br/>
 <img src="/articles/images/sens32.PNG" width="400">
 
 ## Which Label Causes Trouble
