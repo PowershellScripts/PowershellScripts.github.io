@@ -23,3 +23,11 @@ Any OneDrive accounts with a Hold policy applied will be blocked from migration.
 <h2>Step 6: Connect to SPO Tenat</h2>
 Using SharePoint Online Management Shell connect to both source and target tenant. Make sure you open two Powershell sessions (two Powershell windows). Connect-SPOService cmdlet disconnects any previous existing session. If you attempt to run these cmdlets in a single window, the process will fail!
 
+<h2>Step 7: Run the trust commands</h2>
+On the source tenant, execute this command to initiate a trust request to the target tenant:
+Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Target -PartnerCrossTenantHostUrl <TARGETCrossTenantHostUrl>
+
+On the target tenant, execute this command to initiate a trust request to the target tenant:
+Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCrossTenantHostUrl <SOURCECrossTenantHostUrl>
+
+
