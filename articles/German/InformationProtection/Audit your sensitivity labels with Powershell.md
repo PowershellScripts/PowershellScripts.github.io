@@ -36,12 +36,12 @@ Get-Label -Identity keyword-label | fl
 
 <img src="/articles/images/sens31.PNG" width="400">
 
-Alle Labelaktionen anzeigen
+## Alle Labelaktionen anzeigen
 Wenn Sie den Parameter -IncludeDetailedLabelActions verwenden, sehen Sie die speziellen Aktionen, die jedem Label zugewiesen sind.
 <br/>
 <img src="/articles/images/sens32.PNG" width="400">
 
-Welches Label verursacht Probleme
+## Welches Label verursacht Probleme
 Wenn Sie unsicher sind, welches Label eine bestimmte Richtlinie anwendet, können Sie überprüfen, welche Labels welche Aktionen ausführen.
 
 ```powershell
@@ -58,7 +58,7 @@ Get-Label -IncludeDetailedLabelActions $true | select EncryptionEnabled, display
 
 <img src="/articles/images/sens35.PNG" width="400>
 
-Automatische Labelzuweisung finden
+## Automatische Labelzuweisung finden
 Jedes Label verfügt über eine Eigenschaft namens "Capabilities" (Fähigkeiten). Mithilfe dieser Eigenschaft können Sie herausfinden, welche Labels automatisch auf den Inhalt angewendet werden.
 
 ```powershell
@@ -66,10 +66,10 @@ Jedes Label verfügt über eine Eigenschaft namens "Capabilities" (Fähigkeiten)
 Get-Label | select Capabilities, DisplayName
 ```
 
-Überprüfungsmatrix für Labelaktionen
+## Überprüfungsmatrix für Labelaktionen
 Die Überprüfungsmatrix ermöglicht es Ihnen, einen vollständigen Überblick über Labels, deren Aktionen, Fähigkeiten und Einstellungen zu einem bestimmten Zeitpunkt zu erhalten. Es handelt sich um eine einfache Excel-Datei, die jedoch nützlich sein kann, wenn Ihre Organisation die Einstellungen aus Compliance-Gründen speichern muss.
 
 <img src="/articles/images/sens36.PNG" width="400">
 <img src="/articles/images/sens37.PNG" width="400">
 
-Siehe auch
+## Siehe auch
