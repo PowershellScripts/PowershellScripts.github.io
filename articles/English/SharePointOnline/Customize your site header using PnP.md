@@ -105,6 +105,7 @@ Set-PnPWebHeader -HeaderBackgroundImageFocalY 2
 ```
 
 Site Header Background Image after the update:
+
 <img src="/articles/images/header18.png" width="400"><br/>
 
 
