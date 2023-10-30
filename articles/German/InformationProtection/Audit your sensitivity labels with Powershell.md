@@ -12,7 +12,7 @@ date: '2023-10-14'
 Vertraulichkeitsbezeichnungen (Sensitivity Labels) sind Teil der Microsoft Information Protection-Lösung. Vertraulichkeitsbezeichnungen klassifizieren und schützen die Daten Ihrer Organisation, indem sie geeignete Berechtigungen und Einschränkungen auf den klassifizierten Inhalt anwenden. Im Gegensatz zu Aufbewahrungslabeln, die an Orte wie alle Exchange-Postfächer veröffentlicht werden, werden Sensitivitätslabel an Benutzer oder Gruppen veröffentlicht. Das bedeutet, dass überall dort, wo die Labels unterstützt werden, Ihre Benutzer sie verwenden können. Apps, die Sensitivitätslabel unterstützen, zeigen sie den Benutzern und Gruppen an, für die sie veröffentlicht wurden. Die Sensitivitätslabel werden als bereits angewandte Labels angezeigt, wenn sie automatisch angewandt werden; oder als Labels, die angewandt werden können, wenn der Compliance-Administrator entschieden hat, dass sie von Benutzern angewandt werden können.
 
 ## Voraussetzungen
-Installieren Sie das Exchange Online-Modul und verbinden Sie sich mit dem PowerShell des Security & Compliance Centers.
+Installieren Sie das Exchange Online-Modul und verbinden Sie sich mit dem Security & Compliance PowerShell.
 
 ```powershell
 Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.5
@@ -20,7 +20,7 @@ Connect-IPPSSession -UserPrincipalName User@contoso.com
 ```
 
 ## Überprüfen Sie vorhandene Labels
-Verwenden Sie das Get-Label-Cmdlet, um die verfügbaren Labels in Ihrer Umgebung, deren Geltungsbereiche und Prioritäten anzuzeigen.
+Verwenden Sie das Get-Label Cmdlet, um die verfügbaren Labels in Ihrer Umgebung, deren Geltungsbereiche und Prioritäten anzuzeigen.
 
 ```powershell
 Get-Label
@@ -73,3 +73,6 @@ Die Überprüfungsmatrix ermöglicht es Ihnen, einen vollständigen Überblick �
 <img src="/articles/images/sens37.PNG" width="400">
 
 ## Siehe auch
+[M365 Information protection: Understanding Sensitivity labels vs sensitive information types](https://social.technet.microsoft.com/wiki/contents/articles/54457.m365-information-protection-understanding-sensitivity-labels-vs-sensitive-information-types.aspx)
+
+[Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
