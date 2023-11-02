@@ -13,14 +13,15 @@ Edit your SharePoint Online page and add a webpart. Scroll down under Feeds
 Mind the limitations of each webpart:
 <br/><br/>
 
-**Viva Engage Conversations**<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="400">
+<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="60">    **Viva Engage Conversations**      
 * You can't select **a specific conversation** to display.
 * You can’t display conversations horizontally.
 * You can’t configure to display specific conversations (curated conversations).
 * Only works on modern pages.
+<br/>
 
+ <img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Viva Engage Highlights**    
 
-**Viva Engage Highlights**<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="400">
 * Users can only view the first message in a conversation. To respond, the user must click a link to open Viva Engage.
 * Users cannot start conversations that are questions, polls, or praise.
 * Users cannot include gifs, files and videos in new conversations or replies.
