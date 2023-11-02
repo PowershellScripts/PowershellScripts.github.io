@@ -8,7 +8,7 @@ SharePoint Online offers now the Viva Engage Conversations web part. The webpart
 
 Edit your SharePoint Online page and add a webpart. Scroll down under Feeds
 <img src="/articles/images/GitHub-VivaEngage1.PNG" width="400">
-
+<br/><br/>
 <h1>Limitations</h1>
 Mind the limitations of each webpart:
 <br/><br/>
@@ -36,5 +36,29 @@ Mind the limitations of each webpart:
 * Users may have to log in to Viva Engage even though they have already signed in to Microsoft 365.
 * **Works with classic pages**
 
+  
+<br/><br/>
+<h1>Configuration</h1>
 
-<img src="/articles/images/GitHub-VivaEngage.PNG" width="400">
+In order to configure the Viva Engage Conversations webpart, select first type of source:
+* Community
+* User
+* Topic
+* Home feed
+
+And then type for the specific name - e.g. user name, name of your community or tag.
+<img src="/articles/images/GitHub-VivaEngage.PNG" width="300">
+
+<h3>Layout</h3>
+There are 2 layout options possible:
+
+* feed or list
+
+  <img src="/articles/images/GitHub-VivaEngage-conversations1.PNG" width="260">
+* highlights
+
+  <img src="/articles/images/GitHub-VivaEngage-conversations2.PNG" width="260">
+
+
+<h1>See Also</h1>
+<a href="https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da">Use a Viva Engage web part in SharePoint Online</a>
