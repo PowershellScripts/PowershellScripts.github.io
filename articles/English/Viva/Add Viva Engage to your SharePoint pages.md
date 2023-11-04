@@ -6,7 +6,8 @@ SharePoint Online offers now the Viva Engage Conversations web part. The webpart
 
 <h1>How?</h1>
 
-Edit your SharePoint Online page and add a webpart. Scroll down under Feeds
+Edit your SharePoint Online page and add a webpart. Scroll down under Feeds section
+
 <img src="/articles/images/GitHub-VivaEngage1.PNG" width="400">
 <br/><br/>
 <h1>Limitations</h1>
