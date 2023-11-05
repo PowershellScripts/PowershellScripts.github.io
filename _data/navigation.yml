@@ -12,5 +12,17 @@
 #       link: /example-recipe/
 #     - name: Showcase
 #       link: /showcase/
+- name: Information Protection
+  link: /articles/
+  
+- name: SharePoint Online
+  link: /articles/
+  
+ - name: Power Platform
+  link: /articles/
+
+- name: Viva
+  link: /articles/
+
 - name: About Arleta
   link: /about/
