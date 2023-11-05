@@ -1,3 +1,16 @@
+---
+layout: page
+title: 'Migrate OneDrive across tenants'
+menubar: docs_menu
+image: 'https://unsplash.com/s/photos/random'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2023-10-14'
+---
+<title> Migrate OneDrive across tenants </title>
+
+
 <h2>Introduction</h2>
 
 As of November 2022, Cross Tenant OneDrive Migration is available as an add-on feature to Microsoft 365 subscription. User licenses are per migration (one-time fee) and can be assigned either on the source or target user object. This license also covers Cross-tenant mailbox migration. That means that now you can migrate users' content across tenants with a single Powershell cmdlet, without complex custom scripts or third-party solutions.
