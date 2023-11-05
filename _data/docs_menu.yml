@@ -23,7 +23,9 @@
       link: /articles/English/SharePointOnline/Customize your site header using PnP/
     - name: Generate SharePoint theme using Theme Generator tool
       link: /articles/English/SharePointOnline/Generate SharePoint theme using Theme Generator tool/
-
+    - name: Migrate OneDrive across tenants
+      link: /articles/English/SharePointOnline/Migrate OneDrive across tenants/
+      
 
 - label: Viva
   items:
