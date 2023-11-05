@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Start'
+title: 'Microsoft 365 Tips and Tricks'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
