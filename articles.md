@@ -6,7 +6,7 @@ image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2023-10-14'
+date: ''
 ---
 <title> Microsoft 365 Tips and Tricks </title>
 
