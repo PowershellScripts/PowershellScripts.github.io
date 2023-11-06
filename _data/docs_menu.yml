@@ -32,4 +32,9 @@
     - name: Add Viva Engage to your SharePoint pages
       link: /articles/English/Viva/Add Viva Engage to your SharePoint pages/
 
+- label: Server
+  items:
+    - name: Office Online Server Troubleshooting in Sharepoint Environment
+      link: /articles/English/Server/Office Online Server Troubleshooting in Sharepoint Environment/
+
 
