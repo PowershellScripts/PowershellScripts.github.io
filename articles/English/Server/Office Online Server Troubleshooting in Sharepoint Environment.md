@@ -37,19 +37,19 @@ Do not hesitate to expand this list :)
 
 Powershell can be useful to verify the current state of the machine. There officewebapps module contains useful cmdlets for troubleshooting and below few examples will illustrate how to use them to our advantage:
 
-Get-OfficeWebAppsExcelBIServer Jump
+Get-OfficeWebAppsExcelBIServer
 
-Get-OfficeWebAppsExcelUserDefinedFunction Jump
+Get-OfficeWebAppsExcelUserDefinedFunction
 
-Get-OfficeWebAppsFarm Jump
+Get-OfficeWebAppsFarm
 
-Get-OfficeWebAppsHost Jump
+Get-OfficeWebAppsHost
 
-Get-OfficeWebAppsMachine Jump
+Get-OfficeWebAppsMachine
 
-New-OfficeWebAppsExcelBIServer Jump
+New-OfficeWebAppsExcelBIServer
 
-New-OfficeWebAppsExcelUserDefinedFunction Jump
+New-OfficeWebAppsExcelUserDefinedFunction
 
 New-OfficeWebAppsFarm Jump
 
