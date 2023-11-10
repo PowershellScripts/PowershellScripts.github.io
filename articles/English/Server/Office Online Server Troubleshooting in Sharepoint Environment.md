@@ -59,7 +59,7 @@ New-OfficeWebAppsMachine Jump
 
 Remove-OfficeWebAppsExcelBIServer Jump
 
-Remove-OfficeWebAppsExcelUserDefinedFunction Jump
+Remove-OfficeWebAppsExcelUserDefinedFunction
 
 Remove-OfficeWebAppsHost Jump
 
