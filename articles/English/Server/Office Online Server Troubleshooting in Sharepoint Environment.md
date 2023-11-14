@@ -51,11 +51,11 @@ New-OfficeWebAppsExcelBIServer
 
 New-OfficeWebAppsExcelUserDefinedFunction
 
-New-OfficeWebAppsFarm Jump
+New-OfficeWebAppsFarm
 
-New-OfficeWebAppsHost Jump
+New-OfficeWebAppsHost
 
-New-OfficeWebAppsMachine Jump
+New-OfficeWebAppsMachine
 
 Remove-OfficeWebAppsExcelBIServer Jump
 
