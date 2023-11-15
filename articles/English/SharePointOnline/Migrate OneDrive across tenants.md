@@ -38,9 +38,14 @@ Using SharePoint Online Management Shell connect to both source and target tenan
 
 <h2>Step 7: Run the trust commands</h2>
 On the source tenant, execute this command to initiate a trust request to the target tenant:
+
+```powershell
 Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Target -PartnerCrossTenantHostUrl <TARGETCrossTenantHostUrl>
+```
 
 On the target tenant, execute this command to initiate a trust request to the target tenant:
-Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCrossTenantHostUrl <SOURCECrossTenantHostUrl>
 
+```powershell
+Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCrossTenantHostUrl <SOURCECrossTenantHostUrl>
+```
 
