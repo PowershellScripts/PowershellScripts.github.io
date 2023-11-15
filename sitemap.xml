@@ -9,53 +9,68 @@
 
 <url>
   <loc>https://powershellscripts.github.io/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
+  <lastmod>2023-11-15T14:24:48+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/about/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/PowerPlatform/Express%20Design%20Your%20app%20in%20minutes/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/PowerPlatform/Who%20created%20most%20flows/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/SharePointOnline/Customize%20your%20site%20header%20using%20PnP/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
   <loc>https://powershellscripts.github.io/articles/English/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/</loc>
-  <lastmod>2022-06-26T15:20:54+00:00</lastmod>
-  <priority>0.64</priority>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powershellscripts.github.io/articles/English/SharePointOnline/Migrate%20OneDrive%20across%20tenants/</loc>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powershellscripts.github.io/articles/English/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/</loc>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://powershellscripts.github.io/articles/English/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/</loc>
+  <lastmod>2023-11-15T14:24:47+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 
 
