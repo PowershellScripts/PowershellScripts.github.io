@@ -73,3 +73,25 @@ There are 2 layout options possible:
 
 <h1>See Also</h1>
 <a href="https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da">Use a Viva Engage web part in SharePoint Online</a>
+
+
+
+<!-- Default Statcounter code for Add Viva Engage to your
+SharePoi
+https://powershellscripts.github.io/articles/English/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi
+-->
+<script type="text/javascript">
+var sc_project=12941102; 
+var sc_invisible=1; 
+var sc_security="1686de16"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12941102/0/1686de16/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
