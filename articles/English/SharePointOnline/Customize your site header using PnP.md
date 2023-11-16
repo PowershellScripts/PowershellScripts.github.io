@@ -141,3 +141,22 @@ foreach($site in $sites){
 ```
 
 
+<!-- Default Statcounter code for Customize your site header
+using
+https://powershellscripts.github.io/articles/English/SharePointOnline/Customize%20your%20site%20head
+-->
+<script type="text/javascript">
+var sc_project=12941101; 
+var sc_invisible=1; 
+var sc_security="af700d2d"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12941101/0/af700d2d/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
