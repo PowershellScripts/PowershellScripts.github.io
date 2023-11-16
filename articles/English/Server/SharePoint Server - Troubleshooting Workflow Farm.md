@@ -56,12 +56,13 @@ Additionally you can try to create a workflow with SharePoint Designer and see i
 
 If the status shows a message in red about a missing connection, you may try to Register-SPWorkflowService:
 
+```powershell
 Register-SPWorkflowService -SPSite https://site_name -WorkflowHostUri https://workflow.contoso.com:12290 -ScopeName SharePoint
-
+```
 or
-
+```powershell
 Register-SPWorkflowService -SPSite https://site_name -WorkflowHostUri https://workflow.contoso.com:12291 -ScopeName SharePoint -AllowOAuthHttp
-
+```
 
 <h1>Databases</h1>
 There are 3 WF databases and 3 SB databases created during creation of the Workflow Farm:
