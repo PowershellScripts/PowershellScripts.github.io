@@ -90,3 +90,24 @@ offering a more holistic approach on entire tenant scale, including also e.g. Ex
 
 Absolutely necessary one-time step to enable sensitivity labels on site level:<br/>
 [Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
+
+
+<!-- Default Statcounter code for Site classification with
+PnP
+https://powershellscripts.github.io/articles/English/InformationProtection/Your%20SharePoint%20Onlin
+-->
+<script type="text/javascript">
+var sc_project=12941097; 
+var sc_invisible=1; 
+var sc_security="a9c90e89"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12941097/0/a9c90e89/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
