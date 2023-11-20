@@ -57,11 +57,11 @@ New-OfficeWebAppsHost
 
 New-OfficeWebAppsMachine
 
-Remove-OfficeWebAppsExcelBIServer Jump
+Remove-OfficeWebAppsExcelBIServer
 
 Remove-OfficeWebAppsExcelUserDefinedFunction
 
-Remove-OfficeWebAppsHost Jump
+Remove-OfficeWebAppsHost
 
 Remove-OfficeWebAppsMachine Jump
 
