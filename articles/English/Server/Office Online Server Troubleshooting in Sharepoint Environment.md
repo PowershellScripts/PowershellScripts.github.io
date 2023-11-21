@@ -63,11 +63,11 @@ Remove-OfficeWebAppsExcelUserDefinedFunction
 
 Remove-OfficeWebAppsHost
 
-Remove-OfficeWebAppsMachine Jump
+Remove-OfficeWebAppsMachine
 
-Repair-OfficeWebAppsFarm Jump
+Repair-OfficeWebAppsFarm
 
-Set-OfficeWebAppsExcelUserDefinedFunction Jump
+Set-OfficeWebAppsExcelUserDefinedFunction
 
 Set-OfficeWebAppsFarm Jump
 
