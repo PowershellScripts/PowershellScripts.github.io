@@ -69,7 +69,7 @@ Repair-OfficeWebAppsFarm
 
 Set-OfficeWebAppsExcelUserDefinedFunction
 
-Set-OfficeWebAppsFarm Jump
+Set-OfficeWebAppsFarm
 
 Set-OfficeWebAppsMachine Jump
 
