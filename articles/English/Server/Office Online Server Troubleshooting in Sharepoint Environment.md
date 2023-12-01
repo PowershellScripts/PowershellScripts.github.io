@@ -71,7 +71,7 @@ Set-OfficeWebAppsExcelUserDefinedFunction
 
 Set-OfficeWebAppsFarm
 
-Set-OfficeWebAppsMachine Jump
+Set-OfficeWebAppsMachine
 
 <h3>Verify farm status</h3>
 
