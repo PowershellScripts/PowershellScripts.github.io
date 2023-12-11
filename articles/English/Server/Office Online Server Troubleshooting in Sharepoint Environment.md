@@ -51,7 +51,7 @@ New-OfficeWebAppsExcelBIServer
 
 New-OfficeWebAppsExcelUserDefinedFunction
 
-New-OfficeWebAppsFarm
+<a href="https://learn.microsoft.com/en-us/powershell/module/officewebapps/new-officewebappsfarm?view=officewebapps-ps">New-OfficeWebAppsFarm</a>
 
 New-OfficeWebAppsHost
 
