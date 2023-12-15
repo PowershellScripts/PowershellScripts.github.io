@@ -1,3 +1,12 @@
+---
+layout: page
+title: 'Securing Azure Functions with API Management and OAuth 2.0: Troubleshooting Compendium'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2023-12-15'
+---
+
 Disclaimer 
 I am not an Azure expert. I haven't been doing it for the last 50 years and I haven't tested every nook and cranny of the service. I just did a considerable number of Azure Functions with API Management, and troubleshooted all kinds of errors. Together it amounted to quite a compendium of testing/verification/troubleshooting steps that I wanted to share with you and the future me  :)
 
