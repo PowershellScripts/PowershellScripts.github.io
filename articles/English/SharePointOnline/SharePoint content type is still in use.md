@@ -1,3 +1,12 @@
+---
+layout: page
+title: 'SharePoint content type is still in use'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2023-12-15'
+---
+
 Issue description
 You navigate to SharePoint List -> List Settings -> Scroll down to content types -> Open a content type
  
