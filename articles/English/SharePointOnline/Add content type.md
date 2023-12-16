@@ -32,18 +32,15 @@ Its properties include Description, Group, ID, Name, ParentContentType, and Type
 
 | Name | Mandatory/Optional | Type |
 | -------- | ------- | ------- |
-| Description | Optional | Type: System.String |
-| Group | Optional | Type: System.String |
-
-		Type: System.String Jump
-Group	Optional	Type: System.String Jump
-ID	Unique	Type: System.String Jump
-Name	Mandatory	Type: System.String
-ParentContentType	Optional	Type: Microsoft.SharePoint.Client.ContentType Jump
-TypeID	Internal	Type: System.String Jump
+| Description | Optional | System.String |
+| Group | Optional | System.String |
+| ID | Unique | System.String |
+| Name | Mandatory | System.String |
+| ParentContentType | Optional | Microsoft.SharePoint.Client.ContentType |
+| TypeID | Internal | System.String |
 
 
-Group
+<h5>Group</h5>
 
 Group property specifies a site content type group. Categorizing content types into groups makes it easier for users to find them. It corresponds to the drop down box in the image below and should have a format similar to:
 "List Content Types"
@@ -69,20 +66,19 @@ Special Content Types
 The Group does not decide whether the list content type is available for adding to a specific library or list. E.g.  List Content Type Group is not available for library, because it does not include any compatible content types. If we add a custom content type derived from Document Parent Content Type, the group with a single member (the incompatible ones will be ignored) will appear in the selection:
 
  
-                                           Remember!                                    
- Under Add Content Types only content types compatibleo o
-             with the list/library are displayed for selection            
+        Remember!                                    
+        Under Add Content Types only content types compatible with the list/library are displayed for selection            
 
 If the group is not specified, the content type will be added to Custom Content Types by default.
 
-Content Type ID
+<h5>Content Type ID</h5>
 
-Content type IDs uniquely identify the content type and are designed to be recursive. The content type ID encapsulates that content type's lineage, or the line of parent content types from which the content type inherits. Each content type ID contains the ID of the parent content type, which in turn contains the ID of that content type's parent, and so on, ultimately back to and including the System content type ID. SharePoint Foundation uses this information to determine the relationship between content types and for push-down operations.[1] Jump
+Content type IDs uniquely identify the content type and are designed to be recursive. The content type ID encapsulates that content type's **lineage**, or the line of parent content types from which the content type inherits. Each content type ID contains the ID of the parent content type, which in turn contains the ID of that content type's parent, and so on, ultimately back to and including the System content type ID. SharePoint uses this information to [determine the relationship between content types](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/aa543822(v=office.14)?redirectedfrom=MSDN) and for push-down operations.
 
 You can construct a valid content type ID using one of two conventions:
 
-Parent content type ID + two hexadecimal values (the two hexadecimal values cannot be "00")
-Parent content type ID + "00" + hexadecimal GUID
+* Parent content type ID + two hexadecimal values (the two hexadecimal values cannot be "00")
+* Parent content type ID + "00" + hexadecimal GUID
  
 Source: https://msdn.microsoft.com/en-us/library/office/aa543822%28v=office.14%29.aspx?f=255&MSPPError=-2147217396
 
@@ -106,7 +102,9 @@ You can also invent your own and the following script will be using 0x0100aaaaaa
 
 Each content type ID must be unique within a site collection. If the script does not specify the guid, SharePoint will assign one to the content type.
 
-ParentContentType
+
+
+<h5>ParentContentType</h5>
 
 Parent Content Type specifies the parent content type for the content type that will be constructed. The parameter can use both get; and set; methods. ParentContentType parameter is mutually exclusive with the ID parameter. It is due to the information encoded in the ID. ID parameter itself includes the parent content type in its first characters (e.g. "0x01" for the item). So what happens if I will try to create a content type with both those parameters specified?
 
@@ -117,7 +115,7 @@ $lci.ParentContentType=$ctx.Web.ContentTypes.GetById("0x01")
 
  
 
-To a Site Collection
+<h1>Add SharePoint Content Type to a Site Collection</h1>
 
 Script
 
@@ -171,53 +169,9 @@ try
       Write-Host $_.Exception.ToString()
    }
 
-Full script
+<h2>Full script</h2>
 
-The above script has been packaged into a function (functions are easier to re-use, among other things). Below you can find the full script. Feel free to use it but please acknowledge my contribution.
-
-function New-SPOContentType
-{
-param(
-[Parameter(Mandatory=$true,Position=1)]
-[string]$Username,
-[Parameter(Mandatory=$true,Position=2)]
-$AdminPassword,
-        [Parameter(Mandatory=$true,Position=3)]
-[string]$Url
-)
-   
-  $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
-  $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
- 
-  $ctx.ExecuteQuery()
- 
-   
- 
-  $lci =New-Object Microsoft.SharePoint.Client.ContentTypeCreationInformation
-  $lci.Description="Description"
-  $lci.Name="Powershell Content Type2"
-  $lci.ParentContentType=$ctx.Web.ContentTypes.GetById("0x01")
-  $lci.Group="List Content Types"
-   
-  $ContentType = $ctx.Web.ContentTypes.Add($lci)
-  $ctx.Load($contentType)
-  try
-     {
-        
-         $ctx.ExecuteQuery()
-         Write-Host "Content Type " $Title " has been added to " $Url
-     }
-     catch [Net.WebException]
-     {
-        Write-Host $_.Exception.ToString()
-     }
- 
-      
- 
-}
- 
- 
- 
+```powershell
   # Paths to SDK. Please verify location on your computer.
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
@@ -227,13 +181,36 @@ $Username="admin@tenant.onmicrosoft.com"
 $AdminPassword=Read-Host -Prompt "Password" -AsSecureString
 $AdminUrl="https://tenant.sharepoint.com/sites/teamsitewithlibraries Jump "
  
+$ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url) 
+$ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
  
-New-SPOContentType -Username $Username -AdminPassword $AdminPassword -Url $AdminUrl
+$ctx.ExecuteQuery()
+ 
+$lci =New-Object Microsoft.SharePoint.Client.ContentTypeCreationInformation
+$lci.Description="Description"
+$lci.Name="Powershell Content Type2"
+$lci.ParentContentType=$ctx.Web.ContentTypes.GetById("0x01")
+$lci.Group="List Content Types"
+   
+$ContentType = $ctx.Web.ContentTypes.Add($lci)
+$ctx.Load($contentType)
+  
+  try{
+         $ctx.ExecuteQuery()
+         Write-Host "Content Type " $Title " has been added to " $Url
+     }
+  catch()
+     {
+        Write-Host $_.Exception.ToString()
+     }
+ 
+```powershell 
 
 
-The script can also be downloaded from the Technet Gallery Jump .
+The script can also be downloaded from Github.
 
-To Content Hub
+
+<h1>Add SharePoint Content Type to Content Hub</h1>
 
 Content hub is a feature in SharePoint Online to manage content types centrally and publish them to the subscribed sites. It provides a central location for unified management of content types. From the content type hub you can publish a given content type across multiple site collections. The central location ensures that the settings, columns, and look of the content type is consistent across the whole organization. The content types appear in the subscribing sites under Site Settings>Content Type Publishing:
 
