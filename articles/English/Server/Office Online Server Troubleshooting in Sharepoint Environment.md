@@ -37,7 +37,7 @@ Do not hesitate to expand this list :)
 
 Powershell can be useful to verify the current state of the machine. There officewebapps module contains useful cmdlets for troubleshooting and below few examples will illustrate how to use them to our advantage:
 
-Get-OfficeWebAppsExcelBIServer
+<a href="https://learn.microsoft.com/en-us/powershell/module/officewebapps/get-officewebappsexcelbiserver?view=officewebapps-ps">Get-OfficeWebAppsExcelBIServer</a>
 
 Get-OfficeWebAppsExcelUserDefinedFunction
 
