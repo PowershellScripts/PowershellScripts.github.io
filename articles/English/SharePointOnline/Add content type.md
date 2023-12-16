@@ -15,7 +15,7 @@ Content types were introduced in SharePoint 2007 products and technologies. A co
 
 <h1>Powershell</h1>
 
-All those actions can be performed through User Interface as well as via Powershell using SharePoint Online SDK or PnP. Below you will find steps for creating, adding, searching, and removing the content types. Full list of all ready, published, and free scripts you will find at the bottom of the article here.
+All those actions can be performed through User Interface as well as via Powershell using SharePoint Online SDK or PnP. Below you will find steps for adding SharePoint content type to a site, a content type hub, and a SharePoint list. Full list of all ready, published, and free scripts is at the bottom of the article here.
 
 <h1>Add Content Type using CSOM</h1>
 
@@ -103,7 +103,7 @@ or
 ```
 You can also invent your own and the following script will be using 0x0100aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa which also works :)
 
-Each content type ID must be unique within a site collection. If the script does not specify the guid, SharePoint will assign one to the content type.
+Each content type ID must be unique within a site collection. If the script does not specify the guid, SharePoint will assign one to the content type, based on the parent content type.
 
 
 
@@ -309,12 +309,12 @@ A content type can be created directly to list content types and be available on
 
 In order to see the added content types and be able to use them, ensure that the list has content type management enabled. 
 This setting can also be changed via Powershell script and examples can be found in the scripts below:
-Allow content type management for all lists in site collection using Powershell Jump
-Allow content type management for all lists in a site using Powershell Jump
-Set content type management setting for SharePoint Online list using Powershell Jump
-Custom Powershell cmdlet Set-SPOList -ContentTypesEnabled Jump
+* [Allow content type management for all lists in site collection using Powershell](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/0329e8e1b21de995652863311b53306749908550/Content%20Types/Content%20Types%20Management%20Setting/Allow%20content%20type%20management%20for%20all%20lists%20in%20site%20collection)
+* [Allow content type management for all lists in a site using Powershell](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/0329e8e1b21de995652863311b53306749908550/Content%20Types/Content%20Types%20Management%20Setting/Allow%20content%20type%20management%20for%20all%20lists%20in%20a%20site)
+* [Set content type management setting for SharePoint Online list using Powershell](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/blob/3aa558029abcea8ec1c24c0cfecded8abf25339a/Content%20Types/Content%20Types%20Management%20Setting/Set%20content%20type%20management%20setting%20for%20a%20single%20list/ReadMe.md)
 
-Script
+
+<h3>Script</h3>
 
 When it comes to adding a content type to list, there are several options, depending on the requirements. Using one script the content type can be added to:
 a single list
