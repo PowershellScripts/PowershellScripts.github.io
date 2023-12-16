@@ -8,26 +8,34 @@ date: '2023-12-16'
 ---
 
 
-
+<sup>
 Content types were introduced in SharePoint 2007 products and technologies. A content type defines the metadata and behavior for a particular data entity—usually, a business document or item of some kind. Each content type contains references to one or more site columns. You can also associate workflows, information management policies, and document templates with content types. A SharePoint content type pulls together an item and information about the item. It makes it easy to provide consistency across a site. Some of the popular content types are item or a document. A site collection owner can [create custom content types](https://support.microsoft.com/en-us/office/create-or-customize-a-site-content-type-27eb6551-9867-4201-a819-620c5658a60f?ui=en-us&rs=en-us&ad=us) that would reflect more the needs of a company, and add it to selected lists and libraries. A content type can be also [published from a content type hub](https://support.microsoft.com/en-us/office/publish-a-content-type-from-a-content-publishing-hub-58081155-118d-4e7a-9cc5-d43b5dbb7d02?ui=en-us&rs=en-us&ad=us) and managed centrally.
+</sup>
 
 
+<h1>Powershell</h1>
 
-Powershell
+All those actions can be performed through User Interface as well as via Powershell using SharePoint Online SDK or PnP. Below you will find steps for creating, adding, searching, and removing the content types. Full list of all ready, published, and free scripts you will find at the bottom of the article here.
 
-All those actions can be performed through User Interface as well as via Powershell using SharePoint Online SDK Jump . Below you will find steps for creating, adding, searching, and removing the content types. Full list of all ready, published, and free scripts you will find at the bottom of the article here. All the scripts have been also re-written into Powershell cmdlets and packaged into a SharePoint Online Content Types Module available here.
+<h1>Add Content Type using CSOM</h1>
 
-Add Content Type
+As with creating lists or libraries, creating a content type involves using CreationInformation, in this case [ContentTypeCreationInformation class](https://learn.microsoft.com/en-us/previous-versions/office/sharepoint-server/ee539574(v=office.15)?redirectedfrom=MSDN).
 
-As with creating lists or libraries, creating a content type involves using CreationInformation, in this case ContentTypeCreationInformation class Jump .
-
+```powershell
 $lci =New-Object Microsoft.SharePoint.Client.ContentTypeCreationInformation
+```
 
-Properties
+<h3>Properties</h3>
 
 Its properties include Description, Group, ID, Name, ParentContentType, and TypeID which is reserved for internal use and should not be used within the code. Name property is required to be defined before the CreationInformation variable is used for creating the content type.
 
-Description	Optional	Type: System.String Jump
+
+| Name | Mandatory/Optional | Type |
+| -------- | ------- | ------- |
+| Description | Optional | Type: System.String |
+| Group | Optional | Type: System.String |
+
+		Type: System.String Jump
 Group	Optional	Type: System.String Jump
 ID	Unique	Type: System.String Jump
 Name	Mandatory	Type: System.String
