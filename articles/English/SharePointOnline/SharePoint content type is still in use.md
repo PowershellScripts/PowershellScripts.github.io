@@ -7,7 +7,7 @@ hero_height: is-small
 date: '2023-12-15'
 ---
 
-Issue description
+<h1>Issue description</h1>
 You navigate to SharePoint List -> List Settings -> Scroll down to content types -> Open a content type
  
 
