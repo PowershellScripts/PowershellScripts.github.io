@@ -6,7 +6,6 @@ show_sidebar: false
 hero_height: is-small
 date: '2022-08-17'
 ---
-<meta name="google-site-verification" content="015e42rL5k_FHroxmhuaSN-_NvzYky3bKhCZrIAp-Fo" />
 
 ## Sensitivity labels
 
