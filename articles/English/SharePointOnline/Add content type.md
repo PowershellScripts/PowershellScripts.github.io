@@ -317,32 +317,44 @@ This setting can also be changed via Powershell script and examples can be found
 <h3>Script</h3>
 
 When it comes to adding a content type to list, there are several options, depending on the requirements. Using one script the content type can be added to:
-a single list
-all lists
-several lists fulfilling common criteria
-     A single list
+* a single list
+* all lists
+* several lists fulfilling common criteria
 
-In order to target the list, some information about the list is needed. For one specific list, the best are ID or Title. They allow to leverage GetByID Jump  andGetByTitle Jump  methods:
+  <h4>A single list</h4>
 
+In order to target the list, some information about the list is needed. For one specific list, the best are ID or Title. They allow to leverage GetByID and GetByTitle methods:
+
+```powershell
 $ctx.Web.Lists.GetByID("4C834F99-D908-4E1C-A04F-C8B1F971371C")
-or
-$ctx.Web.Lists.GetByTitle("The Title of My List")
+```
 
-     All Lists
+or
+
+```powershell
+$ctx.Web.Lists.GetByTitle("The Title of My List")
+```
+
+     <h4>All Lists</h4>
 
 It is also possible to add the content type in all existing lists. In order to add the content type to all lists, you need to retrieve the list collection from the .Web and loop through each of the lists, adding the content type there 
 
+```powershell
 $ctx.Load($ctx.Web.Lists)
   $ctx.ExecuteQuery()
   foreach($ll in $ctx.Web.Lists)
   {
     #Add Content Type here
   }
-     
-      Some Lists
+ ```
+    
+      <h4>Some Lists</h4>
 
  Once you have created your content type, you may decide that it is appropriate only for specific lists. There is no end to filter options. You can choose only announcement lists, only lists with content type enabled, lists with a certain content type already added, lists created after or before a certain date, lists with enabled versioning, or those that include certain fields or views. Below there are some of the examples:  
-tasks lists
+
+* tasks lists
+
+```powershell
 foreach($ll in $ctx.Web.Lists)
   {
  
@@ -351,25 +363,28 @@ foreach($ll in $ctx.Web.Lists)
           # Add Content Type comes here
      }
   }
+```
 
-lists with workflows
+* lists with workflows
+
+```powershell
 $ctx.Load($ctx.Web.Lists)
 $ctx.ExecuteQuery()
  
   foreach($ll in $ctx.Web.Lists)
-  {
- 
+  { 
      $ctx.Load($ll.WorkflowAssociations)
      $ctx.ExecuteQuery()
  
       if($ll.WorkflowAssociations.Count -gt 0)
        {
-             # Add Content Type comes here
-      
+             # Add Content Type comes here    
         }
   }
+```
 
-Full script
+
+<h3>Full script</h3>
 
 The script below is an example of adding a content type to lists with workflows. In order to get a script for other scenarios, substitute its sections with appropriate modifications. The scripts can be downloaded from Technet Gallery:
 Add Content Type to Lists with Workflows  Jump
@@ -377,68 +392,8 @@ Add Content Type to Task Lists Jump
 Create content type and add it to all lists in one site Jump
 Create content type and add directly to SPO list using Powershell Jump
 
-function New-SPOContentType
-{
-param(
-[Parameter(Mandatory=$true,Position=1)]
-        [string]$Username,
-        [Parameter(Mandatory=$true,Position=2)]
-        $AdminPassword,
-        [Parameter(Mandatory=$true,Position=3)]
-        [string]$Url,
-[Parameter(Mandatory=$true,Position=4)]
-        [string]$Description,
-[Parameter(Mandatory=$true,Position=5)]
-        [string]$Name,
-[Parameter(Mandatory=$true,Position=6)]
-        [string]$Group,
-[Parameter(Mandatory=$true,Position=7)]
-        [string]$ParentContentTypeID
- 
-        )
-   
-  $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
-  $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
-  $ctx.Load($ctx.Web.Lists)
-  $ctx.ExecuteQuery()
- 
-   
- 
-  $lci =New-Object Microsoft.SharePoint.Client.ContentTypeCreationInformation
-  $lci.Description=$Description
-  $lci.Name=$Name
-  #$lci.ID="0x0100aa862727aed04408b2599b25356e7000"
-  $lci.ParentContentType=$ctx.Web.ContentTypes.GetById($ParentContentTypeID)
-  $lci.Group=$Group
-   
-  foreach($ll in $ctx.Web.Lists)
-  {
- 
-     $ctx.Load($ll.WorkflowAssociations)
-     $ctx.ExecuteQuery()
- 
-   if($ll.WorkflowAssociations.Count -gt 0)
-   {
-  $ContentType = $ll.ContentTypes.Add($lci)
-  $ctx.Load($contentType)
-  try
-     {
-        
-         $ctx.ExecuteQuery()
-         Write-Host "Adding content type " $Name " to " $ll.Title
-     }
-     catch [Net.WebException]
-     {
-        Write-Host $_.Exception.ToString()
-     }
- 
-      
-     }
-     }
-}
- 
- 
- 
+
+```powershell
   # Paths to SDK. Please verify location on your computer.
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
@@ -452,9 +407,43 @@ $Name="From PS to Tasks234"
 $ParentContentTypeID="0x0107"
 $Group="List Content Types"
  
+   
+  $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
+  $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
+  $ctx.Load($ctx.Web.Lists)
+  $ctx.ExecuteQuery()
  
+   
  
-New-SPOContentType -Username $Username -AdminPassword $AdminPassword -Url $AdminUrl -Description $Description -Name $Name -Group $Group -ParentContentTypeID$ParentContentTypeID
+$lci =New-Object Microsoft.SharePoint.Client.ContentTypeCreationInformation
+$lci.Description=$Description
+$lci.Name=$Name
+#$lci.ID="0x0100aa862727aed04408b2599b25356e7000"
+$lci.ParentContentType=$ctx.Web.ContentTypes.GetById($ParentContentTypeID)
+$lci.Group=$Group
+   
+foreach($ll in $ctx.Web.Lists)
+  { 
+     $ctx.Load($ll.WorkflowAssociations)
+     $ctx.ExecuteQuery()
+ 
+     if($ll.WorkflowAssociations.Count -gt 0){
+         $ContentType = $ll.ContentTypes.Add($lci)
+         $ctx.Load($contentType)
+  
+         try{
+            $ctx.ExecuteQuery()
+            Write-Host "Adding content type " $Name " to " $ll.Title
+          }
+         catch [Net.WebException]
+          {
+            Write-Host $_.Exception.ToString()
+          }
+
+     }
+   }
+ 
+``` 
 
 From an existing content type
 
