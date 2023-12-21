@@ -446,7 +446,7 @@ foreach($ll in $ctx.Web.Lists)
  
 ``` 
 
-From an existing content type
+<h2>From an existing content type</h2>
 
 Once you have added a content type to a site collection or to a Content Type Hub and it has propagated to subscribing sites, it can be also added to a list as an existing content type. Such solution allows centralized control over the settings of the content type. You can apply changes at a site collection level and then update all content types:
 
@@ -457,47 +457,59 @@ or you can edit the content type in the Content Type Hub and republish it in ord
  
 
 
-Script
+<h3>Script</h3>
 
-There is a designated method for adding a content type which already exists at a site collection level. The method is called AddExistingContentType Jump  and belongs toContentTypeCollection class Jump .  The method returns a ContentType Jump  object. 
+There is a designated method for adding a content type which already exists at a site collection level. The method is called AddExistingContentType  and belongs toContentTypeCollection class.  The method returns a ContentType object. 
 
 1. Create a context.
 
+```powershell
 $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
 $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
 $ctx.Load($ctx.Web.Lists)
 $ctx.ExecuteQuery()
+```
 
 2. Get the Content type you want to add using its ID.
 
+```powershell
 $contentType=$ctx.Web.ContentTypes.GetById($ContentTypeID)
 $ctx.Load($contentType)
+```
 
 3. Retrieve the list and the content type collection associated with that list:
 
+```powershell
 $ll=$ctx.Web.Lists.GetByTitle($ListTitle)
 $ctx.load($ll)
 $ctx.load($ll.ContentTypes)
 $ctx.ExecuteQuery()
+```
 
 4. Make sure the Content Type Management is allowed.
 
+```powershell
 $ll.ContentTypesEnabled=$true
+```
 
 5. Add the content type.  
 
+```powershell
 $AddedContentType=$ll.ContentTypes.AddExistingContentType($contentType)
 $ll.Update()
-
+```
 The method returns a content type, so running the method alone 
 
+```powershell
 $ll.ContentTypes.AddExistingContentType($contentType)
+```
 
-will return "Collection has not been initialized" error as described brilliantly here. Jump
+will return "Collection has not been initialized" error.
 
 
 6. Execute the request and add basic error handling.
 
+```powershell
 try
      {
         
@@ -508,40 +520,37 @@ catch [Net.WebException]
      {
         Write-Host $_.Exception.ToString()
      }
+```
 
-Full script
+
+<h3>Full script</h3>
 
  The above described commands have been packaged into a function and script available for download here: Add existing content type directly to SPO list using Powershell Jump
 
-function Add-SPOContentType
-{
-param(
-[Parameter(Mandatory=$true,Position=1)]
-        [string]$Username,
-        [Parameter(Mandatory=$true,Position=2)]
-        $AdminPassword,
-        [Parameter(Mandatory=$true,Position=3)]
-        [string]$Url,
-        [Parameter(Mandatory=$true,Position=4)]
-        [string]$ListTitle,
-[Parameter(Mandatory=$true,Position=7)]
-        [string]$ContentTypeID
+  # Paths to SDK. Please verify location on your computer.
+Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
+Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
  
-        )
+# Insert the credentials and the name of the admin site
+$Username="admin@tenant.onmicrosoft.com"
+$AdminPassword=Read-Host -Prompt "Password" -AsSecureString
+$AdminUrl="https://tenant.sharepoint.com/sites/teamsitewithlists Jump "
+$ListTitle="tas1207"
+$ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
    
-  $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
-  $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
-  $ctx.Load($ctx.Web.Lists)
-  $ctx.ExecuteQuery()
+ $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
+ $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
+ $ctx.Load($ctx.Web.Lists)
+ $ctx.ExecuteQuery()
  
-  $contentType=$ctx.Web.ContentTypes.GetById($ContentTypeID)
-  $ctx.Load($contentType)
+ $contentType=$ctx.Web.ContentTypes.GetById($ContentTypeID)
+ $ctx.Load($contentType)
  
  $ll=$ctx.Web.Lists.GetByTitle($ListTitle)
  $ctx.load($ll)
  $ctx.load($ll.ContentTypes)
  $ctx.ExecuteQuery()
-  $ll.ContentTypesEnabled=$true
+ $ll.ContentTypesEnabled=$true
  $AddedContentType=$ll.ContentTypes.AddExistingContentType($contentType)
  $ll.Update()
   try
@@ -559,19 +568,4 @@ param(
       
 }
  
- 
- 
-  # Paths to SDK. Please verify location on your computer.
-Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
-Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
- 
-# Insert the credentials and the name of the admin site
-$Username="admin@tenant.onmicrosoft.com"
-$AdminPassword=Read-Host -Prompt "Password" -AsSecureString
-$AdminUrl="https://tenant.sharepoint.com/sites/teamsitewithlists Jump "
-$ListTitle="tas1207"
-$ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
- 
- 
- 
-Add-SPOContentType -Username $Username -AdminPassword $AdminPassword -Url $AdminUrl -ListTitle $ListTitle -ContentTypeID $ContentTypeID
+```
