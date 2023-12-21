@@ -335,7 +335,8 @@ or
 $ctx.Web.Lists.GetByTitle("The Title of My List")
 ```
 
-     <h4>All Lists</h4>
+
+<h4>All Lists</h4>
 
 It is also possible to add the content type in all existing lists. In order to add the content type to all lists, you need to retrieve the list collection from the .Web and loop through each of the lists, adding the content type there 
 
@@ -348,7 +349,7 @@ $ctx.Load($ctx.Web.Lists)
   }
  ```
     
-      <h4>Some Lists</h4>
+<h4>Some Lists</h4>
 
  Once you have created your content type, you may decide that it is appropriate only for specific lists. There is no end to filter options. You can choose only announcement lists, only lists with content type enabled, lists with a certain content type already added, lists created after or before a certain date, lists with enabled versioning, or those that include certain fields or views. Below there are some of the examples:  
 
