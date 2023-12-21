@@ -46,7 +46,7 @@ Group property specifies a site content type group. Categorizing content types i
 "List Content Types"
 "Group Work Content Types"
 
- 
+ <img src="/articles/images/Github-AddContentType1.png" width="400"><br/>
 
 Current content type groups include:
 Business Intelligence
@@ -64,7 +64,7 @@ Publishing Content Types
 Special Content Types
 
 The Group does not decide whether the list content type is available for adding to a specific library or list. E.g.  List Content Type Group is not available for library, because it does not include any compatible content types. If we add a custom content type derived from Document Parent Content Type, the group with a single member (the incompatible ones will be ignored) will appear in the selection:
-
+<img src="/articles/images/Github-AddContentType2.png" width="400"><br/>
  
         Remember!                                    
         Under Add Content Types only content types compatible with the list/library are displayed for selection            
@@ -79,8 +79,11 @@ You can construct a valid content type ID using one of two conventions:
 
 * Parent content type ID + two hexadecimal values (the two hexadecimal values cannot be "00")
 * Parent content type ID + "00" + hexadecimal GUID
- 
-Source: https://msdn.microsoft.com/en-us/library/office/aa543822%28v=office.14%29.aspx?f=255&MSPPError=-2147217396
+
+ <img src="/articles/images/Github-AddContentType2-1.png" width="400"><br/>
+<sup>Source: https://msdn.microsoft.com/en-us/library/office/aa543822%28v=office.14%29.aspx?f=255&MSPPError=-2147217396</sup>
+
+
 
 An ID of a custom content type based on Item, will look like this when using GUID approach:
 0x01 which is an Item Content Type ID
@@ -116,7 +119,7 @@ $lci.ID="0x0108009e862727eed04408b2599b25356e7914"
 $lci.ParentContentType=$ctx.Web.ContentTypes.GetById("0x01")
 ```
 "Parameters.Id, parameters.ParentContentType cannot be used together. Please only use one of them."
-
+ <img src="/articles/images/Github-AddContentType3.png" width="400"><br/>
  
 
 <h1>Add SharePoint Content Type to a Site Collection</h1>
@@ -231,7 +234,7 @@ The script can also be downloaded from Github.
 <h1>Add SharePoint Content Type to Content Hub</h1>
 
 Content hub is a feature in SharePoint Online to manage content types centrally and publish them to the subscribed sites. It provides a central location for unified management of content types. From the content type hub you can publish a given content type across multiple site collections. The central location ensures that the settings, columns, and look of the SharePoint content type are consistent across the whole organization. The content types appear in the subscribing sites under Site Settings>Content Type Publishing:
-
+ <img src="/articles/images/Github-AddContentType4.png" width="400"><br/>
  
 
 To compare, in the previous example, after adding a content type to a site collection scope, you can propagate it only to underlying lists. Adding the content type to a content type hub will allow you to use the same content type across your whole tenant.
@@ -245,7 +248,7 @@ To compare, in the previous example, after adding a content type to a site colle
 
 In the Hubs section, you can see the names of any Managed Metadata Service applications that publish content types to this site collection listed in bold text. After the service application names, you can see the URLs for the hub sites. You can also see a list of the subscribed content types.
 
-Source: https://support.office.com/en-za/article/Publish-a-content-type-from-a-content-publishing-hub-58081155-118d-4e7a-9cc5-d43b5dbb7d02 Jump
+Source: https://support.office.com/en-za/article/Publish-a-content-type-from-a-content-publishing-hub-58081155-118d-4e7a-9cc5-d43b5dbb7d02
 
 * Direct url
 
@@ -300,6 +303,7 @@ catch()
 
 The script can be downloaded from Github.
 
+<br/><br/>
 
 <h1>Directly to list</h1>
 
@@ -446,15 +450,17 @@ foreach($ll in $ctx.Web.Lists)
  
 ``` 
 
+
+
 <h2>From an existing content type</h2>
 
 Once you have added a content type to a site collection or to a Content Type Hub and it has propagated to subscribing sites, it can be also added to a list as an existing content type. Such solution allows centralized control over the settings of the content type. You can apply changes at a site collection level and then update all content types:
-
+ <img src="/articles/images/Github-AddContentType5.png" width="400"><br/>
  
 
-or you can edit the content type in the Content Type Hub and republish it in order to propagate the changes to all subscribing sites. The changes may take up to 48 hours Jump . 
+or you can edit the content type in the Content Type Hub and republish it in order to propagate the changes to all subscribing sites. The changes may take up to 48 hours. 
 
- 
+  <img src="/articles/images/Github-AddContentType6.png" width="400"><br/>
 
 
 <h3>Script</h3>
