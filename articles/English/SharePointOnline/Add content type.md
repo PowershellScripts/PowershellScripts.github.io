@@ -504,7 +504,7 @@ The method returns a content type, so running the method alone
 $ll.ContentTypes.AddExistingContentType($contentType)
 ```
 
-will return "Collection has not been initialized" error.
+will return "Collection has not been initialized" error, as described brilliantly [by Mikael Svenson here.](https://www.techmikael.com/2014/04/adding-content-type-to-list-using-csom.html)
 
 
 6. Execute the request and add basic error handling.
@@ -563,9 +563,7 @@ $ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
      {
         Write-Host $_.Exception.ToString()
      }
- 
-      
-      
+
 }
  
 ```
