@@ -119,6 +119,8 @@ $lci.ID="0x0108009e862727eed04408b2599b25356e7914"
 $lci.ParentContentType=$ctx.Web.ContentTypes.GetById("0x01")
 ```
 "Parameters.Id, parameters.ParentContentType cannot be used together. Please only use one of them."
+
+
  <img src="/articles/images/Github-AddContentType3.png" width="400"><br/>
  
 
