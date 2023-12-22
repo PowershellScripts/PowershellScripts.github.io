@@ -1,0 +1,1 @@
+Now, you can post on behalf of another user in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Users can configure it through Yammer's settings section.
