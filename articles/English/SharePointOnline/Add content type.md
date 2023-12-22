@@ -531,8 +531,10 @@ catch [Net.WebException]
 
 <h3>Full script</h3>
 
- The above described commands have been packaged into a function and script available for download here: Add existing content type directly to SPO list using Powershell Jump
+ The above described commands have been packaged into a function and script available for download here: Add existing content type directly to SPO list using Powershell.
 
+
+```powershell
   # Paths to SDK. Please verify location on your computer.
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
