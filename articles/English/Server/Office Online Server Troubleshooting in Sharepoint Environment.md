@@ -39,7 +39,7 @@ Powershell can be useful to verify the current state of the machine. There offic
 
 <a href="https://learn.microsoft.com/en-us/powershell/module/officewebapps/get-officewebappsexcelbiserver?view=officewebapps-ps">Get-OfficeWebAppsExcelBIServer</a>
 
-Get-OfficeWebAppsExcelUserDefinedFunction
+<a href="https://learn.microsoft.com/en-us/powershell/module/officewebapps/get-officewebappsexceluserdefinedfunction?view=officewebapps-ps">Get-OfficeWebAppsExcelUserDefinedFunction</a>
 
 Get-OfficeWebAppsFarm
 
