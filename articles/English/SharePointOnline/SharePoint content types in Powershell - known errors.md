@@ -1,41 +1,40 @@
-Introduction
+---
+layout: page
+title: 'SharePoint content types in Powershell - known errors'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2022-08-17'
+---
 
-This article is a helper article for the main compendium on Content Types:
-SharePoint Online content types in Powershell: Add
-SharePoint Online content types in Powershell: Get
-SharePoint Online content types in Powershell: Edit
+<sup>The errors below are based on THOUSANDS of tests performed on various Office 365 tenants. That by no means makes them definite, final or in any way exclusive. Bear in mind that the same error messages may have several causes and treat the descriptions below as suggestions for troubleshooting, not a definite and only possible cause. </sup>
 
 
-Known Errors
-
-The errors below are based on THOUSANDS of tests performed on various Office 365 tenants. That by no means makes them definite, final or in any way exclusive. Bear in mind that the same error messages may have several causes and treat the descriptions below as suggestions for troubleshooting, not a definite and only possible cause. 
-
-
-Updating the content types
+### Updating the content types
 
 When you update the content type remember to specify whether the child content types should be updated as well.
 If you do not specify the Boolean value, an error will occur Cannot find an overload for "Update" and the argument count: "0".
 If you set to $true, but you are trying to update a content type without child content types, e.g. a list content type  Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."
 
 
-Load the Content Type
+### Load the Content Type
 
 Before you start to modify the properties of a content type, you need to load it. Otherwise, you will get an error saying that the property does not exist.
 Property 'Description' cannot be found on this object; make sure it exists and is settable.
 
 
-DescriptionResource and NameResource
+### DescriptionResource and NameResource
 
 It seems that DescriptionResource and NameResource are not availble as properties for SharePoint Online content types.
  "'DescriptionResource' is not a member of type 'Microsoft.SharePoint.Client.ContentType'" 
 
 
-DisplayFormTemplateName
+### DisplayFormTemplateName
 
 The statements provided here where the source is not quoted come from tests of the default behaviour. The tests were conducted on three different tenants  two weeks apart and behaviour proved consistent which led to the conclusion that it is by design. However, in case of the DisplayFormTemplateName, on occasion, setting the incorrect name or different one did not bring the change in the behaviour visible in UI. So even though the DisplayFormTemplateName of an item was set to "MadeUp", the item would open correctly. As said the above-mentioned behaviour occurred only on occasion and was in clear minority. So in the chapter on DisplayFormTemplateName the dominating behaviour was described.
 
 
-Fields in a sealed content type
+### Fields in a sealed content type
 
 Whenever performing any operations on fields of a sealed content type, the operation will fail and the error will be displayed: 
 Exception calling "ExecuteQuery" with "0" argument(s): "Operation is not valid due to the current state of the object."
