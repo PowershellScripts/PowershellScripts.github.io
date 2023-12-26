@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 'SharePoint content types in Powershell - known errors'
+title: 'SharePoint content types in Powershell: known errors'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2022-08-17'
+date: '2023-12-26'
 ---
 
 <sup>The errors below are based on THOUSANDS of tests performed on various Office 365 tenants. That by no means makes them definite, final or in any way exclusive. Bear in mind that the same error messages may have several causes and treat the descriptions below as suggestions for troubleshooting, not a definite and only possible cause. </sup>
@@ -41,7 +41,7 @@ Exception calling "ExecuteQuery" with "0" argument(s): "Operation is not valid d
 Unseal the content type. You may use the following script: "Unseal" sealed content types in SharePoint Online site collection Jump
 You must have site collection administrator rights to set the Sealed property of an SPContentType Jump  object.[1] Jump
 
-Deleting lookup
+### Deleting lookup
 
 When you are trying to delete some of the fields and you receive an error   
 Exception calling "ExecuteQuery" with "0" argument(s): "The primary lookup field cannot be deleted. There are dependent lookups created on this primary lookup field that should be deleted first."
