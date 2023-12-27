@@ -13,20 +13,20 @@ date: '2023-12-26'
 ### Updating the content types
 
 When you update the content type remember to specify whether the child content types should be updated as well.
-If you do not specify the Boolean value, an error will occur Cannot find an overload for "Update" and the argument count: "0".
-If you set to $true, but you are trying to update a content type without child content types, e.g. a list content type  Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."
+* If you do not specify the Boolean value, an error will occur **Cannot find an overload for "Update" and the argument count: "0".**
+* If you set to $true, but you are trying to update a content type without child content types, e.g. a list content type  **Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."**
 
 
 ### Load the Content Type
 
 Before you start to modify the properties of a content type, you need to load it. Otherwise, you will get an error saying that the property does not exist.
-Property 'Description' cannot be found on this object; make sure it exists and is settable.
+**Property 'Description' cannot be found on this object; make sure it exists and is settable.**
 
 
 ### DescriptionResource and NameResource
 
 It seems that DescriptionResource and NameResource are not availble as properties for SharePoint Online content types.
- "'DescriptionResource' is not a member of type 'Microsoft.SharePoint.Client.ContentType'" 
+**"'DescriptionResource' is not a member of type 'Microsoft.SharePoint.Client.ContentType'"**
 
 
 ### DisplayFormTemplateName
