@@ -16,6 +16,12 @@ When you update the content type remember to specify whether the child content t
 * If you do not specify the Boolean value, an error will occur **Cannot find an overload for "Update" and the argument count: "0".**
 * If you set to $true, but you are trying to update a content type without child content types, e.g. a list content type  **Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."**
 
+      <b>Solution</b>
+
+      $ContentType.Update($false)
+  
+     
+  
 
 ### Load the Content Type
 
