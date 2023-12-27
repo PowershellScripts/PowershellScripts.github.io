@@ -10,42 +10,84 @@ date: '2023-12-26'
 <sup>The errors below are based on THOUSANDS of tests performed on various Office 365 tenants. That by no means makes them definite, final or in any way exclusive. Bear in mind that the same error messages may have several causes and treat the descriptions below as suggestions for troubleshooting, not a definite and only possible cause. </sup>
 
 
-### Updating the content types
+### Updating SharePoint content types
 
 When you update the content type remember to specify whether the child content types should be updated as well.
+
+
+
 * If you do not specify the Boolean value, an error will occur **Cannot find an overload for "Update" and the argument count: "0".**
-* If you set to $true, but you are trying to update a content type without child content types, e.g. a list content type  **Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."**
 
-      <b>Solution</b>
+:x: ```$ContentType.Update()```
 
-      $ContentType.Update($false)
-  
+:heavy_check_mark:  ```$ContentType.Update($false) ```    :heavy_check_mark:  ```$ContentType.Update($true) ```
+
+<br/>
+
+* **Exception calling "ExecuteQuery" with "0" argument(s): "The content type has no children."** If you set Update to $true, but the content type doesn't have any child content types. This can happen with e.g. a list content type  
+
+:x: ```$ContentType.Update($true)```
+
+:heavy_check_mark:  ```$ContentType.Update($false)```
+
      
-  
+  <br/><br/>
 
-### Load the Content Type
+### Loading SharePoint content types
 
+* **Property 'Description' cannot be found on this object; make sure it exists and is settable.**
 Before you start to modify the properties of a content type, you need to load it. Otherwise, you will get an error saying that the property does not exist.
-**Property 'Description' cannot be found on this object; make sure it exists and is settable.**
 
+:x:
+```
+  $ContentType=$Context.Web.ContentTypes.GetByID($ContentTypeGUID)
+  $ContentType.Description=$Description
+  $ContentType.Update($true)
+  $Context.ExecuteQuery()
+```
+:x:
+
+:heavy_check_mark:
+```
+  $ContentType=$Context.Web.ContentTypes.GetByID($ContentTypeGUID)
+  $Context.Load($ContentType)
+  $Context.ExecuteQuery()
+  $ContentType.Description=$Description
+  $ContentType.Update($true)
+  $Context.ExecuteQuery()
+```
+:heavy_check_mark:
+
+<br/><br/>
 
 ### DescriptionResource and NameResource
 
 It seems that DescriptionResource and NameResource are not availble as properties for SharePoint Online content types.
 **"'DescriptionResource' is not a member of type 'Microsoft.SharePoint.Client.ContentType'"**
 
-
-### DisplayFormTemplateName
-
-The statements provided here where the source is not quoted come from tests of the default behaviour. The tests were conducted on three different tenants  two weeks apart and behaviour proved consistent which led to the conclusion that it is by design. However, in case of the DisplayFormTemplateName, on occasion, setting the incorrect name or different one did not bring the change in the behaviour visible in UI. So even though the DisplayFormTemplateName of an item was set to "MadeUp", the item would open correctly. As said the above-mentioned behaviour occurred only on occasion and was in clear minority. So in the chapter on DisplayFormTemplateName the dominating behaviour was described.
+<br/><br/>
 
 
 ### Fields in a sealed content type
 
 Whenever performing any operations on fields of a sealed content type, the operation will fail and the error will be displayed: 
-Exception calling "ExecuteQuery" with "0" argument(s): "Operation is not valid due to the current state of the object."
-Unseal the content type. You may use the following script: "Unseal" sealed content types in SharePoint Online site collection Jump
-You must have site collection administrator rights to set the Sealed property of an SPContentType Jump  object.[1] Jump
+**Exception calling "ExecuteQuery" with "0" argument(s): "Operation is not valid due to the current state of the object."**
+Unseal the content type. You may use the following script: 
+
+```
+  $ContentType=$Context.Web.ContentTypes.GetByID($ContentTypeGUID)
+  $Context.Load($ContentType)
+  $Context.ExecuteQuery()
+  $ContentType.Sealed=$false
+  $ContentType.Update($true)
+  $Context.ExecuteQuery()
+```
+
+You must have site collection administrator rights to set the Sealed property of an [SPContentType](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ms440819(v=office.14)?redirectedfrom=MSDN) object.  Source: [Updating Content Types on Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/aa543504(v=office.14)?redirectedfrom=MSDN)
+
+
+<br/><br/>
+
 
 ### Deleting lookup
 
