@@ -85,6 +85,7 @@ Unseal the content type. You may use the following script:
 
 You must have site collection administrator rights to set the Sealed property of an [SPContentType](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/ms440819(v=office.14)?redirectedfrom=MSDN) object.  Source: [Updating Content Types on Microsoft Learn](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/aa543504(v=office.14)?redirectedfrom=MSDN)
 
+[A ready script](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/blob/develop/Content%20Types/Set/Unseal%20a%20content%20type/UnsealCT.ps1)
 
 <br/><br/>
 
@@ -92,15 +93,17 @@ You must have site collection administrator rights to set the Sealed property of
 ### Deleting lookup
 
 When you are trying to delete some of the fields and you receive an error   
-Exception calling "ExecuteQuery" with "0" argument(s): "The primary lookup field cannot be deleted. There are dependent lookups created on this primary lookup field that should be deleted first."
+**Exception calling "ExecuteQuery" with "0" argument(s): "The primary lookup field cannot be deleted. There are dependent lookups created on this primary lookup field that should be deleted first."**
 it suggests that you are trying to delete the source of the lookup column. Delete the lookup first and then try to remove the column again.
 
 
-Adding columns to a content type
-Fields are referred in content types via FieldLinks. The SPFieldCollection Jump object serves only to provide developers a way to get a combined view of a column's attributes, as they exist in that content type. Each SPField Jump object represents all the attributes of a column, or field, definition, merged with those attributes that have been overridden in the field reference for that content type. 
+<br/><br/>
 
-When you access a SPField  Jump  in a content type, SharePoint Foundation merges the field definition with the field reference, and returns the resulting SPField  Jump  object to you. This prevents developers from having to look up a field definition, and then look up all the attributes in the field definition that are overridden by the field reference for that content type.
-Because of this, there is a 1-to-1 correlation between the items in the SPFieldLinkCollection Jump  and SPFieldCollection Jump objects. For each SPFieldLink Jump object that you add to a content type, SharePoint Foundation adds a corresponding SPField Jump object that represents the combined view of that column as it is defined in the content type. More on the topic can be found here. 
+### Adding columns to a content type
+Fields are referred in content types via FieldLinks. The SPFieldCollection object provides developers a way to get a combined view of a column's attributes, as they exist in that content type. Each SPField object represents all the attributes of a column, or a field definition. 
+
+When you access a SPField in a content type, SharePoint merges the field definition with the field reference, and returns the resulting SPField object to you. This prevents developers from having to look up a field definition, and then look up all the attributes in the field definition that are overridden by the field reference for that content type.
+Because of this, there is a 1-to-1 correlation between the items in the SPFieldLinkCollection  and SPFieldCollection objects. For each SPFieldLink object that you add to a content type, SharePoint adds a corresponding SPField object that represents the combined view of that column as it is defined in the content type. More on the topic can be found here. 
 
 When you are trying to add a field as XML ContentType.Fields.AddAsXML("XMLSTRING") or field as Field ContentType.Fields.Add(Field field) to the Field Collection of a content type, you will receive an error:
 
