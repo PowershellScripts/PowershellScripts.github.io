@@ -20,59 +20,45 @@ Because of this, there is a 1-to-1 correlation between the items in the SPFieldL
 
 Comparison of Field Names and Field Link Names of the content types from a Content Type Hub where the names different.
 
-| **ContentType**                 | **Field Title**      | **FieldInternalName** | **Field Link**     | **** | **** | **** | **** | **** | **** |
-|---------------------------------|----------------------|-----------------------|--------------------|------|------|------|------|------|------|
-| **Circulation**                 | Append-Only Comments | V3Comments            | Comments           |      |      |      |      |      |      |
-| **Phone Call Memo**             | Append-Only Comments | V3Comments            | Comments           |      |      |      |      |      |      |
-| **Display Template**            | Comments             | Comments              | Description        |      |      |      |      |      |      |
-| **Display Template Code**       | Comments             | Comments              | Description        |      |      |      |      |      |      |
-| **JavaScript Display Template** | Comments             | Comments              | Description        |      |      |      |      |      |      |
-| **InfoPath Form Template**      | Content Type ID      | CustomContentTypeId   | CusomContentTypeId |      |      |      |      |      |      |
-| **User Workflow Document**      | Visibility           | NoCodeVisibility      | Visibility         |      |      |      |      |      |      |
-| **Event**                       | Start Time           | StartDate             | EventDate          |      |      |      |      |      |      |
-| **Event**                       | Description          | Comments              | Description        |      |      |      |      |      |      |
+| **ContentType**                 | **Field Title**                 | **FieldInternalName**       | **Field Link**            |
+|---------------------------------|---------------------------------|-----------------------------|---------------------------|
+| **Circulation**                 | Append-Only Comments            | V3Comments                  | Comments                  |
+| **Phone Call Memo**             | Append-Only Comments            | V3Comments                  | Comments                  |
+| **Display Template**            | Comments                        | Comments                    | Description               |
+| **Display Template Code**       | Comments                        | Comments                    | Description               |
+| **JavaScript Display Template** | Comments                        | Comments                    | Description               |
+| **InfoPath Form Template**      | Content Type ID                 | CustomContentTypeId         | CusomContentTypeId        |
+| **User Workflow Document**      | Visibility                      | NoCodeVisibility            | Visibility                |
+| **Event**                       | Start Time                      | StartDate                   | EventDate                 |
+| **Event**                       | Description                     | Comments                    | Description               |
+| **Reservations**                | Start Time                      | StartDate                   | EventDate                 |
+| **Reservations**                | Description                     | Comments                    | Description               |
+| **Schedule and Reservations**   | Start Time                      | StartDate                   | EventDate                 |
+| **Schedule and Reservations**   | Description                     | Comments                    | Description               |
+| **Schedule**                    | Start Time                      | StartDate                   | EventDate                 |
+| **Schedule**                    | Description                     | Comments                    | Description               |
+| **Issue**                       | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Message**                     | Discussion Title                | DiscussionTitleLookup       | DiscussionSubjectLookup   |
+| **Message**                     | Shortest Thread-Index Id Lookup | ShortestThreadIndexIdLookup | ShortestThreadIndexLookup |
+| **Task**                        | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Task**                            | Task Status                     | TaskStatus                  | Status                    |
+| **Workflow Task (SharePoint 2013)** | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Workflow Task (SharePoint 2013)** | Task Status                     | TaskStatus                  | Status                    |
+| **Workflow Task (SharePoint 2013)** | Instance Id                     | WF4InstanceId               | WorkflowInstanceId        |
+| **Workflow Task**                   | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Workflow Task**                   | Task Status                     | TaskStatus                  | Status                    |
+| **Workflow Task**                   | Related Content                 | WorkflowLink                | Link                      |
+| **SharePoint Server Workflow Task** | Due Date                        | TaskDueDate                 | DueDate                   |
+| **SharePoint Server Workflow Task** | Task Status                     | TaskStatus                  | Status                    |
+| **SharePoint Server Workflow Task** | Related Content                 | WorkflowLink                | Link                      |
+| **Administrative Task**             | Action                          | AdminTaskAction             | Action                    |
+| **Administrative Task**             | Description                     | AdminTaskDescription        | Description               |
+| **Administrative Task**             | Order                           | AdminTaskOrder              | Priority                  |
+| **Administrative Task**             | Task Status                     | TaskStatus                  | Status                    |
+| **Administrative Task**             | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Workflow History**                | Description                     | DLC_Description             | Description               |
+| **Discussion**                      | Shortest Thread-Index Id Lookup | ShortestThreadIndexIdLookup | ShortestThreadIndexLookup |
+| **Summary Task**                    | Task Status                     | TaskStatus                  | Status                    |
+| **Summary Task**                    | Due Date                        | TaskDueDate                 | DueDate                   |
+| **Document Set**                    |	Description	                    | DocumentSetDescription	     | Description               |
 
-
-
-
-
-ContentType	Field Title	FieldInternalName	Field Link
-Circulation	Append-Only Comments	V3Comments	Comments
-Phone Call Memo	Append-Only Comments	V3Comments	Comments
-Display Template	Comments	Comments	Description
-Display Template Code	Comments	Comments	Description
-JavaScript Display Template	Comments	Comments	Description
-InfoPath Form Template	Content Type ID	CustomContentTypeId	CusomContentTypeId
-User Workflow Document	Visibility	NoCodeVisibility	Visibility
-Event	Start Time	StartDate	EventDate
-Event	Description	Comments	Description
-Reservations	Start Time	StartDate	EventDate
-Reservations	Description	Comments	Description
-Schedule and Reservations	Start Time	StartDate	EventDate
-Schedule and Reservations	Description	Comments	Description
-Schedule	Start Time	StartDate	EventDate
-Schedule	Description	Comments	Description
-Issue	Due Date	TaskDueDate	DueDate
-Message	Discussion Title	DiscussionTitleLookup	DiscussionSubjectLookup
-Message	Shortest Thread-Index Id Lookup	ShortestThreadIndexIdLookup	ShortestThreadIndexLookup
-Task	Due Date	TaskDueDate	DueDate
-Task	Task Status	TaskStatus	Status
-Workflow Task (SharePoint 2013)	Due Date	TaskDueDate	DueDate
-Workflow Task (SharePoint 2013)	Task Status	TaskStatus	Status
-Workflow Task (SharePoint 2013)	Instance Id	WF4InstanceId	WorkflowInstanceId
-Workflow Task	Due Date	TaskDueDate	DueDate
-Workflow Task	Task Status	TaskStatus	Status
-Workflow Task	Related Content	WorkflowLink	Link
-SharePoint Server Workflow Task	Due Date	TaskDueDate	DueDate
-SharePoint Server Workflow Task	Task Status	TaskStatus	Status
-SharePoint Server Workflow Task	Related Content	WorkflowLink	Link
-Administrative Task	Action	AdminTaskAction	Action
-Administrative Task	Description	AdminTaskDescription	Description
-Administrative Task	Order	AdminTaskOrder	Priority
-Administrative Task	Task Status	TaskStatus	Status
-Administrative Task	Due Date	TaskDueDate	DueDate
-Workflow History	Description	DLC_Description	Description
-Discussion	Shortest Thread-Index Id Lookup	ShortestThreadIndexIdLookup	ShortestThreadIndexLookup
-Summary Task	Task Status	TaskStatus	Status
-Summary Task	Due Date	TaskDueDate	DueDate
-Document Set	Description	DocumentSetDescription	Description
