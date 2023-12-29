@@ -577,3 +577,27 @@ $ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
 }
  
 ```
+
+
+
+
+
+<!-- Default Statcounter code for Content Types add
+https://powershellscripts.github.io/articles/English/SharePointOnline/Add%20content%20type/
+-->
+<script type="text/javascript">
+var sc_project=12953202; 
+var sc_invisible=0; 
+var sc_security="fe97b4fc"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12953202/0/fe97b4fc/0/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
