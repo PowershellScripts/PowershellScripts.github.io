@@ -94,7 +94,8 @@ You must have site collection administrator rights to set the Sealed property of
 
 When you are trying to delete some of the fields and you receive an error   
 **Exception calling "ExecuteQuery" with "0" argument(s): "The primary lookup field cannot be deleted. There are dependent lookups created on this primary lookup field that should be deleted first."**
-it suggests that you are trying to delete the source of the lookup column. Delete the lookup first and then try to remove the column again.
+
+It suggests that you are trying to delete the source of the lookup column. Delete the lookup first and then try to remove the column again.
 
 
 <br/><br/>
@@ -116,24 +117,23 @@ At C:\Users\ivo\Desktop\wiki\technet\ContentTypes\toPublish\ModifyFieldsvsFieldL
  
 Add the column by adding a field to the FieldLinks Collections in order to fix the issue. If you are adding a new column, try creating first a column (e.g. at a site level) and then refer it in your content type as a FieldLink, e.g. in Powershell or Console Application as in the example here Jump .
 
-
-Twice
+<br/><br/>
+### Adding fieldlink twice
 
 If you made a mistake and are trying to add the same field link twice (because e.g. the first one is hidden and not visible in the UI), you will receive an error:
 Exception calling "ExecuteQuery" with "0" argument(s): "Unknown Error"
 when you are trying to add the same field reference twice 
 
-
-FieldLink
+<br/><br/>
+### FieldLink
 
 When you decided to add a FieldLink, you first need to create the FieldLink instance and assign its .Field property. The Field property should refer to an existing field. If that property has not been specified you will receive an error
 Exception calling "Add" with "1" argument(s): "The 'parameters.Field' argument cannot be null.
 Parameter name: parameters.Field"
 Specify the .Field parameter before you add the FieldLink to the FieldLink collection.
 
-
-ReadOnly/ Sealed
-
+<br/><br/>
+### ReadOnly/ Sealed
 
 Trying to update a sealed or readonly content type shows an error:
 Exception calling "ExecuteQuery" with "0" argument(s): "The content type "Web Part Page" at "/sites/TeamsitewithLibraries/jslink/SitePages" is read only."
@@ -195,9 +195,3 @@ The FieldLink you are trying to add does not have .Field property specified 	 Sp
  Exception calling "ExecuteQuery" with "0" argument(s): "The content type "Folder" at "/sites/TeamsitewithLibraries/jslink/SitePages" is sealed."	 The Content type is sealed	Set the content type's property .Sealed to $false. You may use the following solution: "Unseal" sealed content types in SharePoint Online site collection Jump
 You must have site collection administrator rights to set the Sealed property of an SPContentType Jump  object.[1] Jump
  	 	 
- 	 	 
-
-Related Articles
-SharePoint Online content types in Powershell: Add
-SharePoint Online content types in Powershell: Get
-SharePoint Online content types in Powershell: Edit
