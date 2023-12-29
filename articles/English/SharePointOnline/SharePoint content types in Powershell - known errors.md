@@ -206,3 +206,24 @@ Unseal the content type. You may use the following script:
 | Exception calling "ExecuteQuery" with "0" argument(s): "The content type "Folder" at "/sites/TeamsitewithLibraries/jslink/SitePages" is sealed."       | The content type is sealed             | Set the content type's property .Sealed to $false.    |
 
  	 	 
+
+
+<!-- Default Statcounter code for Content types Known errors
+https://powershellscripts.github.io/articles/English/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/
+-->
+<script type="text/javascript">
+var sc_project=12953200; 
+var sc_invisible=0; 
+var sc_security="5da4bba5"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12953200/0/5da4bba5/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
