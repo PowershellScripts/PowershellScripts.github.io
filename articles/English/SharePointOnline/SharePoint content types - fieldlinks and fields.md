@@ -4,16 +4,16 @@ title: 'SharePoint content types - fieldlinks and fields'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2023-12-28'
+date: '2023-12-30'
 ---
 
-Columns are represented as either Field or FieldRef Element (ContentType) Jump  elements in the various SharePoint schemas, such as site, list, and content type definitions[1] Jump . The columns are represented as Field elements in site and list definitions. However, the column references are represented as FieldRef Element (ContentType) Jump  elements in content type definitions[1] Jump .  In simple words SPFields are fields themselves, while SPFieldLinks are references to the fields[2] Jump .
+Columns are represented as either Field or FieldRef Element (ContentType) elements in the various SharePoint schemas, such as site, list, and content type definitions. The columns are represented as Field elements in site and list definitions. However, the column references are represented as FieldRef Element (ContentType) elements in content type definitions. In simple words SPFields are fields themselves, while SPFieldLinks are references to the fields.
 
-It stems from the fact that Lists and Webs contain the actual fields with field data. A content type, on the other hand, only holds Field Reference, which simply points at the corresponding field in the list or web. As argued in MSDN Jump :
+It stems from the fact that Lists and Webs contain the actual fields with field data. A content type, on the other hand, only holds Field Reference, which simply points at the corresponding field in the list or web. As explained in MSDN:
  
-The SPFieldCollection Jump  object provides developers a way to get a combined view of a column's attributes, as they exist in that content type. Each SPField Jump  object represents all the attributes of a column, or field, definition, merged with those attributes that have been overridden in the field reference for that content type. 
-When you access a SPField Jump  in a content type, SharePoint Foundation merges the field definition with the field reference, and returns the resulting SPField Jump  object to you. This prevents developers from having to look up a field definition, and then look up all the attributes in the field definition that are overridden by the field reference for that content type.
-Because of this, there is a 1-to-1 correlation between the items in the SPFieldLinkCollection Jump  and SPFieldCollection Jump  objects. For each SPFieldLink Jump  object that you add to a content type, SharePoint Foundation adds a corresponding SPField Jump  object that represents the combined view of that column as it is defined in the content type.
+The SPFieldCollection object provides developers a way to get a combined view of a column's attributes, as they exist in that content type. Each SPField object represents all the attributes of a column, or field, definition, merged with those attributes that have been overridden in the field reference for that content type. 
+When you access a SPField in a content type, SharePoint Foundation merges the field definition with the field reference, and returns the resulting SPField object to you. This prevents developers from having to look up a field definition, and then look up all the attributes in the field definition that are overridden by the field reference for that content type.
+Because of this, there is a 1-to-1 correlation between the items in the SPFieldLinkCollection and SPFieldCollection objects. For each SPFieldLink object that you add to a content type, SharePoint Foundation adds a corresponding SPField object that represents the combined view of that column as it is defined in the content type.
 
 
 
