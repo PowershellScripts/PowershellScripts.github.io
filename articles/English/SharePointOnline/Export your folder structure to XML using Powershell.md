@@ -16,19 +16,20 @@ SharePoint has a lot of options allowing you to organize your files. Some of the
 But once you have used them and your users happily created unstructured, repeating, unrecoverable mess, you may want to audit them, see the structure of your library and find out if you can reorganize, restructure or replace them with metadata.
 
 
-Retrieve folders
+# Retrieve folders
 
 Get folders from SharePoint list or library.
 
 Step 1: Add paths to SharePoint Online SDK
 
-
+```powershell
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
 
 Step 2a: Connect to SharePoint Online
 
 Create client context and test the connection.
+```powershell
 $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
 $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
 $ctx.Load($ctx.Web)
@@ -36,7 +37,8 @@ $ctx.ExecuteQuery()
 
 Step 2b: Connect to SharePoint Server
 
-This solution can work with either SharePoint Online or SharePoint Server. Choose step A or step B depending on your environment. 
+This solution can work with either SharePoint Online or SharePoint Server. Choose step A or step B depending on your environment.
+```powershell
 $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
 $ctx.Credentials = New-Object System.Net.NetworkCredential($Username, $AdminPassword)
 $ctx.Load($ctx.Web)
@@ -46,6 +48,7 @@ $ctx.ExecuteQuery()
 Step 3: Load folders
 
 Load first level folders.
+```powershell
 $OriginalList=$ctx.Web.Lists.GetByTitle($OriginalLibrary)
  
    # get first level folders from a library
@@ -55,6 +58,7 @@ $OriginalList=$ctx.Web.Lists.GetByTitle($OriginalLibrary)
    $ctx.ExecuteQuery()   
 
 The folders may reach several layers down. Some folders may have hundreds of nested folders, some may stop at first level. You can go through such irregular tree structure using recursion:
+```powershell
 foreach($folder in $folderCollectionFirstLevel)
 { 
     Get-folders -higherLevelFolder $folder -OriginalLibrary $OriginalLibrary      
@@ -68,7 +72,7 @@ Create XML
 
 Step 1: Create XML Document
 
-
+```powershell
 $xmlWriter = New-Object System.XMl.XmlTextWriter($XMLPath,$Null)
 $xmlWriter.WriteStartDocument()
 $xmlWriter.WriteComment('Get the Information about the folder structure')
@@ -84,6 +88,8 @@ $xmlDoc.Save($XMLPath)
 Step 2: Create xml node 
 
 This step would be easy if we had only one level of folders. It would look like that:
+
+```powershell
 $folderNode = $xmlDoc.CreateElement("Folder")
 $xmlDoc.SelectSingleNode("/Folders").AppendChild($folderNode)
 
@@ -92,6 +98,7 @@ We are dealing, however, with irregular structure, going maybe hundreds of level
 Step 3: Find the parent
 
 The solution starts by counting the number of levels, which corresponds to the number of slashes in ServerRelativeUrl. That allows later to decide at what level the folder is and how deeply we iterate through the nodes:
+```powershell
 $perspectivenode = "//Folders/"+ $folderServerRelativeUrl.Replace($libraryTitle,"")
 $countOfLevels = ($perspectivenode.Length - ($perspectivenode.replace("/","").Length))-3
   
@@ -102,7 +109,8 @@ $perspectivenode:  //Folders/fold1/fold1-1
  
 Fig1. ServerRelativeUrl, $perspectivenode variable and created node  
 
-The root in the xml document is called Folders.  
+The root in the xml document is called Folders.
+```powershell
 $tempRelativeUrl=$perspectivenode.Replace("//Folders/","")
 $node = $XMLDoc.SelectSingleNode("Folders")
 
@@ -122,6 +130,7 @@ for($level=0; $level -lt $countOfLevels; $level++)
 Step 4: Append child
 
 Each of my items is a folder, so I can hardcode it here.
+```powershell
 $folderNode = $xmlDoc.CreateElement("Folder")
 $node.AppendChild($folderNode)
 
@@ -133,6 +142,7 @@ $node.AppendChild($newNode)
 Step 5: Add attributes
 
 You can add more or remove these if you don't need them for your scenario.
+```powershell
 $folderNode.SetAttribute("Name", $folderName)
 $folderNode.SetAttribute("NumberOfSubfolders", $noOfSubfolders)
 $folderNode.SetAttribute("ItemCount", $folderItemCount)
@@ -149,9 +159,3 @@ Sample results
 
  
 
-Downloads
-
-Audit folder structure to XML
-Audit Sharepoint folder structure to XML (SharePoint Server)
-Audit SharePoint Online folder structure to XML
-Get the structure of your SharePoint library (folders + files) to XML
