@@ -4,7 +4,7 @@ title: 'SharePoint content type is still in use'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2023-12-15'
+date: '2024-01-01'
 ---
 
 <h1>Issue description</h1>
@@ -19,14 +19,14 @@ Most likely one of the items is still the content type. The following cmdlets wi
 
  
 
-Powershell
+
 1. Download and install SharePoint Online SDK.
 2. Download SPOMod available here.
 
 3. Open SPOMod current file (in ISE or NotePad) and scroll down to the following lines:
 
  
-
+```powershell
 # Paths to SDK. Please verify location on your computer.
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
@@ -59,7 +59,7 @@ The items will be removed from the Recycle Bin as well! There is no way to retri
  
 
 Alternative UI approach
-Not everyone likes Powershell. It is with sadness that I have to state that. Please find below a user-interface solution:
+
 Step 1. Navigate to the list. Open the ribbon and click Modify view:
 
  
