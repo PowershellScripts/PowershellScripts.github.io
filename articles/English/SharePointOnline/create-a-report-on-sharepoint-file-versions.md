@@ -1,14 +1,11 @@
-Create a report on SharePoint file versions
-Table of Contents
-Overview
-Supported lists and libraries
-When versions are created
-Retrieving versions for all files in one library
-Script
-Summary
-See Also
-Versioning and SharePoint: the PowerShell perspective series
-GitHub scripts
+---
+layout: page
+title: 'Add content type using Powershell and CSOM'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2024-01-06'
+---
 
 
 Overview
