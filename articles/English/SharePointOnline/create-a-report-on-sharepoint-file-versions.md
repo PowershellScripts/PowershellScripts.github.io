@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Add content type using Powershell and CSOM'
+title: 'Create a report on SharePoint file versions'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
