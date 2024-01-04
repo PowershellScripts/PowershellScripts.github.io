@@ -7,7 +7,7 @@ hero_height: is-small
 date: '2023-11-05'
 ---
 
-<sup>Disclaimer: Not all of the steps mentioned below should be executed. The steps below may not be applicable to your Farm, configuration, scenario or business needs. Some of them may affect uptime or server performance. The article serves merely as a list of possibilities and not as a pre-defined solution. Please choose carefully steps applicable to your situation and make sure you are aware of possible consequences before applying any of them.  </sup>
+<sup>Disclaimer: Not all of the steps mentioned below should be executed. The steps below may not be applicable to your Farm, configuration, scenario or business needs. Some of them may affect uptime or server performance. The article serves only as a list of possibilities and not as a pre-defined solution. Please choose carefully steps applicable to your situation and make sure you are aware of possible consequences before applying any of them.  </sup>
 
 <h1>Office Online Server</h1>
 Office Online Server is an Office server product that provides browser-based file viewing and editing services for Office files. Office Online Server works with products and services that support WOPI, the Web app Open Platform Interface protocol, such as SharePoint Server and Exchange Server. An Office Online Server farm can provide Office services to multiple on-premises hosts, and you can scale out the farm from one server to multiple servers as your organization's needs grow. Office Online Server can be installed on virtual machines but requires dedicated servers that run no other server applications.
@@ -27,10 +27,10 @@ WebOneNoteWatchdog reported status for OneNoteMerge in category 'Ping'. Reported
 Exception type: ExcelWebRendererException
 Exception message: We couldn't find the file you wanted
 
+<br/>
+<h1>Solutions</h1>
 
-Do not hesitate to expand this list :)
-
-<h1>Verify the current status</h1>
+<h2>Verify the current status</h2>
 
 
 <h3>Office Web Apps Powershell</h3>
