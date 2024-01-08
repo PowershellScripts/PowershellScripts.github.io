@@ -1,3 +1,12 @@
+---
+layout: page
+title: 'SharePoint content type is still in use'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2024-01-10'
+---
+
 How to find SharePoint Online Content Type ID?
 
 Content Type ID
