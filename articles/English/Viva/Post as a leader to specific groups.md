@@ -20,7 +20,9 @@ Choose whether you allow them to communicate with the entire company or/and spec
 <img src="/articles/images/Github-VivaLeadership2.png" width="400">
 
 
-Once this setting is enabled, your leader can 
+Once this setting is enabled, your leader can make announcements:
+
+
  <h1>See Also</h1>
 https://learn.microsoft.com/en-us/viva/connections/announcements-viva-connections
 
