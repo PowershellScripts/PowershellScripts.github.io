@@ -10,22 +10,22 @@ date: '2024-01-14'
 
 The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.
 <br/><br/><br/>
-To set your users as leaders, navigate to Admin Center >> Feature Management :
+To set your users as leaders, navigate to Viva Admin Center >> Feature Management :
 
  <img src="/articles/images/Github-VivaLeadership.png" width="400">
 
 <br/>
-Select Leadership identification and audiences and enter user's name:
+In the Viva Admin Center select Leadership identification and audiences and enter user's name:
 
 <img src="/articles/images/Github-VivaLeadership2.png" width="400">
 
 <br/>
-Choose whether you allow them to communicate with the entire organization or/and specific groups.
+Choose whether you allow your Viva leaders to communicate with the entire organization or/and specific user groups.
 
 <img src="/articles/images/Github-VivaLeadership3.png" width="400">
 
 <br/>
-If the group that you want your leader to communicate with, doesn't exist yet, you can create it. However, if the group creation is disabled for your tenant, you will receive an error message:
+If the group that you want your leader to communicate with, doesn't exist yet, you can create it. However, if the group creation is disabled for your Microsoft 365 tenant, you will receive an error message:
 
 <img src="/articles/images/Github-VivaLeadership4.png" width="400">
 
@@ -37,12 +37,13 @@ Once this option is enabled, the leader user can create Announcements in his sto
 
 
 <br/>
-By default these announcements will target the groups that were assigned to the leader user. The leader user can also choose to select some and not others:
+By default these announcements will target the groups that were assigned to the Viva leader user. The leader user can also choose to select some and not others:
 
 <img src="/articles/images/Github-VivaLeadership6.png" width="400">
 
 <br/>
-Additionally, the leader user can choose to post the Annoucement to Teams and/or send it per email:
+Additionally, the leader user can choose to post the Annoucement to Microsoft Teams and/or send it per email:
+
 <img src="/articles/images/Github-VivaLeadership7.png" width="400">
 
 
