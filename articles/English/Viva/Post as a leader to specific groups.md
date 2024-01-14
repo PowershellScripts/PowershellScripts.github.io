@@ -53,3 +53,23 @@ Additionally, the leader user can choose to post the Annoucement to Microsoft Te
 <a href="https://learn.microsoft.com/en-us/viva/connections/announcements-viva-connections">Annoucements in Viva</a>
 
 <a href="https://learn.microsoft.com/en-us/viva/engage/leadership-identification">Identify Viva leaders</a>
+
+
+<!-- Default Statcounter code for Post as viva leader
+https://powershellscripts.github.io/articles/English/Viva/Post%20as%20a%20leader%20to%20specific%20g
+-->
+<script type="text/javascript">
+var sc_project=12957424; 
+var sc_invisible=1; 
+var sc_security="d42fc81b"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12957424/0/d42fc81b/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
