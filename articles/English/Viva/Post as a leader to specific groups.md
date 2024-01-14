@@ -50,6 +50,6 @@ Additionally, the leader user can choose to post the Annoucement to Microsoft Te
 
 
  <h1>See Also</h1>
-https://learn.microsoft.com/en-us/viva/connections/announcements-viva-connections
+<a href="https://learn.microsoft.com/en-us/viva/connections/announcements-viva-connections">Annoucements in Viva</a>
 
-https://learn.microsoft.com/en-us/viva/engage/leadership-identification
+<a href="https://learn.microsoft.com/en-us/viva/engage/leadership-identification">Identify Viva leaders</a>
