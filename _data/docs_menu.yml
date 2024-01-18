@@ -44,5 +44,6 @@
   items:
     - name: Office Online Server Troubleshooting in Sharepoint Environment
       link: /articles/English/Server/Office Online Server Troubleshooting in Sharepoint Environment/
-
+    - name: SharePoint Server - Troubleshooting Workflow Farm
+      link: /articles/English/Server/SharePoint Server - Troubleshooting Workflow Farm/
 
