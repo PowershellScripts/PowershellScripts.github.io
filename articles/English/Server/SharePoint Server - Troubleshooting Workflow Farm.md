@@ -1,3 +1,13 @@
+---
+layout: page
+title: 'Office Online Server Troubleshooting in Sharepoint Environment'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2024-01-20'
+---
+
+
 <sup>
 Not all of the steps mentioned below should be executed in order to successfully solve SharePoint workflow issues. The steps below may not be applicable to your Farm, configuration, scenario or business needs. Some of them may affect uptime or server performance. The article serves merely as a list of possibilities and not as a pre-defined solution. Please choose carefully steps applicable to your situation and make sure you are aware of possible consequences before applying any of them.  
 </sup>
@@ -91,6 +101,7 @@ For the exact process of WF Farm creation please refer to excellent materials fr
 <br/><br/>
 <h1>Responses</h1>
 Verify that your workflow responds under the assigned url:
+
 <img src="/articles/images/Server/WFServer6.png" width="400">
 
 <br/><br/>
