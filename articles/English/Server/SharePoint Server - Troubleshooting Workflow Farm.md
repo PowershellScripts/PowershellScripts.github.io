@@ -130,3 +130,24 @@ Verify that the SharePoint workflows are not running as a system account. Using 
 
 <h1>Other languages</h1>
 <a href="https://social.technet.microsoft.com/wiki/contents/articles/51976.sharepoint-20132016-troubleshooting-une-ferme-de-workflow-fr-fr.aspx"> SharePoint 2013/2016 : Troubleshooter une ferme de workflow (fr-FR)</a>
+
+
+
+<!-- Default Statcounter code for SharePoint WF Farm
+https://powershellscripts.github.io/articles/English/Server/SharePoint%20Server%20-%20Troubleshootin
+-->
+<script type="text/javascript">
+var sc_project=12959328; 
+var sc_invisible=1; 
+var sc_security="fc732b30"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12959328/0/fc732b30/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
