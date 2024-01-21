@@ -27,14 +27,14 @@ The first one is the most common scenario. Azure API Management is a "transparen
 In the second scenario, the API Management service acts on behalf of the API, and the scope of the access token is between the **calling application and API Management**. The second scenario will be usually used when calling the backend API is not possible. For example, when the [backend API does not support OAuth](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#audience-is-api-management).
 
 
-
+</br></br>
 <h1>Authorization Flow</h1>
 
 Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime). 
 
-<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="400">
+<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="400" alt="Diagram that shows the process flow for creating runtime.">
 
-Diagram that shows the process flow for creating runtime.
+
 The client app needs to call API Management. If you can call your Azure Function directly, using only function code - it's not secured with OAuth.
 
 
