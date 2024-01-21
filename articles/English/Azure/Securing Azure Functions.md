@@ -45,15 +45,15 @@ The client app needs to call API Management. If you can call your Azure Function
 Per the OAuth specification, access tokens are opaque strings without a set format. 
 
 JSON Web Tokens are split into three parts:
-Header - Provides information about how to validate the token including information about the type of token and how it was signed.
-Payload - Contains all of the important data about the user or application that's attempting to call the service.
-Signature - Is the raw material used to validate the token. Each piece is separated by a period (.) and separately Base64 encoded.
+* Header - Provides information about how to validate the token including information about the type of token and how it was signed.
+* Payload - Contains all of the important data about the user or application that's attempting to call the service.
+* Signature - Is the raw material used to validate the token. Each piece is separated by a period (.) and separately Base64 encoded.
 
 Useful resources:
-List of token claims and their description Jump
-Options for validating a token Jump
+* [List of token claims and their description](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens#claims-in-access-tokens)
+* [Options for validating a token](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens#validate-tokens)
 
-Token formats
+<h3>Token formats</h3>
 
 There are two different versions of JSON Web Tokens (JWTs) called v1.0 and v2.0 available on the Microsoft identity platform. Custom APIs registered by developers in Azure Active Directory can choose either of them. Microsoft-developed APIs like Microsoft Graph or APIs in Azure use other, proprietary token formats.
 
