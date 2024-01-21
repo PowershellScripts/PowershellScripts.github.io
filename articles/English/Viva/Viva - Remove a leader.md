@@ -1,4 +1,6 @@
-g
+The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.
+
+When you want to remove the leader functionalities from a user, you need to remove him from the leaders list in the Viva Admin Center.
 
 
 
