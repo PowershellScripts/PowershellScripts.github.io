@@ -39,7 +39,7 @@ The client app needs to call API Management. If you can call your Azure Function
 
 
 
-
+<br/><br/>
 <h1>JSON Web Token (JWT)</h1>
 
 Per the OAuth specification, access tokens are opaque strings without a set format. 
@@ -66,46 +66,50 @@ The contents of the token are not decoded directly in applications and are inten
 
 V1.0 
 
-Decoded v1.0 token example (the token value comes from learn.microsoft.com Jump ):
- 
+Decoded v1.0 token example (the token value comes from [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens) ):
+
+ <img src="/articles/images/SecureAzFunc/Github-SecureAzFunc3.PNG" width="400">
 
 
 
 V2.0
 
-Decoded v2.0 token example (the token value comes from learn.microsoft.com Jump ):
+Decoded v2.0 token example (the token value comes from [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens) ):
  
- 
+<img src="/articles/images/SecureAzFunc/Github-SecAzFunc4.png" width="400">
 
 
-The site https://jwt.ms/ Jump  also helps to interpret the claims included in the token:
- 
+The site [https://jwt.ms/](https://jwt.ms/)  also helps to interpret the claims included in the token:
+
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc5.png" width="400">
 
 
-! Notice the difference in the issuers between the two versions. Token version is one of the common issues while configuring authentication between apps!
+    ! Notice the difference in the issuers between the two versions. 
+    Token version is one of the common issues while configuring authentication between apps!
 
 
-What does it mean that the token version is wrong?
+<h3>What does it mean that the token version is wrong?</h3>
 
 If there is a mismatch between issuers, i.e. in the decoded token you see sts.windows.net and APIM policy requires login.microsoftonline.com 
 When you receive "Invalid token" error
 
-How to "fix" token version?
+<h3>How to "fix" token version?</h3>
 
 Go to manifest in your app registration and set accessTokenAcceptedVersion
 to 2:
 
+<img src="/articles/images/SecureAzFunc/Github-SecAzFunc6.png" width="400">
 
  
 
 It may take a few minutes to apply the changes. Get a coffee :)
 
-
+<br/><br/>
 <h1>Scope</h1>
 When setting scope for your application permissions, mind the different access scenarios:
 
- 
-Image source: https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc7.png" width="400">
+<sup>Image source: https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview</sup>
 
 For more details on delegated vs app-only access see Permissions and consent Jump .
 
@@ -161,7 +165,7 @@ the scope will look like this:  8d138478-d3a3-47f5-a233-1408cd6baae4/.default
 
 
  
-
+<br/><br/>
 <h1>API Management Policies</h1>
 
 Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
@@ -237,7 +241,7 @@ I like to check this claim, because it helps to avoid the required assignment is
  
 
  
-
+<br/><br/>
 <h1>Tooling</h1>
 
 
