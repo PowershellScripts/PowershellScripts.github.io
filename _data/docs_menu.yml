@@ -47,3 +47,7 @@
     - name: SharePoint Server - Troubleshooting Workflow Farm
       link: /articles/English/Server/SharePoint Server - Troubleshooting Workflow Farm/
 
+- label: Azure
+  items:
+    - name: Securing Azure Functions
+      link: /articles/English/Azure/Securing Azure Functions/
