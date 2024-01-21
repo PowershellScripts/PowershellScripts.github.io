@@ -7,12 +7,12 @@ hero_height: is-small
 date: '2023-12-15'
 ---
 
-Disclaimer 
+<sup>Disclaimer 
 I am not an Azure expert. I haven't been doing it for the last 50 years and I haven't tested every nook and cranny of the service. I just did a considerable number of Azure Functions with API Management, and troubleshooted all kinds of errors. Together it amounted to quite a compendium of testing/verification/troubleshooting steps that I wanted to share with you and the future me  :)
+</sup>
 
 
-
-Design
+<h1>Design</h1>
 
 Which app calls which? One of the first things to consider is the design Jump  you want to follow. The authentication flow you choose will decide what is authorised to what. Consider these two scenarios:
 
@@ -27,7 +27,7 @@ In the second scenario, the API Management service acts on behalf of the API, an
 
 
 
-Authorization Flow
+<h1>Authorization Flow</h1>
 
 Make sure you understand authorization flow Jump . 
 
@@ -37,7 +37,7 @@ The client app needs to call API Management. If you can call your Azure Function
 
 
 
-JSON Web Token (JWT)
+<h1>JSON Web Token (JWT)</h1>
 
 Per the OAuth specification, access tokens are opaque strings without a set format. 
 
@@ -98,7 +98,7 @@ to 2:
 It may take a few minutes to apply the changes. Get a coffee :)
 
 
-Scope
+<h1>Scope</h1>
 When setting scope for your application permissions, mind the different access scenarios:
 
  
@@ -159,7 +159,7 @@ the scope will look like this:  8d138478-d3a3-47f5-a233-1408cd6baae4/.default
 
  
 
-API Management Policies
+<h1>API Management Policies</h1>
 
 Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
  
@@ -235,7 +235,7 @@ I like to check this claim, because it helps to avoid the required assignment is
 
  
 
-Tooling
+<h1>Tooling</h1>
 
 
 There are several great tools that will help you troubleshoot and test your scenario.
