@@ -90,8 +90,8 @@ The site [https://jwt.ms/](https://jwt.ms/)  also helps to interpret the claims 
 
 <h3>What does it mean that the token version is wrong?</h3>
 
-If there is a mismatch between issuers, i.e. in the decoded token you see sts.windows.net and APIM policy requires login.microsoftonline.com 
-When you receive "Invalid token" error
+* If there is a mismatch between issuers, i.e. in the decoded token you see sts.windows.net and APIM policy requires login.microsoftonline.com 
+* When you receive "Invalid token" error
 
 <h3>How to "fix" token version?</h3>
 
@@ -111,11 +111,11 @@ When setting scope for your application permissions, mind the different access s
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc7.png" width="400">
 <sup>Image source: https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview</sup>
 
-For more details on delegated vs app-only access see Permissions and consent Jump .
+For more details on delegated vs app-only access see [Permissions and consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview).
 
 To simplify it though, let us say that if you need a user to click consent to a particular resource, then you should go here in the Azure portal:
 
- 
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc8.png" width="400">
 
 
 But in the client app and Backend API scenario describe above, you would rather use app-only permissions, and start from Enterprise Applications, where you set  Assignment Required to True .
