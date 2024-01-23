@@ -16,7 +16,7 @@ I am not an Azure expert. I haven't been doing it for the last 50 years and I ha
 
 Which app calls which? One of the first things to consider is the [design](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#oauth-20-authorization-scenarios) you want to follow. The authentication flow you choose will decide what is authorised to what. Consider these two scenarios:
 
-<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="400"  alt="Diagram showing OAuth communication where audience is the backend.Diagram showing OAuth communication where audience is the API Management gateway.">
+<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="600"  alt="Diagram showing OAuth communication where audience is the backend.Diagram showing OAuth communication where audience is the API Management gateway.">
 
 <sup>
 Image source:  https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview
@@ -32,7 +32,7 @@ In the second scenario, the API Management service acts on behalf of the API, an
 
 Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime). 
 
-<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="400" alt="Diagram that shows the process flow for creating runtime.">
+<img src="/articles/images/SecureAzFunc/Github-secureayfunc2.svg" width="600" alt="Diagram that shows the process flow for creating runtime.">
 
 
 The client app needs to call API Management. If you can call your Azure Function directly, using only function code - it's not secured with OAuth.
@@ -68,7 +68,7 @@ V1.0
 
 Decoded v1.0 token example (the token value comes from [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens) ):
 
- <img src="/articles/images/SecureAzFunc/Github-SecureAzFunc3.PNG" width="400">
+ <img src="/articles/images/SecureAzFunc/Github-SecureAzFunc3.PNG" width="600">
 
 
 
@@ -76,7 +76,7 @@ V2.0
 
 Decoded v2.0 token example (the token value comes from [learn.microsoft.com](https://learn.microsoft.com/en-us/azure/active-directory/develop/access-tokens) ):
  
-<img src="/articles/images/SecureAzFunc/Github-SecAzFunc4.png" width="400">
+<img src="/articles/images/SecureAzFunc/Github-SecAzFunc4.png" width="600">
 
 
 The site [https://jwt.ms/](https://jwt.ms/)  also helps to interpret the claims included in the token:
@@ -115,53 +115,59 @@ For more details on delegated vs app-only access see [Permissions and consent](h
 
 To simplify it though, let us say that if you need a user to click consent to a particular resource, then you should go here in the Azure portal:
 
-  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc8.png" width="400">
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc8.png" width="500">
 
 
-But in the client app and Backend API scenario describe above, you would rather use app-only permissions, and start from Enterprise Applications, where you set  Assignment Required to True .
+But in the client app and Backend API scenario describe above, you would rather use app-only permissions, and start from Enterprise Applications, where you set  **Assignment Required** to **True**.
 
- 
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc9.png" width="500">
 
 
 If this option is set to yes, then users and other apps or services must first be assigned this application before being able to access it.
 
-Why is it important?
-Because if you do not enable required assignment, any app registration can request the default scope of your app. This is the default setting. Unless you are doing further checking of the token scopes in code, this leaves your app open to being called by clients which haven’t been explicitly granted permission.  Check out these cool tests Jump  proving how that happens.
+<h3>Why is it important?</h3>
+Because if you do not enable required assignment, **any app** registration can request the default scope of your app. This is the default setting. **Unless you are doing further checking of the token scopes in code, this leaves your app open** to being called by clients which haven’t been explicitly granted permission.  Check out [these cool tests](https://medium.com/airwalk/azure-app-service-easy-auth-and-the-default-scope-1fb0b65b4d26) proving how that happens.
 
 
-Application is not assigned to a role for the application
+<h3>Application is not assigned to a role for the application</h3>
 
-Once you have enabled the required assignment setting, but before you assigned any roles, you should get an invalid_grant error., e.g.
+Once you have enabled the required assignment setting, but before you assigned any roles, you should get an *invalid_grant* error., e.g.
 
-AADSTS501051: Application '1df771d6-ef9c-473e-af87-cafa8928e024'(testClient) is not assigned to a role for the application '8d138478-d3a3-47f5-a233-1408cd6baae4'(testBackend2)
+    AADSTS501051: Application '1df771d6-ef9c-473e-af87-cafa8928e024'(testClient) 
+    is not assigned to a role for the application '8d138478-d3a3-47f5-a233-1408cd6baae4'(testBackend2)
 
- 
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc10.png" width="600">
 
-If you receive Application is not assigned to a role for the application error, go to App Registrations >> Choose your client app >> API Permissions:
+If you receive **Application is not assigned to a role for the application** error, go to App Registrations >> Choose your client app >> API Permissions:
 
- 
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc11.png" width="400">
 
-Add the required permission and verify that the admin consent has been granted. When you click on Add a permission, you can easily navigate to the right API, by selecting my APIs or APIs my organization uses:
+Add the required permission and verify that the admin consent has been granted. When you click on **Add a permission**, you can easily navigate to the right API, by selecting **my APIs** or **APIs my organization uses**:
+
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc12.png" width="400">
 
  
 If you do not see the right API there, go to Azure Portal >> App Registrations >> Select your backend app (representing Azure Function) >> App roles (for app-only access scenario).
 
 
-Default scope
+<h3>Default scope</h3>
 
 
 The /.default scope has several uses:
-it is a shortcut back to the Azure AD v1 behavior (e.g., static consent)
-it is required when the app is making service-to-service calls or using application-only permissions
-it is required when using the on-behalf-of (OBO) flow, where your API is making calls on behalf of the user to a different API, e.g. client app --> your API --> Graph API.
-Check out the awesome article by John Patrick Dandison Jump  explaining in great detail Just what *is* the /.default scope in the Microsoft identity platform & Azure AD? Jump  where he clarifies very well, and with examples, the difference between static and dynamic consent and where to use the ./default scope. 
+* it is a shortcut back to the Azure AD v1 behavior (e.g., static consent)
+* **it is required when the app is making service-to-service calls or using application-only permissions**
+* it is required when using the on-behalf-of (OBO) flow, where your API is making calls on behalf of the user to a different API, e.g. client app --> your API --> Graph API.
+
+  
+Check out the awesome article by [John Patrick Dandison](https://dev.to/jpda) explaining in great detail [Just what *is* the /.default scope in the Microsoft identity platform & Azure AD?](https://dev.to/425show/just-what-is-the-default-scope-in-the-microsoft-identity-platform-azure-ad-2o4d) where he clarifies very well, and with examples, the difference between static and dynamic consent and where to use the ./default scope. 
 
 For us, the second scenario (making service-to-service calls or using application-only permissions) is the most relevant. That's why our scope will look like this:
 {BackendID}/.default.
 
 For a backend app (our Azure Function) with the following data:
- 
-the scope will look like this:  8d138478-d3a3-47f5-a233-1408cd6baae4/.default
+
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc13.png" width="400">
+the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
 
 
  
@@ -170,45 +176,49 @@ the scope will look like this:  8d138478-d3a3-47f5-a233-1408cd6baae4/.default
 
 Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
  
-
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc14.png" width="400">
 
 
 Validating JWT token is one of the many access restrictions policies that API Management allows you to configure.
-Check out API Management access restriction policies documentation Jump  for more options.
+Check out [API Management access restriction policies documentation](https://learn.microsoft.com/en-us/azure/api-management/api-management-access-restriction-policies) for more options.
 
 
-JWT validation policy
+<h3>JWT validation policy</h3>
 
 Sample inbound policy.
 
-<inbound>
-    <base />
-    <set-backend-service id="apim-generated-policy" backend-id="provisionierungacco" />
-    <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Invalid token.">
-        <openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration Jump " />
-        <issuers>
-            <issuer>https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0< Jump /issuer>
-        </issuers>
-        <required-claims>
-            <claim name="aud" match="any">
-                <value>7e5ff242-8d3a-46a9-8890-45722c2f3d27</value>
-            </claim>
-        </required-claims>
-    </validate-jwt>
-</inbound>
+    <inbound>
+        <base />
+        <set-backend-service id="apim-generated-policy" backend-id="provisionierungacco" />
+        <validate-jwt header-name="Authorization" failed-validation-httpcode="401" failed-validation-error-message="Unauthorized. Invalid token.">
+            <openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration Jump " />
+            <issuers>
+                <issuer>https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0< Jump /issuer>
+            </issuers>
+            <required-claims>
+                <claim name="aud" match="any">
+                    <value>7e5ff242-8d3a-46a9-8890-45722c2f3d27</value>
+                </claim>
+            </required-claims>
+        </validate-jwt>
+    </inbound>
 
+             
 Let us analyze the values:
-backend-id="provisionierungacco"
+* backend-id="provisionierungacco"
+  
 This should point to your Azure Function.
-<openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration Jump " />
+
+*     <openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration" />
+
 Every app registration in Azure AD is provided a publicly accessible endpoint that serves its OpenID configuration document.
 
 To find the configuration document for your app, navigate to the Azure portal and then: Select Azure Active Directory >> App registrations >> YourApp >> Endpoints. Locate the URI under OpenID Connect metadata document. It should look something like this:
-https://login.microsoftonline.com/YOURTENANTID/v2.0/.well-known/openid-configuration Jump
-where path is: /.well-known/openid-configuration
+https://login.microsoftonline.com/YOURTENANTID/v2.0/.well-known/openid-configuration <br/>
+where path is: /.well-known/openid-configuration <br/>
 and authority URL is: https://login.microsoftonline.com/{tenant}/v2.0
 
-For more information go to OpenID Connect on the Microsoft identity platform Jump .
+For more information go to [OpenID Connect on the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc).
 
 <required-claims>
 aud
@@ -247,9 +257,9 @@ I like to check this claim, because it helps to avoid the required assignment is
 
 There are several great tools that will help you troubleshoot and test your scenario.
 
-Postman
+<h3>Postman</h3>
 
-All API calls can be tested using Postman. You can download Postman software Jump  for free from the official Postman site Jump . If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an online version of Postman Jump . You sign up and it works beautifully. I highly recommend it. I did get an occasional CORS issue Jump  when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
+All API calls can be tested using Postman. You can download Postman software Jump  for free from the official Postman site Jump . If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an online version of Postman. You sign up and it works beautifully. I highly recommend it. I did get an occasional CORS issue Jump  when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
 
 
 Postman offers an option to save your credentials and speed up your calls, but since authentication is exactly the thing you will be testing - do not use that option.
@@ -280,7 +290,7 @@ Set Grant_type to "client_credentials". Make sure the scope is the same scope yo
 
 
 
-Application Insights
+<h3>Application Insights</h3>
 
 Application Insights is an extension of Azure Monitor and provides Application Performance Monitoring (also known as “APM”) features. It is well integrated with Azure Functions with no additional coding effort. To start using Application Insights, navigate to your Function App, scroll down, and click Turn on Application Insights
 
@@ -320,7 +330,7 @@ Ability to group results in order to identify patterns and recurring issues
 
 
 
-Trace
+<h3>Trace</h3>
 Trace is one of the test options within the API Management. It allows you to quickly test your calls. Mind you, trace logs may contain sensitive information such as keys, access tokens, passwords, internal hostnames, and IP addresses. Be careful when sharing trace logs from API Management.
 
 How to enable it?
@@ -344,7 +354,7 @@ The data contains the output and input of the Azure Function, as well as the tim
 See Also
 
 
-Authentication and authorization in Azure API Management Jump
+Authentication and authorization in Azure API Management
 
 Introduction to permissions and consent Jump
 
