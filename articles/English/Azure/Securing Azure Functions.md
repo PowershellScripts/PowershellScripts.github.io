@@ -223,14 +223,14 @@ For more information go to [OpenID Connect on the Microsoft identity platform](h
 <required-claims>
 aud
 It's up to you to decide which claims will be checked. One of the more common ones is the aud which in our case will be identical with the guid in our scope.
-As per RFC definition Jump  aud claim refers to the recipient of the access token:
+As per RFC definition aud claim refers to the recipient of the access token:
 
 The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL. 
 In our case the recipient, or the audience, will be Azure Function.
  
 
 azp
-IANA Jump  defines azp as Authorized party - the party to which the ID Token was issued.
+IANA  defines azp as Authorized party - the party to which the ID Token was issued.
 
 Open ID specification  Jump gives the following definition:
 OPTIONAL. Authorized party - the party to which the ID Token was issued. If present, it MUST contain the OAuth 2.0 Client ID of this party. This Claim is only needed when the ID Token has a single audience value and that audience is different than the authorized party. It MAY be included even when the authorized party is the same as the sole audience. The azp value is a case sensitive string containing a StringOrURI value.
@@ -259,7 +259,7 @@ There are several great tools that will help you troubleshoot and test your scen
 
 <h3>Postman</h3>
 
-All API calls can be tested using Postman. You can download Postman software Jump  for free from the official Postman site Jump . If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an online version of Postman. You sign up and it works beautifully. I highly recommend it. I did get an occasional CORS issue Jump  when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
+All API calls can be tested using Postman. You can download Postman software for free from the official Postman site. If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an online version of Postman. You sign up and it works beautifully. I highly recommend it. I did get an occasional CORS issue Jump  when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
 
 
 Postman offers an option to save your credentials and speed up your calls, but since authentication is exactly the thing you will be testing - do not use that option.
@@ -356,6 +356,6 @@ See Also
 
 Authentication and authorization in Azure API Management
 
-Introduction to permissions and consent Jump
+Introduction to permissions and consent
 
-Just what *is* the /.default scope in the Microsoft identity platform & Azure AD? Jump
+Just what *is* the /.default scope in the Microsoft identity platform & Azure AD?
