@@ -323,21 +323,24 @@ Verify your Application Insights setup by sending e.g. an expired token. You sho
 
 
 
-Selected features
+<h4>Selected features</h4>
 
 Some of the cool features of Application Insights are:
-OOTB Availability Tests that monitor if your app is up and running
- 
+* OOTB Availability Tests that monitor if your app is up and running
 
-OOTB Alerts sent by email or SMS
- 
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc22.png" width="400">
 
-Ability to see an overview of general app performance and to drill down into properties of each exception (you can customize these too)
-  
+* OOTB Alerts sent by email or SMS
 
-Ability to group results in order to identify patterns and recurring issues
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc23.png" width="400">
 
- 
+* Ability to see an overview of general app performance and to drill down into properties of each exception (you can customize these too)
+
+   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc24.png" width="400">
+
+* Ability to group results in order to identify patterns and recurring issues
+
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc25.png" width="400">
 
 
 
@@ -348,29 +351,29 @@ Ability to group results in order to identify patterns and recurring issues
 <h3>Trace</h3>
 Trace is one of the test options within the API Management. It allows you to quickly test your calls. Mind you, trace logs may contain sensitive information such as keys, access tokens, passwords, internal hostnames, and IP addresses. Be careful when sharing trace logs from API Management.
 
-How to enable it?
+<h4>How to enable it?</h4>
 
-
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc26.png" width="400">
  
 
 
 
-Monitor executions with History
+<h3>Monitor executions with History</h3>
 Every Azure Function needs a storage, where you will find 2 tables:
 
-History
-Instances
+* History
+* Instances
 
 The data contains the output and input of the Azure Function, as well as the times when the Azure Function was called.
 
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc27.png" width="400">
  
- 
 
-See Also
+<h1>See Also</h1>
 
 
-Authentication and authorization in Azure API Management
+[Authentication and authorization in Azure API Management](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview)
 
-Introduction to permissions and consent
+[Introduction to permissions and consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview)https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview
 
-Just what *is* the /.default scope in the Microsoft identity platform & Azure AD?
+[Just what *is* the /.default scope in the Microsoft identity platform & Azure AD?](https://dev.to/425show/just-what-is-the-default-scope-in-the-microsoft-identity-platform-azure-ad-2o4d)https://dev.to/425show/just-what-is-the-default-scope-in-the-microsoft-identity-platform-azure-ad-2o4d
