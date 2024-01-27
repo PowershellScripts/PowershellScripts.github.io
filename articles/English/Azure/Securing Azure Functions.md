@@ -28,6 +28,7 @@ In the second scenario, the API Management service acts on behalf of the API, an
 
 
 </br></br>
+
 <h1>Authorization Flow</h1>
 
 Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime). 
@@ -209,7 +210,7 @@ Let us analyze the values:
   
 This should point to your Azure Function.
 
-*     <openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration" />
+* openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration" 
 
 Every app registration in Azure AD is provided a publicly accessible endpoint that serves its OpenID configuration document.
 
@@ -223,7 +224,9 @@ and authority URL is: https://login.microsoftonline.com/{tenant}/v2.0
 For more information go to [OpenID Connect on the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc).
 
 <h3> required-claims</h3>   
-    <h4>aud</h4>
+
+<h4>aud</h4>
+    
 It's up to you to decide which claims will be checked. One of the more common ones is the aud which in our case will be identical with the guid in our scope.
 As per[ RFC definition ](https://www.rfc-editor.org/rfc/rfc7519#section-4.1.3) aud claim refers to the recipient of the access token:
 <br/>
@@ -235,10 +238,14 @@ In our case the recipient, or the audience, will be Azure Function.
  
 
 <h4>azp</h4>
-[IANA](http://https//www.iana.org/assignments/jwt/jwt.xhtml)  defines azp as Authorized party - the party to which the ID Token was issued.
+[IANA](https://www.iana.org/assignments/jwt/jwt.xhtml)  defines azp as <i>Authorized party - the party to which the ID Token was issued</i>.
 
-Open ID specification  Jump gives the following definition:
-OPTIONAL. Authorized party - the party to which the ID Token was issued. If present, it MUST contain the OAuth 2.0 Client ID of this party. This Claim is only needed when the ID Token has a single audience value and that audience is different than the authorized party. It MAY be included even when the authorized party is the same as the sole audience. The azp value is a case sensitive string containing a StringOrURI value.
+[Open ID specification](https://openid.net/specs/openid-connect-core-1_0.html) gives the following definition:
+<br/>
+
+>OPTIONAL. Authorized party - the party to which the ID Token was issued. If present, it MUST contain the OAuth 2.0 Client ID of this party. This Claim is only needed when the ID Token has a single audience value and that audience is different than the authorized party. It MAY be included even when the authorized party is the same as the sole audience. The azp value is a case sensitive string containing a StringOrURI value.
+
+<br/>
 
 I like to check this claim, because it helps to avoid the required assignment issue. Instead of (or additionally to) granting permissions for your client to your backend app you can check in the JWT who sends the request. If needed, several values can be accepted, e.g. in the scenario where 2 or more apps call your Azure Function:
  
@@ -250,7 +257,7 @@ I like to check this claim, because it helps to avoid the required assignment is
                  <value>a1888df2-84c2-4379-8d53-7091dd630ca7</value>
            <value>f1d55d9b-b116-4f54-bc00-164a51e7e47f</value>
        
-<value>d5dfkae9-4f54-bc00-8d53-164a5130ca7b</value>
+            <value>d5dfkae9-4f54-bc00-8d53-164a5130ca7b</value>
             </claim>
         </required-claims>
  
@@ -264,30 +271,33 @@ There are several great tools that will help you troubleshoot and test your scen
 
 <h3>Postman</h3>
 
-All API calls can be tested using Postman. You can download Postman software for free from the official Postman site. If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an online version of Postman. You sign up and it works beautifully. I highly recommend it. I did get an occasional CORS issue Jump  when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
+All API calls can be tested using Postman. You can [download Postman software](https://www.postman.com/downloads/) for free from the [official Postman site](https://www.postman.com/). If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an [online version of Postman](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/). You sign up and it works beautifully. I highly recommend it. I did get an occasional [CORS issue](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors) when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
 
 
 Postman offers an option to save your credentials and speed up your calls, but since authentication is exactly the thing you will be testing - do not use that option.
 
- 
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc15.png" width="400">
 
 
 
 
 Sending the request for the JWT requires the following:
-POST
-client_id
-client_secret
-grant_type
-scope
+* POST
+* client_id
+* client_secret
+* grant_type
+* scope
 
  
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc16.png" width="400">
 
+Set **Grant_type** to "**client_credentials**". Make sure the scope is the same scope you defined inside your app registration:
 
-Set Grant_type to "client_credentials". Make sure the scope is the same scope you defined inside your app registration:
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc17.png" width="200">
 
-
-  
+ <br/>
+ 
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc18.png" width="600">
 
 
 
@@ -297,18 +307,18 @@ Set Grant_type to "client_credentials". Make sure the scope is the same scope yo
 
 <h3>Application Insights</h3>
 
-Application Insights is an extension of Azure Monitor and provides Application Performance Monitoring (also known as “APM”) features. It is well integrated with Azure Functions with no additional coding effort. To start using Application Insights, navigate to your Function App, scroll down, and click Turn on Application Insights
+Application Insights is an extension of Azure Monitor and provides Application Performance Monitoring (also known as “APM”) features. It is well integrated with Azure Functions with no additional coding effort. To start using Application Insights, navigate to your Function App, scroll down, and click **Turn on Application Insights**
 
- 
+  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc19.png" width="400">
 
 
 Make sure the Application Insights are also gathering logs for API Management:
+
+ <img src="/articles/images/SecureAzFunc/Github-SecAzFunc20.png" width="400">
  
-
-
 Verify your Application Insights setup by sending e.g. an expired token. You should see an Exception like this in the logs:
 
-  
+   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc21.png" width="400">
 
 
 
