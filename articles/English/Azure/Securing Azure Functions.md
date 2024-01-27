@@ -369,6 +369,8 @@ The data contains the output and input of the Azure Function, as well as the tim
   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc27.png" width="400">
  
 
+<br/><br/>
+
 <h1>See Also</h1>
 
 
