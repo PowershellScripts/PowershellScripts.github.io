@@ -215,22 +215,27 @@ Every app registration in Azure AD is provided a publicly accessible endpoint th
 
 To find the configuration document for your app, navigate to the Azure portal and then: Select Azure Active Directory >> App registrations >> YourApp >> Endpoints. Locate the URI under OpenID Connect metadata document. It should look something like this:
 https://login.microsoftonline.com/YOURTENANTID/v2.0/.well-known/openid-configuration <br/>
-where path is: /.well-known/openid-configuration <br/>
+where 
+<br/>
+path is: /.well-known/openid-configuration <br/>
 and authority URL is: https://login.microsoftonline.com/{tenant}/v2.0
 
 For more information go to [OpenID Connect on the Microsoft identity platform](https://learn.microsoft.com/en-us/azure/active-directory/develop/v2-protocols-oidc).
 
-<required-claims>
-aud
+<h3> required-claims</h3>   
+    <h4>aud</h4>
 It's up to you to decide which claims will be checked. One of the more common ones is the aud which in our case will be identical with the guid in our scope.
-As per RFC definition aud claim refers to the recipient of the access token:
+As per[ RFC definition ](https://www.rfc-editor.org/rfc/rfc7519#section-4.1.3) aud claim refers to the recipient of the access token:
+<br/>
 
-The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL. 
+ >   The "aud" (audience) claim identifies the recipients that the JWT is intended for. Each principal intended to process the JWT MUST identify itself with a value in the audience claim. If the principal processing the claim does not identify itself with a value in the "aud" claim when this claim is present, then the JWT MUST be rejected. In the general case, the "aud" value is an array of case- sensitive strings, each containing a StringOrURI value. In the special case when the JWT has one audience, the "aud" value MAY be a single case-sensitive string containing a StringOrURI value. The interpretation of audience values is generally application specific. Use of this claim is OPTIONAL. 
+
+ <br/>
 In our case the recipient, or the audience, will be Azure Function.
  
 
-azp
-IANA  defines azp as Authorized party - the party to which the ID Token was issued.
+<h4>azp</h4>
+[IANA](http://https//www.iana.org/assignments/jwt/jwt.xhtml)  defines azp as Authorized party - the party to which the ID Token was issued.
 
 Open ID specification  Jump gives the following definition:
 OPTIONAL. Authorized party - the party to which the ID Token was issued. If present, it MUST contain the OAuth 2.0 Client ID of this party. This Claim is only needed when the ID Token has a single audience value and that audience is different than the authorized party. It MAY be included even when the authorized party is the same as the sole audience. The azp value is a case sensitive string containing a StringOrURI value.
