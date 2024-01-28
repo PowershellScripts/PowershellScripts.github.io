@@ -18,6 +18,7 @@ Which app calls which? One of the first things to consider is the [design](https
 
 
 </br></br>
+
 <h1>Authorization Flow</h1>
 
 Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime). 
