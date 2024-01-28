@@ -12,6 +12,7 @@ date: '2024-01-28'
 When setting scope for your application permissions, mind the different access scenarios:
 
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc7.png" width="400">
+ 
 <sup>Image source: https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview</sup>
 
 For more details on delegated vs app-only access see [Permissions and consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview).
@@ -70,4 +71,5 @@ For us, the second scenario (making service-to-service calls or using applicatio
 For a backend app (our Azure Function) with the following data:
 
   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc13.png" width="400">
+  
 the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
