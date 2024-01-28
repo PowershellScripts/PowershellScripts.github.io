@@ -62,7 +62,7 @@ v1.0 is selected as a default for Azure AD-only applications.
 
 v2.0 is selected as a default for applications that support consumer accounts. 
 
-The contents of the token are not decoded directly in applications and are intended for the API only, however, for troubleshooting purposes you can decode your tokens using https://jwt.ms/ Jump  or https://jwt.io/ Jump  sites.
+The contents of the token are not decoded directly in applications and are intended for the API only, however, for troubleshooting purposes you can decode your tokens using [https://jwt.ms/](https://jwt.ms/)  or [https://jwt.io/](https://jwt.io/)  sites.
 
 
 V1.0 
