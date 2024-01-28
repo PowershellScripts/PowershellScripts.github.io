@@ -27,7 +27,7 @@ The first one is the most common scenario. Azure API Management is a "transparen
 In the second scenario, the API Management service acts on behalf of the API, and the scope of the access token is between the **calling application and API Management**. The second scenario will be usually used when calling the backend API is not possible. For example, when the [backend API does not support OAuth](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#audience-is-api-management).
 
 
-</br></br>
+<br/><br/>
 
 <h1>Authorization Flow</h1>
 
