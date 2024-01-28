@@ -106,6 +106,7 @@ to 2:
 It may take a few minutes to apply the changes. Get a coffee :)
 
 <br/><br/>
+
 <h1>Scope</h1>
 When setting scope for your application permissions, mind the different access scenarios:
 
@@ -173,6 +174,7 @@ the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
 
  
 <br/><br/>
+
 <h1>API Management Policies</h1>
 
 Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
