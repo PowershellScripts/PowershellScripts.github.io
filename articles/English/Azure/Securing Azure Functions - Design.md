@@ -2,7 +2,7 @@
 layout: page
 title: 'Securing Azure Functions: Design Considerations'
 hero_image: '/img/IMG_20220521_140146.jpg'
-show_sidebar: false
+show_sidebar: true
 hero_height: is-small
 date: '2024-01-25'
 ---
@@ -97,6 +97,9 @@ It may take a few minutes to apply the changes.
 <br/><br/>
 
 <h1>See Also</h1>
+
 [Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+
 [Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+
 [Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
