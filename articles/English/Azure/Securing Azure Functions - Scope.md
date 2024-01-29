@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Securing Azure Functions: Tooling'
+title: 'Securing Azure Functions: Scope'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -73,3 +73,14 @@ For a backend app (our Azure Function) with the following data:
   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc13.png" width="400">
   
 the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
+
+
+<br/><br/>
+
+<h1>See Also</h1>
+
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+
+[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+
+[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
