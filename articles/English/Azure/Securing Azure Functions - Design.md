@@ -93,3 +93,10 @@ to 2:
  
 
 It may take a few minutes to apply the changes.
+
+<br/><br/>
+
+<h1>See Also</h1>
+[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
