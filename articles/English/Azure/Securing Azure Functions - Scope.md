@@ -84,3 +84,24 @@ the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
 [Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
 
 [Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
+
+
+<!-- Default Statcounter code for Azure - Scope
+https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/
+-->
+<script type="text/javascript">
+var sc_project=12962354; 
+var sc_invisible=1; 
+var sc_security="7644b0bc"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="free web stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12962354/0/7644b0bc/1/"
+alt="free web stats"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
