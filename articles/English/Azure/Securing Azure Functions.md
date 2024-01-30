@@ -381,3 +381,24 @@ The data contains the output and input of the Azure Function, as well as the tim
 [Introduction to permissions and consent](https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview)https://learn.microsoft.com/en-us/azure/active-directory/develop/permissions-consent-overview
 
 [Just what *is* the /.default scope in the Microsoft identity platform & Azure AD?](https://dev.to/425show/just-what-is-the-default-scope-in-the-microsoft-identity-platform-azure-ad-2o4d)https://dev.to/425show/just-what-is-the-default-scope-in-the-microsoft-identity-platform-azure-ad-2o4d
+
+
+
+<!-- Default Statcounter code for Azure - all
+https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions/
+-->
+<script type="text/javascript">
+var sc_project=12962351; 
+var sc_invisible=1; 
+var sc_security="ab89bc3d"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12962351/0/ab89bc3d/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
