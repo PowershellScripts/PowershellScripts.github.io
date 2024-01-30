@@ -190,3 +190,27 @@ $xmlDoc.Save($XMLPath)
 [Audit SharePoint Online folder structure to XML](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/File%20Management/Audit%20folder%20structure/Audit%20SharePoint%20Online%20folder%20structure%20to%20XML)
 
 [Get the structure of your SharePoint library (folders + files) to XML](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/File%20Management/Audit%20folder%20structure/Get%20the%20structure%20of%20your%20SharePoint%20library%20(folders%20and%20files)%20to%20XML)
+
+
+
+
+<!-- Default Statcounter code for Export folders to XML
+https://powershellscripts.github.io/articles/English/SharePointOnline/Exportfolderstructure/
+-->
+<script type="text/javascript">
+var sc_project=12962377; 
+var sc_invisible=0; 
+var sc_security="217ff976"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12962377/0/217ff976/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
