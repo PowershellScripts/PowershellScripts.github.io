@@ -101,6 +101,32 @@ I like to check this claim, because it helps to avoid the required assignment is
 
 <h1>See Also</h1>
 
-Securing Azure Functions: Design Considerations
-Securing Azure Functions: Scope
-Securing Azure Functions: Tooling
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+
+[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+
+[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
+
+
+
+<!-- Default Statcounter code for Azure - API
+https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/
+-->
+<script type="text/javascript">
+var sc_project=12962355; 
+var sc_invisible=0; 
+var sc_security="042aeb11"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12962355/0/042aeb11/0/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+
