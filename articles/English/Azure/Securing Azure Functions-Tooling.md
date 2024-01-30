@@ -6,12 +6,10 @@ show_sidebar: false
 hero_height: is-small
 date: '2024-01-27'
 ---
-<h1>Tooling</h1>
-
 
 There are several great tools that will help you troubleshoot and test your scenario.
 
-<h3>Postman</h3>
+<h1>Postman</h1>
 
 All API calls can be tested using Postman. You can [download Postman software](https://www.postman.com/downloads/) for free from the [official Postman site](https://www.postman.com/). If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an [online version of Postman](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/). You sign up and it works beautifully. I highly recommend it. I did get an occasional [CORS issue](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors) when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
 
@@ -47,7 +45,7 @@ Set **Grant_type** to "**client_credentials**". Make sure the scope is the same 
 
 
 
-<h3>Application Insights</h3>
+<h1>Application Insights</h1>
 
 Application Insights is an extension of Azure Monitor and provides Application Performance Monitoring (also known as “APM”) features. It is well integrated with Azure Functions with no additional coding effort. To start using Application Insights, navigate to your Function App, scroll down, and click **Turn on Application Insights**
 
@@ -65,7 +63,7 @@ Verify your Application Insights setup by sending e.g. an expired token. You sho
 
 
 
-<h4>Selected features</h4>
+<h3>Selected features</h3>
 
 Some of the cool features of Application Insights are:
 * OOTB Availability Tests that monitor if your app is up and running
@@ -90,17 +88,17 @@ Some of the cool features of Application Insights are:
 
 
 
-<h3>Trace</h3>
+<h1>Trace</h1>
 Trace is one of the test options within the API Management. It allows you to quickly test your calls. Mind you, trace logs may contain sensitive information such as keys, access tokens, passwords, internal hostnames, and IP addresses. Be careful when sharing trace logs from API Management.
 
-<h4>How to enable it?</h4>
+<h3>How to enable it?</h3>
 
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc26.png" width="400">
  
 
 
 
-<h3>Monitor executions with History</h3>
+<h1>Monitor executions with History</h1>
 Every Azure Function needs a storage, where you will find 2 tables:
 
 * History
@@ -114,6 +112,31 @@ The data contains the output and input of the Azure Function, as well as the tim
 
 
 <h1>See Also</h1>
-Securing Azure Functions: Design Considerations
-Securing Azure Functions: Scope
-Securing Azure Functions: Tooling
+
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+
+[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+
+[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+
+
+<!-- Default Statcounter code for Azure - Tooling
+https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/
+-->
+<script type="text/javascript">
+var sc_project=12962358; 
+var sc_invisible=0; 
+var sc_security="519da304"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12962358/0/519da304/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
