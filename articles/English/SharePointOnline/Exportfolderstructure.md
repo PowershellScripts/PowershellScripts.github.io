@@ -11,7 +11,7 @@ date: '2024-01-28'
 
 SharePoint has a lot of options allowing you to organize your files. Some of them really amazing. Folders are useful and your users have been familiar with them for a long time before SharePoint, but they aren't necessarily the best way of organizing your files. There is a lot of reasons why not to use them.
 
-But once you have used them and your users happily created unstructured, repeating, unrecoverable mess, you may want to audit them, see the structure of your library and find out if you can reorganize, restructure or replace them with metadata.
+But once you have started using SharePoint folders and your users happily created unstructured, repeating, unrecoverable folder mess, you may want to audit them, see the structure of your SharePoint library and find out if you can reorganize, restructure or replace SharePoint folders with managed metadata.
 
 
 # Retrieve folders
@@ -27,7 +27,7 @@ Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extens
 
 ## Step 2a: Connect to SharePoint Online
 
-Create client context and test the connection.
+Use this step if you are working with SharePoint Online. The rest of the steps are exactly the same for both environments. Create client context and test the connection.
 
 ```powershell
 $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
@@ -38,7 +38,7 @@ $ctx.ExecuteQuery()
 
 ## Step 2b: Connect to SharePoint Server
 
-This solution can work with either SharePoint Online or SharePoint Server. Choose step A or step B depending on your environment.
+Use this step if you are working with SharePoint Server. The rest of the steps are exactly the same for both environments. 
 
 ```powershell
 $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
@@ -70,7 +70,7 @@ foreach($folder in $folderCollectionFirstLevel)
 }
 ```
 
-where Get-folders is the name of your function calling itself
+where ```Get-folders``` is the name of your function calling itself.
 
 
 
@@ -101,7 +101,7 @@ $folderNode = $xmlDoc.CreateElement("Folder")
 $xmlDoc.SelectSingleNode("/Folders").AppendChild($folderNode)
 ```
 
-We are dealing, however, with irregular structure, going maybe hundreds of levels down. We also cannot assume that all folder names will be unique. Partial folder structure may be copied in several places, e.g. folder Invoices in folder Payments may appear in both HR folder and Accounting folder, i.e. Accounting\Payments\Invoices and HR\Payments\Invoices. That means that comparing just the name of a parent folder or even two levels up folder is not a solution. We need to follow the exact path.
+We are dealing, however, with irregular folder structure, sub-folders going maybe hundreds of levels down. We also cannot assume that all folder names will be unique. Partial folder structure may be copied in several places, e.g. folder Invoices in folder Payments may appear in both HR folder and Accounting folder, i.e. Accounting\Payments\Invoices and HR\Payments\Invoices. That means that comparing just the name of a parent folder or even two levels up folder is not a solution. We need to follow the exact path.
 
 ## Step 3: Find the parent
 
