@@ -1,8 +1,9 @@
 ---
 layout: page
 title: 'Export your folder structure to XML using Powershell'
+menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
-show_sidebar: true
+show_sidebar: false
 hero_height: is-small
 date: '2024-01-28'
 ---
