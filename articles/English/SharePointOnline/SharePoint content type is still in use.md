@@ -30,15 +30,17 @@ Most likely one of the items is still the content type. The following cmdlets wi
 # Paths to SDK. Please verify location on your computer.
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.dll"
 Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\16\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
+```
+
 4. Make sure that the paths correspond to the locations of SDK on your machine. Most often you need to change 16 into 15.
 
 5. Save the file.
 
 6. Open Powershell as an Administrator.
 
-7. Run Import-Module PathToTheSPOModFile
+7. Run ```Import-Module PathToTheSPOModFile```
 
-8. Connect-SPOCSOM
+8. ```Connect-SPOCSOM```
 
 9. Ready to go :)
 
@@ -58,7 +60,7 @@ The items will be removed from the Recycle Bin as well! There is no way to retri
 
  
 
-Alternative UI approach
+<h1>Alternative UI approach</h1>
 
 Step 1. Navigate to the list. Open the ribbon and click Modify view:
 
