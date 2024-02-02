@@ -47,13 +47,12 @@ Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extens
 Enter the following cmdlet. It will remove all items matching specific ContentTypeID:
 
  
-
+```powershell
 foreach($item in(Get-SPOListItems -ListTitle YOURLISTTITLE -IncludeAllProperties $true | where {$_.ContentTypeId -match "0x0111002440A334027B18479FB4EDAFF1F149FF00AC40BD13F3F10A46A50C44E1F6D19EF0"})) { Remove-SPOListItem -ListTitle YOURLISTTITLE -ItemID $item.ID}
-How to find content type ID in SharePoint Online?
+```
 
  
 
- 
 
 The cmdlet involves data loss
 The items will be removed from the Recycle Bin as well! There is no way to retrieve them.
