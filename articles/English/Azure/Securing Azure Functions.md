@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Securing Azure Functions with API Management and OAuth 2.0: Troubleshooting Compendium'
+title: 'Secure Azure Functions with API Management'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -22,9 +22,9 @@ Which app calls which? One of the first things to consider is the [design](https
 Image source:  https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview
 </sup>
 
-The first one is the most common scenario. Azure API Management is a "transparent" proxy between the caller and backend API. This is what most tutorials, guides and troubleshooters refer to. You can still configure policies in APIM to validate the token, and check other claims of interest extracted from the token, but the calling application requests access to the API directly. The scope of the access token is between the **calling application and backend API**. 
+The first scenario is the most common. Azure API Management is a "transparent" proxy between the caller and backend API. This is what most tutorials, guides and troubleshooters refer to. You can still configure policies in APIM to validate the token, and check other claims of interest extracted from the token, but the calling application requests access to the API directly. The scope of the access token is between the **calling application and backend API**. 
 
-In the second scenario, the API Management service acts on behalf of the API, and the scope of the access token is between the **calling application and API Management**. The second scenario will be usually used when calling the backend API is not possible. For example, when the [backend API does not support OAuth](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#audience-is-api-management).
+In the second scenario, the API Management service acts on behalf of the API. The scope of the access token is between the **calling application and API Management**. The second scenario will be usually used when calling the backend API is not possible. For example, when the [backend API does not support OAuth](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#audience-is-api-management).
 
 
 <br/><br/>
@@ -36,7 +36,7 @@ Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/
 <img src="/articles/images/SecureAzFunc/Github-secureayfunc2.svg" width="600" alt="Diagram that shows the process flow for creating runtime.">
 
 
-The client app needs to call API Management. If you can call your Azure Function directly, using only function code - it's not secured with OAuth.
+The client app needs to call API Management. If you can call your Azure Function directly, using only the function code - it's not secured with OAuth.
 
 
 
