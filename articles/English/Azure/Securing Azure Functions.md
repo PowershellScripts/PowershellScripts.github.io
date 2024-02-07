@@ -14,7 +14,7 @@ I am not an Azure expert. I haven't been doing it for the last 50 years and I ha
 
 <h1>Design</h1>
 
-Which app calls which? One of the first things to consider is the [design](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#oauth-20-authorization-scenarios) you want to follow. The authentication flow you choose will decide what is authorised to what. Consider these two scenarios:
+Which app calls which? One of the first things to consider when planning your API Management (called APIM in short) is the [design](https://learn.microsoft.com/en-us/azure/api-management/authentication-authorization-overview#oauth-20-authorization-scenarios) you want to follow. The authentication flow you choose will decide what is authorised to what. Consider these two scenarios:
 
 <img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="600"  alt="Diagram showing OAuth communication where audience is the backend.Diagram showing OAuth communication where audience is the API Management gateway.">
 
@@ -31,12 +31,12 @@ In the second scenario, the API Management service acts on behalf of the API. Th
 
 <h1>Authorization Flow</h1>
 
-Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime). 
+Make sure you understand [authorization flow](https://learn.microsoft.com/en-us/azure/api-management/authorizations-overview#process-flow-for-runtime) when setting up your Azure API Management. 
 
 <img src="/articles/images/SecureAzFunc/Github-secureayfunc2.svg" width="600" alt="Diagram that shows the process flow for creating runtime.">
 
 
-The client app needs to call API Management. If you can call your Azure Function directly, using only the function code - it's not secured with OAuth.
+The client app needs to call API Management. Test it. If you can call your Azure Function directly, using only the function code - it's not secured with OAuth.
 
 
 
@@ -62,7 +62,7 @@ v1.0 is selected as a default for Azure AD-only applications.
 
 v2.0 is selected as a default for applications that support consumer accounts. 
 
-The contents of the token are not decoded directly in applications and are intended for the API only, however, for troubleshooting purposes you can decode your tokens using [https://jwt.ms/](https://jwt.ms/)  or [https://jwt.io/](https://jwt.io/)  sites.
+The contents of the token are not decoded directly in applications and are intended for the API only, however, for troubleshooting purposes you can decode your JSON Web Tokens using [https://jwt.ms/](https://jwt.ms/)  or [https://jwt.io/](https://jwt.io/)  sites.
 
 
 V1.0 
@@ -91,13 +91,12 @@ The site [https://jwt.ms/](https://jwt.ms/)  also helps to interpret the claims 
 
 <h3>What does it mean that the token version is wrong?</h3>
 
-* If there is a mismatch between issuers, i.e. in the decoded token you see sts.windows.net and APIM policy requires login.microsoftonline.com 
+* If there is a mismatch between issuers, i.e. in the decoded token you see **sts.windows.net** and API Management policy requires **login.microsoftonline.com** 
 * When you receive "Invalid token" error
 
 <h3>How to "fix" token version?</h3>
 
-Go to manifest in your app registration and set accessTokenAcceptedVersion
-to 2:
+Go to Azure Portal, to your app registration. Inside the Azure app registration, open manifest and set accessTokenAcceptedVersion to 2:
 
 <img src="/articles/images/SecureAzFunc/Github-SecAzFunc6.png" width="400">
 
@@ -140,7 +139,7 @@ Once you have enabled the required assignment setting, but before you assigned a
 
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc10.png" width="600">
 
-If you receive **Application is not assigned to a role for the application** error, go to App Registrations >> Choose your client app >> API Permissions:
+If you receive **Application is not assigned to a role for the application** error, go to Azure Portal >> App Registrations >> Choose your client app >> API Permissions:
 
   <img src="/articles/images/SecureAzFunc/Github-SecAzFunc11.png" width="400">
 
@@ -177,7 +176,7 @@ the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
 
 <h1>API Management Policies</h1>
 
-Azure API Management is a hybrid, multi-cloud management platform for APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
+Azure API Management Policies allow to manage hybrid, multi-cloud APIs across all environments. As a platform-as-a-service, API Management supports the complete API lifecycle. The inbound processing rules allow you to configure a JWT validation policy to pre-authorize requests:
  
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc14.png" width="400">
 
@@ -257,9 +256,8 @@ I like to check this claim, because it helps to avoid the required assignment is
             </claim>
             <claim name="azp" match="any">
                  <value>a1888df2-84c2-4379-8d53-7091dd630ca7</value>
-           <value>f1d55d9b-b116-4f54-bc00-164a51e7e47f</value>
-       
-            <value>d5dfkae9-4f54-bc00-8d53-164a5130ca7b</value>
+                 <value>f1d55d9b-b116-4f54-bc00-164a51e7e47f</value>
+                 <value>d5dfkae9-4f54-bc00-8d53-164a5130ca7b</value>
             </claim>
         </required-claims>
  
@@ -276,7 +274,7 @@ There are several great tools that will help you troubleshoot and test your scen
 All API calls can be tested using Postman. You can [download Postman software](https://www.postman.com/downloads/) for free from the [official Postman site](https://www.postman.com/). If installing software is not possible, due to Proxy issues, Company policies, or other restrictions, there is an [online version of Postman](https://blog.postman.com/announcing-postman-for-the-web-now-in-open-beta/). You sign up and it works beautifully. I highly recommend it. I did get an occasional [CORS issue](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS/Errors) when my network setup was really muddy, but 99% of the time it's easy to use and also very portable - which plays an important role if you often switch between machines and environments.
 
 
-Postman offers an option to save your credentials and speed up your calls, but since authentication is exactly the thing you will be testing - do not use that option.
+Postman offers an option to save your credentials and speed up your calls, but since authentication is exactly the thing you will be testing to check your API Management setup - do not use that option.
 
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc15.png" width="400">
 
@@ -293,7 +291,7 @@ Sending the request for the JWT requires the following:
  
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc16.png" width="400">
 
-Set **Grant_type** to "**client_credentials**". Make sure the scope is the same scope you defined inside your app registration:
+Set **Grant_type** to "**client_credentials**". Make sure the scope is the same scope you defined inside your Azure app registration:
 
  <img src="/articles/images/SecureAzFunc/Github-SecAzFunc17.png" width="200">
 
