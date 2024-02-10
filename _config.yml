@@ -1,136 +1,82 @@
-# Set theme
-theme: chrisrhymes/bulma-clean-theme
-# daviddarnes/alembic@main
-
-# File excludes
-exclude:
-- README.md
-- Gemfile
-- Gemfile.lock
-
-# Set plugins
-plugins:
-- jekyll-sitemap
-- jekyll-mentions
-- jekyll-paginate
-- jekyll-seo-tag
-- jekyll-redirect-from
-- jekyll-feed
-- jekyll-commonmark
-- jekyll-include-cache
-- jemoji
-- jekyll-remote-theme
-
-# Site settings
-url: 'https://powershellscripts.github.io/'
-baseurl: ''
-title: 'Microsoft 365 Tips and Tricks'
-description: 'Articles on Powershell and Microsoft 365 services'
+# Site Settings
+lang: en
+title: Bulma Clean Theme
+tagline: Bulma Clean Theme
+email: your-email@domain.com
+description: >
+  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
+baseurl: "/bulma-clean-theme"
+url: "https://www.csrhymes.com"
 permalink: pretty
-logo: "https://i.picsum.photos/id/8/80/80.jpg"
+#favicon: /path/to/favicon.png
+gh_sponsor: chrisrhymes
+#hide_share_buttons: true
+#theme_color: '#eeeeee'
+#fixed_navbar: top
+#direction: one of <ltr, rtl, auto>, default: ltr
 
-# Pagination
 paginate: 5
-paginate_path: blog/page:num
+paginate_path: "/blog/page:num"
 
-# Header nav
-navigation_header:
-- title: Home
-  url: /
-- title: About
-  url: /about/
-- title: Articles
-  url: /blog/
+# Disqus Comments
+disqus:
+  # Leave shortname blank to disable comments site-wide.
+  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+  # shortname: my_disqus_shortname
+  shortname: csrhymes
 
-# Footer nav
-navigation_footer:
-- title: Back to top
-  url: "#top"
 
-# Collections
-collections:
-  posts:
-    title: News & Novelties
-    output: true
-    description: "My thoughts and ideas"
-    feature_text: Welcome to my articles
-    feature_image: "https://picsum.photos/2560/600?image=866"
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-feed
+  - jekyll-seo-tag
+  - kramdown-parser-gfm
+  - jekyll-redirect-from
 
-# Collection settings
+exclude: 
+  - Gemfile
+  - clean-theme.gemspec
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+livereload: true
+
+sass:
+  style: compressed
+  source_dir: _sass
+
+#google_analytics: UA-code-here
+
 defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: pages # Set the default layout for posts
   -
     scope:
       path: ""
       type: "pages"
     values:
-      layout: page # Set the default layout for pages
+      show_sidebar: true
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      author: "C.S. Rhymes"
+      layout: post
+      image: https://via.placeholder.com/1200x800
+      show_sidebar: true
 
+markdown: kramdown
+highlighter: rouge
 
-# Disqus Comments to set up
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: 
+footer_menu: example_footer_menu
 
-
-# plugins:
-#   - jekyll-sitemap
-#   - jekyll-paginate
-#   - jekyll-feed
-#   - jekyll-seo-tag
-#   - kramdown-parser-gfm
-#   - jekyll-redirect-from
-
-# exclude: 
-#   - Gemfile
-#   - clean-theme.gemspec
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# livereload: true
-
-# sass:
-#   style: compressed
-#   source_dir: _sass
-
-google_analytics: UA-code-here
-
-# defaults:
-#   -
-#     scope:
-#       path: ""
-#       type: "pages"
-#     values:
-#       show_sidebar: true
-#   -
-#     scope:
-#       path: ""
-#       type: "posts"
-#     values:
-#       author: "C.S. Rhymes"
-#       layout: post
-#       image: https://via.placeholder.com/1200x800
-#       show_sidebar: true
-
-# markdown: kramdown
-# highlighter: rouge
-
-# footer_menu: example_footer_menu
-
-# collections:
-#   products: 
-#     output: true
-#     layout: product
-#     image: https://via.placeholder.com/800x600
-#     show_sidebar: false
+collections:
+  products: 
+    output: true
+    layout: product
+    image: https://via.placeholder.com/800x600
+    show_sidebar: false
