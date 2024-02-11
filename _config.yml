@@ -1,5 +1,5 @@
 # Set theme
-# theme: bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 # daviddarnes/alembic@main
 
 # File excludes
@@ -9,6 +9,17 @@ exclude:
 - Gemfile.lock
 
 # Set plugins
+plugins:
+- jekyll-sitemap
+- jekyll-mentions
+- jekyll-paginate
+- jekyll-seo-tag
+- jekyll-redirect-from
+- jekyll-feed
+- jekyll-commonmark
+- jekyll-include-cache
+- jemoji
+- jekyll-remote-theme
 
 # Site settings
 url: 'https://powershellscripts.github.io/'
