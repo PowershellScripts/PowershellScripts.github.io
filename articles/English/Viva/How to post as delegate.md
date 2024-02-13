@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'How to post as delegate'
+title: 'How to post as a delegate'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -29,7 +29,7 @@ As a delegate you can create posts on behalf of the delegating user. In order to
 <br/><br/>
 <img src="/articles/images/G-PostAsDelegate1.PNG" width="400">
 <br/><br/>
-The delegates can also edit and delete posts. The delegates can also write comments on other users' posts, but they cannot use reactions, such as Like. 
+The delegates can also edit and delete posts. The delegates can also write comments in Viva Engage on other users' posts, but they cannot use reactions, such as Like. 
 <br/><br/>
 <img src="/articles/images/G-PostAsDelegate2.PNG" width="400">
 
