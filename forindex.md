@@ -18,18 +18,25 @@ It is under construction but you can already find some of the tips and tricks in
 
 Enjoy!
 
-Content Types
-SharePoint Online content types in Powershell: Add
-SharePoint Online content types in Powershell: Get
-SharePoint Online content types in Powershell: Edit
-SharePoint Online: Turn on support for multiple content types in a list or library using Powershell
-SharePoint Online content types in PowerShell: Group property
-SharePoint Online: Remove site content type using PowerShell
-SharePoint Online content types in Powershell: Fields vs Field Links
-SharePoint Online content types in Powershell: Known Errors
-Find content type ID in SharePoint Online using PowerShell
-Content Type is still in use: Powershell to remove items and content types
-Versioning
+<br/><br/><br/><br/>
+Links to my older Social Technet Articles
+
+<h3>Content Types</h3>
+
+* [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx)
+
+* [SharePoint Online content types in Powershell: Get](http://social.technet.microsoft.com/wiki/contents/articles/31151.sharepoint-online-content-types-in-powershell-get.aspx)
+* [SharePoint Online content types in Powershell: Edit](https://social.technet.microsoft.com/wiki/contents/articles/31444.sharepoint-online-content-types-in-powershell-edit.aspx)
+* [SharePoint Online: Turn on support for multiple content types in a list or library using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/30038.sharepoint-online-turn-on-support-for-multiple-content-types-in-a-list-or-library-using-powershell.aspx)
+* [SharePoint Online content types in PowerShell: Group property](http://social.technet.microsoft.com/wiki/contents/articles/31725.sharepoint-online-content-types-in-powershell-group-property.aspx)
+* [SharePoint Online: Remove site content type using PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/30158.sharepoint-online-remove-site-content-type-using-powershell.aspx)
+* [SharePoint Online content types in Powershell: Fields vs Field Links](https://social.technet.microsoft.com/wiki/contents/articles/31694.sharepoint-online-content-types-in-powershell-fields-vs-field-links.aspx)
+* [SharePoint Online content types in Powershell: Known Errors](https://social.technet.microsoft.com/wiki/contents/articles/31770.sharepoint-online-content-types-in-powershell-known-errors.aspx)
+* [Find content type ID in SharePoint Online using PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/35717.find-content-type-id-in-sharepoint-online-using-powershell.aspx)
+* [Content Type is still in use: Powershell to remove items and content types](https://social.technet.microsoft.com/wiki/contents/articles/35716.content-type-is-still-in-use-powershell-to-remove-items-and-content-types.aspx)
+
+
+<h3>Versioning</h3>
 Versioning and SharePoint: the Powershell perspective (part 1)
 Versioning and SharePoint: the Powershell perspective (part 2)
 SharePoint Versioning: the Powershell perspective (part 3)
