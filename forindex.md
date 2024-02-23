@@ -35,10 +35,12 @@ Links to my older Social Technet Articles
 * [Find content type ID in SharePoint Online using PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/35717.find-content-type-id-in-sharepoint-online-using-powershell.aspx)
 * [Content Type is still in use: Powershell to remove items and content types](https://social.technet.microsoft.com/wiki/contents/articles/35716.content-type-is-still-in-use-powershell-to-remove-items-and-content-types.aspx)
 
-
+<br/><br/>
 <h3>Versioning</h3>
-Versioning and SharePoint: the Powershell perspective (part 1)
-Versioning and SharePoint: the Powershell perspective (part 2)
+
+* [Versioning and SharePoint: the Powershell perspective (part 1)](http://social.technet.microsoft.com/wiki/contents/articles/30115.versioning-and-sharepoint-the-powershell-perspective-part-1.aspx)
+
+* Versioning and SharePoint: the Powershell perspective (part 2)
 SharePoint Versioning: the Powershell perspective (part 3)
 Working with multiple items using Powershell
 Delete unique permissions in multiple lists using CSOM
