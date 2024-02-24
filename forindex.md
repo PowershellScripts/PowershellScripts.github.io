@@ -40,9 +40,9 @@ Links to my older Social Technet Articles
 
 * [Versioning and SharePoint: the Powershell perspective (part 1)](http://social.technet.microsoft.com/wiki/contents/articles/30115.versioning-and-sharepoint-the-powershell-perspective-part-1.aspx)
 
-* Versioning and SharePoint: the Powershell perspective (part 2)
-SharePoint Versioning: the Powershell perspective (part 3)
-Working with multiple items using Powershell
+* [Versioning and SharePoint: the Powershell perspective (part 2)](https://social.technet.microsoft.com/wiki/contents/articles/30150.versioning-and-sharepoint-the-powershell-perspective-part-2.aspx)
+
+* [Working with multiple items using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/31382.sharepoint-online-working-with-multiple-items-using-powershell.aspx)
 Delete unique permissions in multiple lists using CSOM
 Create a report on SharePoint file versions
 Workflows
