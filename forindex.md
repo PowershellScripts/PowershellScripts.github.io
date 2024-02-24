@@ -43,10 +43,14 @@ Links to my older Social Technet Articles
 * [Versioning and SharePoint: the Powershell perspective (part 2)](https://social.technet.microsoft.com/wiki/contents/articles/30150.versioning-and-sharepoint-the-powershell-perspective-part-2.aspx)
 
 * [Working with multiple items using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/31382.sharepoint-online-working-with-multiple-items-using-powershell.aspx)
-Delete unique permissions in multiple lists using CSOM
-Create a report on SharePoint file versions
-Workflows
-SharePoint Online: Verifying and modifying Flows Policy in site using PowerShell
+* [Delete unique permissions in multiple lists using CSOM](http://social.technet.microsoft.com/wiki/contents/articles/29556.sharepoint-online-delete-unique-permissions-in-multiple-lists-using-csom.aspx)
+* [Create a report on SharePoint file versions](https://social.technet.microsoft.com/wiki/contents/articles/32613.create-a-report-on-sharepoint-file-versions.aspx)
+
+
+<br/><br/>
+<h3>Workflows</h3>
+
+* [SharePoint Online: Verifying and modifying Flows Policy in site using PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/39331.sharepoint-online-verifying-and-modifying-flows-policy-in-site-using-powershell.aspx)
 SharePoint 2013/2016 Troubleshooting Workflow Farm
 Reject? Approve? The third option in SharePoint Designer 2013 workflows
 Error handling in Microsoft Flow
