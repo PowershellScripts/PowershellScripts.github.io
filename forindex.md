@@ -51,10 +51,11 @@ Links to my older Social Technet Articles
 <h3>Workflows</h3>
 
 * [SharePoint Online: Verifying and modifying Flows Policy in site using PowerShell](https://social.technet.microsoft.com/wiki/contents/articles/39331.sharepoint-online-verifying-and-modifying-flows-policy-in-site-using-powershell.aspx)
-SharePoint 2013/2016 Troubleshooting Workflow Farm
-Reject? Approve? The third option in SharePoint Designer 2013 workflows
-Error handling in Microsoft Flow
-Microsoft Flow: Optional input for a selected item in a SharePoint list
+* [SharePoint 2013/2016 Troubleshooting Workflow Farm](http://social.technet.microsoft.com/wiki/contents/articles/51716.sharepoint-20132016-troubleshooting-workflow-farm.aspx)
+* [Reject? Approve? The third option in SharePoint Designer 2013 workflows](http://social.technet.microsoft.com/wiki/contents/articles/51865.reject-approve-the-third-option-in-sharepoint-designer-2013-workflows.aspx)
+* [Error handling in Microsoft Flow](https://social.technet.microsoft.com/wiki/contents/articles/51961.error-handling-in-microsoft-flow.aspx)
+
+
 Permissions & Sharing
 SharePoint Online: How to change primary administrator for all site collections using PowerShell
 Restoring and removing item permissions in subfolders for SharePoint Online using Powershell
