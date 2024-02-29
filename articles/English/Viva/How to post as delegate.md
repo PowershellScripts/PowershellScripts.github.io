@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'How to post as a delegate'
+menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
