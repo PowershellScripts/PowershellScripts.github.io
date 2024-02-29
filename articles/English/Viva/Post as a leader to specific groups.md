@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'Post as a leader to specific groups'
+menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
