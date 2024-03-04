@@ -56,11 +56,13 @@ Links to my older Social Technet Articles
 * [Error handling in Microsoft Flow](https://social.technet.microsoft.com/wiki/contents/articles/51961.error-handling-in-microsoft-flow.aspx)
 
 
-Permissions & Sharing
-SharePoint Online: How to change primary administrator for all site collections using PowerShell
-Restoring and removing item permissions in subfolders for SharePoint Online using Powershell
-SharePoint Online Sharing settings with CSOM
-Language-independent SharePoint Online permission groups
+<br/><br/>
+<h3>Permissions & Sharing</h3>
+
+* [SharePoint Online: How to change primary administrator for all site collections using PowerShell](http://social.technet.microsoft.com/wiki/contents/articles/30299.sharepoint-online-how-to-change-primary-administrator-for-all-site-collections-using-powershell.aspx)
+* Restoring and removing item permissions in subfolders for SharePoint Online using Powershell
+* SharePoint Online Sharing settings with CSOM
+* Language-independent SharePoint Online permission groups
 SharePoint Online: PowerShell to delete unique permissions in all list items
 SharePoint Online: Remove users from site groups using PowerShell
 Manage SharePoint Online Access Requests using Powershell
