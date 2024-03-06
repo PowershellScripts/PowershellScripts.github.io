@@ -41,3 +41,25 @@ The delegates can also edit and delete posts. The delegates can also write comme
 [Post as a leader to specific groups](https://powershellscripts.github.io/articles/English/Viva/Post%20as%20a%20leader%20to%20specific%20groups/)
 
 [Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/English/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/)
+
+
+
+<!-- Default Statcounter code for Viva Post as Delegate
+https://powershellscripts.github.io/articles/English/Viva/How%20to%20post%20as%20delegate/
+-->
+<script type="text/javascript">
+var sc_project=12974160; 
+var sc_invisible=0; 
+var sc_security="78fd46e7"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12974160/0/78fd46e7/0/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
