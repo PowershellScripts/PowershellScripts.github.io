@@ -63,9 +63,9 @@ Links to my older Social Technet Articles
 * Restoring and removing item permissions in subfolders for SharePoint Online using Powershell
 * SharePoint Online Sharing settings with CSOM
 * Language-independent SharePoint Online permission groups
-SharePoint Online: PowerShell to delete unique permissions in all list items
-SharePoint Online: Remove users from site groups using PowerShell
-Manage SharePoint Online Access Requests using Powershell
+* SharePoint Online: PowerShell to delete unique permissions in all list items
+* SharePoint Online: Remove users from site groups using PowerShell
+* Manage SharePoint Online Access Requests using Powershell
 SharePoint 2013/2016: Approve or decline Access Requests using Powershell and CSOM
 SharePoint 2013/2016: Missing Access Request Settings
 Other
