@@ -65,19 +65,25 @@ Links to my older Social Technet Articles
 * [SharePoint Online: PowerShell to delete unique permissions in all list items](https://social.technet.microsoft.com/wiki/contents/articles/29718.sharepoint-online-powershell-to-delete-unique-permissions-in-all-list-items.aspx)
 * SharePoint Online: Remove users from site groups using PowerShell
 * Manage SharePoint Online Access Requests using Powershell
-SharePoint 2013/2016: Approve or decline Access Requests using Powershell and CSOM
-SharePoint 2013/2016: Missing Access Request Settings
-Other
-Get all checked-out files using Powershell
-SharePoint Online: Disable or enable attachments to list items using Powershell
-SharePoint Online: Get any object with PowerShell (Part 1)
-SharePoint Online: Get any object with Powershell - sites and webs (Part 3)
-Powershell GridView to help with SharePoint data viewing
-SharePoint 2016 Troubleshooting: Installation error - The tool was unable to install Web Server (IIS) Role
-Office Online Server Troubleshooting in SharePoint environment
+* SharePoint 2013/2016: Approve or decline Access Requests using Powershell and CSOM
+* SharePoint 2013/2016: Missing Access Request Settings
+
+
+<br/><br/>
+<h3>Other</h3>
+
+* Get all checked-out files using Powershell
+* SharePoint Online: Disable or enable attachments to list items using Powershell
+* SharePoint Online: Get any object with PowerShell 
+* Powershell GridView to help with SharePoint data viewing
+* SharePoint 2016 Troubleshooting: Installation error - The tool was unable to install Web Server (IIS) Role
+
 SharePoint: Easy way to create CAMLQuery for ViewXML 
 Powershell in SharePoint: Disable comments on modern pages in entire site using CSOM
-Office 365
+
+
+<br/><br/>
+<h3>Office 365</h3>
 Office 365 PowerShell Troubleshooting: quick guide
 Quick way to set up Office 365 tenant for testing
 Customizing sign-in experience for external users
