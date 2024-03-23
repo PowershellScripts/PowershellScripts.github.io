@@ -1,19 +1,30 @@
-CamlQuery
+---
+layout: page
+title: 'Easy way to create CAML Query for list view'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2023-12-30'
+---
+
+
+<h1>CamlQuery</h1>
 When loading SharePoint list items, you may want to limit the number of retrieved results. If your list contains 10 elements, then loading them like this will present no issues. 
 
-
-Copy
+```
 CamlQuery camlQuery = new CamlQuery();
 camlQuery.ViewXml = "<View Scope=\"RecursiveAll\"></View>";
 ListItemCollection collListItem = list.GetItems(camlQuery);
 clientContext.Load(collListItem);
 clientContext.ExecuteQuery();
-However, if your list exceeds thousands of items, loading all of them in such manner will be highly inefficient, if you need only few items that fulfill specific requirement. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. You can pass an undefined CamlQuery object to return all items from the list, as in the example above, or use the ViewXml property to define a CAML query and return items that meet specific criteria.
+```
+
+However, if your list exceeds thousands of items, loading all of them in such manner will be highly inefficient, if you need only few items that fulfill specific requirement. The ```GetItems(CamlQuery)``` method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. You can pass an undefined CamlQuery object to return all items from the list, as in the example above, or use the ViewXml property to define a CAML query and return items that meet specific criteria.
 
 The Where clause translates into the SQL SELECT statement. The format of the <Where> clause is a structured XML tree with a mixture of logical joins (<And>, <Or>), comparison operators, such as <Contains>, <Geq>, <Lt>, simple arithmetic operators, field (column) references, constant values, and predefined Collaborative Application Markup Language (CAML) constants. For a full list you can refer to Query Schema Reference in Microsoft Docs. Fields referenced in a Where element do not have to be fields of the primary list that is being queried. If another list is being joined, then fields from the foreign list can be itemized in a ProjectedFields element and can then be referenced in the <Where> element.
 
 
-Copy
+```
 <Query>
   <Where>
     <Geq>
@@ -27,6 +38,8 @@ Copy
     <FieldRef Name="Modified"/>
   </OrderBy>
 </Query>
+```
+
 Source:  /en-us/previous-versions/office/developer/sharepoint-2010/ms414805%28v%3doffice.14%29
 
 Step 1: Create in GUI
