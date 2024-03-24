@@ -7,8 +7,9 @@ hero_height: is-small
 date: '2023-12-30'
 ---
 
+<br/>
 
-<h1>CamlQuery</h1>
+<h1>Easy CamlQuery</h1>
 When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. If your list contains 10 elements, then loading them like this will present no issues. 
 
 ```
@@ -19,7 +20,7 @@ clientContext.Load(collListItem);
 clientContext.ExecuteQuery();
 ```
 
-Loading thousands of items in such manner is highly inefficient, if you need only few items that fulfill specific requirement. The ```GetItems(CamlQuery)``` method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. You can pass an undefined CamlQuery object to return all items from the list, as in the example above, or use the ViewXml property to define a CAML query and return items that meet specific criteria.
+Loading thousands of SharePoint items in such manner is highly inefficient, if you need only a few items that fulfill specific requirement. The ```GetItems(CamlQuery)``` method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. You can pass an undefined CamlQuery object to return all items from the list, as in the example above, or use the ViewXml property to define a CAML query and return items that meet specific criteria.
 <br/><br/>
 The Where clause translates into the SQL SELECT statement with a mixture of logical joins (\<And>, \<Or>), comparison operators, such as \<Contains>, \<Geq>, \<Lt>, simple arithmetic operators, field (column) references, constant values, and predefined Collaborative Application Markup Language (CAML) constants. 
 
@@ -40,11 +41,14 @@ The Where clause translates into the SQL SELECT statement with a mixture of logi
 </Query>
 ```
 
-<h1>How</h1>
+<br/><br/><br/>
 
+
+<h1>How</h1>
+<br/>
 <h2>Step 1: Create in GUI</h2>
 
-While a simple query is often more easily typed directly, writing CamlQuery in a complex scenario may prove to be time-consuming and prone to error. A way around it is to use GUI and create a specific view in SharePoint list/library:
+A simple query is often more easily typed directly. Writing CamlQuery in a complex scenario is usually time-consuming and prone to error. A way around it is to use GUI and create a specific view in SharePoint list/library:
 
 <img src="/articles/images/easycaml1.png" width="200"><br/>
 
@@ -53,7 +57,7 @@ While a simple query is often more easily typed directly, writing CamlQuery in a
 You can set the view to be private so that your users do not see this temporary view.
 
 <h2>Step 2: Extract the CamlQuery</h2>
-Now that the view is created and you see in the list that only items fulfilling your criteria are displayed, proceed to extract the ViewXML.
+Now that the view is created and you verified you see only the selected items, proceed to extract the ViewXML.
 
 <h3>Using REST Endpoint</h3>
 Find list and view's GUID. Open the created list view in edit mode and copy the url:
@@ -62,12 +66,16 @@ Find list and view's GUID. Open the created list view in edit mode and copy the 
  
 https://tenant.sharepoint.com/\_layouts/15/ViewEdit.aspx?**List=%7B4E998310-BCE0-4647-BB77-0183EA3E48A8%7D**&**View=%7B47FA121F-B26F-4CCD-B785-70DF105597F7%7D**&Source=%252Fsites%252FtestFlow%252F%255Flayouts%252F15%252Flistedit%252Easpx%253FList%253D%25257B4e998310%252Dbce0%252D4647%252Dbb77%252D0183ea3e48a8%25257D
 
-List GUID is after List= , and marked in green in the example above . %7B is url encoded opening parentheses { and %7D is URL-encoded closing parentheses** } . **View GUID is after View= and marked in orange in the example above.
+* List GUID is after List= , and in the example above the value is <b>4E998310-BCE0-4647-BB77-0183EA3E48A8</b>. 
+
+* %7B is url encoded opening parentheses { and %7D is URL-encoded closing parentheses** } . 
+
+* View GUID is after View= and in the example above has the value of <b>47FA121F-B26F-4CCD-B785-70DF105597F7</b>.
 
 In your browser enter 
-
-
+```
 https://TENANT.sharepoint.com/sites/SITENAME/_api/web/lists/getbyid('4E998310-BCE0-4647-BB77-0183EA3E48A8')/Views/getbyid('47FA121F-B26F-4CCD-B785-70DF105597F7')
+```
 replacing your tenant and site collection names, the list GUID and view GUID with values from the view created in the previous point. I like to use Internet Explorer for this step, because it renders a very nice and readable XML:
 
  <img src="/articles/images/easycaml4.png"><br/>
@@ -79,6 +87,10 @@ In this example it is:
 ```powershell
 <OrderBy><FieldRef Name="Modified" Ascending="FALSE" /></OrderBy><Where><Eq><FieldRef Name="Editor" /><Value Type="User">FR</Value></Eq></Where>
 ```
+
+
+<br/><br/><br/>
+
 
 <h3>Using Powershell CSOM</h3>
 
@@ -114,6 +126,9 @@ or export it to CSV using:
 Export-CSV $view
  
  <img src="/articles/images/easycaml5.png"><br/>
+
+<br/><br/><br/>
+
 
 <h3>PnP</h3>
 SharePoint Patterns and Practices (PnP) contains a library of PowerShell commands (PnP PowerShell) that allows you to perform complex provisioning and artifact management actions towards SharePoint. The commands use CSOM and can work against both SharePoint Online as SharePoint On-Premises.
