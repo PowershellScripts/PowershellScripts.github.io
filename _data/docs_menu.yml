@@ -33,6 +33,8 @@
       link: /articles/English/SharePointOnline/SharePoint content types - fieldlinks and fields
     - name: Export your folder structure to XML using Powershell
       link: /articles/English/SharePointOnline/Exportfolderstructure
+    - name: Easy way to create CAML Query for list view
+      link: /articles/English/SharePointOnline/CAMLQueryForListView
       
 
 - label: Viva
