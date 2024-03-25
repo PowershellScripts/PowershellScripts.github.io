@@ -8,8 +8,6 @@ hero_height: is-small
 date: '2024-03-24'
 ---
 
-<br/>
-
 <h1>Easy CamlQuery</h1>
 When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. If your list contains 10 elements, then loading them like this will present no issues. 
 
