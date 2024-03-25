@@ -65,3 +65,23 @@ If you are receiving <i>Access denied. You do not have permission to perform thi
 <br/>
 <h1>Results</h1>
 After running the short Powershell script, make sure you clear cache and refresh your website. The teamify prompt should be gone.
+
+
+<!-- Default Statcounter code for Hide Teams Prompt
+https://powershellscripts.github.io/articles/English/SharePointOnline/HideTeamsPrompt
+-->
+<script type="text/javascript">
+var sc_project=12981484; 
+var sc_invisible=1; 
+var sc_security="cf260827"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12981484/0/cf260827/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
