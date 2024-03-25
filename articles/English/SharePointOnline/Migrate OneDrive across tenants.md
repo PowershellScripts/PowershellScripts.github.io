@@ -49,3 +49,24 @@ On the target tenant, execute this command to initiate a trust request to the ta
 Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCrossTenantHostUrl <SOURCECrossTenantHostUrl>
 ```
 
+
+
+
+<!-- Default Statcounter code for MIgrate ODB
+https://powershellscripts.github.io/articles/English/SharePointOnline/Migrate%20OneDrive%20across%20
+-->
+<script type="text/javascript">
+var sc_project=12981503; 
+var sc_invisible=1; 
+var sc_security="52bf399c"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12981503/0/52bf399c/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
