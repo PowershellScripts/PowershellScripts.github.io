@@ -2,6 +2,7 @@
 layout: page
 title: 'SharePoint 2013/2016/2019/Online: Missing Access Request Settings'
 hero_image: '/img/IMG_20220521_140146.jpg'
+menubar: docs_menu
 show_sidebar: false
 hero_height: is-small
 date: '2024-03-23'
