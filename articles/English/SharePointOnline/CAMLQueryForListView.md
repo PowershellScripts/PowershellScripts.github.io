@@ -152,4 +152,24 @@ by its ID:
 Get-PnPView -List "Demo List" -Identity "5275148a-6c6c-43d8-999a-d2186989a661"
 ```
 
-For more examples see Get-PnPView cmdlet description.
+For more examples see [Get-PnPView](https://pnp.github.io/powershell/cmdlets/Get-PnPView.html) cmdlet description.
+
+
+<!-- Default Statcounter code for CamlQueryforListView
+https://powershellscripts.github.io/articles/English/SharePointOnline/CAMLQueryForListView
+-->
+<script type="text/javascript">
+var sc_project=12981483; 
+var sc_invisible=1; 
+var sc_security="fb5df1d1"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12981483/0/fb5df1d1/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
