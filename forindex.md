@@ -83,10 +83,11 @@ Links to my older Social Technet Articles
 
 <br/><br/>
 <h3>Office 365</h3>
-Office 365 PowerShell Troubleshooting: quick guide
-Quick way to set up Office 365 tenant for testing
-Customizing sign-in experience for external users
-Office 365 data loss protection: Prevent your SharePoint list from deletion using Powershell
+* Office 365 PowerShell Troubleshooting: quick guide
+* Quick way to set up Office 365 tenant for testing
+* Customizing sign-in experience for external users
+* Office 365 data loss protection: Prevent your SharePoint list from deletion using Powershell
+
 OneDrive for Business
 PowerShell: OneDrive for Business usage report
 OneDrive for Business notifications with Powershell
