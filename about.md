@@ -10,6 +10,11 @@ date: ''
 ---
 <title> Arleta Wanat </title>
 
-Hi, my name is Arleta and I am SharePoint MCSA, Productivity MSCE, and Microsoft MVP :) 
+Hi, my name is Arleta 
+
+ <img src="/img/ich2.PNG" width="200"><br/>
+
+ 
+I am SharePoint MCSA, Productivity MSCE, and Microsoft MVP :) 
 
 Welcome to my articles!
