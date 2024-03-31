@@ -89,13 +89,9 @@ Links to my older Social Technet Articles
 * Office 365 data loss protection: Prevent your SharePoint list from deletion using Powershell
 
 OneDrive for Business
-PowerShell: OneDrive for Business usage report
-OneDrive for Business notifications with Powershell
-OneDrive for Business sharing settings with PowerShell
+* PowerShell: OneDrive for Business usage report
+* OneDrive for Business notifications with Powershell
+* OneDrive for Business sharing settings with PowerShell
+
 Exchange Online
-Retrieve all site mailboxes in your tenant
-Site mailbox: add email addresses
-Creating site mailbox
 Exchange Online: What mailboxes User has access to?
-Site mailbox can no longer be created
-Remove a stuck site mailbox and create a new one
