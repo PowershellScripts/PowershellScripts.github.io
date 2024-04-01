@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Generate SharePoint theme using Theme Generator tool'
+title: 'Create SharePoint theme using Theme Generator tool'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
