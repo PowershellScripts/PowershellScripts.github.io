@@ -16,7 +16,7 @@
 - name: Power Platform
   link: /#
   dropdown:
-    - name: Express Design: Your app in minutes
+    - name: Express Design - Your app in minutes
       link: /articles/English/PowerPlatform/Express%20Design%20Your%20app%20in%20minutes/
     - name: Who created most flows?
       link: /articles/English/PowerPlatform/Who%20created%20most%20flows/
