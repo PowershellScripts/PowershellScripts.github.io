@@ -83,6 +83,7 @@ Links to my older Social Technet Articles
 
 <br/><br/>
 <h3>Office 365</h3>
+
 * Office 365 PowerShell Troubleshooting: quick guide
 * Quick way to set up Office 365 tenant for testing
 * Customizing sign-in experience for external users
