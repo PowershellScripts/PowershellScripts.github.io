@@ -14,7 +14,7 @@
 #       link: /showcase/
 - name: Information Protection
   link: /#
-   dropdown:
+  dropdown:
      - name: Site classification with PnP
        link: /articles/English/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/
      - name: Image Gallery
