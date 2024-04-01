@@ -13,25 +13,28 @@
 #     - name: Showcase
 #       link: /showcase/
 
+- name: Power Platform
+  link: /#
+  dropdown:
+    - name: Express Design: Your app in minutes
+      link: /articles/English/PowerPlatform/Express%20Design%20Your%20app%20in%20minutes/
+    - name: Who created most flows?
+      link: /articles/English/PowerPlatform/Who%20created%20most%20flows/
+    - name: Recycle vs delete SharePoint list
+      link: /articles/English/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/
 
 - name: Information Protection
   link: /#
   dropdown:
     - name: Site classification with PnP
       link: /articles/English/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-
+    - name: Audit your sensitivity labels with Powershell
+      link: /articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/
       
 - name: SharePoint Online
   link: /#
 
-- name: Power Platform
-  link: /#
+
 
 - name: Viva
   link: /#
