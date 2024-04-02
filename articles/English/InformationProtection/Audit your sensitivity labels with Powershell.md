@@ -5,7 +5,8 @@ hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
 date: '2022-08-17'
-meta name="google-site-verification" content="ZObzB8cb-MjY0Ou7Bz6oV6rgnO-N_YIrhQXF3u7nwig" 
+name: "google-site-verification" 
+content: "ZObzB8cb-MjY0Ou7Bz6oV6rgnO-N_YIrhQXF3u7nwig" 
 ---
 
 <meta name="google-site-verification" content="ZObzB8cb-MjY0Ou7Bz6oV6rgnO-N_YIrhQXF3u7nwig" />
