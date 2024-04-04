@@ -63,10 +63,10 @@ Links to my older Social Technet Articles
 * [Restoring and removing item permissions in subfolders for SharePoint Online using Powershell](http://social.technet.microsoft.com/wiki/contents/articles/36004.restoring-and-removing-item-permissions-in-subfolders-for-sharepoint-online-using-powershell.aspx)
 * [SharePoint Online Sharing settings with CSOM](http://social.technet.microsoft.com/wiki/contents/articles/39365.sharepoint-online-sharing-settings-with-csom.aspx)
 * [SharePoint Online: PowerShell to delete unique permissions in all list items](https://social.technet.microsoft.com/wiki/contents/articles/29718.sharepoint-online-powershell-to-delete-unique-permissions-in-all-list-items.aspx)
-* SharePoint Online: Remove users from site groups using PowerShell
-* Manage SharePoint Online Access Requests using Powershell
-* SharePoint 2013/2016: Approve or decline Access Requests using Powershell and CSOM
-* SharePoint 2013/2016: Missing Access Request Settings
+* [SharePoint Online: Remove users from site groups using PowerShell](https://learn.microsoft.com/en-us/archive/technet-wiki/37480.sharepoint-online-remove-users-from-site-groups-using-powershell)
+* [Manage SharePoint Online Access Requests using Powershell](https://learn.microsoft.com/en-us/archive/technet-wiki/31157.manage-sharepoint-online-access-requests-using-powershell)
+* [SharePoint 2013/2016: Approve or decline Access Requests using Powershell and CSOM](https://learn.microsoft.com/en-us/archive/technet-wiki/37401.sharepoint-20132016-approve-or-decline-access-requests-using-powershell-and-csom)
+
 
 
 <br/><br/>
