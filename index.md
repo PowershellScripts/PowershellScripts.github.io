@@ -76,9 +76,6 @@ Links to my older Social Technet Articles
 * OneDrive for Business notifications with Powershell
 * OneDrive for Business sharing settings with PowerShell
 
-Exchange Online
-Exchange Online: What mailboxes User has access to?
-
 
 <br/><br/>
 <h3>Other</h3>
@@ -99,5 +96,6 @@ Exchange Online: What mailboxes User has access to?
 * Quick way to set up Office 365 tenant for testing
 * Customizing sign-in experience for external users
 * Office 365 data loss protection: Prevent your SharePoint list from deletion using Powershell
+* Exchange Online: What mailboxes User has access to?
 
 
