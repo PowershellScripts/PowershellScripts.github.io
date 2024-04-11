@@ -72,9 +72,9 @@ Links to my older Social Technet Articles
 <br/><br/>
 <h3>OneDrive for Business</h3>
 
-* PowerShell: OneDrive for Business usage report
-* OneDrive for Business notifications with Powershell
-* OneDrive for Business sharing settings with PowerShell
+* [PowerShell: OneDrive for Business usage report](https://learn.microsoft.com/en-us/archive/technet-wiki/31962.onedrive-for-business-usage-report-using-powershell)
+* [OneDrive for Business notifications with Powershell](https://learn.microsoft.com/en-us/archive/technet-wiki/39385.onedrive-for-business-notifications-with-powershell)
+* [OneDrive for Business sharing settings with PowerShell](https://learn.microsoft.com/en-us/archive/technet-wiki/39497.onedrive-for-business-sharing-settings-with-powershell)
 
 
 <br/><br/>
