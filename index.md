@@ -85,7 +85,6 @@ Links to my older Social Technet Articles
 * SharePoint Online: Get any object with PowerShell 
 * Powershell GridView to help with SharePoint data viewing
 * SharePoint 2016 Troubleshooting: Installation error - The tool was unable to install Web Server (IIS) Role
-* [SharePoint: Easy way to create CAMLQuery for ViewXML ](https://learn.microsoft.com/en-us/archive/technet-wiki/52323.sharepoint-easy-way-to-create-camlquery-for-viewxml)
 * Powershell in SharePoint: Disable comments on modern pages in entire site using CSOM
 
 
