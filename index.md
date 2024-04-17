@@ -19,7 +19,7 @@ It is under construction but you can already find some of the tips and tricks in
 Enjoy!
 
 <br/><br/><br/><br/>
-Links to my older Social Technet Articles
+Links to my older Social Technet Articles:
 
 <h3>Content Types</h3>
 
