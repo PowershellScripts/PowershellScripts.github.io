@@ -91,8 +91,8 @@ Links to my older Social Technet Articles:
 <br/><br/>
 <h3>Office 365</h3>
 
-* Office 365 PowerShell Troubleshooting: quick guide
-* Quick way to set up Office 365 tenant for testing
+* [Office 365 PowerShell Troubleshooting: quick guide](https://social.technet.microsoft.com/wiki/contents/articles/32035.office-365-powershell-troubleshooting-quick-guide.aspx)
+* [Quick way to set up Office 365 tenant for testing](https://social.technet.microsoft.com/wiki/contents/articles/37130.quick-way-to-set-up-office-365-tenant-for-testing.aspx)
 * Customizing sign-in experience for external users
 * Office 365 data loss protection: Prevent your SharePoint list from deletion using Powershell
 * Exchange Online: What mailboxes User has access to?
