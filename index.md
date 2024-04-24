@@ -80,7 +80,7 @@ Links to my older Social Technet Articles:
 <br/><br/>
 <h3>Other</h3>
 
-* Get all checked-out files using Powershell
+* [Get all checked-out files using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/34215.sharepoint-online-get-all-checked-out-files-using-powershell.aspx)
 * SharePoint Online: Disable or enable attachments to list items using Powershell
 * SharePoint Online: Get any object with PowerShell 
 * Powershell GridView to help with SharePoint data viewing
