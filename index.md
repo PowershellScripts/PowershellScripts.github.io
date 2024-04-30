@@ -81,7 +81,7 @@ Links to my older Social Technet Articles:
 <h3>Other</h3>
 
 * [Get all checked-out files using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/34215.sharepoint-online-get-all-checked-out-files-using-powershell.aspx)
-* SharePoint Online: Disable or enable attachments to list items using Powershell
+* [SharePoint Online: Disable or enable attachments to list items using Powershell](https://learn.microsoft.com/en-us/archive/technet-wiki/30024.sharepoint-online-disable-or-enable-attachments-to-list-items-using-powershell)
 * SharePoint Online: Get any object with PowerShell 
 * Powershell GridView to help with SharePoint data viewing
 * SharePoint 2016 Troubleshooting: Installation error - The tool was unable to install Web Server (IIS) Role
