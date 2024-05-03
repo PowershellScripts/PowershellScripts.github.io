@@ -15,61 +15,61 @@
   link: /#
   dropdown:
     - name: Express Design - Your app in minutes
-      link: /articles/English/PowerPlatform/Express%20Design%20Your%20app%20in%20minutes/
+      link: /articles/en/PowerPlatform/Express%20Design%20Your%20app%20in%20minutes/
     - name: Who created most flows?
-      link: /articles/English/PowerPlatform/Who%20created%20most%20flows/
+      link: /articles/en/PowerPlatform/Who%20created%20most%20flows/
     - name: Recycle vs delete SharePoint list
-      link: /articles/English/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/
+      link: /articles/en/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/
 
 - name: Information Protection
   link: /#
   dropdown:
     - name: Site classification with PnP
-      link: /articles/English/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/
+      link: /articles/en/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/
     - name: Audit your sensitivity labels with Powershell
-      link: /articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/
+      link: /articles/en/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/
       
 - name: SharePoint Online
   link: /#
   dropdown:
     - name: Customize your site header using PnP
-      link: /articles/English/SharePointOnline/Customize%20your%20site%20header%20using%20PnP/
+      link: /articles/en/SharePointOnline/Customize%20your%20site%20header%20using%20PnP/
     - name: Create SharePoint theme using Theme Generator tool
-      link: /articles/English/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
+      link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
     - name: Migrate OneDrive across tenants
-      link: /articles/English/SharePointOnline/Migrate%20OneDrive%20across%20tenants/
+      link: /articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/
     - name: Add content type using Powershell and CSOM
-      link: /articles/English/SharePointOnline/Add%20content%20type/
+      link: /articles/en/SharePointOnline/Add%20content%20type/
     - name: SharePoint content types in Powershell - known errors
-      link: /articles/English/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
+      link: /articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
     - name: SharePoint content types - fieldlinks and fields
-      link: /articles/English/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields
+      link: /articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields
     - name: Export your folder structure to XML using Powershell
-      link: /articles/English/SharePointOnline/Exportfolderstructure
+      link: /articles/en/SharePointOnline/Exportfolderstructure
     - name: Easy way to create CAML Query for list view
-      link: /articles/English/SharePointOnline/CAMLQueryForListView
+      link: /articles/en/SharePointOnline/CAMLQueryForListView
     - name: Hide teamify prompt
-      link: /articles/English/SharePointOnline/HideTeamsPrompt
+      link: /articles/en/SharePointOnline/HideTeamsPrompt
 
 - name: Viva
   link: /#
   dropdown:
     - name: Add Viva Engage to your SharePoint pages
-      link: /articles/English/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/
+      link: /articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/
     - name: Post as a leader to specific groups
-      link: /articles/English/Viva/Post%20as%20a%20leader%20to%20specific%20groups/
+      link: /articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/
     - name: How to post as a delegate
-      link: /articles/English/Viva/How%20to%20post%20as%20delegate/
+      link: /articles/en/Viva/How%20to%20post%20as%20delegate/
 
 - name: Server
   link: /#
   dropdown:
     - name: Office Online Server Troubleshooting
-      link: /articles/English/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/
+      link: /articles/en/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/
     - name: SharePoint Server - Troubleshooting Workflow Farm
-      link: /articles/English/Server/SharePoint%20Server%20-%20Troubleshooting%20Workflow%20Farm/
+      link: /articles/en/Server/SharePoint%20Server%20-%20Troubleshooting%20Workflow%20Farm/
     - name: SharePoint Missing Access Request Settings
-      link: /articles/English/Server/MissingAccessRequestSettings/
+      link: /articles/en/Server/MissingAccessRequestSettings/
       
   
 - name: About Arleta

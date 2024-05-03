@@ -101,16 +101,16 @@ I like to check this claim, because it helps to avoid the required assignment is
 
 <h1>See Also</h1>
 
-[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Design/)
 
-[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Scope/)
 
-[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
+[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions-Tooling/)
 
 
 
 <!-- Default Statcounter code for Azure - API
-https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/
+https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20API/
 -->
 <script type="text/javascript">
 var sc_project=12962355; 

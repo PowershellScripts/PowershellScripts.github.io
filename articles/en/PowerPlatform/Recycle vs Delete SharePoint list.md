@@ -38,7 +38,7 @@ If you want to recycle your list and find it later in the recycle bin of your si
 [Avoid concurrency using Etag in SharePoint REST-API Call Jump](https://www.codesharepoint.com/sharepoint-tutorial/avoid-concurrency-using-etag-in-sharepoint-rest-api-call)
 
 <!-- Default Statcounter code for Recycle vs Delete SPO list
-https://powershellscripts.github.io/articles/English/PowerPlatform/Recycle%20vs%20Delete%20SharePoin
+https://powershellscripts.github.io/articles/en/PowerPlatform/Recycle%20vs%20Delete%20SharePoin
 -->
 <script type="text/javascript">
 var sc_project=12763875; 

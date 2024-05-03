@@ -57,7 +57,7 @@ Additionally, the leader user can choose to post the Annoucement to Microsoft Te
 
 
 <!-- Default Statcounter code for Post as viva leader
-https://powershellscripts.github.io/articles/English/Viva/Post%20as%20a%20leader%20to%20specific%20g
+https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20g
 -->
 <script type="text/javascript">
 var sc_project=12957424; 

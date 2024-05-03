@@ -1,72 +1,72 @@
 - label: Power Platform
   items:
     - name: 'Express Design: Your app in minutes'
-      link: /articles/English/PowerPlatform/Express Design Your app in minutes/
+      link: /articles/en/PowerPlatform/Express Design Your app in minutes/
     - name: 'Who created most flows?'
-      link: /articles/English/PowerPlatform/Who created most flows/
+      link: /articles/en/PowerPlatform/Who created most flows/
     - name: 'Recycle vs delete SharePoint list'
-      link: /articles/English/PowerPlatform/Recycle vs Delete SharePoint list/
+      link: /articles/en/PowerPlatform/Recycle vs Delete SharePoint list/
 
 
 
 - label: Information Protection
   items:
     - name: Site classification with PnP
-      link: /articles/English/InformationProtection/Your SharePoint Online site classification with PnP/
+      link: /articles/en/InformationProtection/Your SharePoint Online site classification with PnP/
     - name: Audit your sensitivity labels with Powershell
-      link: /articles/English/InformationProtection/Audit your sensitivity labels with Powershell/
+      link: /articles/en/InformationProtection/Audit your sensitivity labels with Powershell/
 
 
 - label: SharePoint Online
   items:
     - name: Customize your site header using PnP
-      link: /articles/English/SharePointOnline/Customize your site header using PnP/
+      link: /articles/en/SharePointOnline/Customize your site header using PnP/
     - name: Create SharePoint theme using Theme Generator tool
-      link: /articles/English/SharePointOnline/Create SharePoint theme using Theme Generator tool/
+      link: /articles/en/SharePointOnline/Create SharePoint theme using Theme Generator tool/
     - name: Migrate OneDrive across tenants
-      link: /articles/English/SharePointOnline/Migrate OneDrive across tenants/
+      link: /articles/en/SharePointOnline/Migrate OneDrive across tenants/
     - name: Add content type using Powershell and CSOM
-      link: /articles/English/SharePointOnline/Add content type/
+      link: /articles/en/SharePointOnline/Add content type/
     - name: SharePoint content types in Powershell - known errors
-      link: /articles/English/SharePointOnline/SharePoint content types in Powershell - known errors
+      link: /articles/en/SharePointOnline/SharePoint content types in Powershell - known errors
     - name: SharePoint content types - fieldlinks and fields
-      link: /articles/English/SharePointOnline/SharePoint content types - fieldlinks and fields
+      link: /articles/en/SharePointOnline/SharePoint content types - fieldlinks and fields
     - name: Export your folder structure to XML using Powershell
-      link: /articles/English/SharePointOnline/Exportfolderstructure
+      link: /articles/en/SharePointOnline/Exportfolderstructure
     - name: Easy way to create CAML Query for list view
-      link: /articles/English/SharePointOnline/CAMLQueryForListView
+      link: /articles/en/SharePointOnline/CAMLQueryForListView
     - name: Hide Teams Prompt
-      link: /articles/English/SharePointOnline/HideTeamsPrompt
+      link: /articles/en/SharePointOnline/HideTeamsPrompt
       
 
 - label: Viva
   items:
     - name: Add Viva Engage to your SharePoint pages
-      link: /articles/English/Viva/Add Viva Engage to your SharePoint pages/
+      link: /articles/en/Viva/Add Viva Engage to your SharePoint pages/
     - name: Post as a leader to specific groups
-      link: /articles/English/Viva/Post as a leader to specific groups/
+      link: /articles/en/Viva/Post as a leader to specific groups/
     - name: How to post as a delegate
-      link: /articles/English/Viva/How to post as delegate/
+      link: /articles/en/Viva/How to post as delegate/
 
 
 - label: Server
   items:
     - name: Office Online Server Troubleshooting in Sharepoint Environment
-      link: /articles/English/Server/Office Online Server Troubleshooting in Sharepoint Environment/
+      link: /articles/en/Server/Office Online Server Troubleshooting in Sharepoint Environment/
     - name: SharePoint Server - Troubleshooting Workflow Farm
-      link: /articles/English/Server/SharePoint Server - Troubleshooting Workflow Farm/
+      link: /articles/en/Server/SharePoint Server - Troubleshooting Workflow Farm/
     - name: SharePoint Missing Access Request Settings
-      link: /articles/English/Server/MissingAccessRequestSettings/
+      link: /articles/en/Server/MissingAccessRequestSettings/
 
 - label: Azure
   items:
     - name: Securing Azure Functions
-      link: /articles/English/Azure/Securing Azure Functions/
+      link: /articles/en/Azure/Securing Azure Functions/
     - name: Securing Azure Functions - Design Considerations
-      link: /articles/English/Azure/Securing Azure Functions - Design/
+      link: /articles/en/Azure/Securing Azure Functions - Design/
     - name: Securing Azure Functions - Scope
-      link: /articles/English/Azure/Securing Azure Functions - Scope/
+      link: /articles/en/Azure/Securing Azure Functions - Scope/
     - name: Securing Azure Functions - API Management Policies
-      link: /articles/English/Azure/Securing Azure Functions - API/
+      link: /articles/en/Azure/Securing Azure Functions - API/
     - name: Securing Azure Functions - Tooling
-      link: /articles/English/Azure/Securing Azure Functions-Tooling/
+      link: /articles/en/Azure/Securing Azure Functions-Tooling/

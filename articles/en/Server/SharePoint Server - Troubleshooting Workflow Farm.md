@@ -134,7 +134,7 @@ Verify that the SharePoint workflows are not running as a system account. Using 
 
 
 <!-- Default Statcounter code for SharePoint WF Farm
-https://powershellscripts.github.io/articles/English/Server/SharePoint%20Server%20-%20Troubleshootin
+https://powershellscripts.github.io/articles/en/Server/SharePoint%20Server%20-%20Troubleshootin
 -->
 <script type="text/javascript">
 var sc_project=12959328; 

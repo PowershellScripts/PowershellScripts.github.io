@@ -79,15 +79,15 @@ the scope will look like this:  *8d138478-d3a3-47f5-a233-1408cd6baae4/.default*
 
 <h1>See Also</h1>
 
-[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Design/)
 
-[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20API/)
 
-[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/)
+[Securing Azure Functions: Tooling](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions-Tooling/)
 
 
 <!-- Default Statcounter code for Azure - Scope
-https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/
+https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Scope/
 -->
 <script type="text/javascript">
 var sc_project=12962354; 

@@ -383,7 +383,7 @@ The data contains the output and input of the Azure Function, as well as the tim
 
 
 <!-- Default Statcounter code for Azure - all
-https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions/
+https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions/
 -->
 <script type="text/javascript">
 var sc_project=12962351; 

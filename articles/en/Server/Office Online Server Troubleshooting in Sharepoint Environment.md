@@ -214,7 +214,7 @@ New-SPWOPIBinding -ServerName <WacServerName> -AllowHTTP
 
 
 <!-- Default Statcounter code for Office Online
-https://powershellscripts.github.io/articles/English/PowerPlatform/Office%20Online%20Server%20Troubl
+https://powershellscripts.github.io/articles/en/PowerPlatform/Office%20Online%20Server%20Troubl
 -->
 <script type="text/javascript">
 var sc_project=12938099; 

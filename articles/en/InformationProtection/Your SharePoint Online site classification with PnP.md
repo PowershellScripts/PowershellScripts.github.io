@@ -85,7 +85,7 @@ Another solution for classifying your sites - sensitivity labels,
 offering a more holistic approach on entire tenant scale, including also e.g. Exchange Online <br/>
 [Protecting your information: the power of labels](https://social.technet.microsoft.com/wiki/contents/articles/54468.protecting-your-information-the-power-of-labels.aspx) <br/>
 [Sensitivity labels: Powershell your way around](https://social.technet.microsoft.com/wiki/contents/articles/54497.sensitivity-labels-powershell-your-way-around.aspx) <br/>
-[Audit your sensitivity labels with Powershell](https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/)<br/>
+[Audit your sensitivity labels with Powershell](https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/)<br/>
 <br/>
 
 Absolutely necessary one-time step to enable sensitivity labels on site level:<br/>
@@ -94,7 +94,7 @@ Absolutely necessary one-time step to enable sensitivity labels on site level:<b
 
 <!-- Default Statcounter code for Site classification with
 PnP
-https://powershellscripts.github.io/articles/English/InformationProtection/Your%20SharePoint%20Onlin
+https://powershellscripts.github.io/articles/en/InformationProtection/Your%20SharePoint%20Onlin
 -->
 <script type="text/javascript">
 var sc_project=12941097; 

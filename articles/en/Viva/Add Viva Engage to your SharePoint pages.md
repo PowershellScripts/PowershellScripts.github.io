@@ -77,7 +77,7 @@ There are 2 layout options possible:
 
 <!-- Default Statcounter code for Add Viva Engage to your
 SharePoi
-https://powershellscripts.github.io/articles/English/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi
+https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi
 -->
 <script type="text/javascript">
 var sc_project=12941102; 

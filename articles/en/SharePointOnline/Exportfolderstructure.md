@@ -196,7 +196,7 @@ $xmlDoc.Save($XMLPath)
 
 
 <!-- Default Statcounter code for Export folders to XML
-https://powershellscripts.github.io/articles/English/SharePointOnline/Exportfolderstructure/
+https://powershellscripts.github.io/articles/en/SharePointOnline/Exportfolderstructure/
 -->
 <script type="text/javascript">
 var sc_project=12962377; 

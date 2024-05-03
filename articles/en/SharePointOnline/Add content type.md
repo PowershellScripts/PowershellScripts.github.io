@@ -583,7 +583,7 @@ $ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
 
 
 <!-- Default Statcounter code for Content Types add
-https://powershellscripts.github.io/articles/English/SharePointOnline/Add%20content%20type/
+https://powershellscripts.github.io/articles/en/SharePointOnline/Add%20content%20type/
 -->
 <script type="text/javascript">
 var sc_project=12953202; 

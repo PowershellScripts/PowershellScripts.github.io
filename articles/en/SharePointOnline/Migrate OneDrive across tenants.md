@@ -53,7 +53,7 @@ Set-SPOCrossTenantRelationship -Scenario MnA -PartnerRole Source -PartnerCrossTe
 
 
 <!-- Default Statcounter code for MIgrate ODB
-https://powershellscripts.github.io/articles/English/SharePointOnline/Migrate%20OneDrive%20across%20
+https://powershellscripts.github.io/articles/en/SharePointOnline/Migrate%20OneDrive%20across%20
 -->
 <script type="text/javascript">
 var sc_project=12981503; 

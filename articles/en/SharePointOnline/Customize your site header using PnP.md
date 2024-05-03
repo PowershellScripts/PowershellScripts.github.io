@@ -50,7 +50,7 @@ Accepted values: None, Neutral, Soft, Strong
 
 
 
-The exact colors are defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/English/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/) and [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences).
+The exact colors are defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/en/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/) and [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences).
 
 <br/>
 
@@ -143,7 +143,7 @@ foreach($site in $sites){
 
 <!-- Default Statcounter code for Customize your site header
 using
-https://powershellscripts.github.io/articles/English/SharePointOnline/Customize%20your%20site%20head
+https://powershellscripts.github.io/articles/en/SharePointOnline/Customize%20your%20site%20head
 -->
 <script type="text/javascript">
 var sc_project=12941101; 

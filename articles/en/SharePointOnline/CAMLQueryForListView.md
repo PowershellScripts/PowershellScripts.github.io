@@ -156,7 +156,7 @@ For more examples see [Get-PnPView](https://pnp.github.io/powershell/cmdlets/Get
 
 
 <!-- Default Statcounter code for CamlQueryforListView
-https://powershellscripts.github.io/articles/English/SharePointOnline/CAMLQueryForListView
+https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView
 -->
 <script type="text/javascript">
 var sc_project=12981483; 

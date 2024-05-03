@@ -113,15 +113,15 @@ The data contains the output and input of the Azure Function, as well as the tim
 
 <h1>See Also</h1>
 
-[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Design/)
+[Securing Azure Functions: Design Considerations](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Design/)
 
-[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20Scope/)
+[Securing Azure Functions: Scope](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20Scope/)
 
-[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions%20-%20API/)
+[Securing Azure Functions: API Management Policies](https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions%20-%20API/)
 
 
 <!-- Default Statcounter code for Azure - Tooling
-https://powershellscripts.github.io/articles/English/Azure/Securing%20Azure%20Functions-Tooling/
+https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions-Tooling/
 -->
 <script type="text/javascript">
 var sc_project=12962358; 

@@ -15,7 +15,7 @@ When you want to remove the leader functionalities from a user, you need to remo
 
 
 <!-- Default Statcounter code for Viva Remove leader
-https://powershellscripts.github.io/articles/English/Viva/removeleader
+https://powershellscripts.github.io/articles/en/Viva/removeleader
 -->
 <script type="text/javascript">
 var sc_project=12957426; 

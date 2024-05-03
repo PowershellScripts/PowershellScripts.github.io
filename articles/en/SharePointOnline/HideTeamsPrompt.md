@@ -68,7 +68,7 @@ After running the short Powershell script, make sure you clear cache and refresh
 
 
 <!-- Default Statcounter code for Hide Teams Prompt
-https://powershellscripts.github.io/articles/English/SharePointOnline/HideTeamsPrompt
+https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt
 -->
 <script type="text/javascript">
 var sc_project=12981484; 

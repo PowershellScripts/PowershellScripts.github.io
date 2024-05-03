@@ -83,7 +83,7 @@ Audit matrix allows you to see the entire overview of labels, their actions, cap
 
 <!-- Default Statcounter code for Audit sensitivity labels
 with PS
-https://powershellscripts.github.io/articles/English/InformationProtection/Audit%20your%20sensitivit
+https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivit
 -->
 <script type="text/javascript">
 var sc_project=12764960; 

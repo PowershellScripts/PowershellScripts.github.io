@@ -209,7 +209,7 @@ Unseal the content type. You may use the following script:
 
 
 <!-- Default Statcounter code for Content types Known errors
-https://powershellscripts.github.io/articles/English/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/
+https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/
 -->
 <script type="text/javascript">
 var sc_project=12953200; 

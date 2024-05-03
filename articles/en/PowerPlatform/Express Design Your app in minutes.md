@@ -40,7 +40,7 @@ You can test Express Design in your Microsoft 365 tenant, by navigating [here](h
 
 
 <!-- Default Statcounter code for Express Design
-https://powershellscripts.github.io/articles/English/PowerPlatform/Express%20Design%20Your%20app%20i
+https://powershellscripts.github.io/articles/en/PowerPlatform/Express%20Design%20Your%20app%20i
 -->
 <script type="text/javascript">
 var sc_project=12763879; 
