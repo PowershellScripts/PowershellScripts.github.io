@@ -62,11 +62,3 @@
   items:
     - name: Securing Azure Functions
       link: /articles/en/Azure/Securing Azure Functions/
-    - name: Securing Azure Functions - Design Considerations
-      link: /articles/en/Azure/Securing Azure Functions - Design/
-    - name: Securing Azure Functions - Scope
-      link: /articles/en/Azure/Securing Azure Functions - Scope/
-    - name: Securing Azure Functions - API Management Policies
-      link: /articles/en/Azure/Securing Azure Functions - API/
-    - name: Securing Azure Functions - Tooling
-      link: /articles/en/Azure/Securing Azure Functions-Tooling/
