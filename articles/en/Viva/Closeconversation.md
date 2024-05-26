@@ -35,12 +35,17 @@ There is a variety of reasons why you should be closing Viva Engage conversation
 
 *<b>Project Completion:</b> In project-related groups, conversations might be closed once a project is finished and no further discussion is necessary.
 
+<br/><br/>
 
-<h1>Step 2: How to close Viva conversations?</h1> <a name="closeVivaconversations"></a>
+<h1>Step 2: How to close Viva conversations?</h1> <a name="howtoclose"></a>
 
 <img src="/articles/images/VivaCloseConversation.PNG">
 
 <img src="/articles/images/VivaCloseConversation2.PNG">
+
+<img src="/articles/images/VivaCloseConversation3.PNG">
+
+<img src="/articles/images/VivaCloseConversation4.PNG">
 
 <h1>Step 3: How to reopen Viva conversations?</h1> <a name="closeVivaconversations"></a>
 
