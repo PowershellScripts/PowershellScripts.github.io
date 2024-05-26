@@ -5,7 +5,7 @@ menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2024-05-22'
+date: '2024-05-26'
 ---
 
 
@@ -47,9 +47,9 @@ There is a variety of reasons why you should be closing Viva Engage conversation
 
 <img src="/articles/images/VivaCloseConversation4.PNG">
 
-<h1>Step 3: How to reopen Viva conversations?</h1> <a name="closeVivaconversations"></a>
+<h1>Step 3: How to reopen Viva conversations?</h1> <a name="howtoreopen"></a>
 
-<h1>Step 4: Who can? Required Permissions</h1>  <a name="closeVivaconversations"></a>
+<h1>Step 4: Who can? Required Permissions</h1>  <a name="permissions"></a>
 
 Conversations that no longer 
 Before the rollout, only a post creator can close conversations in Storyline and only the Community admins can close conversations on behalf of members in Communities. We are expanding the ability for delegates, delegate managers, Global admins, and Engage Admins to moderate Viva Engage content. 
