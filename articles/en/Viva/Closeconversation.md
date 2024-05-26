@@ -38,6 +38,10 @@ There is a variety of reasons why you should be closing Viva Engage conversation
 
 <h1>Step 2: How to close Viva conversations?</h1> <a name="closeVivaconversations"></a>
 
+<img src="/articles/images/VivaCloseConversation.PNG">
+
+<img src="/articles/images/VivaCloseConversation2.PNG">
+
 <h1>Step 3: How to reopen Viva conversations?</h1> <a name="closeVivaconversations"></a>
 
 <h1>Step 4: Who can? Required Permissions</h1>  <a name="closeVivaconversations"></a>
