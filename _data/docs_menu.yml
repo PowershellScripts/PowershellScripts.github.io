@@ -47,6 +47,10 @@
       link: /articles/en/Viva/Post as a leader to specific groups/
     - name: How to post as a delegate
       link: /articles/en/Viva/How to post as delegate/
+    - name: How to close a conversation
+      link: /articles/en/Viva/How to post close a conversation/
+
+      https://powershellscripts.github.io/articles/en/Viva/Closeconversation/
 
 
 - label: Server
