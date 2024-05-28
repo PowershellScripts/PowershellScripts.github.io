@@ -10,18 +10,17 @@ date: '2024-05-26'
 
 
 
-
-1. [Keep it clean, close your Viva conversations](#closeVivaconversations)
-2. [How to close Viva conversations](#howtoclose)
-3. [How to reopen Viva conversations](#howtoreopen)
-4. [Who can? - Permissions](#permissions)
+[Keep it clean, close your Viva conversations](#closeVivaconversations)
+[How to close Viva conversations](#howtoclose)
+[How to reopen Viva conversations](#howtoreopen)
+[Who can? - Permissions](#permissions)
 
 
 
 
 <br/><br/><br/>
 
-<h1>Step 1: Keep it clean, close your Viva conversations</h1> <a name="closeVivaconversations"></a>
+<h1>Keep it clean, close your Viva conversations</h1> <a name="closeVivaconversations"></a>
 
 There is a variety of reasons why you should be closing Viva Engage conversations
 
@@ -37,7 +36,7 @@ There is a variety of reasons why you should be closing Viva Engage conversation
 
 <br/><br/>
 
-<h1>Step 2: How to close Viva conversations?</h1> <a name="howtoclose"></a>
+<h1>How to close Viva conversations?</h1> <a name="howtoclose"></a>
 
 Select the three dots next to a conversation and click on **Close conversation**.
 
@@ -73,7 +72,7 @@ Shortly after the closure, information should appear stating that the conversati
 
 <br/><br/>
 
-<h1>Step 3: How to reopen Viva conversations?</h1> <a name="howtoreopen"></a>
+<h1>How to reopen Viva conversations?</h1> <a name="howtoreopen"></a>
 
 Navigate to your Viva Engage conversation and click on the three dots (...) in the top right corner and click on **Reopen conversation**:
 
@@ -81,7 +80,7 @@ Navigate to your Viva Engage conversation and click on the three dots (...) in t
 
 <br/><br/>
 
-<h1>Step 4: Who can? Required Permissions</h1>  <a name="permissions"></a>
+<h1>Who can? Required Permissions</h1>  <a name="permissions"></a>
 
 Up until recently, only a post creator could close conversations in Storyline and only the Community admins could close conversations on behalf of members in Communities. However, a new feature is being rolled out by Microsoft, which is expanding the ability for delegates, delegate managers, Global admins, and Engage Admins to moderate Viva Engage content. <br/>
 Delegates and delegate managers will be able to close conversations on behalf of the delegator, and Global and Engage admins will be able to close conversations on behalf of any content creator. This capability will be available in both Communities and in support of our psychological safety goals.
