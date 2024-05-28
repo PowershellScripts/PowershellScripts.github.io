@@ -10,10 +10,13 @@ date: '2024-05-26'
 
 
 
-[Keep it clean, close your Viva conversations](#closeVivaconversations)
-[How to close Viva conversations](#howtoclose)
-[How to reopen Viva conversations](#howtoreopen)
-[Who can? - Permissions](#permissions)
+[1. Keep it clean, close your Viva conversations](#closeVivaconversations)
+
+[2. How to close Viva conversations](#howtoclose)
+
+[3. How to reopen Viva conversations](#howtoreopen)
+
+[4. Who can? - Permissions](#permissions)
 
 
 
