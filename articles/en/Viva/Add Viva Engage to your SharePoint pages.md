@@ -94,3 +94,9 @@ src="https://c.statcounter.com/12941102/0/1686de16/1/"
 alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
+
+
+<br/><br/><br/>
+
+<h2>Comments? Questions?</h2>
+Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
