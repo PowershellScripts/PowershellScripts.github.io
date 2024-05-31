@@ -115,3 +115,24 @@ Allowed to reopen conversations:
 Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
 
 
+
+
+<!-- Default Statcounter code for VivaCloseConversation
+https://powershellscripts.github.io/articles/en/Viva/Closeconversation/
+-->
+<script type="text/javascript">
+var sc_project=13004159; 
+var sc_invisible=0; 
+var sc_security="b557b960"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="real time web
+analytics" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13004159/0/b557b960/0/"
+alt="real time web analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
