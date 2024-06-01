@@ -56,6 +56,16 @@ Additionally, the leader user can choose to post the Annoucement to Microsoft Te
 <a href="https://learn.microsoft.com/en-us/viva/engage/leadership-identification">Identify Viva leaders</a>
 
 
+
+<br/><br/><br/>
+
+<h2>Comments? Questions?</h2>
+Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
+
+
+
+
+
 <!-- Default Statcounter code for Post as viva leader
 https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20g
 -->
