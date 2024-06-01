@@ -382,6 +382,16 @@ The data contains the output and input of the Azure Function, as well as the tim
 
 
 
+
+<br/><br/><br/>
+
+<h2>Comments? Questions?</h2>
+Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
+
+
+
+
+
 <!-- Default Statcounter code for Azure - all
 https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions/
 -->
