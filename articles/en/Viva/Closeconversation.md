@@ -116,7 +116,6 @@ Feel free to post them [here](https://github.com/PowershellScripts/PowershellScr
 
 
 
-
 <!-- Default Statcounter code for VivaCloseConversation
 https://powershellscripts.github.io/articles/en/Viva/Closeconversation/
 -->
