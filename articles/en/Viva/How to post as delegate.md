@@ -43,6 +43,13 @@ The delegates can also edit and delete posts. The delegates can also write comme
 [Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/)
 
 
+<br/><br/><br/>
+
+<h2>Comments? Questions?</h2>
+Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
+
+
+
 
 <!-- Default Statcounter code for Viva Post as Delegate
 https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/
