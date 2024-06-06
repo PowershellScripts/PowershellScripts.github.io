@@ -16,6 +16,10 @@ date: '2024-06-02'
 
 <h1>Get all communities</h1>
 
+| Method |	Url |
+|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities |
+
 In order to get all communities using Graph API, use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities
 
 <img src="/articles/images/VivaGraphAPI.PNG">
@@ -24,9 +28,23 @@ In order to get all communities using Graph API, use the GET method with the fol
 
 <h1>Get specific community</h1>
 
+a) by id
+
+| Method |	Url |
+|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID |
+
 In order to get a specific community, use its ID. In the case of the sample tenant used in Graph Explorer, it's eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9. Use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9
 
 <img src="/articles/images/VivaGraphAPI2.PNG">
+
+
+b) by name
+
+
+c) by property
+
+
 
 See the full documentation for this GET request [here](https://learn.microsoft.com/en-us/graph/api/community-get?view=graph-rest-beta&tabs=http).
 
@@ -49,6 +67,10 @@ privacy	| communityPrivacy	| Defines the privacy level of the community. The pos
 
 <h1>Create a new community</h1>
 
+| Method |	Url |
+|---|---|
+|POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID |
+
 Every Viva Engage community is associated with a Microsoft 365 group, but the group doesn't have the same ID as the community. 
 
 <img src="/articles/images/VivaGraphAPI3.PNG">
@@ -66,6 +88,20 @@ For Viva Engage networks in native mode, creating a new Viva Engage community al
 * Rename a group
 * Update the group description
 
+
+<br/><br/>
+
+<h1>Summary</h1>
+
+
+| Method |	Url | Description |
+|---|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities | Get all communities |
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Get specific community|
+|POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Create a community|
+
+
+<br/><br/>
 
 <h1>See Also</h1>
 
