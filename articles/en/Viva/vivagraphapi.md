@@ -41,12 +41,28 @@ In order to get a specific community, use its ID. In the case of the sample tena
 
 b) by name
 
+Use $filter to filter for your Viva Engage community's name. The API call fetches details about a community named "Our first Community" and returns data such as community ID, display name, description, and other related properties.
+
+<img src="/articles/images/VivaGraphAPI3.PNG">
 
 c) by property
 
 
 
 See the full documentation for this GET request [here](https://learn.microsoft.com/en-us/graph/api/community-get?view=graph-rest-beta&tabs=http).
+
+
+<h1>Get community owners</h1>
+
+Using GET Method and Url https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners?$select=displayName  you can also retrieve the owners of the community.
+
+<img src="/articles/images/VivaGraphAPIOwners.PNG">
+
+
+and select the properties of the owners that interest you:
+
+<img src="/articles/images/VivaGraphAPIOwners2.PNG">
+
 
 <br/><br/>
 
