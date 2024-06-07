@@ -16,11 +16,12 @@ date: '2024-06-02'
 
 <h1>Get all communities</h1>
 
+
 | Method |	Url |
 |---|---|
 |GET| https://graph.microsoft.com/beta/employeeexperience/communities |
 
-In order to get all communities using Graph API, use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities
+In order to get all Viva Engage communities using Graph API, use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities
 
 <img src="/articles/images/VivaGraphAPI.PNG">
 
@@ -30,29 +31,41 @@ In order to get all communities using Graph API, use the GET method with the fol
 
 a) by id
 
+
 | Method |	Url |
 |---|---|
 |GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID |
 
-In order to get a specific community, use its ID. In the case of the sample tenant used in Graph Explorer, it's eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9. Use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9
+
+In order to get a specific Viva Engage community, use its ID. In the case of the sample tenant used in Graph Explorer, it's eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9. Use the GET method with the following url: https://graph.microsoft.com/beta/employeeexperience/communities/eyJfdHlwZSI6Ikdyb3VwIiwiaWQiOiIxMjczMDI1MyJ9
 
 <img src="/articles/images/VivaGraphAPI2.PNG">
 
 
 b) by name
 
-Use $filter to filter for your Viva Engage community's name. The API call fetches details about a community named "Our first Community" and returns data such as community ID, display name, description, and other related properties.
+| Method |	Url |
+|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities?$filter=displayName eq 'Marketing' |
+
+
+Use **$filter** to filter for your Viva Engage community's name. The API call fetches details about a community named "Marketing" and returns data such as community ID, display name, description, and other related properties.
 
 <img src="/articles/images/VivaGraphAPI3.PNG">
-
-c) by property
 
 
 
 See the full documentation for this GET request [here](https://learn.microsoft.com/en-us/graph/api/community-get?view=graph-rest-beta&tabs=http).
 
+<br/><br/>
 
 <h1>Get community owners</h1>
+
+| Method |	Url |
+|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners |
+
+
 
 Using GET Method and Url https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners?$select=displayName  you can also retrieve the owners of the community.
 
@@ -63,6 +76,21 @@ and select the properties of the owners that interest you:
 
 <img src="/articles/images/VivaGraphAPIOwners2.PNG">
 
+
+<br/><br/>
+
+<h1>Get associated group</h1>
+
+| Method |	Url |
+|---|---|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/group |
+
+
+
+Get the Microsoft 365 group associated with the Viva Engage community. The M365 group is crucial for the management of the community. You can manage community operations through the associated Microsoft 365 group by adding or removing members, managing ownership, deleting or renaming the group, and updating its description. 
+
+
+<img src="/articles/images/VivaGraphAPIgroup.PNG">
 
 <br/><br/>
 
@@ -87,7 +115,7 @@ privacy	| communityPrivacy	| Defines the privacy level of the community. The pos
 |---|---|
 |POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID |
 
-Every Viva Engage community is associated with a Microsoft 365 group, but the group doesn't have the same ID as the community. 
+Mind that every Viva Engage community is associated with a Microsoft 365 group, but the group doesn't have the same ID as the community. 
 
 <img src="/articles/images/VivaGraphAPI3.PNG">
 
@@ -112,9 +140,12 @@ For Viva Engage networks in native mode, creating a new Viva Engage community al
 
 | Method |	Url | Description |
 |---|---|---|
-|GET| https://graph.microsoft.com/beta/employeeexperience/communities | Get all communities |
-|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Get specific community|
-|POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Create a community|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities | Gets all communities |
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Gets specific community|
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities?$filter=displayName eq 'Marketing' | Gets community by name |
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners | Gets community owners |
+|GET| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/group | Gets associated M365 group |
+|POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID | Creates a community|
 
 
 <br/><br/>
@@ -123,3 +154,27 @@ For Viva Engage networks in native mode, creating a new Viva Engage community al
 
 [Introducing the Community Creation API for Viva Engage on Microsoft Graph Beta ](https://techcommunity.microsoft.com/t5/viva-engage-blog/introducing-the-community-creation-api-for-viva-engage-on/ba-p/4011966
 )
+
+
+
+
+
+<!-- Default Statcounter code for Viva Graph API
+https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/
+-->
+<script type="text/javascript">
+var sc_project=13006360; 
+var sc_invisible=0; 
+var sc_security="8e4900b1"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13006360/0/8e4900b1/0/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
