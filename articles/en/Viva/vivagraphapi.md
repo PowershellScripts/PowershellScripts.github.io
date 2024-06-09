@@ -116,8 +116,10 @@ privacy	| communityPrivacy	| Defines the privacy level of the community. The pos
 |POST| https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID |
 
 Mind that every Viva Engage community is associated with a Microsoft 365 group, but the group doesn't have the same ID as the community. 
+In order to create a new community, use POST method and the following body:
 
-<img src="/articles/images/VivaGraphAPIZZZ.PNG">
+
+<img src="/articles/images/VivaGraphAPI6.PNG">
 
 
 <br/><br/>
