@@ -29,7 +29,7 @@ In order to get all Viva Engage communities using Graph API, use the GET method 
 
 <h1>Get specific community</h1>
 
-a) by id
+<h3> a) by id </h3>
 
 
 | Method |	Url |
@@ -42,7 +42,7 @@ In order to get a specific Viva Engage community, use its ID. In the case of the
 <img src="/articles/images/VivaGraphAPI2.PNG">
 
 
-b) by name
+<h3> b) by name </h3>
 
 | Method |	Url |
 |---|---|
