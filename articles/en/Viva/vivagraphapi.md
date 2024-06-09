@@ -10,7 +10,7 @@ date: '2024-06-02'
 
 <h1>Graph Explorer</h1>
 
-[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) is a great tool for showcasing the capabilities of the Graph API. It even comes with a sample tenant you can test your queries against. The same queries can, of course, be reproduced in Postmant and your future applications. For our purpose of testing the Viva Engage Community API, we will use Graph Explorer. If it's your first time using Graph Explorer or Graph API, you can check out the [Graph Explorer Overview](https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-overview).
+[Graph Explorer](https://developer.microsoft.com/en-us/graph/graph-explorer) is a great tool for showcasing the capabilities of the Graph API. It even comes with a sample tenant you can test your queries against. The same queries can, of course, be reproduced in Postman and your future applications. For our purpose of testing the Viva Engage Community API, we will use Graph Explorer. If it's your first time using Graph Explorer or Graph API, you can check out the [Graph Explorer Overview](https://learn.microsoft.com/en-us/graph/graph-explorer/graph-explorer-overview).
 
 <br/><br/>
 
