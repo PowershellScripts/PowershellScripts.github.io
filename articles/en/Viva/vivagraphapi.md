@@ -51,7 +51,7 @@ In order to get a specific Viva Engage community, use its ID. In the case of the
 
 Use **$filter** to filter for your Viva Engage community's name. The API call fetches details about a community named "Marketing" and returns data such as community ID, display name, description, and other related properties.
 
-<img src="/articles/images/VivaGraphAPI3.PNG">
+<img src="/articles/images/VivaGraphAPIZZZ.PNG">
 
 
 
@@ -117,7 +117,7 @@ privacy	| communityPrivacy	| Defines the privacy level of the community. The pos
 
 Mind that every Viva Engage community is associated with a Microsoft 365 group, but the group doesn't have the same ID as the community. 
 
-<img src="/articles/images/VivaGraphAPI3.PNG">
+<img src="/articles/images/VivaGraphAPIZZZ.PNG">
 
 
 <br/><br/>
