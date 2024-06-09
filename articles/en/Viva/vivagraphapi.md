@@ -51,7 +51,7 @@ In order to get a specific Viva Engage community, use its ID. In the case of the
 
 Use **$filter** to filter for your Viva Engage community's name. The API call fetches details about a community named "Marketing" and returns data such as community ID, display name, description, and other related properties.
 
-<img src="/articles/images/VivaGraphAPIZZZ.PNG">
+<img src="/articles/images/VivaGraphAPI4.PNG">
 
 
 
