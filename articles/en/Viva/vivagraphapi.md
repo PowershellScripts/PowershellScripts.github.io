@@ -51,7 +51,7 @@ In order to get a specific Viva Engage community, use its ID. In the case of the
 
 Use **$filter** to filter for your Viva Engage community's name. The API call fetches details about a community named "Marketing" and returns data such as community ID, display name, description, and other related properties.
 
-<img src="/articles/images/VivaGraphAPI4.PNG">
+<img src="/articles/images/VivaGraphAPI5.PNG">
 
 
 
@@ -67,12 +67,12 @@ See the full documentation for this GET request [here](https://learn.microsoft.c
 
 
 
-Using GET Method and Url https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners?$select=displayName  you can also retrieve the owners of the community.
+Using GET Method and Url https://graph.microsoft.com/beta/employeeexperience/communities/COMMUNITYID/owners  you can also retrieve the owners of the community.
 
 <img src="/articles/images/VivaGraphAPIOwners.PNG">
 
 
-and select the properties of the owners that interest you:
+Use **?$select=displayName** to select the properties of the owners that interest you:
 
 <img src="/articles/images/VivaGraphAPIOwners2.PNG">
 
@@ -87,7 +87,7 @@ and select the properties of the owners that interest you:
 
 
 
-Get the Microsoft 365 group associated with the Viva Engage community. The M365 group is crucial for the management of the community. You can manage community operations through the associated Microsoft 365 group by adding or removing members, managing ownership, deleting or renaming the group, and updating its description. 
+Gets the Microsoft 365 group associated with the Viva Engage community. The M365 group is crucial for the management of the community. You can manage community operations through the associated Microsoft 365 group by adding or removing members, managing ownership, deleting or renaming the group, and updating its description. 
 
 
 <img src="/articles/images/VivaGraphAPIgroup.PNG">
