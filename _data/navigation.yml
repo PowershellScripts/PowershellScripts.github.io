@@ -62,6 +62,8 @@
       link: /articles/en/Viva/How%20to%20post%20as%20delegate/
     - name: How to close a Viva Engage conversation
       link: /articles/en/Viva/Closeconversation/
+    - name: Manage Viva Engage with Graph API
+      link: /articles/en/Viva/vivagraphapi/
 
 - name: Server
   link: /#
