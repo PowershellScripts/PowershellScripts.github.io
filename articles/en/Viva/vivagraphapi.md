@@ -121,6 +121,12 @@ In order to create a new community, use POST method and the following body:
 
 <img src="/articles/images/VivaGraphAPI6.PNG">
 
+<br/>
+
+You can also use Graph Explore to generate a code snippet in C# for Viva Engage community creation:
+
+<img src="/articles/images/VivaGraphAPI7.PNG">
+
 
 <br/><br/>
 
