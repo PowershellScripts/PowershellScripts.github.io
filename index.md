@@ -83,7 +83,7 @@ Links to my older Social Technet Articles:
 * [Get all checked-out files using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/34215.sharepoint-online-get-all-checked-out-files-using-powershell.aspx)
 * [SharePoint Online: Disable or enable attachments to list items using Powershell](https://learn.microsoft.com/en-us/archive/technet-wiki/30024.sharepoint-online-disable-or-enable-attachments-to-list-items-using-powershell)
 * [SharePoint Online: Get any object with PowerShell ](http://social.technet.microsoft.com/wiki/contents/articles/37671.sharepoint-online-get-any-object-with-powershell-part-1.aspx)
-* Powershell GridView to help with SharePoint data viewing
+* [Powershell GridView to help with SharePoint data viewing](https://learn.microsoft.com/en-us/archive/technet-wiki/34758.powershell-gridview-to-help-with-sharepoint-data-viewing)
 * SharePoint 2016 Troubleshooting: Installation error - The tool was unable to install Web Server (IIS) Role
 * Powershell in SharePoint: Disable comments on modern pages in entire site using CSOM
 
