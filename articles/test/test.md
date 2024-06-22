@@ -99,7 +99,7 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 	<li style="--i: 1">
-		2024-06-15<h3>Discovery and assessment</h3>
+		<div><h3>Discovery and assessment</h3>2024-06-15</div>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 8">
@@ -108,7 +108,7 @@ h3::before {
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 3">
-		2024-06-15
+		<div>2024-06-15</div>
 		<h3>Creating your claim</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
