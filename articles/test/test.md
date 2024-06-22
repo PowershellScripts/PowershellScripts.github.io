@@ -3,7 +3,7 @@
 
 body {
 	--h: 212deg;
-	--l: 43%;
+	--l: 83%;
 	--brandColor: hsl(var(--h), 71%, var(--l));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
