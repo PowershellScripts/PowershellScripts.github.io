@@ -83,6 +83,11 @@ h3::before {
 		font-size: 2.25rem;
 		margin: 0 0 2rem;
 	}
+
+	sub {
+		margin: 0 0 0rem;
+		align-items: right;
+	}
 	
 	h3::before {
 		margin-right: 1.5rem;
@@ -94,11 +99,11 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 	<li style="--i: 1">
-		<sub>2024-06-15</sub>
-		<h3>Discovery and assessment</h3>
+		<h3>Discovery and assessment</h3>2024-06-15
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 8">
+		<sub>blabla</sub>
 		<h3>Information gathering and analysis</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
