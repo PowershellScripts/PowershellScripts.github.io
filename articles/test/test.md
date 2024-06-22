@@ -54,7 +54,7 @@ li::before {
 h3 {
 	display: flex;
 	align-items: baseline;
-	margin: 0 0 1rem;
+	margin: 0 0 0rem;
 	color: rgb(70 70 70);
 }
 
@@ -68,7 +68,7 @@ h3::before {
 	height: 3rem;
 	content: counter(list);
 	padding: 0rem;
-	border-radius: 50%;
+	border-radius: 10%;
 	background-color: var(--c1);
 	color: white;
 }
