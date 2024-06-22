@@ -3,7 +3,7 @@
 
 body {
 	--h: 212deg;
-	--l: 83%;
+	--l: 43%;
 	--brandColor: hsl(var(--h), 71%, var(--l));
 	font-family: Montserrat, sans-serif;
 	margin: 0;
@@ -31,7 +31,7 @@ li {
 	
 	position: relative;
 	counter-increment: list;
-	max-width: 45rem;
+	max-width: 85rem;
 	margin: 2rem auto;
 	padding: 2rem 1rem 1rem;
 	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
@@ -99,7 +99,7 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 	<li style="--i: 1">
-		<style="text-align: right;"> 2024-06-18</style>
+		<span style="text-align: right;"> 2024-06-18</span>
 		<h3>Discovery and assessment</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
