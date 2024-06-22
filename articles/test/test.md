@@ -67,7 +67,7 @@ h3::before {
 	width: 3rem;
 	height: 3rem;
 	content: counter(list);
-	padding: 1rem;
+	padding: 0rem;
 	border-radius: 50%;
 	background-color: var(--c1);
 	color: white;
@@ -99,7 +99,7 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 	<li style="--i: 1">
-		<span style="text-align: right;"> 2024-06-18</span>
+		<div style="text-align: right;"> 2024-06-18</div>
 		<h3>Discovery and assessment</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
