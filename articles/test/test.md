@@ -65,7 +65,7 @@ h3::before {
 	flex: 0 0 auto;
 	margin-right: 1rem;
 	width: 3rem;
-	height: 0.5rem;
+	height: 3rem;
 	content: counter(list);
 	padding: 0rem;
 	border-radius: 10%;
