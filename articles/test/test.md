@@ -18,7 +18,7 @@ p {
 ol {
 	list-style: none;
 	counter-reset: list;
-	padding: 0 0rem;
+	padding: 0 1rem;
 }
 
 li {
@@ -32,8 +32,8 @@ li {
 	position: relative;
 	counter-increment: list;
 	max-width: 85rem;
-	margin: 0rem auto;
-	padding: 1rem 0rem 0rem;
+	margin: 2rem auto;
+	padding: 1rem 1rem 1rem;
 	box-shadow: 0.1rem 0.1rem 1.5rem rgba(0, 0, 0, 0.3);
 	border-radius: 0.25rem;
 	overflow: hidden;
@@ -75,8 +75,8 @@ h3::before {
 
 @media (min-width: 40em) {
 	li {
-		margin: 0rem auto;
-		padding: 1rem 0rem 0rem;
+		margin: 3rem auto;
+		padding: 2rem 2rem 3rem;
 	}
 	
 	h3 {
@@ -90,7 +90,7 @@ h3::before {
 	}
 	
 	h3::before {
-		margin-right: 0.5rem;
+		margin-right: 1.5rem;
 	}
 }
 
