@@ -99,12 +99,12 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 	<li style="--i: 1">
-		<p style="text-align: right;"> 2024-06-18</p>
+		<style="margin-left: auto;"> 2024-06-18</p>
 		<h3>Discovery and assessment</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 8">
-		<sup style="text-align: right;">blabla</sup>
+		<span style="display: block; text-align: right;">blabla</sup>
 		<h3>Information gathering and analysis</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
