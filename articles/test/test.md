@@ -104,8 +104,8 @@ h3::before {
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 8">
-		<span style="display: block; text-align: right;">blabla</span>
-		<h3>Information gathering and analysis</h3>
+		<span style="display: block; text-align: right;">blabla
+		<h3>Information gathering and analysis</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 3">
