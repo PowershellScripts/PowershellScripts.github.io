@@ -109,12 +109,12 @@ h3::before {
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 3">
-		<div>2024-06-15</div>
+		                                                                                                                                                   2024-06-15
 		<h3>Creating your claim</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 4">
-		2024-06-98
+		                                                                                           2024-06-98
 		<h3>Approvals and submission</h3>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
