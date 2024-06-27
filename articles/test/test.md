@@ -98,28 +98,72 @@ h3::before {
 </style>
 
 <ol style="--length: 5" role="list">
-	<li style="--i: 1">
-		<pre>                                                  2024-06-18</pre>
-		<h3>Discovery and assessment</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	<li style="--i: 8">
+		<span style="display: block; text-align: right;">2024-06-02
+		<h3>[Manage Viva Engage with Graph API](https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/)</h3></span>
+		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. [Read on...](https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/) </p>
 	</li>
 	<li style="--i: 8">
-		<span style="display: block; text-align: right;">blabla
-		<h3>Information gathering and analysis</h3></span>
+		<span style="display: block; text-align: right;">2024-05-26
+		<h3>[Close conversations in Viva Engage](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
+	</li>
+
+	<li style="--i: 5">
+		<span style="display: block; text-align: right;">2024-03-24
+		<h3>[Hide Teamify Prompt](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
-	<li style="--i: 3">
-		                                                                                                                                                   2024-06-15
-		<h3>Creating your claim</h3>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+ 
+	<li style="--i: 8">
+		    2024-02-03
+		[<h3>Viva: How to post as a delegate</h3>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)
 	</li>
 	<li style="--i: 4">
-		                    &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;      2024-06-98
-		<h3>Approvals and submission</h3>
+		<span style="display: block; text-align: right;">2024-01-14
+		<h3>[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 	<li style="--i: 5">
-		<h3>Receiving your benefit</h3>
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+	</li>
+		<li style="--i: 5">
+		<span style="display: block; text-align: right;">2023-11-04
+		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
 </ol>
