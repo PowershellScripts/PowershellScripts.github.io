@@ -100,12 +100,12 @@ h3::before {
 <ol style="--length: 5" role="list">
 	<li style="--i: 8">
 		<span style="display: block; text-align: right;">2024-06-02
-		<h3>[Manage Viva Engage with Graph API](https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/)</h3></span>
+		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. [Read on...](https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/) </p>
 	</li>
 	<li style="--i: 8">
 		<span style="display: block; text-align: right;">2024-05-26
-		<h3>[Close conversations in Viva Engage](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
+		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</li>
 
