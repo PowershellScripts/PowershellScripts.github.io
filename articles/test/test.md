@@ -10,6 +10,10 @@ body {
 	background-color: whitesmoke;
 }
 
+a:link {
+  color: black;
+}
+
 p {
 	margin: 0;
 	line-height: 1.6;
