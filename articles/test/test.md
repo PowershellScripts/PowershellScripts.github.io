@@ -122,16 +122,17 @@ h3::before {
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
+	
 	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
-		<h3>Close conversations in Viva Engage</a></h3></span>
+		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</a></li>
 
-	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
 		<span style="display: block; text-align: right;">2024-03-24
-		<h3>[Hide Teamify Prompt](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+		<h3>Hide Teamify Prompt</h3></span>
+		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
  
 	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
