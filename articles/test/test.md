@@ -147,10 +147,10 @@ h3::before {
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+		<h3>Add Viva Engage to your SharePoint pages</h3></span>
+		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
 	</a></li>
 
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
