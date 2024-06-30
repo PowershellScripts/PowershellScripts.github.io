@@ -85,7 +85,6 @@ h3::before {
 	margin-right: 1rem;
 	width: 3rem;
 	height: 3rem;
-	content: '';
 	padding: 0rem;
 	border-radius: 10%;
 	background-color: var(--c1);
