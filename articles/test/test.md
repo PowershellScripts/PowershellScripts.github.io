@@ -14,6 +14,21 @@ a:link {
   color: black;
 }
 
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+}
+
+/* selected link */
+a:active {
+  color: black;
+}
+
 p {
 	margin: 0;
 	line-height: 1.6;
