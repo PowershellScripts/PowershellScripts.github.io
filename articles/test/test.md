@@ -122,24 +122,24 @@ h3::before {
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
-	<li style="--i: 8">
+	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">Close conversations in Viva Engage</a></h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</li>
 
-	<li style="--i: 5">
+	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>[Hide Teamify Prompt](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
  
-	<li style="--i: 8">
+	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)
 	</li>
-	<li style="--i: 4">
+	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
