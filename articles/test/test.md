@@ -45,7 +45,7 @@ li {
 	--l: 62%;
 	--l2: 88%;
 	--h: calc((var(--i) - 1) * (180 / var(--length)));
-	--c1: hsl(var(--h), 71%, var(--l));
+	--c1: hsl(var(--h), 74%, var(--l));
 	--c2: hsl(var(--h), 71%, var(--l2));
 	
 	position: relative;
@@ -117,37 +117,37 @@ h3::before {
 </style>
 
 <ol style="--length: 5" role="list">
-	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</a></li>
 
-	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
+	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Hide Teamify Prompt</h3></span>
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
  
-	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Now, you can post on behalf of another person in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Configure it through Yammer’s settings section... </p>
 	</a></li>
  
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
@@ -180,16 +180,7 @@ h3::before {
 		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
-		<li style="--i: 5">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
-	</li>
-		<li style="--i: 5">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
-	</li>
+
 </ol>
 
 
