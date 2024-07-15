@@ -73,7 +73,7 @@ KQL (Keyword Query Language) is a powerful syntax used primarily within Microsof
 <br/>
 
 
-## <li> Search for Documents Modified in the Last 30 Days
+## <li> Search for Documents Modified in the Last 30 Days </li>
 ```kql
 {searchTerms} AND (FileExtension:docx OR FileExtension:pdf) AND Modified:{Today-30}..{Today}
 ```
