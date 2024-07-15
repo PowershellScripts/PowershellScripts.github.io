@@ -9,17 +9,26 @@ date: '2024-07-14'
 ---
 
 
+[1. Keep it clean, close your Viva conversations](#closeVivaconversations)
+
+[2. How to close Viva conversations](#howtoclose)
+
+[3. How to reopen Viva conversations](#howtoreopen)
+
+[4. Who can? - Permissions](#permissions)
+
 # Intro
 
 In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) query template to build dynamic queries. The query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. Instead, you can achieve conditional logic by leveraging tokens like `{?{ }}` to include or exclude parts of the query based on conditions. 
 
 By using the `{?{ }}` syntax in your PnP Search Web Part query template, you can introduce dynamic, conditional logic similar to "if" statements in programming.
 
+This article gives a few examples of how you can use conditional logic in a query template.
 
-Here are a few examples of how you can use conditional logic in a query template.
+<br/><br/><br/>
 
-### Example Scenario:
-You want to modify the search query based on whether a user has provided a specific filter or not.
+# Detailed explanation
+Imagine, you want to modify the search query based on whether a user has provided a specific filter or not.
 
 ### Step-by-Step Process:
 
@@ -78,12 +87,14 @@ Here’s how a more complex query template with multiple conditions might look:
 {searchTerms} {?{QueryString.FilterCategory}Category:{QueryString.FilterCategory}} {?{QueryString.FilterDate}Date:{QueryString.FilterDate}} {?{User.Name}Author:{User.Name}}
 ```
 
+<br/><br/><br/>
+
+# Examples
+
+<br/>
 
 
-
-
-
-### Example 1: Search for Documents Modified in the Last 30 Days
+## <li> Search for Documents Modified in the Last 30 Days
 ```kql
 {searchTerms} AND (FileExtension:docx OR FileExtension:pdf) AND Modified:{Today-30}..{Today}
 ```
@@ -92,7 +103,9 @@ Here’s how a more complex query template with multiple conditions might look:
 - `FileExtension:docx OR FileExtension:pdf`: Filters to show only Word documents and PDFs.
 - `Modified:{Today-30}..{Today}`: Filters to show documents modified in the last 30 days.
 
-### Example 2: Search for Items by Current User
+<br/>
+
+## <li> Search for Items by Current User
 ```kql
 {searchTerms} AND Author:{User.Name}
 ```
@@ -100,7 +113,9 @@ Here’s how a more complex query template with multiple conditions might look:
 - `{searchTerms}`: Placeholder for the user's search terms.
 - `Author:{User.Name}`: Filters to show items where the author is the current user.
 
-### Example 3: Search for Tasks Due Today
+<br/>
+
+## <li> Search for Tasks Due Today
 ```kql
 ContentType:Task AND DueDate:{Today}
 ```
@@ -108,7 +123,9 @@ ContentType:Task AND DueDate:{Today}
 - `ContentType:Task`: Filters to show only items of content type Task.
 - `DueDate:{Today}`: Filters to show tasks that are due today.
 
-### Example 4: Search Within a Specific Site Collection
+<br/>
+
+## <li> Search Within a Specific Site Collection
 ```kql
 {searchTerms} AND Path:https://yoursitecollection.sharepoint.com/sites/specificsite
 ```
@@ -116,7 +133,9 @@ ContentType:Task AND DueDate:{Today}
 - `{searchTerms}`: Placeholder for the user's search terms.
 - `Path:https://yoursitecollection.sharepoint.com/sites/specificsite`: Limits the search to items within a specific site collection.
 
-### Example 5: Search with Query String Parameters for Category and Date Range
+<br/>
+
+## <li> Search with Query String Parameters for Category and Date Range
 ```kql
 {searchTerms} {?{QueryString.Category}Category:{QueryString.Category}} {?{QueryString.StartDate}Modified:{QueryString.StartDate}..{QueryString.EndDate}}
 ```
@@ -125,7 +144,9 @@ ContentType:Task AND DueDate:{Today}
 - `Category:{QueryString.Category}`: Filters by a category passed in the query string.
 - `Modified:{QueryString.StartDate}..{QueryString.EndDate}`: Filters by a date range passed in the query string.
 
-### Example 6: Search for Content with Specific Metadata
+<br/>
+
+## <li> Search for Content with Specific Metadata
 ```kql
 {searchTerms} AND Department:Finance AND ContentType:Document
 ```
@@ -134,7 +155,9 @@ ContentType:Task AND DueDate:{Today}
 - `Department:Finance`: Filters to show only items where the Department metadata is set to Finance.
 - `ContentType:Document`: Filters to show only items of content type Document.
 
-### Example 7: Search for Items Tagged with Specific Terms
+<br/>
+
+## <li> Search for Items Tagged with Specific Terms
 ```kql
 {searchTerms} AND (Tag:ProjectX OR Tag:Important)
 ```
@@ -142,7 +165,9 @@ ContentType:Task AND DueDate:{Today}
 - `{searchTerms}`: Placeholder for the user's search terms.
 - `Tag:ProjectX OR Tag:Important`: Filters to show items tagged with either ProjectX or Important.
 
-### Example 8: Search for Recently Viewed Items by the User
+<br/>
+
+## <li> Search for Recently Viewed Items by the User
 ```kql
 {searchTerms} AND ViewedBy:{User.Name} AND LastViewedTime:{Today-7}..{Today}
 ```
@@ -151,7 +176,9 @@ ContentType:Task AND DueDate:{Today}
 - `ViewedBy:{User.Name}`: Filters to show items viewed by the current user.
 - `LastViewedTime:{Today-7}..{Today}`: Filters to show items viewed in the last 7 days.
 
-### Example 9: Search for Items Excluding a Specific Folder
+<br/>
+
+## <li> Search for Items Excluding a Specific Folder
 ```kql
 {searchTerms} -Path:https://yoursitecollection.sharepoint.com/sites/specificsite/Shared%20Documents/ExcludeFolder/*
 ```
@@ -159,7 +186,9 @@ ContentType:Task AND DueDate:{Today}
 - `{searchTerms}`: Placeholder for the user's search terms.
 - `-Path:https://yoursitecollection.sharepoint.com/sites/specificsite/Shared%20Documents/ExcludeFolder/*`: Excludes items from a specific folder.
 
-### Example 10: Search for Items Created by the Current User in the Last Year
+<br/>
+
+## <li> Search for Items Created by the Current User in the Last Year
 ```kql
 {searchTerms} AND CreatedBy:{User.Name} AND Created:{Today-365}..{Today}
 ```
