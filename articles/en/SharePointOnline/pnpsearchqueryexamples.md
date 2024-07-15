@@ -8,15 +8,6 @@ hero_height: is-small
 date: '2024-07-14'
 ---
 
-
-[1. Keep it clean, close your Viva conversations](#closeVivaconversations)
-
-[2. How to close Viva conversations](#howtoclose)
-
-[3. How to reopen Viva conversations](#howtoreopen)
-
-[4. Who can? - Permissions](#permissions)
-
 # Intro
 
 In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) query template to build dynamic queries. The query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. Instead, you can achieve conditional logic by leveraging tokens like `{?{ }}` to include or exclude parts of the query based on conditions. 
@@ -28,7 +19,7 @@ This article gives a few examples of how you can use conditional logic in a quer
 <br/><br/><br/>
 
 # Detailed explanation
-Imagine, you want to modify the search query based on whether a user has provided a specific filter or not.
+Imagine, you want to modify the PnP webpart search query based on whether a user has provided a specific filter or not.
 
 ### Step-by-Step Process:
 
@@ -105,13 +96,25 @@ Here’s how a more complex query template with multiple conditions might look:
 
 <br/>
 
-## <li> Search for Items by Current User
+## <li> Search for Items Created by Current User
+This shows items (SharePoint files) which the user has created.
 ```kql
 {searchTerms} AND Author:{User.Name}
 ```
 #### Explanation:
 - `{searchTerms}`: Placeholder for the user's search terms.
 - `Author:{User.Name}`: Filters to show items where the author is the current user.
+
+<br/>
+
+## <li> Search for Items Modified by Current User
+This shows items on which the user has worked.
+```kql
+{searchTerms} AND Editor:{User.Name}
+```
+#### Explanation:
+- `{searchTerms}`: This placeholder is replaced by the user's search query.
+- `Editor:{User.Name}`: This part of the query filters results to show only items where the Editor (the person who last modified the item) is the current user.
 
 <br/>
 
@@ -125,7 +128,49 @@ ContentType:Task AND DueDate:{Today}
 
 <br/>
 
-## <li> Search Within a Specific Site Collection
+## <li> Search for Tasks Due This Month in Specific Sites
+```kql
+ContentType:Task AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND DueDate:{Today}..{EndOfMonth}
+```
+#### Explanation:
+- `ContentType:Task`: Filters to show only items of content type Task.
+- `Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*`: Limits the search to items within sites starting with TEAMGR.....
+- `DueDate:{Today}..{EndOfMonth}`: Filters to show tasks that are due this month.
+
+<br/>
+
+## <li> Search for Overdue Tasks
+```kql
+ContentType:Task AND DueDate<={Today}
+```
+#### Explanation:
+- `ContentType:Task`: Filters to show only items of content type Task.
+- `DueDate<={Today}`: Filters to show tasks where the due date is on or before today (i.e., overdue tasks).
+
+<br/>
+
+## <li> Search for Tasks Assigned to Users From a Specific Department
+```kql
+ContentType:Task AND Department:Dept2
+```
+#### Explanation:
+- `ContentType:Task`: Filters to show only items of content type Task.
+- `Department:Dept2`: Filters to show tasks assigned to users whose department property is set to "Dept2". This requires the user profile properties to be indexed and searchable.
+
+<br/>
+
+## <li> Search for Tasks in Progress
+```kql
+ContentType:Task AND Status:"In Progress"
+```
+#### Explanation:
+- `ContentType:Task`: Filters to show only items of content type Task.
+- `Status:"In Progress"`: Filters to show tasks that are currently in progress.
+
+<br/>
+
+
+## <li> Search Within a Specific SharePoint Site Collection
 ```kql
 {searchTerms} AND Path:https://yoursitecollection.sharepoint.com/sites/specificsite
 ```
@@ -134,6 +179,45 @@ ContentType:Task AND DueDate:{Today}
 - `Path:https://yoursitecollection.sharepoint.com/sites/specificsite`: Limits the search to items within a specific site collection.
 
 <br/>
+
+## <li> Search Within Multiple SharePoint Site Collections
+This query template ensures that the search is limited to items within any of the three specified SharePoint site collections.
+```kql
+{searchTerms} AND (Path:https://yoursitecollection.sharepoint.com/sites/site1 OR Path:https://yoursitecollection.sharepoint.com/sites/site2 OR Path:https://yoursitecollection.sharepoint.com/sites/site3)
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `Path:https://yoursitecollection.sharepoint.com/sites/site1`: Limits the search to items within the first site collection.
+- `Path:https://yoursitecollection.sharepoint.com/sites/site2`: Limits the search to items within the second site collection.
+- `Path:https://yoursitecollection.sharepoint.com/sites/site3`: Limits the search to items within the third site collection.
+
+
+<br/>
+
+## <li> Search Within Teams
+This query allows you to search for documents inside your Teams. Microsoft Teams stores its data in SharePoint (for files) and Exchange (for messages), so you can target the SharePoint sites associated with Teams to search for files and documents.
+```kql
+{searchTerms} AND (Path:https://yourtenant.sharepoint.com/sites/Team1 OR Path:https://yourtenant.sharepoint.com/sites/Team2 OR Path:https://yourtenant.sharepoint.com/sites/Team3)
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- Path:https://yourtenant.sharepoint.com/sites/Team1: Limits the search to items within the SharePoint site associated with Team1.
+- Path:https://yourtenant.sharepoint.com/sites/Team2: Limits the search to items within the SharePoint site associated with Team2.
+- Path:https://yourtenant.sharepoint.com/sites/Team3: Limits the search to items within the SharePoint site associated with Team3.
+
+<br/>
+
+## <li> Search Within All Teams
+If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-0002, etc., you can create a query in the PnP Search Web part that targets all sites following this pattern using a wildcard in the KQL query.
+```kql
+{searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*: Limits the search to items within any site that starts with TEAMGR- in your SharePoint tenant.
+
+
+
 
 ## <li> Search with Query String Parameters for Category and Date Range
 ```kql
@@ -197,6 +281,143 @@ ContentType:Task AND DueDate:{Today}
 - `CreatedBy:{User.Name}`: Filters to show items created by the current user.
 - `Created:{Today-365}..{Today}`: Filters to show items created in the last year.
 
+
+<br/>
+
+## <li> Search for Images in Team Sites
+```kql
+{searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND (FileExtension:jpg OR FileExtension:png OR FileExtension:gif)
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*`: Limits the search to items within any team site.
+- `FileExtension:jpg OR FileExtension:png OR FileExtension:gif`: Filters to show only image files.
+
+<br/>
+
+## <li> Search for Videos in Team Sites
+```kql
+{searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND (FileExtension:mp4 OR FileExtension:avi OR FileExtension:wmv)
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*`: Limits the search to items within any team site.
+- `FileExtension:mp4 OR FileExtension:avi OR FileExtension:wmv`: Filters to show only video files.
+
+<br/>
+
+## <li> Search for Videos Longer Than 5 Minutes
+```kql
+ContentType:Video AND DurationInSeconds>300
+```
+#### Explanation:
+- `ContentType:Video`: Filters to show only items of content type Video.
+- `DurationInSeconds>300`: Filters to show videos with a duration longer than 300 seconds (5 minutes).
+
+<br/>
+
+## <li> Search for Large Files
+This query can help manage the site collection storage.
+```kql
+{searchTerms} AND Size>1073741824
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms. This can be omitted if you want to search for all large files without specific keywords.
+- `Size>1073741824`: Filters to show items where the size is greater than 1GB (1GB = 1,073,741,824 bytes).
+
+
+<br/>
+
+## <li> Search for Suspiciously Small Files
+This query can help find broken or empty files.
+```kql
+{searchTerms} AND Size<1000
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms. This can be omitted if you want to search for all large files without specific keywords.
+- `Size<1000`: Filters to show items where the size is less than 1000 bytes.
+
+
+<br/>
+
+## <li> Search for Items with Comments
+```kql
+{searchTerms} AND IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `IsDocument:true AND IsContainer:false`: Filters to show only document items and exclude folders.
+- `Comments:{searchTerms}`: Searches within the custom managed property Comments for the search terms.
+
+<br/>
+
+## <li> Search for Items with Comments
+```kql
+IsDocument:true AND IsContainer:false AND Comments:*
+```
+#### Explanation:
+- `IsDocument:true AND IsContainer:false`: Filters to show only SharePoint document items and exclude folders.
+- `Comments:*`: Filters to show documents where the Comments property is not empty.
+
+<br/>
+
+## <li> Search for Comments with a Specific Phrase
+```kql
+IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
+```
+#### Explanation:
+- `IsDocument:true AND IsContainer:false`: Filters to show only SharePoint document items and exclude folders.
+- `Comments:{searchTerms}`: Searches within the custom managed property Comments for the search terms. Ensure that the Comments field is properly configured and indexed in SharePoint so that it can be searched effectively using KQL.
+
+<br/>
+
+## <li> Search for Folders and Document Sets
+```kql
+{searchTerms} AND IsContainer:true
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `IsContainer:true`: This query filters the search results to include only items that SharePoint identifies as containers. In SharePoint's context, containers typically refer to folders or document sets.
+
+
+<br/>
+
+## <li> Search for Items with High Importance
+```kql
+{searchTerms} AND Importance:High
+```
+#### Explanation:
+- `{searchTerms}`: Placeholder for the user's search terms.
+- `Importance:High`: Filters to show items marked with high importance.
+
+
+<br/>
+
+## <li> Search for Calendar Events
+```kql
+ContentType:Event AND EventDate:{Today}..{EndOfYear}
+```
+#### Explanation:
+- `ContentType:Event`: Filters to show only calendar events.
+- `EventDate:{Today}..{EndOfYear}`: Filters to show events occurring from today to the end of the year.
+
+
+<br/>
+
+## <li> Be More Specific 
+Do not hesitate to combine the queries above.
+```kql
+(Path:https://yourtenant.sharepoint.com/sites/department1 OR Path:https://yourtenant.sharepoint.com/sites/department2) 
+AND ContentType:Document 
+AND Author:"Arleta Wanat" 
+AND (FileType:docx OR FileType:xlsx OR FileType:pptx) 
+AND Created>{Today-365} 
+AND (Modified:{Today-7}..{Today}) 
+AND Size>{1024} 
+AND (Keywords:"project update" OR Keywords:"report") 
+AND IsDocument:true 
+AND IsContainer:false
+```
 
 
 ### Final Notes:
