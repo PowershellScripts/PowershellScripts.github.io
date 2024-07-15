@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Search query examples'
+title: 'PnP Search query examples with KQL'
 hero_image: '/img/IMG_20220521_140146.jpg'
 menubar: docs_menu
 show_sidebar: false
@@ -10,73 +10,61 @@ date: '2024-07-14'
 
 # Intro
 
-In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) query template to build dynamic queries. The query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. Instead, you can achieve conditional logic by leveraging tokens like `{?{ }}` to include or exclude parts of the query based on conditions. 
+KQL (Keyword Query Language) is a powerful syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules:
 
-By using the `{?{ }}` syntax in your PnP Search Web Part query template, you can introduce dynamic, conditional logic similar to "if" statements in programming.
+<br/>
 
-This article gives a few examples of how you can use conditional logic in a query template.
+## Boolean Operators:
 
-<br/><br/><br/>
+- **AND**: The `AND` operator is used to narrow down search results by requiring that all specified conditions must be met. For example, `ContentType:Document AND Author:"John Doe"` retrieves documents authored by John Doe.
 
-# Detailed explanation
-Imagine, you want to modify the PnP webpart search query based on whether a user has provided a specific filter or not.
+- **OR**: The `OR` operator broadens search results by retrieving items that match either of the specified conditions. For example, `ContentType:Document OR ContentType:Folder` retrieves both documents and folders.
 
-### Step-by-Step Process:
+- **NOT**: The `NOT` operator excludes items that match the specified condition. For example, `ContentType:Document NOT Author:"Jane Smith"` excludes documents authored by Jane Smith.
 
-1. **Open the PnP Search Web Part**:
-   - Go to the SharePoint page where you want to configure the web part.
-   - Edit the page and add or configure the "PnP - Search Results" web part.
+<br/>
 
-2. **Edit the Query Template**:
-   - In the web part properties, locate the "Search Query" or "Query Template" field.
+## Grouping:
 
-3. **Use Conditional Logic in KQL**:
-   - Use the `{?{ }}` syntax to conditionally include parts of the query based on the presence of a token or variable.
+- Parentheses `()` can be used to group clauses together to control the logical order of operations. For example, `(ContentType:Document OR ContentType:Folder) AND Author:"John Doe"` retrieves documents or folders authored by John Doe.
 
-### Sample Query Template:
-```kql
-{searchTerms} {?{QueryString.FilterCategory}Category:{QueryString.FilterCategory}}
-```
+<br/>
 
-#### Explanation:
-- `{searchTerms}`: This placeholder is replaced by the user's search query.
-- `{?{QueryString.FilterCategory}Category:{QueryString.FilterCategory}}`: This conditional logic checks if `QueryString.FilterCategory` is present. If it is, it appends `Category:{QueryString.FilterCategory}` to the query.
+## Wildcards and Fuzziness:
 
-### Detailed Breakdown:
-- `QueryString.FilterCategory`: This is a token that gets replaced by the value of a query string parameter named `FilterCategory` if it exists.
-- `Category:{QueryString.FilterCategory}`: This part of the query is added only if `QueryString.FilterCategory` is present.
+- **Wildcards**: KQL supports `*` (asterisk) as a wildcard character to match any sequence of characters. For example, `Title:proj*` matches documents with titles starting with "proj".
 
-### Additional Example with Multiple Conditions:
-If you have multiple conditions, you can chain them using similar syntax:
+- **Fuzziness**: KQL allows for fuzzy matching using the `~` (tilde) followed by a number to indicate how many edit distance operations (insertions, deletions, substitutions) are allowed. For example, `Title:proj~2` matches documents with titles similar to "proj" within an edit distance of 2.
 
-```kql
-{searchTerms} {?{QueryString.FilterCategory}Category:{QueryString.FilterCategory}} {?{QueryString.FilterDate}Date:{QueryString.FilterDate}}
-```
+<br/>
 
-### Explanation:
-- This query template checks for both `FilterCategory` and `FilterDate` query string parameters.
-- It appends the respective conditions to the search query if the parameters are present.
+## Field Operators:
 
-### Applying Tokens and Variables:
-Tokens and variables can be retrieved from:
-- Query string parameters
-- Current user's properties
-- Page properties
+- **Field Specifiers**: Fields such as `Title:`, `Author:`, `ContentType:`, etc., specify which metadata or content property to search within. For example, `ContentType:Document` limits the search to documents only.
 
-### Using Tokens:
-Here are some common tokens you might use in a query template:
-- `{searchTerms}`: The search terms entered by the user.
-- `{User.Name}`: The current user's name.
-- `{User.Email}`: The current user's email.
-- `{Page.Title}`: The title of the current page.
-- `{Today}`: The current date.
+<br/>
 
-### Putting It All Together:
-Here’s how a more complex query template with multiple conditions might look:
+## Range Queries:
 
-```kql
-{searchTerms} {?{QueryString.FilterCategory}Category:{QueryString.FilterCategory}} {?{QueryString.FilterDate}Date:{QueryString.FilterDate}} {?{User.Name}Author:{User.Name}}
-```
+- **Range Queries**: Using `..` (two dots) allows specifying a range for numerical or date fields. For example, `Modified:{Today-7}..{Today}` retrieves items modified within the last 7 days.
+
+### Example Queries:
+
+- **Simple Query**: `ContentType:Document AND Author:"John Doe"`
+- **Complex Query**: `(ContentType:Document OR ContentType:Folder) AND (Author:"John Doe" OR Author:"Jane Smith")`
+- **Wildcard Query**: `Title:proj*`
+- **Fuzzy Query**: `Title:proj~2`
+- **Range Query**: `Modified:{Today-30}..{Today}`
+
+<br/>
+
+## Usage Notes:
+
+- **Syntax Sensitivity**: KQL syntax is case-insensitive but syntax structure (e.g., `AND`, `OR`) is crucial for correct query interpretation.
+- **Managed Properties**: Ensure fields used in queries (`ContentType`, `Author`, etc.) are properly configured and indexed in your search system.
+- **Testing**: Always test complex queries in a controlled environment to ensure they retrieve expected results.
+
+
 
 <br/><br/><br/>
 
@@ -423,3 +411,8 @@ AND IsContainer:false
 ### Final Notes:
 - Ensure that the tokens you use match the actual parameters or variables available in your context.
 - Test your query templates thoroughly to confirm they behave as expected with various input conditions.
+
+
+# See Also
+
+[Conditional query in PNP Search Webpart](https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/)
