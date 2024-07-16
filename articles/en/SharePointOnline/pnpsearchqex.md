@@ -73,7 +73,7 @@ KQL (Keyword Query Language) is a powerful syntax used primarily within Microsof
 <br/>
 
 
-## <li> Search for Documents Modified in the Last 30 Days </li>
+## * Search for Documents Modified in the Last 30 Days
 ```kql
 {searchTerms} AND (FileExtension:docx OR FileExtension:pdf) AND Modified:{Today-30}..{Today}
 ```
@@ -84,7 +84,7 @@ KQL (Keyword Query Language) is a powerful syntax used primarily within Microsof
 
 <br/>
 
-## <li> Search for Items Created by Current User
+* ## Search for Items Created by Current User
 This shows items (SharePoint files) which the user has created.
 ```kql
 {searchTerms} AND Author:{User.Name}
@@ -95,7 +95,7 @@ This shows items (SharePoint files) which the user has created.
 
 <br/>
 
-## <li> Search for Items Modified by Current User
+<li> ##  Search for Items Modified by Current User
 This shows items on which the user has worked.
 ```kql
 {searchTerms} AND Editor:{User.Name}
@@ -106,7 +106,7 @@ This shows items on which the user has worked.
 
 <br/>
 
-## <li> Search for Tasks Due Today
+<li> </li> ##  Search for Tasks Due Today
 ```kql
 ContentType:Task AND DueDate:{Today}
 ```
@@ -116,7 +116,7 @@ ContentType:Task AND DueDate:{Today}
 
 <br/>
 
-## <li> Search for Tasks Due This Month in Specific Sites
+## + Search for Tasks Due This Month in Specific Sites
 ```kql
 ContentType:Task AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND DueDate:{Today}..{EndOfMonth}
 ```
@@ -127,7 +127,7 @@ ContentType:Task AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND D
 
 <br/>
 
-## <li> Search for Overdue Tasks
++ <li> Search for Overdue Tasks
 ```kql
 ContentType:Task AND DueDate<={Today}
 ```
@@ -137,7 +137,7 @@ ContentType:Task AND DueDate<={Today}
 
 <br/>
 
-## <li> Search for Tasks Assigned to Users From a Specific Department
+- <li> ## Search for Tasks Assigned to Users From a Specific Department
 ```kql
 ContentType:Task AND Department:Dept2
 ```
@@ -147,7 +147,7 @@ ContentType:Task AND Department:Dept2
 
 <br/>
 
-## <li> Search for Tasks in Progress
+## - Search for Tasks in Progress
 ```kql
 ContentType:Task AND Status:"In Progress"
 ```
@@ -416,3 +416,30 @@ AND IsContainer:false
 # See Also
 
 [Conditional query in PNP Search Webpart](https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/)
+<<<<<<< HEAD
+
+
+
+
+<!-- Default Statcounter code for PnP Search Examples
+https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex/
+-->
+<script type="text/javascript">
+var sc_project=13018560; 
+var sc_invisible=0; 
+var sc_security="979c5680"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13018560/0/979c5680/0/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+=======
+
+>>>>>>> 21cf76787830f72e240ce26e0d66b805fbcd7aa0
