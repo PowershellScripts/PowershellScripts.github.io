@@ -106,7 +106,7 @@ This shows items on which the user has worked.
 
 <br/>
 
-<li> </li> ##  Search for Tasks Due Today
+##  * Search for Tasks Due Today
 ```kql
 ContentType:Task AND DueDate:{Today}
 ```
@@ -116,7 +116,7 @@ ContentType:Task AND DueDate:{Today}
 
 <br/>
 
-## + Search for Tasks Due This Month in Specific Sites
+## * Search for Tasks Due This Month in Specific Sites
 ```kql
 ContentType:Task AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND DueDate:{Today}..{EndOfMonth}
 ```
@@ -127,7 +127,7 @@ ContentType:Task AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND D
 
 <br/>
 
-+ <li> Search for Overdue Tasks
+## * Search for Overdue Tasks
 ```kql
 ContentType:Task AND DueDate<={Today}
 ```
@@ -137,7 +137,7 @@ ContentType:Task AND DueDate<={Today}
 
 <br/>
 
-- <li> ## Search for Tasks Assigned to Users From a Specific Department
+## * Search for Tasks Assigned to Users From a Specific Department
 ```kql
 ContentType:Task AND Department:Dept2
 ```
@@ -147,7 +147,7 @@ ContentType:Task AND Department:Dept2
 
 <br/>
 
-## - Search for Tasks in Progress
+## * Search for Tasks in Progress
 ```kql
 ContentType:Task AND Status:"In Progress"
 ```
@@ -158,7 +158,7 @@ ContentType:Task AND Status:"In Progress"
 <br/>
 
 
-## <li> Search Within a Specific SharePoint Site Collection
+## * Search Within a Specific SharePoint Site Collection
 ```kql
 {searchTerms} AND Path:https://yoursitecollection.sharepoint.com/sites/specificsite
 ```
@@ -168,7 +168,7 @@ ContentType:Task AND Status:"In Progress"
 
 <br/>
 
-## <li> Search Within Multiple SharePoint Site Collections
+## * Search Within Multiple SharePoint Site Collections
 This query template ensures that the search is limited to items within any of the three specified SharePoint site collections.
 ```kql
 {searchTerms} AND (Path:https://yoursitecollection.sharepoint.com/sites/site1 OR Path:https://yoursitecollection.sharepoint.com/sites/site2 OR Path:https://yoursitecollection.sharepoint.com/sites/site3)
@@ -182,7 +182,7 @@ This query template ensures that the search is limited to items within any of th
 
 <br/>
 
-## <li> Search Within Teams
+## * Search Within Teams
 This query allows you to search for documents inside your Teams. Microsoft Teams stores its data in SharePoint (for files) and Exchange (for messages), so you can target the SharePoint sites associated with Teams to search for files and documents.
 ```kql
 {searchTerms} AND (Path:https://yourtenant.sharepoint.com/sites/Team1 OR Path:https://yourtenant.sharepoint.com/sites/Team2 OR Path:https://yourtenant.sharepoint.com/sites/Team3)
@@ -195,7 +195,7 @@ This query allows you to search for documents inside your Teams. Microsoft Teams
 
 <br/>
 
-## <li> Search Within All Teams
+## * Search Within All Teams
 If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-0002, etc., you can create a query in the PnP Search Web part that targets all sites following this pattern using a wildcard in the KQL query.
 ```kql
 {searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-*
@@ -207,7 +207,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 
 
-## <li> Search with Query String Parameters for Category and Date Range
+## * Search with Query String Parameters for Category and Date Range
 ```kql
 {searchTerms} {?{QueryString.Category}Category:{QueryString.Category}} {?{QueryString.StartDate}Modified:{QueryString.StartDate}..{QueryString.EndDate}}
 ```
@@ -218,7 +218,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Content with Specific Metadata
+## * Search for Content with Specific Metadata
 ```kql
 {searchTerms} AND Department:Finance AND ContentType:Document
 ```
@@ -229,7 +229,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Items Tagged with Specific Terms
+## * Search for Items Tagged with Specific Terms
 ```kql
 {searchTerms} AND (Tag:ProjectX OR Tag:Important)
 ```
@@ -239,7 +239,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Recently Viewed Items by the User
+## * Search for Recently Viewed Items by the User
 ```kql
 {searchTerms} AND ViewedBy:{User.Name} AND LastViewedTime:{Today-7}..{Today}
 ```
@@ -250,7 +250,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Items Excluding a Specific Folder
+## * Search for Items Excluding a Specific Folder
 ```kql
 {searchTerms} -Path:https://yoursitecollection.sharepoint.com/sites/specificsite/Shared%20Documents/ExcludeFolder/*
 ```
@@ -260,7 +260,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Items Created by the Current User in the Last Year
+## * Search for Items Created by the Current User in the Last Year
 ```kql
 {searchTerms} AND CreatedBy:{User.Name} AND Created:{Today-365}..{Today}
 ```
@@ -272,7 +272,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Images in Team Sites
+## * Search for Images in Team Sites
 ```kql
 {searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND (FileExtension:jpg OR FileExtension:png OR FileExtension:gif)
 ```
@@ -283,7 +283,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Videos in Team Sites
+## * Search for Videos in Team Sites
 ```kql
 {searchTerms} AND Path:https://yourtenant.sharepoint.com/sites/TEAMGR-* AND (FileExtension:mp4 OR FileExtension:avi OR FileExtension:wmv)
 ```
@@ -294,7 +294,7 @@ If all your team sites follow a naming convention such as TEAMGR-0001, TEAMGR-00
 
 <br/>
 
-## <li> Search for Videos Longer Than 5 Minutes
+## * Search for Videos Longer Than 5 Minutes
 ```kql
 ContentType:Video AND DurationInSeconds>300
 ```
@@ -304,7 +304,7 @@ ContentType:Video AND DurationInSeconds>300
 
 <br/>
 
-## <li> Search for Large Files
+## * Search for Large Files
 This query can help manage the site collection storage.
 ```kql
 {searchTerms} AND Size>1073741824
@@ -316,7 +316,7 @@ This query can help manage the site collection storage.
 
 <br/>
 
-## <li> Search for Suspiciously Small Files
+## * Search for Suspiciously Small Files
 This query can help find broken or empty files.
 ```kql
 {searchTerms} AND Size<1000
@@ -328,7 +328,7 @@ This query can help find broken or empty files.
 
 <br/>
 
-## <li> Search for Items with Comments
+## * Search for Items with Comments
 ```kql
 {searchTerms} AND IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
 ```
@@ -339,7 +339,7 @@ This query can help find broken or empty files.
 
 <br/>
 
-## <li> Search for Items with Comments
+## * Search for Items with Comments
 ```kql
 IsDocument:true AND IsContainer:false AND Comments:*
 ```
@@ -349,7 +349,7 @@ IsDocument:true AND IsContainer:false AND Comments:*
 
 <br/>
 
-## <li> Search for Comments with a Specific Phrase
+## * Search for Comments with a Specific Phrase
 ```kql
 IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
 ```
@@ -359,7 +359,7 @@ IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
 
 <br/>
 
-## <li> Search for Folders and Document Sets
+## * Search for Folders and Document Sets
 ```kql
 {searchTerms} AND IsContainer:true
 ```
@@ -370,7 +370,7 @@ IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
 
 <br/>
 
-## <li> Search for Items with High Importance
+## * Search for Items with High Importance
 ```kql
 {searchTerms} AND Importance:High
 ```
@@ -381,7 +381,7 @@ IsDocument:true AND IsContainer:false AND Comments:{searchTerms}
 
 <br/>
 
-## <li> Search for Calendar Events
+## * Search for Calendar Events
 ```kql
 ContentType:Event AND EventDate:{Today}..{EndOfYear}
 ```
@@ -392,7 +392,7 @@ ContentType:Event AND EventDate:{Today}..{EndOfYear}
 
 <br/>
 
-## <li> Be More Specific 
+## * Be More Specific 
 Do not hesitate to combine the queries above.
 ```kql
 (Path:https://yourtenant.sharepoint.com/sites/department1 OR Path:https://yourtenant.sharepoint.com/sites/department2) 
