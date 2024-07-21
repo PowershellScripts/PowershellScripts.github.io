@@ -89,10 +89,13 @@ Please remember that the list of settings can be extended or changed at any mome
 # Possible errors
 Some settings are for groups, some for the entire company. Don't mix them up or you will get errors
 
+```
 New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '08d542b9-071f-4e16-94b0-74abb372e3d9' is not supported for DirectoryObjectClass 'Company'. paramName: SettingTemplateId, paramValue: 08d542b9-071f-4e16-94b0-74abb372e3d9, objectType: System.Guid
 
 New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '62375ab9-6b52-47ed-826b-58e47e0e304b' is not supported for DirectoryObjectClass 'Group'. paramName: SettingTemplateId, paramValue: 62375ab9-6b52-47ed-826b-58e47e0e304b, objectType: System.Guid
+```
 
+<img src="/articles/images/m365groupsettings5.PNG" > 
 
 <br/><br/>
 
