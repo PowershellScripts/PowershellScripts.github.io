@@ -71,3 +71,8 @@
   items:
     - name: Securing Azure Functions
       link: /articles/en/Azure/Securing Azure Functions/
+
+- label: Diverse
+  items:
+    - name: Modify Microsoft 365 group settings
+      link: /articles/en/Other/m365groupsettings/
