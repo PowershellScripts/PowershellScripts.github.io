@@ -84,7 +84,7 @@ KQL (Keyword Query Language) is a powerful syntax used primarily within Microsof
 
 <br/>
 
-* ## Search for Items Created by Current User
+## * Search for Items Created by Current User
 This shows items (SharePoint files) which the user has created.
 ```kql
 {searchTerms} AND Author:{User.Name}
@@ -95,7 +95,7 @@ This shows items (SharePoint files) which the user has created.
 
 <br/>
 
-<li> ##  Search for Items Modified by Current User
+## * Search for Items Modified by Current User
 This shows items on which the user has worked.
 ```kql
 {searchTerms} AND Editor:{User.Name}
