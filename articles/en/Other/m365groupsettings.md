@@ -17,12 +17,13 @@ Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettin
 
 You can check settings for the entire company
 
+<img src="/articles/images/m365groupsettings2.PNG" width="600" >
 
 or for the specific group
 
+<img src="/articles/images/m365groupsettings3.PNG" width="600" > 
 
-
-Possible settings
+# Possible settings
 Please remember that the list of settings can be extended or changed at any moment due to Microsoft updates or subscription upgrades
 
 AllowToAddGuests
