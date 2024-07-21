@@ -1,3 +1,13 @@
+---
+layout: page
+title: 'Easy way to create CAML Query for list view'
+hero_image: '/img/IMG_20220521_140146.jpg'
+menubar: docs_menu
+show_sidebar: false
+hero_height: is-small
+date: '2024-03-24'
+---
+
 
 # Intro
 
