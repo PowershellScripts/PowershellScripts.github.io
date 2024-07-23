@@ -86,7 +86,7 @@ Here’s how a more complex query template with multiple conditions might look:
 <br/>
 
 
-## <li> Conditional Query Based on Content Type
+## * Conditional Query Based on Content Type
 
 ```kql
 {?{QueryString.ContentType} ContentType:{QueryString.ContentType}}
@@ -98,7 +98,7 @@ Here’s how a more complex query template with multiple conditions might look:
 
 <br/>
 
-## <li> Conditional Query Based on Modified Date Range
+## * Conditional Query Based on Modified Date Range
 
 ```kql
 {?{QueryString.StartDate} Modified>={QueryString.StartDate} AND Modified<={QueryString.EndDate}}
@@ -110,7 +110,7 @@ Here’s how a more complex query template with multiple conditions might look:
 
 <br/>
 
-## <li> Conditional Query Based on Author
+## * Conditional Query Based on Author
 
 ```kql
 {?{User.Name} Author:{User.Name}}
@@ -122,7 +122,7 @@ Here’s how a more complex query template with multiple conditions might look:
 
 <br/>
 
-## <li> Conditional Query Based on File Type
+## * Conditional Query Based on File Type
 
 ```kql
 {?{QueryString.FileType} FileType:{QueryString.FileType}}
@@ -138,7 +138,7 @@ Using SharePoint hub ID in a conditional query typically involves filtering cont
 
 <br/>
 
-## <li> Conditional Query Based on SharePoint Hub ID
+## * Conditional Query Based on SharePoint Hub ID
 
 ```kql
 {?{Site.HubId} Path:"https://yourtenant.sharepoint.com/sites/{Site.HubId}/" OR Path:"https://yourtenant.sharepoint.com/sites/anothersite"}
