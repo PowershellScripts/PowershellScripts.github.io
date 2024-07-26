@@ -72,7 +72,7 @@ Please remember that the list of settings can be extended or changed at any mome
 
 
 # Set
-
+Use 
 
 
 <br/><br/>
@@ -80,7 +80,7 @@ Please remember that the list of settings can be extended or changed at any mome
 
 # Example
 
-<img src="/articles/images/SecureAzFunc/Github-SecureAzFunc1.PNG" width="600"  alt="Diagram showing OAuth communication where audience is the backend.Diagram showing OAuth communication where audience is the API Management gateway.">
+<img src="/articles/images/m365groupsettings7.PNG" width="600" > 
 
 
 <br/><br/>
