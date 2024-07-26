@@ -55,7 +55,6 @@ Please remember that the list of settings can be extended or changed at any mome
 - **AllowGuestsToAccessGroups**: Determines if guest users are allowed to access group content.
 - **GuestUsageGuidelinesUrl**: URL to the guidelines for guest user usage.
 - **GroupCreationAllowedGroupId**: Identifies the group of users who are allowed to create new groups.
-- **AllowToAddGuests**: Allows group owners to add guest users (same as AllowToAddGuests, possibly a duplicate entry).
 - **UsageGuidelinesUrl**: URL to the usage guidelines for groups.
 - **ClassificationList**: Defines the list of available classification labels for groups.
 - **EnableGroupCreation**: Specifies if group creation is enabled for users.
@@ -75,9 +74,17 @@ Please remember that the list of settings can be extended or changed at any mome
 
 
 # Set
-Use Set-PnPMicrosoft365GroupSettings to set different settings.
+Use Set-PnPMicrosoft365GroupSettings to set different settings. The full documentation can be found here: [Set-PnPMicrosoft365GroupSettings](https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html) 
 
-<img src="/articles/images/m365groupsettings8.PNG" width="600" > 
+When modifying Microsoft 365 Group Settings, make sure you use the correct template ID, and that the specific settings is available in that template. Not all settings are avaialble in all templates. You can check your templates using Get-PnPMicrosoft365GroupSettingTemplates.
+
+Same as you could check the settings for the entire Microsoft 365 tenant or a Microsoft 365 group, you can also set the settings for the entire tenant or a specific Microsoft 365 group.
+
+```
+Set-PnPMicrosoft365GroupSettings -Identity $groupSettingId -Values @{"EnableGroupCreation"="true"}
+
+Set-PnPMicrosoft365GroupSettings -Identity $groupSettingId -Values @{"EnableGroupCreation"="true"} -Group $groupId
+```
 <br/><br/>
 
 
@@ -90,6 +97,7 @@ Set-PnPMicrosoft365GroupSettings -Identity $groupSettingId -Values @{"AllowToAdd
 ```
 
 we can modify the following setting:
+
 <img src="/articles/images/m365groupsettings7.PNG" width="600" > 
 
 
