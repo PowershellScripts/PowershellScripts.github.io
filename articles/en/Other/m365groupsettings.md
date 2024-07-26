@@ -113,8 +113,11 @@ New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '623
 # See Also
 
 [Get-PnPMicrosoft365GroupSettings](https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupSettings.html)
+
 [Get-PnPMicrosoft365GroupSettingTemplates](https://pnp.github.io/powershell/cmdlets/Get-PnPMicrosoft365GroupSettingTemplates.html)
+
 [Set-PnPMicrosoft365GroupSettings](https://pnp.github.io/powershell/cmdlets/Set-PnPMicrosoft365GroupSettings.html)
+
 [New-PnPMicrosoft365GroupSettings](https://pnp.github.io/powershell/cmdlets/New-PnPMicrosoft365GroupSettings.html)
 
 
