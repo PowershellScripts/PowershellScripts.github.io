@@ -26,6 +26,9 @@ or for the specific group
 
 <img src="/articles/images/m365groupsettings3.PNG" width="600" > 
 
+There are several templates you can use and modify:
+
+<img src="/articles/images/m365groupsettings.PNG" width="600" > 
 
 <br/><br/>
 
@@ -72,14 +75,21 @@ Please remember that the list of settings can be extended or changed at any mome
 
 
 # Set
-Use 
+Use Set-PnPMicrosoft365GroupSettings to set different settings.
 
-
+<img src="/articles/images/m365groupsettings8.PNG" width="600" > 
 <br/><br/>
 
 
 # Example
 
+Using the cmdlet:
+
+```
+Set-PnPMicrosoft365GroupSettings -Identity $groupSettingId -Values @{"AllowToAddGuests"="true"}
+```
+
+we can modify the following setting:
 <img src="/articles/images/m365groupsettings7.PNG" width="600" > 
 
 
