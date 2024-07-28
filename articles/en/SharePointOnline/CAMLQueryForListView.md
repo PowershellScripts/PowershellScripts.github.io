@@ -22,7 +22,8 @@ clientContext.ExecuteQuery();
 Loading thousands of SharePoint items in such manner is highly inefficient, if you need only a few items that fulfill specific requirement. The ```GetItems(CamlQuery)``` method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. You can pass an undefined CamlQuery object to return all items from the list, as in the example above, or use the ViewXml property to define a CAML query and return items that meet specific criteria.
 <br/><br/>
 The Where clause translates into the SQL SELECT statement with a mixture of logical joins (\<And>, \<Or>), comparison operators, such as \<Contains>, \<Geq>, \<Lt>, simple arithmetic operators, field (column) references, constant values, and predefined Collaborative Application Markup Language (CAML) constants. 
-
+<br/>
+Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. 
 
 ```
 <Query>
