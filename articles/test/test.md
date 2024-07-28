@@ -154,13 +154,13 @@ h3::before {
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</a></li>
 
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Hide Teamify Prompt</h3></span>
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
 
- 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
+ 	<li style="--i: 6"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Easy way to create CAML Query for list view</h3></span>
 		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
@@ -186,10 +186,10 @@ h3::before {
 
 
  
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
 		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
+		<h3>Modify Microsoft 365 group settings</h3></span>
+		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
 	</a></li>
  
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
@@ -197,7 +197,7 @@ h3::before {
 		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
 	</li>
-		<li style="--i: 5">
+		<li style="--i: 8">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
