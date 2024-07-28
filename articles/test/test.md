@@ -181,7 +181,7 @@ h3::before {
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Easy way to create CAML Query for list view(https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/)</h3></span>
-		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return.</p>
+		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
 	</a></li>
  
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
