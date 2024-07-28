@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 'Microsoft 365 Tips and Tricks'
-menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -155,7 +154,7 @@ h3::before {
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</a></li>
 
-	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
+	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Hide Teamify Prompt</h3></span>
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
