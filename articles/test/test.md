@@ -159,6 +159,12 @@ h3::before {
 		<h3>Hide Teamify Prompt</h3></span>
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
+
+ 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
+		<span style="display: block; text-align: right;">2024-03-24
+		<h3>Easy way to create CAML Query for list view</h3></span>
+		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
+	</a></li>
  
 	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
@@ -178,11 +184,7 @@ h3::before {
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
 	</a></li>
 
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>Easy way to create CAML Query for list view(https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/)</h3></span>
-		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
-	</a></li>
+
  
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2023-11-04
