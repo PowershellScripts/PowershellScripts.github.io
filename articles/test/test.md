@@ -128,6 +128,12 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+		<span style="display: block; text-align: right;">2024-07-21
+		<h3>Modify Microsoft 365 group settings</h3></span>
+		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+	</a></li>
+ 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/">
 		<span style="display: block; text-align: right;">2024-07-14
 		<h3>Conditional query in PNP Search Webpart</h3></span>
@@ -160,7 +166,7 @@ h3::before {
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
 
- 	<li style="--i: 6"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
+ 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Easy way to create CAML Query for list view</h3></span>
 		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
@@ -186,11 +192,7 @@ h3::before {
 
 
  
-	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>Modify Microsoft 365 group settings</h3></span>
-		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
-	</a></li>
+
  
 	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2023-11-04
