@@ -59,7 +59,7 @@ You can set the view to be private so that your users do not see this temporary 
 <h2>Step 2: Extract the CamlQuery</h2>
 Now that the view is created and you verified you see only the selected items, proceed to extract the ViewXML.
 
-<h3>Using REST Endpoint</h3>
+<h3>Method 1: Using REST Endpoint and browser</h3>
 Find list and view's GUID. Open the created list view in edit mode and copy the url:
 
  <img src="/articles/images/easycaml3.png"><br/>
@@ -92,7 +92,7 @@ In this example it is:
 <br/><br/><br/>
 
 
-<h3>Using Powershell CSOM</h3>
+<h3>Method 2: Using Powershell CSOM</h3>
 
 Load SharePoint Online SDKs. The current version at the time of writing this article and used in the example is available at  NuGet gallery.
 
@@ -130,7 +130,7 @@ Export-CSV $view
 <br/><br/><br/>
 
 
-<h3>PnP</h3>
+<h3>Method 3: PnP Powershell</h3>
 SharePoint Patterns and Practices (PnP) contains a library of PowerShell commands (PnP PowerShell) that allows you to perform complex provisioning and artifact management actions towards SharePoint. The commands use CSOM and can work against both SharePoint Online as SharePoint On-Premises.
 
 Connect to SharePoint site:
