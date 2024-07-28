@@ -118,7 +118,7 @@ h3::before {
 
 <ol style="--length: 5" role="list">
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/">
 		<span style="display: block; text-align: right;">2024-07-14
 		<h3>Conditional query in PNP Search Webpart</h3></span>
 		<p>In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) search query template to build dynamic queries. The search query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. By using the `{?{ }}` syntax in your PnP Search Web Part query template, you can introduce dynamic, conditional logic similar to "if" statements in programming.
@@ -126,25 +126,25 @@ h3::before {
 </p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex">
+	<li style="--i: 14"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex">
 		<span style="display: block; text-align: right;">2024-07-14
 		<h3>PnP Search query examples with KQL</h3></span>
 		<p>KQL (Keyword Query Language) is a syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules with some examples.</p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 1"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 2"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
 	</a></li>
 
-	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
+	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Hide Teamify Prompt</h3></span>
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
