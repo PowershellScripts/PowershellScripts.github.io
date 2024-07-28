@@ -126,19 +126,19 @@ h3::before {
 </p>
 	</a></li>
 
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex">
 		<span style="display: block; text-align: right;">2024-07-14
 		<h3>PnP Search query examples with KQL</h3></span>
 		<p>KQL (Keyword Query Language) is a syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules with some examples.</p>
 	</a></li>
 
-	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 6"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
@@ -150,13 +150,13 @@ h3::before {
 		<p>In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. You can remove this teamify prompt using a PnP cmdlet... </p>
 	</a></li>
  
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Now, you can post on behalf of another person in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Configure it through Yammer’s settings section... </p>
 	</a></li>
  
-	<li style="--i: 8"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
