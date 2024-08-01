@@ -132,47 +132,50 @@ IdentityClaim indicates the type of claim and is the following:
 #### ClaimType
 
 ClaimType indicates the format for the claim value and is the following:
-“#” for a user logon name
-“.” for an anonymous user
-“5” for an email address
-“!” for an identity provider
-“+” for a Group security identifier (SID)
-“-“ for a role
-“%” for a farm ID
-“?” for a name identifier
-"\" for a private personal identifier (PPID)
-"e" for a user principal name (UPN)
-""" for a user ID
-"$" for a distribution list security identifier (SID)
-"&" for a process identity security identifier (SID)
-"'" for a process identity logon name
-"(" for an authenticated user
-")" for a primary security identifier (SID)
-"*" for a primary group security identifier (SID)
-"0" for an authorization decision
-"1" for a country
-"2" for a date of birth
-"3" for a deny only security identifier (SID)
-"4" for DNS
-"6" for a gender
-"7" for a given name
-"8" for a hash
-"9" for a home phone
-"<" for a locality
-"=" for a mobile phone
-">" for a name
-"@" for other phone
-"[" for a postal code
-"]" for RSA
-"^" for a secure identifier (SID)
-"_" for a service principal name (SPN)
-"`" for a state or province
-"a" for a street address
-"b" for a surname
-"c" for a system
-"d" for a thumbprint
-"f" for a uniform resource name (URI)
-"g" for a web page
+
+* “#” for a user logon name
+* “.” for an anonymous user
+* “5” for an email address
+* “!” for an identity provider
+* “+” for a Group security identifier (SID)
+* “-” for a role
+* “%” for a farm ID
+* “?” for a name identifier
+* "\" for a private personal identifier (PPID)
+* "e" for a user principal name (UPN)
+* """ for a user ID
+* "$" for a distribution list security identifier (SID)
+* "&" for a process identity security identifier (SID)
+* "'" for a process identity logon name
+* "(" for an authenticated user
+* ")" for a primary security identifier (SID)
+* "*" for a primary group security identifier (SID)
+* "0" for an authorization decision
+* "1" for a country
+* "2" for a date of birth
+* "3" for a deny only security identifier (SID)
+* "4" for DNS
+* "6" for a gender
+* "7" for a given name
+* "8" for a hash
+* "9" for a home phone
+* "<" for a locality
+* "=" for a mobile phone
+* ">" for a name
+* "@" for other phone
+* "[" for a postal code
+* "]" for RSA
+* "^" for a secure identifier (SID)
+* "_" for a service principal name (SPN)
+* "`" for a state or province
+* "a" for a street address
+* "b" for a surname
+* "c" for a system
+* "d" for a thumbprint
+* "f" for a uniform resource name (URI)
+* "g" for a web page
+
+  
 <ClaimValueType>
 
 <ClaimValueType> indicates the type of formatting for the claim value and is the following:
