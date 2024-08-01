@@ -54,6 +54,8 @@
       link: /articles/en/SharePointOnline/pnpsearchqcond
     - name: PnP Search query examples with KQL
       link: /articles/en/SharePointOnline/pnpsearchqex
+    - name: Add SharePoint site permissions to a group using PnP
+      link: /articles/en/SharePointOnline/addpermgroup
 
 - name: Viva
   link: /#
