@@ -1,16 +1,4 @@
 
-# - name: Example Pages
-#   link: /#
-#   dropdown:
-#     - name: Landing Page With Callouts
-#       link: /landing/
-#     - name: Image Gallery
-#       link: /gallery/
-#     - name: Recipe Page
-#       link: /example-recipe/
-#     - name: Showcase
-#       link: /showcase/
-
 - name: Power Platform
   link: /#
   dropdown:
