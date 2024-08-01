@@ -38,21 +38,41 @@ In SharePoint Online, user and group identities are represented by different cla
 
 ### c:0o.c|federateddirectoryclaimprovider:
 
-**Meaning**: This prefix is typically used for users or groups from a federated directory or claims-based authentication provider.
+**Meaning**: This prefix is used for claims originating from a federated directory claim provider.
 
-**Example**: c:0o.c|federateddirectoryclaimprovider|user@domain.com
+**Example**: c:0o.c|federateddirectoryclaimprovider|id
 
-**Explanation**: This prefix is used when identities are coming from a federated identity provider, such as another Azure AD tenant or an on-premises directory synchronized with Azure AD.
+**Explanation**: This prefix indicates that the claim comes from an external directory service provider that is federated with the local directory. It is commonly used in environments where identity federation is set up, allowing users from one domain to access resources in another domain.
+
+**Prefix Components**:
+The prefix components explain the claim's context and source. Here is a breakdown:
+
+- **c:** - Indicates a claim.
+- **0o:** - Represents the type of identity provider; "0o" usually signifies a federated identity provider.
+- **.c:** - Component indicating the claim type within the context of the federated provider.
+- **|** - Separates different parts of the claim.
+- **federateddirectoryclaimprovider** - Specifies that the identity provider is an external, federated directory service.
+
 
 <br/>
 
-### c:0-.f|rolemanager:
+ ### c:0-.f|rolemanager:
 
-**Meaning**: This prefix is used for SharePoint Online roles.
+**Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
-**Example**: c:0-.f|rolemanager|spo-grid-all-users/<tenant_id>: Represents "Everyone except external users".
+**Example**: c:0-.f|rolemanager|administrator
 
-**Explanation**: This prefix indicates SharePoint groups or roles, which are managed within SharePoint itself.
+**Explanation**: This prefix indicates that the claim is related to a role that is managed by a role manager within the system. It is used to identify roles that users are assigned to, allowing for role-based access control (RBAC) within SharePoint or other systems.
+
+**Prefix Components**:
+The prefix components explain the claim's context and source. Here is a breakdown:
+
+- **c:** - Indicates a claim.
+- **0-:** - Represents a type of identity or role identifier.
+- **.f:** - Component indicating the claim type is a role within the context of a role manager.
+- **|** - Separates different parts of the claim.
+- **rolemanager** - Specifies that the claim is managed by a role manager.
+
 
 <br/>
 
@@ -119,7 +139,7 @@ The specific claim provider prefix depends on several factors:
 
 
 ### Prefix Components
-The prefix components explain the claim's context and source. Each component in the prefix provides specific information about the type and source of the claim, helping to determine how it should be processed and applied within the SharePoint environment.
+The prefix components explain the claim's context and source. Each component in the prefix provides specific information about the type and source of the claim, helping to determine how it should be processed and applied within the SharePoint environment. The prefixes here are described after
 
 
 
@@ -176,28 +196,33 @@ ClaimType indicates the format for the claim value and is the following:
 * "g" for a web page
 
   
-<ClaimValueType>
+#### ClaimValueType
 
-<ClaimValueType> indicates the type of formatting for the claim value and is the following:
-“.” for a string
-“+” for an RFC 822-formatted name
-")" for an integer
-""" for a Boolean
-"#" for a date
-"$" for a date with time
-"&" for a double
-"!" for a Base64 formatted binary
-"0" for a X.500 formatted name
-<AuthMode>
+ClaimValueType indicates the type of formatting for the claim value and is the following:
+- **"."** for a string
+- **"+"** for an RFC 822-formatted name
+- **")"** for an integer
+- **"**"** for a Boolean
+- **"#"** for a date
+- **"$"** for a date with time
+- **"&"** for a double
+- **"!"** for a Base64 formatted binary
+- **"0"** for an X.500 formatted name
 
-<AuthMode> indicates the type of authentication used to obtain the identity claim and is the following:
-“w” for Windows claims (no original issuer)
-“s” for the local SharePoint security token service (STS) (no original issuer)
-“t” for a trusted issuer
-“m” for a membership issuer
-“r” for a role provider issuer
-“f” for forms-based authentication
-“c” for a claim provider
+
+#### AuthMode
+
+AuthMode indicates the type of authentication used to obtain the identity claim and is the following:
+
+* “w” for Windows claims (no original issuer)
+* “s” for the local SharePoint security token service (STS) (no original issuer)
+* “t” for a trusted issuer
+* “m” for a membership issuer
+* “r” for a role provider issuer
+* “f” for forms-based authentication
+* “c” for a claim provider
+
+
 <OriginalIssuer>
 
 <OriginalIssuer> indicates the original issuer of the claim.
@@ -208,6 +233,6 @@ Common types of login names in SharePoint online:
 Everyone -> c:0(.s|true
 Everyone except external users -> c:0-.f|rolemanager|spo-grid-all-users/<tenant_id>
 Group memebers -> c:0o.c|federateddirectoryclaimprovider|<group_guid>
-Group Owners -> c:0o.c|federateddirectoryclaimprovider|<group_guid>
+Group Owners ->   c:0o.c|federateddirectoryclaimprovider|<group_guid>
 "Company Administrator" in Sharepoint Admin console -> c:0t.c|tenant|<UNKNOWN-GUID>
 An O365 user ->i:0#.f|membership|<USER-EMAIL>
