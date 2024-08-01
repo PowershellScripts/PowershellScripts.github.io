@@ -8,8 +8,9 @@ hero_height: is-small
 date: '2024-08-01'
 ---
 
-Add SharePoint site permissions to a group using PnP
-Using the PnP PowerShell module, you can assign permissions to an existing group within the Microsoft 365 environment. Keep in mind that claims can make it a bit complex. For a detailed explanation, have a look at the Claims Deep Dive article.
+
+# Introduction
+Using the PnP PowerShell module, you can assign permissions to an existing group within the Microsoft 365 environment. It can be a SharePoint group, security group or Microsoft 365 group. Keep in mind that claims can make it a bit complex. For a detailed explanation, have a look at the Claims Deep Dive article.
 
 <br/>
 
