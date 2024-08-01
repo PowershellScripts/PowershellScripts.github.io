@@ -43,6 +43,8 @@
       link: /articles/en/SharePointOnline/pnpsearchqex
     - name: Add SharePoint site permissions to a group using PnP
       link: /articles/en/SharePointOnline/addpermgroup
+    - name: SharePoint Claims Deep Dive
+      link: /articles/en/SharePointOnline/spoclaims
       
 
 - label: Viva
