@@ -65,7 +65,7 @@ Some examples how to retrieve a Microsoft 365 group using PnP cmdlets:
 
 <br/>
 
-### To everyone group
+### To Everyone group
 Everyone group is special. Use `c:0(.s|true`.
 
 ```powershell
@@ -74,7 +74,7 @@ Set-PnPListPermission -Identity test1 -User "c:0(.s|true" -AddRole 'Contribute'
 
 <br/>
 
-### To everyone except external users
+### To Everyone Except External users
 
 Everyone except external users group also has its special naming. Use `c:0-.f|rolemanager|spo-grid-all-users/7110ff4b-10a6-4895-9169-2237e60672c7` for Everyone except external users. Keep in mind, that your Everyone except external users will have a different ID.
 
@@ -116,7 +116,7 @@ Set-PnPWebPermission -User "c:0o.c|federateddirectoryclaimprovider|2b7a7a59-7c52
 
 <br/>
 
-### To everyone group
+### To Everyone group
 
 ```powershell
 Set-PnPWebPermission -User "c:0o.c|federateddirectoryclaimprovider|2b7a7a59-7c52-4e42-a8f9-0675fe1ab62a" -AddRole 'Contribute'
@@ -124,7 +124,7 @@ Set-PnPWebPermission -User "c:0o.c|federateddirectoryclaimprovider|2b7a7a59-7c52
 
 <br/>
 
-### To everyone except external users
+### To Everyone Except External users
 
 ```powershell
 Set-PnPWebPermission -User "c:0o.c|federateddirectoryclaimprovider|2b7a7a59-7c52-4e42-a8f9-0675fe1ab62a" -AddRole 'Contribute'
