@@ -23,7 +23,7 @@ In SharePoint Online, user and group identities are represented by different cla
 
 **Meaning**: This prefix is used for Azure AD security groups or users.
 
-**Example**: c:0t.c|tenant|6510e196-d412-41de-a2e3-f99e8c0ffb4a
+**Example**: "c:0t.c|tenant|6510e196-d412-41de-a2e3-f99e8c0ffb4a"
 
 **Explanation**: When you see this prefix, it generally indicates a user or a group that is managed in Azure Active Directory. The prefix components explain the claim's context and source:
 
@@ -40,7 +40,7 @@ In SharePoint Online, user and group identities are represented by different cla
 
 **Meaning**: This prefix is used for claims originating from a federated directory claim provider.
 
-**Example**: c:0o.c|federateddirectoryclaimprovider|id
+**Example**: c:0o.c\|federateddirectoryclaimprovider\|id
 
 **Explanation**: This prefix indicates that the claim comes from an external directory service provider that is federated with the local directory. It is commonly used in environments where identity federation is set up, allowing users from one domain to access resources in another domain.
 
@@ -60,7 +60,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
-**Example**: c:0-.f|rolemanager|administrator
+**Example**: 'c:0-.f|rolemanager|administrator'
 
 **Explanation**: This prefix indicates that the claim is related to a role that is managed by a role manager within the system. It is used to identify roles that users are assigned to, allowing for role-based access control (RBAC) within SharePoint or other systems.
 
