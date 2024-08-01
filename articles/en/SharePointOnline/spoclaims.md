@@ -23,14 +23,14 @@ In SharePoint Online, user and group identities are represented by different cla
 
 **Meaning**: This prefix is used for Azure AD security groups or users.
 
-**Example**: "c:0t.c|tenant|6510e196-d412-41de-a2e3-f99e8c0ffb4a"
+**Example**: c:0t.c\|tenant\|6510e196-d412-41de-a2e3-f99e8c0ffb4a
 
 **Explanation**: When you see this prefix, it generally indicates a user or a group that is managed in Azure Active Directory. The prefix components explain the claim's context and source:
 
 - **c:** - Indicates a claim.
 - **0t:** - Represents the type of identity provider; "0t" usually signifies a tenant-based identity.
 - **.c:** - Component indicating the claim type within the context of the tenant.
-- **|** - Separates different parts of the claim.
+- **\|** - Separates different parts of the claim.
 - **tenant** - Specifies that the identity provider is the tenant's own identity provider.
 
 
@@ -50,7 +50,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 - **c:** - Indicates a claim.
 - **0o:** - Represents the type of identity provider; "0o" usually signifies a federated identity provider.
 - **.c:** - Component indicating the claim type within the context of the federated provider.
-- **|** - Separates different parts of the claim.
+- **\|** - Separates different parts of the claim.
 - **federateddirectoryclaimprovider** - Specifies that the identity provider is an external, federated directory service.
 
 
@@ -60,7 +60,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
-**Example**: 'c:0-.f|rolemanager|administrator'
+**Example**: 'c:0-.f\|rolemanager\|administrator'
 
 **Explanation**: This prefix indicates that the claim is related to a role that is managed by a role manager within the system. It is used to identify roles that users are assigned to, allowing for role-based access control (RBAC) within SharePoint or other systems.
 
@@ -70,7 +70,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 - **c:** - Indicates a claim.
 - **0-:** - Represents a type of identity or role identifier.
 - **.f:** - Component indicating the claim type is a role within the context of a role manager.
-- **|** - Separates different parts of the claim.
+- **\|** - Separates different parts of the claim.
 - **rolemanager** - Specifies that the claim is managed by a role manager.
 
 
@@ -87,7 +87,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 - **c:** - Indicates a claim.
 - **0:** - Typically represents the trust level or identifier of the issuer.
 - **(.s:** - Indicates a special or system claim, in this case, used for the "Everyone" group.
-- **|** - Separates different parts of the claim.
+- **\|** - Separates different parts of the claim.
 - **true** - Represents the specific claim value, indicating all users (both authenticated and anonymous).
 
 <br/>
@@ -96,7 +96,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix is used for standard Azure AD users.
 
-**Example**: i:0#.f|membership|user@domain.com
+**Example**: i:0#.f\|membership\|user@domain.com
 
 **Explanation**: This is a common prefix for individual users authenticated via Azure AD.
 
@@ -106,7 +106,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix is used for forms-based authentication users.
 
-**Example**: c:0-.t|forms|user@domain.com
+**Example**: c:0-.t\|forms\|user@domain.com
 
 **Explanation**: This indicates users who are authenticated using forms-based authentication.
 
@@ -116,7 +116,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix is used for Windows-based authentication users.
 
-**Example**: c:0-.w|windows|domain\user
+**Example**: c:0-.w\|windows\|domain\user
 
 **Explanation**: This is used for users authenticated via Windows authentication (Kerberos/NTLM).
 
