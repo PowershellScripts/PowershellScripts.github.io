@@ -149,6 +149,8 @@ IdentityClaim indicates the type of claim and is the following:
 * “i” for an identity claim
 * “c” for any other claim
 
+<br/>
+
 #### ClaimType
 
 ClaimType indicates the format for the claim value and is the following:
@@ -195,6 +197,7 @@ ClaimType indicates the format for the claim value and is the following:
 * "f" for a uniform resource name (URI)
 * "g" for a web page
 
+  <br/>
   
 #### ClaimValueType
 
@@ -209,6 +212,7 @@ ClaimValueType indicates the type of formatting for the claim value and is the f
 - **"!"** for a Base64 formatted binary
 - **"0"** for an X.500 formatted name
 
+<br/>
 
 #### AuthMode
 
@@ -222,11 +226,13 @@ AuthMode indicates the type of authentication used to obtain the identity claim 
 * “f” for forms-based authentication
 * “c” for a claim provider
 
+<br/>
 
 #### OriginalIssuer
 
 OriginalIssuer indicates the original issuer of the claim.
 
+<br/>
 
 #### ClaimValueType
 
