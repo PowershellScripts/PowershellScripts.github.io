@@ -19,7 +19,7 @@ In SharePoint Online, user and group identities are represented by different cla
 
 <br/>
 
-### c:0t.c|tenant:
+### c:0t.c|tenant
 
 **Meaning**: This prefix is used for Azure AD security groups or users.
 
@@ -36,7 +36,7 @@ In SharePoint Online, user and group identities are represented by different cla
 
 <br/>
 
-### c:0o.c|federateddirectoryclaimprovider:
+### c:0o.c|federateddirectoryclaimprovider
 
 **Meaning**: This prefix is used for claims originating from a federated directory claim provider.
 
@@ -56,7 +56,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
-### c:0-.f\|rolemanager:
+### c:0-.f\|rolemanager
 
 **Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
@@ -76,7 +76,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
-### c:0(.s|true:
+### c:0(.s|true
 
 **Meaning**: This prefix represents the "Everyone" group.
 
@@ -92,7 +92,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
-### i:0#.f|membership:
+### i:0#.f|membership
 
 **Meaning**: This prefix is used for standard Azure AD users.
 
@@ -102,7 +102,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
-### c:0-.t|forms:
+### c:0-.t|forms
 
 **Meaning**: This prefix is used for forms-based authentication users.
 
@@ -112,7 +112,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
-### c:0-.w|windows:
+### c:0-.w|windows
 
 **Meaning**: This prefix is used for Windows-based authentication users.
 
