@@ -56,11 +56,11 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
- ### c:0-.f|rolemanager:
+ ### c:0-.f\|rolemanager:
 
 **Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
-**Example**: 'c:0-.f\|rolemanager\|administrator'
+**Example**: c:0-.f\|rolemanager\|administrator
 
 **Explanation**: This prefix indicates that the claim is related to a role that is managed by a role manager within the system. It is used to identify roles that users are assigned to, allowing for role-based access control (RBAC) within SharePoint or other systems.
 
