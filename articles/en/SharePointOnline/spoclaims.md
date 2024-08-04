@@ -56,7 +56,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 <br/>
 
- ### c:0-.f\|rolemanager:
+### c:0-.f\|rolemanager:
 
 **Meaning**: This prefix is used for claims associated with roles managed by a role manager.
 
