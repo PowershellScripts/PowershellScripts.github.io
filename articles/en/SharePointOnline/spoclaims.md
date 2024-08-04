@@ -80,7 +80,7 @@ The prefix components explain the claim's context and source. Here is a breakdow
 
 **Meaning**: This prefix represents the "Everyone" group.
 
-**Example**: c:0(.s|true
+**Example**: c:0(.s\|true
 
 **Explanation**: This is used to identify the "Everyone" group in SharePoint, which includes all users who have access to the site, both authenticated and anonymous users. The prefix components explain the claim's context and source:
 
@@ -223,12 +223,14 @@ AuthMode indicates the type of authentication used to obtain the identity claim 
 * “c” for a claim provider
 
 
-<OriginalIssuer>
+#### OriginalIssuer
 
-<OriginalIssuer> indicates the original issuer of the claim.
-<ClaimValueType>
+OriginalIssuer indicates the original issuer of the claim.
 
-<ClaimValueType> indicates the value of the claim in the <ClaimType> format.
+
+#### ClaimValueType
+
+ClaimValueType indicates the value of the claim in the <ClaimType> format.
 Common types of login names in SharePoint online:
 Everyone -> c:0(.s|true
 Everyone except external users -> c:0-.f|rolemanager|spo-grid-all-users/<tenant_id>
