@@ -139,7 +139,7 @@ The specific claim provider prefix depends on several factors:
 
 
 ### Prefix Components
-The prefix components explain the claim's context and source. Each component in the prefix provides specific information about the type and source of the claim, helping to determine how it should be processed and applied within the SharePoint environment. The prefixes here are described after
+The prefix components explain the claim's context and source. Each component in the prefix provides specific information about the type and source of the claim, helping to determine how it should be processed and applied within the SharePoint environment. The prefixes here are described after [*Understanding login name format of SharePoint* post in MS Learn](https://learn.microsoft.com/en-us/answers/questions/349797/understanding-login-name-format-of-sharepoint)
 
 
 
@@ -234,13 +234,37 @@ OriginalIssuer indicates the original issuer of the claim.
 
 <br/>
 
-#### ClaimValueType
+#### ClaimValue
 
-ClaimValueType indicates the value of the claim in the <ClaimType> format.
-Common types of login names in SharePoint online:
-Everyone -> c:0(.s|true
-Everyone except external users -> c:0-.f|rolemanager|spo-grid-all-users/<tenant_id>
-Group memebers -> c:0o.c|federateddirectoryclaimprovider|<group_guid>
-Group Owners ->   c:0o.c|federateddirectoryclaimprovider|<group_guid>
-"Company Administrator" in Sharepoint Admin console -> c:0t.c|tenant|<UNKNOWN-GUID>
-An O365 user ->i:0#.f|membership|<USER-EMAIL>
+ClaimValue indicates the value of the claim in the **ClaimValueType** format.
+
+
+
+# See Also
+
+[Claims-based identity term definitions](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/claims-based-identity-term-definitions)
+
+[Claims-based identity and concepts in SharePoint](https://learn.microsoft.com/en-us/sharepoint/dev/general-development/claims-based-identity-and-concepts-in-sharepoint)
+
+Old but still great, check it our especially for the diagramm: [How Claims encoding works in SharePoint 2010](https://www.wictorwilen.se/blog/how-claims-encoding-works-in-sharepoint-2010/)
+
+
+
+<!-- Default Statcounter code for Spo Claims
+https://powershellscripts.github.io/articles/en/SharePointOnline/spoclaims
+-->
+<script type="text/javascript">
+var sc_project=13024138; 
+var sc_invisible=1; 
+var sc_security="6a8692a5"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13024138/0/6a8692a5/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
