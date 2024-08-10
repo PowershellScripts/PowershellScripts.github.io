@@ -48,7 +48,7 @@ Write-Host "Total files: $fileCount"
 
 
 
-
+```powershell
 
 # count files recursively in the entire library
 
@@ -87,3 +87,4 @@ Count-Files -folder $rootFolder
 # Output the total count
 Write-Host "Total files in the document library '$libraryName': $fileCount"
 
+```
