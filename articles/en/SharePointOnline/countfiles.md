@@ -95,3 +95,4 @@ Write-Host "Total files in the document library '$libraryName': $fileCount"
 
 # See Also
 
+https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/File%20Management/CountFiles
