@@ -45,7 +45,9 @@ Write-Host "Total files: $fileCount"
 ```
 
 
+# Library
 
+You can also count the files inside the entire library.
 
 
 ```powershell
