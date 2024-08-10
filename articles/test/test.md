@@ -128,6 +128,23 @@ h3::before {
 </style>
 
 <ol style="--length: 5" role="list">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+		<span style="display: block; text-align: right;">2024-07-21
+		<h3>Modify Microsoft 365 group settings</h3></span>
+		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+	</a></li>
+
+		<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+		<span style="display: block; text-align: right;">2024-08-01
+		<h3>Add SharePoint site permissions to a group using PnP</h3></span>
+		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+	</a></li>
+
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+		<span style="display: block; text-align: right;">2024-08-01
+		<h3>SharePoint Claims Deep Dive</h3></span>
+		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+	</a></li>
 
 	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
 		<span style="display: block; text-align: right;">2024-07-21
@@ -138,9 +155,7 @@ h3::before {
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/">
 		<span style="display: block; text-align: right;">2024-07-14
 		<h3>Conditional query in PNP Search Webpart</h3></span>
-		<p>In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) search query template to build dynamic queries. The search query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. By using the `{?{ }}` syntax in your PnP Search Web Part query template, you can introduce dynamic, conditional logic similar to "if" statements in programming.
-
-</p>
+		<p>In SharePoint Search, especially when using the PnP (Patterns and Practices) Search Web Part, you can use the KQL (Keyword Query Language) search query template to build dynamic queries. The search query template allows for conditional logic using tokens and variables, but it's not as straightforward as using traditional programming "if" statements. By using the `{?{ }}` syntax in your PnP Search Web Part query template, you can introduce dynamic, conditional logic similar to "if" statements in programming.</p>
 	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex">
