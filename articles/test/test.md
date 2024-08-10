@@ -232,9 +232,10 @@ Links to my older Social Technet Articles:
 
 <h3>Content Types</h3>
 
-- [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx)
-
+<li> [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx)
+</li>
 + [SharePoint Online content types in Powershell: Get](http://social.technet.microsoft.com/wiki/contents/articles/31151.sharepoint-online-content-types-in-powershell-get.aspx)
+
 * [SharePoint Online content types in Powershell: Edit](https://social.technet.microsoft.com/wiki/contents/articles/31444.sharepoint-online-content-types-in-powershell-edit.aspx)
 * [SharePoint Online: Turn on support for multiple content types in a list or library using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/30038.sharepoint-online-turn-on-support-for-multiple-content-types-in-a-list-or-library-using-powershell.aspx)
 * [SharePoint Online content types in PowerShell: Group property](http://social.technet.microsoft.com/wiki/contents/articles/31725.sharepoint-online-content-types-in-powershell-group-property.aspx)
