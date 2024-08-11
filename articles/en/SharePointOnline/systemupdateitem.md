@@ -27,20 +27,24 @@ The new UpdateType parameter in Set-PnpListItem allows for three options:
 * **UpdateOverwriteVersion**: Sets field values and does not create a new version. No events on the list will trigger. The "Modified By" and "Modified" fields are not updated but can be set by passing the field values in the update. HINT: use 'Editor' to set the "Modified By" field.
 
 
-## Example 1: Updating a List Item Without Updating the Modfied Date Or Triggering a Workflow
+### Example 1
+##### Updating a List Item Without Updating the Modfied Date Or Triggering a Workflow
 Using the Set-PnPListItem cmdlet, you can update a list item and overwrite the current version without modifying the Modified or Modified By fields. Any workflows (e.g. Power Automate) or events will not trigger. Here’s how you can do it:
 
 ```powershell
 Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Editor"="testuser@domain.com"} -UpdateType UpdateOverwriteVersion
 ```
 
-Explanation:
+**Explanation**:
 
 -List "Demo List": Specifies the name of the list where the item resides.
+
 -Identity 1: List item ID.
+
 -Values @{"Editor"="testuser@domain.com"}: Specifies the fields to be updated. In this example, we are updating the "Editor" field.
+
 -UpdateType UpdateOverwriteVersion: This parameter ensures that the update is applied to the existing version of the item without creating a new version.
-When to Use UpdateOverwriteVersion
+
 
 
 ### Example 2: Updating the Title Field
@@ -76,7 +80,7 @@ When working with SharePoint lists, there may be scenarios where you need to upd
 
 Using the Set-PnPListItem cmdlet, you can update a list item without changing its "Modified" date but still trigger workflows. This can be done using the SystemUpdate option
 
-````powershell
+```powershell
 Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Editor"="testuser@domain.com"} -UpdateType SystemUpate
 ```
 
@@ -91,6 +95,20 @@ When to Use UpdateOverwriteVersion
 
 # Update batch items
 
+If you need to update multiple list items in one go, you can do so by combining the SystemUpdate with a loop. Here's an example of how to batch update several items:
+
+powershell
+Code kopieren
+$items = Get-PnPListItem -List "Demo List" -PageSize 1000
+
+foreach ($item in $items) {
+    Set-PnPListItem -List "Demo List" -Identity $item.Id -Values @{"Status"="Archived"; "Reviewed"="Yes"} -UpdateType SystemUpdate
+}
+Explanation:
+
+Get-PnPListItem -List "Demo List" -PageSize 1000: Retrieves all items from the "Demo List." The -PageSize parameter determines how many items are retrieved per batch.
+foreach ($item in $items): Loops through each item in the list.
+Set-PnPListItem -List "Demo List" -Identity $item.Id -Values @{"Status"="Archived"; "Reviewed"="Yes"} -UpdateType SystemUpdate: For each item, this command updates the "Status" to "Archived" and the "Reviewed" field to "Yes," without changing the "Modified" date or creating a new version.
 
 # Update item permissions
 
