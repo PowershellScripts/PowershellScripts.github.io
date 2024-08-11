@@ -145,21 +145,29 @@ Image column can be updated using `Set-PnPImageListItemColumn`. The cmdlet also 
 ### Example 1
 Using the following example you can set the image value in the field without updating the Modified Date, the Modified By, or triggering a workflow.
 
-`Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType UpdateOverwriteVersion`
-
+```powershell
+Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType UpdateOverwriteVersion`
+```
 
 ### Example 2
 Using the following example you can set the image value in the field and trigger the workflow or event associated with the list item. The Modified Date and the Modified By will not be updated.
 
-`Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType SystemUpdate`
-
+```powershell
+Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType SystemUpdate`
+```
 
 <br/><br/><br/>
 
 # Update item permissions
+You can also update item permissions without creating a new version and without updating the modified date. Use `-SystemUpdate` parameter.
 
+<img src="/articles/images/systemupdate1.PNG">
 
+<sub>From: https://pnp.github.io/powershell/cmdlets/Set-PnPListItemPermission.html </sub>
 
+```powershell
+Set-PnPListItemPermission -List 'Documents' -Identity 1 -AddRole 'Read' -RemoveRole 'Contribute' -Group "Site collection Visitors" -SystemUpdate
+```
 
 <br/><br/><br/>
 

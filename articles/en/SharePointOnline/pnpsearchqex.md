@@ -416,7 +416,7 @@ AND IsContainer:false
 # See Also
 
 [Conditional query in PNP Search Webpart](https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/)
-<<<<<<< HEAD
+
 
 
 
