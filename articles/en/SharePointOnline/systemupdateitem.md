@@ -53,7 +53,7 @@ Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Editor"="testuser@domai
 ###### Updating the Title Field
 
 ```powershell
-Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="New Title"} -UpdateType SystemUpdate
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="New Title"} -UpdateType UpdateOverwriteVersion
 ```
 
 This command updates the "Title" field of the item without changing the "Modified" date.
@@ -64,7 +64,7 @@ This command updates the "Title" field of the item without changing the "Modifie
 ###### Updating the Due Date Field
 
 ```powershell
-Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"DueDate"="2024-12-31"} -UpdateType SystemUpdate
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"DueDate"="2024-12-31"} -UpdateType UpdateOverwriteVersion
 ```
 
 Here, the "DueDate" field is updated without altering the "Modified" date.
@@ -76,7 +76,7 @@ Here, the "DueDate" field is updated without altering the "Modified" date.
 ###### Updating Multiple Fields Simultaneously
 
 ```powershell
-Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="Updated Title"; "Status"="Completed"; "Priority"="High"} -UpdateType SystemUpdate
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="Updated Title"; "Status"="Completed"; "Priority"="High"} -UpdateType UpdateOverwriteVersion
 ```
 
 This command updates the "Title," "Status," and "Priority" fields all at once, again without modifying the "Modified" date.
@@ -106,6 +106,8 @@ Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Editor"="testuser@domai
 -UpdateType SystemUpdate: This parameter ensures that the update is applied to the existing version of the item without creating a new version. The event or workflow associated with the item is triggered, though.
 
 
+<br/><br/><br/>
+
 # Update batch items
 
 If you need to update multiple list items in one go, you can do so by combining the `Set-PnPListItem` and `New-PnPBatch` cmdlets. Here's an example of how to batch update several items:
@@ -133,17 +135,41 @@ Invoke-PnPBatch -Batch $batch
 
 `Set-PnPListItem -List "Demo List" -Identity $item.Id -Values @{"Status"="Archived"; "Reviewed"="Yes"} -UpdateType SystemUpdate -Batch $batch`: For each item, this command updates the "Status" to "Archived" and the "Reviewed" field to "Yes," without changing the "Modified" date or creating a new version.
 
+
+<br/><br/><br/>
+
+# Set-PnPImageListItemColumn
+Image column can be updated using `Set-PnPImageListItemColumn`. The cmdlet also takes [-UpdateType <UpdateType>] parameter.
+
+
+### Example 1
+Using the following example you can set the image value in the field without updating the Modified Date, the Modified By, or triggering a workflow.
+
+`Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType UpdateOverwriteVersion`
+
+
+### Example 2
+Using the following example you can set the image value in the field and trigger the workflow or event associated with the list item. The Modified Date and the Modified By will not be updated.
+
+`Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -ServerRelativePath "/sites/contoso/SiteAssets/test.png" -UpdateType SystemUpdate`
+
+
+<br/><br/><br/>
+
 # Update item permissions
 
 
 
 
-Set-PnPImageListItemColumn
+<br/><br/><br/>
 
 # Important Considerations
+
 Auditability: Be cautious when using this approach, as it overwrites the current version, potentially losing track of changes that might be important for auditing purposes.
+
 User Awareness: Ensure that users are aware of when and why this method is used, as it deviates from the usual behavior of versioning in SharePoint.
 
+<br/><br/><br/>
 
 # See Also
 
