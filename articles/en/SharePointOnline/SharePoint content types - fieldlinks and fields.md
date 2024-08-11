@@ -62,3 +62,26 @@ Comparison of Field Names and Field Link Names of the content types from a Conte
 | **Summary Task**                    | Due Date                        | TaskDueDate                 | DueDate                   |
 | **Document Set**                    |	Description	                    | DocumentSetDescription	     | Description               |
 
+
+
+
+
+<!-- Default Statcounter code for CT-fieldlinks
+https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20-%20
+-->
+<script type="text/javascript">
+var sc_project=13025467; 
+var sc_invisible=1; 
+var sc_security="b39e5a70"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13025467/0/b39e5a70/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

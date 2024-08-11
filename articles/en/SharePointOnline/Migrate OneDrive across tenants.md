@@ -59,6 +59,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/Migrate%20OneDr
 var sc_project=12981503; 
 var sc_invisible=1; 
 var sc_security="52bf399c"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

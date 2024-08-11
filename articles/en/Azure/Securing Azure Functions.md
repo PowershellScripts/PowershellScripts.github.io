@@ -399,6 +399,7 @@ https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functio
 var sc_project=12962351; 
 var sc_invisible=1; 
 var sc_security="ab89bc3d"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

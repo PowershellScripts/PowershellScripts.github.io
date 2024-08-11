@@ -163,6 +163,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForLis
 var sc_project=12981483; 
 var sc_invisible=1; 
 var sc_security="fb5df1d1"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

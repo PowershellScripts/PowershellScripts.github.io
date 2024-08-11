@@ -207,19 +207,7 @@ h3::before {
 	</a></li>
 
 
- 
 
- 
-	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
-	</li>
-		<li style="--i: 8">
-		<span style="display: block; text-align: right;">2023-11-04
-		<h3>[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Closeconversation/)</h3></span>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Adipiscing diam donec adipiscing tristique risus.</p>
-	</li>
 
 
 

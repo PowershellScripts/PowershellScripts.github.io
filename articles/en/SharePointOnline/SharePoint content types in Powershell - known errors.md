@@ -215,6 +215,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20co
 var sc_project=12953200; 
 var sc_invisible=0; 
 var sc_security="5da4bba5"; 
+var sc_client_storage="disabled"; 
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

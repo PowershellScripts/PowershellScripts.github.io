@@ -219,6 +219,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/addpermgroup
 var sc_project=13024137; 
 var sc_invisible=1; 
 var sc_security="44c55848"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

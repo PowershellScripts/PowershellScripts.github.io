@@ -163,7 +163,7 @@ You can also update item permissions without creating a new version and without 
 
 <img src="/articles/images/systemupdate1.PNG">
 
-<sub>From: https://pnp.github.io/powershell/cmdlets/Set-PnPListItemPermission.html </sub>
+<sup>From: https://pnp.github.io/powershell/cmdlets/Set-PnPListItemPermission.html </sup>
 
 ```powershell
 Set-PnPListItemPermission -List 'Documents' -Identity 1 -AddRole 'Read' -RemoveRole 'Contribute' -Group "Site collection Visitors" -SystemUpdate
@@ -173,12 +173,36 @@ Set-PnPListItemPermission -List 'Documents' -Identity 1 -AddRole 'Read' -RemoveR
 
 # Important Considerations
 
-Auditability: Be cautious when using this approach, as it overwrites the current version, potentially losing track of changes that might be important for auditing purposes.
+Auditability: 
 
-User Awareness: Ensure that users are aware of when and why this method is used, as it deviates from the usual behavior of versioning in SharePoint.
+Be cautious when using this approach, as it overwrites the current version, potentially losing track of changes that might be important for auditing purposes.
+
+User Awareness: 
+
+Ensure that users are aware of when and why this method is used, as it deviates from the usual behavior of versioning in SharePoint.
 
 <br/><br/><br/>
 
 # See Also
 
 [Update SharePoint folder without creating a new version](https://powershellscripts.github.io/articles/en/SharePointOnline/systemupdatefolder)
+
+<!-- Default Statcounter code for SystemUpdateItem
+https://powershellscripts.github.io/articles/en/SharePointOnline/systemupdateitem/
+-->
+<script type="text/javascript">
+var sc_project=13025465; 
+var sc_invisible=1; 
+var sc_security="dde9ecaa"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="site stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13025465/0/dde9ecaa/1/"
+alt="site stats"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

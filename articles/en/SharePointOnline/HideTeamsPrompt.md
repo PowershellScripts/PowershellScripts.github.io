@@ -74,6 +74,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt
 var sc_project=12981484; 
 var sc_invisible=1; 
 var sc_security="cf260827"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

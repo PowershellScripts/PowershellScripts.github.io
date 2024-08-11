@@ -100,6 +100,7 @@ https://powershellscripts.github.io/articles/en/InformationProtection/Your%20Sha
 var sc_project=12941097; 
 var sc_invisible=1; 
 var sc_security="a9c90e89"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

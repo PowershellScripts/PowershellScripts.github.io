@@ -257,6 +257,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/spoclaims
 var sc_project=13024138; 
 var sc_invisible=1; 
 var sc_security="6a8692a5"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

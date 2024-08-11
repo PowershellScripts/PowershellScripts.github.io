@@ -149,6 +149,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/Customize%20you
 var sc_project=12941101; 
 var sc_invisible=1; 
 var sc_security="af700d2d"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

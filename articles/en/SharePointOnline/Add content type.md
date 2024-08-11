@@ -589,6 +589,7 @@ https://powershellscripts.github.io/articles/en/SharePointOnline/Add%20content%2
 var sc_project=12953202; 
 var sc_invisible=0; 
 var sc_security="fe97b4fc"; 
+var sc_client_storage="disabled"; 
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
