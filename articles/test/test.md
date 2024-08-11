@@ -134,13 +134,13 @@ h3::before {
 		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
 	</a></li>
 
-		<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+		<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
 		<span style="display: block; text-align: right;">2024-08-01
 		<h3>Add SharePoint site permissions to a group using PnP</h3></span>
 		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
 	</a></li>
 
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
 		<span style="display: block; text-align: right;">2024-08-01
 		<h3>SharePoint Claims Deep Dive</h3></span>
 		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
