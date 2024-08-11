@@ -27,10 +27,10 @@ The new UpdateType parameter in Set-PnpListItem allows for three options:
 * **UpdateOverwriteVersion**: Sets field values and does not create a new version. No events on the list will trigger. The "Modified By" and "Modified" fields are not updated but can be set by passing the field values in the update. HINT: use 'Editor' to set the "Modified By" field.
 
 
-### Example: Updating a List Item Without Updating the Modfied Date Or Triggering a Workflow
+## Example 1: Updating a List Item Without Updating the Modfied Date Or Triggering a Workflow
 Using the Set-PnPListItem cmdlet, you can update a list item and overwrite the current version without modifying the Modified or Modified By fields. Any workflows (e.g. Power Automate) or events will not trigger. Here’s how you can do it:
 
-````powershell
+```powershell
 Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Editor"="testuser@domain.com"} -UpdateType UpdateOverwriteVersion
 ```
 
@@ -43,7 +43,35 @@ Explanation:
 When to Use UpdateOverwriteVersion
 
 
-### Example: Updating a List Item Without Updating the Modfied Date But Triggering a Workflow
+### Example 2: Updating the Title Field
+
+```powershell
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="New Title"} -UpdateType SystemUpdate
+```
+
+This command updates the "Title" field of the item without changing the "Modified" date.
+
+### Example 3: Updating the Due Date Field
+
+```powershell
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"DueDate"="2024-12-31"} -UpdateType SystemUpdate
+```
+
+Here, the "DueDate" field is updated without altering the "Modified" date.
+
+
+
+### Example 4: Updating Multiple Fields Simultaneously
+
+```powershell
+Set-PnPListItem -List "Demo List" -Identity 1 -Values @{"Title"="Updated Title"; "Status"="Completed"; "Priority"="High"} -UpdateType SystemUpdate
+```
+
+This command updates the "Title," "Status," and "Priority" fields all at once, again without modifying the "Modified" date.
+
+
+
+## Example 5: Updating a List Item Without Updating the Modfied Date But Triggering a Workflow
 When working with SharePoint lists, there may be scenarios where you need to update an item without altering its "Modified" date. This can be important when you want to make background updates to items without signaling to users that a change has occurred, while still triggering associated events or workflows like Power Automate.
 
 Using the Set-PnPListItem cmdlet, you can update a list item without changing its "Modified" date but still trigger workflows. This can be done using the SystemUpdate option
