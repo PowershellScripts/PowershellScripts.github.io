@@ -46,6 +46,10 @@
       link: /articles/en/SharePointOnline/addpermgroup
     - name: SharePoint Claims Deep Dive
       link: /articles/en/SharePointOnline/spoclaims
+    - name: Update SharePoint list item without changing the modified date
+      link: /articles/en/SharePointOnline/systemupdateitem
+    - name: Update SharePoint folder without creating a new version
+      link: /articles/en/SharePointOnline/systemupdatefolder
 
 - name: Viva
   link: /#
