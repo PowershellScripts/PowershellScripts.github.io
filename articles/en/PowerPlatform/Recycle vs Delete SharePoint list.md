@@ -44,6 +44,7 @@ https://powershellscripts.github.io/articles/en/PowerPlatform/Recycle%20vs%20Del
 var sc_project=12763875; 
 var sc_invisible=0; 
 var sc_security="1aaa3cd5"; 
+var sc_client_storage="disabled";
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

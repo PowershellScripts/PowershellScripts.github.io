@@ -220,6 +220,7 @@ https://powershellscripts.github.io/articles/en/PowerPlatform/Office%20Online%20
 var sc_project=12938099; 
 var sc_invisible=0; 
 var sc_security="1494aebe"; 
+var sc_client_storage="disabled";
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

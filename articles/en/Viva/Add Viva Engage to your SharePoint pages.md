@@ -83,6 +83,7 @@ https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20
 var sc_project=12941102; 
 var sc_invisible=1; 
 var sc_security="1686de16"; 
+var sc_client_storage="disabled";
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

@@ -140,6 +140,7 @@ https://powershellscripts.github.io/articles/en/Server/SharePoint%20Server%20-%2
 var sc_project=12959328; 
 var sc_invisible=1; 
 var sc_security="fc732b30"; 
+var sc_client_storage="disabled";
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

@@ -129,3 +129,24 @@ New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '623
 [New-PnPMicrosoft365GroupSettings](https://pnp.github.io/powershell/cmdlets/New-PnPMicrosoft365GroupSettings.html)
 
 
+
+
+<!-- Default Statcounter code for m365groupSettings
+https://powershellscripts.github.io/articles/en/Other/m365groupsettings/
+-->
+<script type="text/javascript">
+var sc_project=13025470; 
+var sc_invisible=1; 
+var sc_security="229b5a6c"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13025470/0/229b5a6c/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

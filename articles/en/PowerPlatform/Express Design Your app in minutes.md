@@ -46,6 +46,7 @@ https://powershellscripts.github.io/articles/en/PowerPlatform/Express%20Design%2
 var sc_project=12763879; 
 var sc_invisible=0; 
 var sc_security="fb261598"; 
+var sc_client_storage="disabled";
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

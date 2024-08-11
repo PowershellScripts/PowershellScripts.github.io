@@ -20,7 +20,8 @@ https://powershellscripts.github.io/articles/en/Viva/removeleader
 <script type="text/javascript">
 var sc_project=12957426; 
 var sc_invisible=1; 
-var sc_security="00f404a3"; 
+var sc_security="00f404a3";
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

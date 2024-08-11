@@ -78,6 +78,7 @@ https://powershellscripts.github.io/articles/en/PowerPlatform/Get%20users%20who%
 var sc_project=12763867; 
 var sc_invisible=0; 
 var sc_security="3cad39f3"; 
+var sc_client_storage="disabled";
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

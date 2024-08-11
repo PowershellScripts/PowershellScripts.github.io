@@ -73,6 +73,7 @@ https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to
 var sc_project=12957424; 
 var sc_invisible=1; 
 var sc_security="d42fc81b"; 
+var sc_client_storage="disabled";
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

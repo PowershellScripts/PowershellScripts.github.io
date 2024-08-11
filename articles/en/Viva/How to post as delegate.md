@@ -57,7 +57,8 @@ https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20dele
 <script type="text/javascript">
 var sc_project=12974160; 
 var sc_invisible=0; 
-var sc_security="78fd46e7"; 
+var sc_security="78fd46e7";
+var sc_client_storage="disabled"; 
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
