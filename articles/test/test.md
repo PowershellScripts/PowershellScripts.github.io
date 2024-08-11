@@ -232,7 +232,7 @@ Links to my older Social Technet Articles:
 
 <h3>Content Types</h3>
 
-<li><a href="https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx"> <h3>[SharePoint Online content types in Powershell: Add]()</h3>
+<li><a href="https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx"> SharePoint Online content types in Powershell: Add
 </a></li>
 
 + [SharePoint Online content types in Powershell: Get](http://social.technet.microsoft.com/wiki/contents/articles/31151.sharepoint-online-content-types-in-powershell-get.aspx)
