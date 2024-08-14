@@ -50,6 +50,12 @@
       link: /articles/en/SharePointOnline/systemupdateitem
     - name: Update SharePoint folder without creating a new version
       link: /articles/en/SharePointOnline/systemupdatefolder
+    - name: Count files in a folder using Powershell
+      link: /articles/en/SharePointOnline/countfiles
+    - name: Count files or items with unique permissions using Powershell
+      link: /articles/en/SharePointOnline/countfilesunique  
+    - name: Get version history programmatically
+      link: /articles/en/SharePointOnline/getversionhistory  
 
 - name: Viva
   link: /#
