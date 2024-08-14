@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Count all files recursively inside a specific folder using Powershell'
+title: 'Count files in folder using Powershell'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
@@ -10,8 +10,85 @@ date: '2024-08-10'
 ---
 
 # Introduction
-Using PnP Powershell you can programmatically count all files inside your list or a specific folder.
+Using PnP Powershell you can programmatically count files in a folder or the entire library
 
+
+# Count files inside a specific folder
+
+
+### Option 1
+Count the files collection in a folder.
+
+```powershell
+# Define the folder URL relative to the document library
+$folderUrl = "/sites/yoursite/Shared Documents/YourFolder"
+
+# Get the folder
+$folder = Get-PnPFolder -Url $folderUrl -Includes Files, Folders
+
+# Initialize file count
+$fileCount = $folder.Files.Count
+
+# Output the total count
+Write-Host "Total files: $fileCount"
+
+```
+
+
+### Option 2
+Count the items from the folder that have the type File.
+
+```powershell
+$siteUrl = "https://yoursharepointsiteurl"
+Connect-PnPOnline -Url $siteUrl -Interactive
+
+# Define the specific folder path
+$folderRelativeUrl = "/sites/yoursite/Shared Documents/YourFolder"
+
+# Retrieve the folder
+$folder = Get-PnPFolder -Url $folderRelativeUrl
+
+# Retrieve all files in the folder
+$files = Get-PnPFolderItem -Folder $folder -ItemType File
+
+# Count total number of files in the folder
+$totalFileCount = $files.Count
+
+
+# Output the results
+Write-Output "Total number of files in the folder: $totalFileCount"
+```
+
+
+# Count files in a folder **recursively**
+Recursively means exploring all directories and subdirectories within a given directory, processing each level until all contents have been handled.
+
+If you have a folder structure like this:
+
+
+RootFolder
+│
+├── SubFolder1
+│   ├── File1.txt
+│   └── SubSubFolder1
+│       └── File2.txt
+│
+└── SubFolder2
+    └── File3.txt
+
+
+A recursive function to list all files would:
+
+1. Start in RootFolder.
+2. List the files directly in RootFolder (if any).
+3. Identify subfolders (SubFolder1, SubFolder2).
+4. Move into SubFolder1, list its files, and identify any further subfolders (like SubSubFolder1).
+5. Continue this process until all subfolders and their files have been listed.
+6. The recursive function ensures that no files are missed, regardless of how deeply nested they are within the folder structure.
+
+
+### Option 1
+Count files in a folder by building your own recursion.
 
 ```powershell
 # Define the folder URL relative to the document library
@@ -45,10 +122,104 @@ Write-Host "Total files: $fileCount"
 ```
 
 
-# Library
+### Option 2
+Count items in a folder that have the type File, using PnP cmdlet `Get-PnPFolderItem -Folder $folder -ItemType File -Recursive` cmdlet. It returns all documents in a folder.
 
-You can also count the files inside the entire library.
+```powershell
+$siteUrl = "https://yoursharepointsiteurl"
+Connect-PnPOnline -Url $siteUrl -Interactive
 
+# Define the specific folder path
+$folderRelativeUrl = "/sites/yoursite/Shared Documents/YourFolder"
+
+# Retrieve the folder
+$folder = Get-PnPFolder -Url $folderRelativeUrl
+
+# Retrieve all files in the folder
+$files = Get-PnPFolderItem -Folder $folder -ItemType File -Recursive
+
+# Count total number of files in the folder
+$totalFileCount = $files.Count
+
+
+# Output the results
+Write-Output "Total number of files in the folder: $totalFileCount"
+```
+
+
+
+# Count files inside a Library
+
+Using `Get-PnPFolderItem` you can also count the files inside the entire SharePoint library.
+
+### Option 1
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yoursite.sharepoint.com/sites/yoursite" -Interactive
+
+# Define the document library name
+$libraryName = "Shared Documents"  # Replace with your document library name
+
+# Get the files in the root of the document library
+$files = Get-PnPFolderItem -Folder $libraryName -ItemType File
+
+# Count the files
+$fileCount = $files.Count
+
+# Output the count
+Write-Output "Number of files in the root of '$libraryName': $fileCount"
+```
+
+
+
+# Count files inside a Library **recursively**
+
+The following 2 options show how to count files in a library recursively.
+
+### Option 1
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yoursite.sharepoint.com/sites/yoursite" -Interactive
+
+# Define the document library name
+$libraryName = "Shared Documents"  # Replace with your document library name
+
+# Function to count files recursively
+function Get-FileCountRecursively {
+    param (
+        [string]$folderPath
+    )
+
+    # Initialize file count
+    $totalFileCount = 0
+
+    # Get all files in the current folder
+    $files = Get-PnPFolderItem -Folder $folderPath -ItemType File
+    $totalFileCount += $files.Count
+
+    # Get all subfolders
+    $subfolders = Get-PnPFolderItem -Folder $folderPath -ItemType Folder
+
+    foreach ($subfolder in $subfolders) {
+        $subfolderPath = "$folderPath/$($subfolder.Name)"
+        # Recursively count files in each subfolder
+        $totalFileCount += Get-FileCountRecursively -folderPath $subfolderPath
+    }
+
+    return $totalFileCount
+}
+
+# Start the count from the root of the document library
+$totalFiles = Get-FileCountRecursively -folderPath $libraryName
+
+# Output the total file count
+Write-Output "Total number of files in '$libraryName' (including subfolders): $totalFiles"
+```
+
+
+### Option 2
 
 ```powershell
 
@@ -91,6 +262,147 @@ Write-Host "Total files in the document library '$libraryName': $fileCount"
 
 ```
 
+
+# Count all items - files and folders - inside a Library **recursively**
+
+If you don't need to differentiate between files and folders, `Get-PnPListItem` gives you the quickest overview of the SharePoint library size. You can also use this to count items in a list.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yoursite.sharepoint.com/sites/yoursite" -Interactive
+
+# Define the document library name
+$libraryName = "Shared Documents"  # Replace with your document library name
+
+# Get all items in the document library
+$items = Get-PnPListItem -List $libraryName -PageSize 5000 -Fields "FileLeafRef"
+
+# Count the number of items (both files and folders)
+$itemCount = $items.Count
+
+# Output the total item count
+Write-Output "Total number of items in '$libraryName': $itemCount"
+```
+
+
+# Count files in a subfolder
+
+If you want to count files in all immediate subfolders of a SharePoint document library, you can use `Get-PnPFolderItem`. The script here gets a count of files in each immediate subfolder of the library and then exports those numbers into a CSV file.
+
+```powershell
+
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yoursite.sharepoint.com/sites/yoursite" -Interactive
+
+# Define the document library name
+$libraryName = "Shared Documents"  # Replace with your document library name
+
+# Define the path for the CSV output
+$outputCsvPath = "C:\path\to\output\file.csv"  # Replace with your desired output path
+
+# Function to count files in a given folder
+function Get-FileCountInFolder {
+    param (
+        [string]$folderUrl
+    )
+
+    # Get all items in the folder
+    $items = Get-PnPFolderItem -Folder $folderUrl -ItemType File
+
+    # Return the count of files
+    return $items.Count
+}
+
+# Get all items (files and folders) in the root of the document library
+$rootItems = Get-PnPFolderItem -Folder $libraryName
+
+# Filter out only folders
+$subfolders = $rootItems | Where-Object { $_.ItemType -eq "Folder" }
+
+# Prepare an array to hold the results
+$results = @()
+
+# Iterate through each subfolder to count files
+foreach ($subfolder in $subfolders) {
+    $subfolderPath = $subfolder.ServerRelativeUrl
+    
+    # Count files in the current subfolder
+    $fileCount = Get-FileCountInFolder -folderUrl $subfolderPath
+
+    # Create an object with the results
+    $result = [PSCustomObject]@{
+        FolderPath = $subfolderPath
+        FileCount  = $fileCount
+    }
+
+    # Add the result to the results array
+    $results += $result
+}
+
+# Export results to CSV
+$results | Export-Csv -Path $outputCsvPath -NoTypeInformation
+```
+
+
+
+
+# Count files in a subfolder **recursively**
+
+If you want to count files in all immediate subfolders of a SharePoint document library, you can use `Get-PnPFolderItem`. The script here gets a count of files in each immediate subfolder of the library and their subfolders. The results are then exported into a CSV file.
+
+```powershell
+
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yoursite.sharepoint.com/sites/yoursite" -Interactive
+
+# Define the document library name
+$libraryName = "Shared Documents"  # Replace with your document library name
+
+# Define the path for the CSV output
+$outputCsvPath = "C:\path\to\output\file.csv"  # Replace with your desired output path
+
+# Function to count files in a given folder
+function Get-FileCountInFolder {
+    param (
+        [string]$folderUrl
+    )
+
+    # Get all items in the folder
+    $items = Get-PnPFolderItem -Folder $folderUrl -ItemType File -Recursive
+
+    # Return the count of files
+    return $items.Count
+}
+
+# Get all items (files and folders) in the root of the document library
+$rootItems = Get-PnPFolderItem -Folder $libraryName
+
+# Filter out only folders
+$subfolders = $rootItems | Where-Object { $_.ItemType -eq "Folder" }
+
+# Prepare an array to hold the results
+$results = @()
+
+# Iterate through each subfolder to count files
+foreach ($subfolder in $subfolders) {
+    $subfolderPath = $subfolder.ServerRelativeUrl
+    
+    # Count files in the current subfolder
+    $fileCount = Get-FileCountInFolder -folderUrl $subfolderPath
+
+    # Create an object with the results
+    $result = [PSCustomObject]@{
+        FolderPath = $subfolderPath
+        FileCount  = $fileCount
+    }
+
+    # Add the result to the results array
+    $results += $result
+}
+
+# Export results to CSV
+$results | Export-Csv -Path $outputCsvPath -NoTypeInformation
+```
 
 
 # See Also
