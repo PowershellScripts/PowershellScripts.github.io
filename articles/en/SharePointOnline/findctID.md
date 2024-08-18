@@ -7,7 +7,7 @@ hero_height: is-small
 date: '2024-08-18'
 ---
 
-What is SharePoint Online Content Type ID?
+# What is SharePoint Online Content Type ID?
 
 Content type IDs in SharePoint uniquely identify the content type and are designed to be recursive. The content type ID shows that content type's **lineage**, or the line of parent content types from which the content type inherits. Each SharePoint content type ID contains the ID of the parent content type, which in turn contains the ID of that content type's parent, and so on, ultimately back to and including the System content type ID. SharePoint uses this information to [determine the relationship between content types](https://learn.microsoft.com/en-us/previous-versions/office/developer/sharepoint-2010/aa543822(v=office.14)?redirectedfrom=MSDN) and for push-down operations.
 
@@ -47,4 +47,12 @@ Each SharePoint content type ID must be unique within a SharePoint site collecti
 
 
 <h1>How to find SharePoint Online content type ID using UI</h1>
+
+
+
+<img src="/articles/images/Github-AddContentType100.png" width="400"><br/>
+
+
+
+# See Also
 
