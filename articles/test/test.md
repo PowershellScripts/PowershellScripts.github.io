@@ -128,22 +128,36 @@ h3::before {
 </style>
 
 <ol style="--length: 5" role="list">
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
-		<span style="display: block; text-align: right;">2024-07-21
-		<h3>Modify Microsoft 365 group settings</h3></span>
-		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+
+
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
+		<span style="display: block; text-align: right;">2024-08-11
+		<h3>Get version history programmatically</h3></span>
+		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
+	</a></li>
+	
+		<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
+		<span style="display: block; text-align: right;">2024-08-11
+		<h3>Get version history programmatically</h3></span>
+		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
 	</a></li>
 
-		<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
+		<span style="display: block; text-align: right;">2024-08-11
+		<h3>Get version history programmatically</h3></span>
+		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
+	</a></li>
+
+		<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/addpermgroup/">
 		<span style="display: block; text-align: right;">2024-08-01
 		<h3>Add SharePoint site permissions to a group using PnP</h3></span>
-		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+		<p>Using the PnP PowerShell module, you can assign permissions to an existing group within the Microsoft 365 environment. It can be a SharePoint group, security group or Microsoft 365 group. </p>
 	</a></li>
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/spoclaims/">
 		<span style="display: block; text-align: right;">2024-08-01
 		<h3>SharePoint Claims Deep Dive</h3></span>
-		<p>Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.</p>
+		<p>In SharePoint Online, user and group identities are represented by different claim providers, which determine how identities are authenticated and identified within the system. SharePoint claim provider prefixes are used to format login names and indicate the type of authentication and the source of the identity claim.</p>
 	</a></li>
 
 	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/m365groupsettings/">
