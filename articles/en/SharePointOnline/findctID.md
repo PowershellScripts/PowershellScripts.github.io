@@ -45,6 +45,7 @@ You can also invent your own and using 0x0100aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa al
 Each SharePoint content type ID must be unique within a SharePoint site collection. If the script does not specify the guid, SharePoint will assign one to the content type, based on the parent content type.
 
 
+<br/><br/>
 
 <h1>How to find SharePoint Online content type ID using UI</h1>
 
@@ -53,6 +54,7 @@ Each SharePoint content type ID must be unique within a SharePoint site collecti
 <img src="/articles/images/Github-AddContentType100.png" width="400"><br/>
 
 
+<br/><br/>
 
 # See Also
 

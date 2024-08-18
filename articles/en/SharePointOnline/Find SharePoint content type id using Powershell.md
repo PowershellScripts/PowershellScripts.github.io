@@ -1,3 +1,13 @@
+---
+layout: page
+title: 'Find content type ID using Powershell'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2024-08-18'
+---
+
+
 PowerShell scripting with CSOM
 
 There are no out-of-the-box cmdlets for SharePoint Online. One of the options is CSOM: 
