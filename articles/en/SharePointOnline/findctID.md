@@ -4,7 +4,7 @@ title: 'How to find SharePoint Online content type ID?'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2024-01-10'
+date: '2024-08-18'
 ---
 
 What is SharePoint Online Content Type ID?
