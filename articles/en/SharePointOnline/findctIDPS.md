@@ -7,7 +7,178 @@ hero_height: is-small
 date: '2024-08-18'
 ---
 
+# Intro
+
+Content types in SharePoint are vital for structuring and managing content across sites and libraries. Each content type is associated with a unique Content Type ID, which is necessary for various administrative tasks, including scripting and automation. This article provides a straightforward guide on how to find a Content Type ID using PowerShell.
+
+
 # PnP Powershell
+The easiest way to prgrammatically get SharePoint content type ID, is through PnP Powershell. You need to get the content type first, then its ID.
+
+## From a list
+
+
+
+#### Option 1
+Get all content types, a list of their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Specify the list name
+$listName = "Your List Name"
+
+# Get all content types from the list
+$contentTypes = Get-PnPContentType -List $listName
+
+# Output content type names and IDs
+$contentTypes | ForEach-Object { Write-Host "Content Type: $($_.Name), ID: $($_.Id.StringValue)" }
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+#### Option 2
+Get all content types, a list of their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Specify the list name
+$listName = "Your List Name"
+
+# Get all content types from the list
+$contentTypes = Get-PnPContentType -List $listName
+
+# Output content type names and IDs
+$contentTypes | select name, Id
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+#### Option 3
+Get all content types, a list of their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Specify the list name
+$listName = "Your List Name"
+
+# Get all content types from the list
+Get-PnPContentType -List $listName | select name, Id
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+
+#### Option 4
+Get the ID of a single content type in SharePoint list.
+
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Specify the name of the content type you want to find
+$contentTypeName = "Your Content Type Name"
+
+# Get the content type from the site
+$contentType = Get-PnPContentType -Identity $contentTypeName -List $listName
+
+# Output the Content Type ID
+Write-Host "Content Type ID: $($contentType.Id.StringValue)"
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+
+### From a site
+
+
+#### Option 1
+Get all content types from a SharePoint site, and list their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Get all content types from the list
+$contentTypes = Get-PnPContentType
+
+# Output content type names and IDs
+$contentTypes | ForEach-Object { Write-Host "Content Type: $($_.Name), ID: $($_.Id.StringValue)" }
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+#### Option 2
+Get all content types from a SharePoint site, and list their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Get all content types from the list
+$contentTypes = Get-PnPContentType
+
+# Output content type names and IDs
+$contentTypes | select name, Id
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+#### Option 3
+Get all content types from a SharePoint site, and list their names and Ids.
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Get all content types from the list
+Get-PnPContentType | select name, Id
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
+
+
+#### Option 3
+Get the ID of a single content type in SharePoint list.
+
+
+```powershell
+# Connect to SharePoint Online
+Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -Interactive
+
+# Specify the name of the content type you want to find
+$contentTypeName = "Your Content Type Name"
+
+# Get the content type from the site
+$contentType = Get-PnPContentType -Identity $contentTypeName -List $listName
+
+# Output the Content Type ID
+Write-Host "Content Type ID: $($contentType.Id.StringValue)"
+
+# Disconnect from SharePoint Online
+Disconnect-PnPOnline
+```
+
 
 
 

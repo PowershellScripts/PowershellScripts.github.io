@@ -54,7 +54,13 @@ Each SharePoint content type ID must be unique within a SharePoint site collecti
 <img src="/articles/images/Github-AddContentType100.png" width="400"><br/>
 
 
+
+<h1>Using REST API and Browser</h1>
+
+
+
 <br/><br/>
 
 # See Also
 
+[Find content type ID using Powershell](https://powershellscripts.github.io/articles/en/SharePointOnline/findctIDPS/)
