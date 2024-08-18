@@ -131,19 +131,19 @@ h3::before {
 
 
 
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
 		<span style="display: block; text-align: right;">2024-08-11
 		<h3>Get version history programmatically</h3></span>
 		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
 	</a></li>
 	
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/countfilesunique/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/countfilesunique/">
 		<span style="display: block; text-align: right;">2024-08-11
 		<h3>Count files or items with unique permissions using Powershell</h3></span>
 		<p>Using PnP Powershell you can programmatically count files in a folder or the entire library in SharePoint Online that have unique permissions.</p>
 	</a></li>
 
-		<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/countfiles/">
+		<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/countfiles/">
 		<span style="display: block; text-align: right;">2024-08-10
 		<h3>Count files in a folder using Powershell</h3></span>
 		<p>Using PnP Powershell you can programmatically count files in a folder or the entire library.</p>
