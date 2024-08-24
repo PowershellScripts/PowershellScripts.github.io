@@ -132,9 +132,9 @@ h3::before {
 
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
-		<span style="display: block; text-align: right;">2024-08-11
-		<h3>Find content type ID</h3></span>
-		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
+		<span style="display: block; text-align: right;">2024-08-18
+		<h3>How to find SharePoint Online content type ID?</h3></span>
+		<p>Content type IDs in SharePoint uniquely identify the content type. This article helps you find the ID using User Interface.</p>
 	</a></li>
  
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
