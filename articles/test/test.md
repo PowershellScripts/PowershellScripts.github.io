@@ -133,7 +133,7 @@ h3::before {
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
 		<span style="display: block; text-align: right;">2024-08-11
-		<h3>Get version history programmatically</h3></span>
+		<h3>Find content type ID</h3></span>
 		<p>The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.</p>
 	</a></li>
  
