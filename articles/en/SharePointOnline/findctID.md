@@ -57,7 +57,7 @@ Each SharePoint content type ID must be unique within a SharePoint site collecti
 
 <h1>Using REST API and Browser</h1>
 
-
+ 
 
 <br/><br/>
 
