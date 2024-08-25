@@ -215,7 +215,7 @@ if ($response.d.results.Count -gt 0) {
 
 # PowerShell scripting with CSOM
 
-Another option is CSOM: 
+You van also get SharePoint content type ID using CSOM and Powershell: 
 
 1. Download and install SharePoint Online SDK.
 2. Open Powershell ISE.
