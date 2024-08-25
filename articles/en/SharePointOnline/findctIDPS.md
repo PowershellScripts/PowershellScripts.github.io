@@ -251,7 +251,7 @@ $ctx.Load($ctx.Web.ContentTypes)
 $ctx.ExecuteQuery()
 ```
 
-7. Now you have all the data. Now it depends on you and your requirements what you want to display next.
+7. You now have all the necessary data. It’s up to you and your specific requirements to decide what you want to display next.
 
 All content types and their IDs:
 
