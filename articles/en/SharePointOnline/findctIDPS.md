@@ -16,7 +16,7 @@ Content types in SharePoint are vital for structuring and managing content acros
 # PnP Powershell
 The easiest way to prgrammatically get SharePoint content type ID, is through PnP Powershell. You need to get the content type first, then its ID.
 
-<br/>
+
 
 ### From a list
 
