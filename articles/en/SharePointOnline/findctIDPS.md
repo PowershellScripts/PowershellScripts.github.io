@@ -21,7 +21,6 @@ The easiest way to prgrammatically get SharePoint content type ID, is through Pn
 ### From a list
 
 
-
 ##### Option 1
 Get all content types, a list of their names and Ids.
 
@@ -106,7 +105,7 @@ Disconnect-PnPOnline
 
 
 
-#### From a site
+### From a site
 
 
 ##### Option 1
