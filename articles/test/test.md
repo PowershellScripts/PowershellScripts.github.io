@@ -132,8 +132,8 @@ h3::before {
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
 		<span style="display: block; text-align: right;">2024-08-18
-		<h3>How to find SharePoint Online content type ID?</h3></span>
-		<p>Content type IDs in SharePoint uniquely identify the content type. This article helps you find the ID using User Interface.</p>
+		<h3>Find content type ID using Powershell</h3></span>
+		<p>Content type IDs in SharePoint uniquely identify the content type. This article helps you find the ID using Powershell.</p>
 	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
