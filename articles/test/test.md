@@ -129,8 +129,6 @@ h3::before {
 <ol style="--length: 5" role="list">
 
 
-
-
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/">
 		<span style="display: block; text-align: right;">2024-08-18
 		<h3>Find content type ID using Powershell</h3></span>
