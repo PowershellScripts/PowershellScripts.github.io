@@ -29,3 +29,11 @@ Key Differences Between Leaders and Corporate Communicators
 While both leaders and corporate communicators use Viva Engage as a communication tool, their goals and approaches differ. Leaders focus on inspiring, engaging, and sharing high-level insights, while corporate communicators work behind the scenes to ensure that messaging is cohesive and aligned with broader organizational strategies.
 
 Leaders are typically more visible on the platform, sharing personal and strategic content that aims to build trust and rapport. Corporate communicators, by contrast, focus on crafting and distributing messages that reflect the organization’s needs, ensuring that communication flows smoothly. They are more focused on the "how" of communication, while leaders focus on the "what" and "why."
+
+
+<img src="/articles/images/leadersvscommunicators.PNG" width="400">
+
+
+<img src="/articles/images/leadersvscommunicators2.PNG" width="400">
+
+<img src="/articles/images/leadersvscommunicators3.PNG" width="400">
