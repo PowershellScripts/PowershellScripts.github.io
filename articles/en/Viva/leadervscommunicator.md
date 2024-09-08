@@ -22,6 +22,8 @@ Corporate communicators, on the other hand, are the strategic minds behind the m
 
 In Viva Engage, corporate communicators curate content that aligns with the organization’s objectives, often coordinating with leaders to ensure that key messages reflect the company’s values and priorities. They may also manage engagement metrics, oversee content calendars, and analyze how employees interact with the platform. Their role is to ensure that communication is not only effective but also strategic, driving engagement and maintaining clarity across all channels.
 
+Corporate Communicators can add other Corporate Communicators.
+
 Key Differences Between Leaders and Corporate Communicators
 While both leaders and corporate communicators use Viva Engage as a communication tool, their goals and approaches differ. Leaders focus on inspiring, engaging, and sharing high-level insights, while corporate communicators work behind the scenes to ensure that messaging is cohesive and aligned with broader organizational strategies.
 
