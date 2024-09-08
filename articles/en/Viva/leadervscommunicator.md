@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Leaders vs Corporate Communicators'
+title: 'Viva Engage: Leaders vs Corporate Communicators'
 menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -8,7 +8,6 @@ hero_height: is-small
 date: '2024-02-03'
 ---
 
-Viva Engage: Leaders vs Corporate Communicators
 
 Viva Engage provides two special privileged roles that allow users for extra communication capabilities. One of them is Leaders and the other Corporate Communicator While both groups are integral to fostering a healthy organizational culture, their roles, approaches, and objectives differ. Understanding these distinctions can help leverage Viva Engage to its full potential.
 
@@ -20,7 +19,9 @@ Leaders receive additional features in Viva Engage, such as leadership corner  t
 Corporate Communicators in Viva Engage
 Corporate communicators, on the other hand, are the strategic minds behind the messaging. Their primary function is to ensure that information is disseminated clearly, consistently, and in alignment with company policies. They are responsible for crafting messages that resonate across diverse audiences within the organization, ensuring that corporate news, updates, and campaigns reach employees in an engaging and effective manner.
 
-In Viva Engage, corporate communicators curate content that aligns with the organization’s objectives, often coordinating with leaders to ensure that key messages reflect the company’s values and priorities. They may also manage engagement metrics, oversee content calendars, and analyze how employees interact with the platform. Their role is to ensure that communication is not only effective but also strategic, driving engagement and maintaining clarity across all channels.
+In Viva Engage, Corporate communicators have privileges such as creating or managing campaigns.
+
+
 
 Corporate Communicators can add other Corporate Communicators.
 
