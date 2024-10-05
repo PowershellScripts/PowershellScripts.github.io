@@ -13,7 +13,7 @@ You can move a Viva Engage to another community:
 
 
 
-<img src="/articles/images/moveconversation.PNG" width="400">
+<img src="/articles/images/moveconversation.png" width="400">
 
 
 <br/>
@@ -24,9 +24,9 @@ You can move a Viva Engage to another community:
 If you want to stop users from moving posts to your community, as a community administrator, you can disable the option in Viva Engage Community settings.
 
 
-<img src="/articles/images/moveconversation2.PNG" width="400">
+<img src="/articles/images/moveconversation2.png" width="400">
 
-<img src="/articles/images/moveconversation3.PNG" width="400">
+<img src="/articles/images/moveconversation3.png" width="400">
 
 
 As a community admin or Viva Engage Admin you will always be able to move posts into your community
