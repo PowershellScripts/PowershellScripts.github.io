@@ -44,3 +44,24 @@ This option is currently unavailable. There are currently no plans on the roadma
 
 
 <a href="https://support.microsoft.com/en-au/office/share-and-move-conversations-in-viva-engage-d63debf1-1c90-4ec5-b5ae-8a00939a1680">Share and move conversations in Viva Engage</a>
+
+
+<!-- Default Statcounter code for Move Conversation
+https://powershellscripts.github.io/articles/en/Viva/MoveConversation/
+-->
+<script type="text/javascript">
+var sc_project=13043874; 
+var sc_invisible=1; 
+var sc_security="a6234a01"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13043874/0/a6234a01/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

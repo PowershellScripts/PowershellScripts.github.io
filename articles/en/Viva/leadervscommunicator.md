@@ -21,8 +21,6 @@ Corporate communicators, on the other hand, are the strategic minds behind the m
 
 In Viva Engage, Corporate communicators have privileges such as creating or managing campaigns.
 
-
-
 Corporate Communicators can add other Corporate Communicators.
 
 Key Differences Between Leaders and Corporate Communicators
