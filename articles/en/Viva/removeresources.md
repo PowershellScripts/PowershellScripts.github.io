@@ -93,6 +93,7 @@ Allowing users to upload and share files freely may lead to unintentional sharin
 Some organizations choose to hide this feature to discourage users from storing excessive files within Viva Engage Communities. Organizations might prefer that employees use dedicated document storage systems (like SharePoint or OneDrive) This approach centralizes document storage and management and helps prevent the creation of additional libraries, which could lead to storage issues over time.
 
 
+<br/><br/>
 
 # See Also
 
