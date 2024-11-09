@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Remove Resources from Viva Engage Community'
+title: 'Remove Community Resources in Viva Engage'
 menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
