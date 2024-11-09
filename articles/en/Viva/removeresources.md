@@ -47,20 +47,30 @@ When a community is created in Viva Engage, the system generates a SharePoint si
 ### Document Libraries
 
 **Purpose**: To organize files and media shared in the Viva Engage community.
+
 **Mechanism**: Libraries for documents, images, and other files are created within the associated SharePoint site.
+
 **Why**: Organizing media helps ensure content is easily searchable, accessible, and manageable, especially when communities grow in scale and file-sharing increases.
 
 ### Microsoft 365 Group Creation
+
 **Purpose**: The community is also supported by a Microsoft 365 group that grants permissions, handles membership, and offers other collaboration tools.
-Mechanism: When the community is created, it also creates an M365 group, linking to other tools like Outlook (for communication), Planner (for task management), and SharePoint.
-**Why**: This group provides a cohesive permission structure that spans all integrated Microsoft 365 services, so members automatically get access to all community content and resources without extra management steps.
 
-### Permissions and Compliance Settings
-**Purpose**: To ensure that the community adheres to organizational security policies.
-Mechanism: The permissions of the SharePoint site and associated Microsoft 365 group are configured based on community visibility settings (e.g., public, private) and organizational guidelines.
-Why: Security, privacy, and compliance are crucial, especially for sensitive discussions. These configurations also ensure that content is retained and deleted according to legal and compliance standards.
+**Mechanism**: When the community is created, it also creates an M365 group, linking to other tools like Outlook (for communication), Planner (for task management), and SharePoint.
 
-### Why hide the resources?
+**Why**: This group provides a cohesive permission structure that spans all integrated Microsoft 365 services, so members automatically get access to all community content and resources without extra management steps. Additionally, the permissions of the  associated Microsoft 365 group are configured based on community visibility settings (e.g., public, private) and organizational guidelines, which ensures that the community adheres to organizational security policies.
+
+
+
+<br/>
+
+<br/>
+
+# Why hide the resources?
+
+There are several reasons an organization might choose to hide the Resources tab in a Viva Engage community:
+
+### Prevent Information Overload
 
 When you position Viva Engage Communities in your organisation, you are going to face the questions such as:
 
@@ -68,4 +78,20 @@ When you position Viva Engage Communities in your organisation, you are going to
 * What's the difference between Viva Engage Community and Teams chat?
 * I already know Teams. What's the added value of Viva Engage?
 
-Seeing links to SharePoint site, SharePoint library, OneNote and Planner in their Viva Engage Community can confuse the users. Some organizations choose to hide this feature to discourage users from storing excessive files within Viva Engage Communities. This helps prevent the creation of additional libraries, which could lead to storage issues over time.
+Seeing links to SharePoint site, SharePoint library, OneNote and Planner in their Viva Engage Community can confuse the users. By hiding the links to SharePoint site, SharePoint library, OneNote and Planner, organizations can shift the focus of the community from file-sharing to interactive collaboration, such as conversations, knowledge-sharing, and relationship-building. This aligns with Viva Engage’s purpose of promoting engagement and connection among employees.
+
+<br/>
+
+### Minimize Security and Compliance Risks
+
+Allowing users to upload and share files freely may lead to unintentional sharing of sensitive or confidential information. By hiding the Resources tab, your organization can help reduce these risks and maintain compliance with data governance policies.
+
+<br/>
+
+### Encourage Centralized Document Management 
+
+Some organizations choose to hide this feature to discourage users from storing excessive files within Viva Engage Communities. Organizations might prefer that employees use dedicated document storage systems (like SharePoint or OneDrive) This approach centralizes document storage and management and helps prevent the creation of additional libraries, which could lead to storage issues over time.
+
+
+
+
