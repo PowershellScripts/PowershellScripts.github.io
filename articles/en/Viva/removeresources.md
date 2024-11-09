@@ -94,4 +94,29 @@ Some organizations choose to hide this feature to discourage users from storing 
 
 
 
+# See Also
 
+[Manage Viva Engage community resources](https://support.microsoft.com/en-us/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135#:~:text=Click%20on%20the%20three%2Ddot,switch%20off%20the%20corresponding%20toggle.)
+
+
+
+
+<!-- Default Statcounter code for VE remove resources
+https://powershellscripts.github.io/articles/en/Viva/removeresources/
+-->
+<script type="text/javascript">
+var sc_project=13059189; 
+var sc_invisible=1; 
+var sc_security="1a9ffc8b"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13059189/0/1a9ffc8b/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
