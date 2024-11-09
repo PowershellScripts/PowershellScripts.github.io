@@ -14,7 +14,11 @@ When you want to remove the leader functionalities from a user, you need to remo
 
 
 
+<img src="/articles/images/removeleader.png" width="400">
 
+<img src="/articles/images/removeleader2.png" width="400">
+
+<img src="/articles/images/removeleader3.png" width="400">
 
 
 
