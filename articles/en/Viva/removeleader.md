@@ -12,9 +12,10 @@ The leadership feature in Viva allows you to identify the leaders in your organi
 
 When you want to remove the leader functionalities from a user, you need to remove him from the leaders list in the Viva Admin Center.
 
+Permissions required: Engage admin or corporate communicator or Viva Engage verified admin or Viva Engage network admin 
 
-
-<img src="/articles/images/removeleader.png" width="400">
+Navigate to Viva Admin Center
+<img src="/articles/images/removeleader.png" >
 
 <img src="/articles/images/removeleader2.png" width="400">
 
