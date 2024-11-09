@@ -13,16 +13,16 @@ TL;DR;
 On the right-hand side of your Viva Engage Community you can see the available Resources such as SharePoint Site, Planner and OneNote. With the newest update from Microsoft you can now hide these Resources on the main page of the Viva Engage Community.
 
 
-<img src="/articles/images/removeresources3.png" width="400">
+<img src="/articles/images/removeresources2.png" width="400">
 
 Go to the Community Settings and deactivate
 
 
+<img src="/articles/images/removeresources3.png" width="400">
+
+
+
 <img src="/articles/images/removeresources.png" width="400">
-
-
-
-<img src="/articles/images/removeresources2.png" width="400">
 
 
 
@@ -31,9 +31,12 @@ Go to the Community Settings and deactivate
 
 When a community is created in Viva Engage, the system generates a SharePoint site along with several other resources to support content management, engagement, and security. 
 
-1. SharePoint Site Collection
-Purpose: This SharePoint site acts as a content repository, providing secure storage and management capabilities for files, images, and documents shared within the Viva Engage community.
-Mechanism: A connected SharePoint site is provisioned automatically with document libraries and folders for files, media, and images, enabling a streamlined, collaborative experience where documents can be accessed, edited, and managed directly in context.
+### SharePoint Site Collection
+
+**Purpose**: This SharePoint site acts as a content repository, providing secure storage and management capabilities for files, images, and documents shared within the Viva Engage community.
+
+**Mechanism**: A connected SharePoint site is provisioned automatically with document libraries and folders for files, media, and images, enabling a streamlined, collaborative experience where documents can be accessed, edited, and managed directly in context.
+
 Why: This supports file versioning, compliance, data retention, and sharing policies set by the organization. SharePoint also integrates well with OneDrive, allowing individual file and folder sharing.
 
 2. Document Libraries
