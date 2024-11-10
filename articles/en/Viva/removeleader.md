@@ -28,7 +28,7 @@ Navigate to Viva Admin Center >> under **Feature Management** tab click on **Lea
 <img src="/articles/images/removeleader.png" >
 
 
-Select the leader you want to remove and click on **Edit**
+Select the leader you want to remove and click on **Edit** :
 
 <img src="/articles/images/removeleader2.png">
 
