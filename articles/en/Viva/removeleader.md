@@ -14,7 +14,12 @@ When you want to remove the leader functionalities from a user, you need to remo
 
 <br/>
 
-**Permissions required**: Engage admin OR corporate communicator OR Viva Engage verified admin OR Viva Engage network admin 
+## Permissions required
+
+* Engage admin OR 
+* corporate communicator OR 
+* Viva Engage verified admin OR 
+* Viva Engage network admin 
 
 <br/>
 
