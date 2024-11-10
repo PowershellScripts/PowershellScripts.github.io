@@ -1,12 +1,15 @@
 ---
 layout: page
-title: 'Remove a Viva leader'
+title: 'Remove a Viva Engage leader'
 menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
 date: '2024-02-17'
 ---
+
+
+## Intro 
 
 The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.
 
@@ -16,7 +19,7 @@ When you want to remove the leader functionalities from a user, you need to remo
 
 ## Permissions required
 
-* Engage admin OR 
+* Viva Engage admin OR 
 * corporate communicator OR 
 * Viva Engage verified admin OR 
 * Viva Engage network admin 
