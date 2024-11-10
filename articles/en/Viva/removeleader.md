@@ -33,7 +33,7 @@ Remove the leader role from the user by clicking the trash bin icon.
 <img src="/articles/images/removeleader3.png" >
 
 
-
+<br/><br/>
 
 # See Also
 
