@@ -14,11 +14,11 @@ When you want to remove the leader functionalities from a user, you need to remo
 
 <br/>
 
-**Permissions required**: Engage admin or corporate communicator or Viva Engage verified admin or Viva Engage network admin 
+**Permissions required**: Engage admin OR corporate communicator OR Viva Engage verified admin OR Viva Engage network admin 
 
 <br/>
 
-Navigate to Viva Admin Center >> under **Feature Management** tab click on **Leadership identification and audiences**
+Navigate to Viva Admin Center >> under **Feature Management** tab click on **Leadership identification and audiences** :
 
 <img src="/articles/images/removeleader.png" >
 
