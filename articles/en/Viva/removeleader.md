@@ -24,11 +24,13 @@ Navigate to Viva Admin Center >> under **Feature Management** tab click on **Lea
 
 
 Select the leader you want to remove and click on **Edit**
-<img src="/articles/images/removeleader2.png" width="400">
+
+<img src="/articles/images/removeleader2.png">
 
 
 Remove the leader role from the user by clicking the trash bin icon.
-<img src="/articles/images/removeleader3.png" width="400">
+
+<img src="/articles/images/removeleader3.png" >
 
 
 
