@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 'SharePoint list view: hide new button'
-menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -96,10 +95,12 @@ You can hide one or more buttons in the command bar of your SharePoint list by u
 
 ```
 
+<br/>
+
 
 # Intro
 
-The command bar in SharePoint Online list view has several buttons:
+The command bar in the SharePoint Online list view has several buttons:
 
 * Add new item
 * Edit in grid view
@@ -123,10 +124,11 @@ And some extra buttons that appear in the command bar when you select an item:
 * Version history
 
 
-<img src="/articles/images/hidebuttons7.png" >
+<img src="/articles/img/hidebuttons7.png" >
 
 <img src="/articles/images/hidebuttons.png" >
 
+<br/>
 
 # Hide a button in the command bar
 
@@ -145,6 +147,10 @@ and enter the JSON code with your selected keys.
 
 
 Mind you, the buttons are only hidden. The functionalities still exist. Hiding the keys from the SharePoint list does not affect users' permissions. If they find a creative way (e.g. via Graph API) to add a new item, or create a flow starting from Power Platform entry point - they can still do it.
+
+<img src="/articles/images/hidebuttons.png" >
+
+<br/><br/>
 
 ### A list of command bar buttons with the corresponding key
 
@@ -166,6 +172,9 @@ The keys have very intuitive names. Most of them are called exactly by their dis
 | Comment | comment |
 | Delete | delete |
 | Version history | versionHistory |
+
+
+<br/>
 
 # Examples
 

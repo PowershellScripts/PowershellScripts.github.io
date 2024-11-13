@@ -54,7 +54,9 @@
     - name: Count files or items with unique permissions using Powershell
       link: /articles/en/SharePointOnline/countfilesunique  
     - name: Get version history programmatically
-      link: /articles/en/SharePointOnline/getversionhistory  
+      link: /articles/en/SharePointOnline/getversionhistory
+    - name: SharePoint list view - hide new button
+      link: /articles/en/spo/hidebuttons
 
 
 - label: Viva
