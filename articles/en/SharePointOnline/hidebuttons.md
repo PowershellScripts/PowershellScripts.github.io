@@ -10,14 +10,14 @@ date: '2024-11-09'
 ---
 
 
-This article will give you a few json formatting examples on how to hide buttons in the command bar of a SharePoint list view, such as "add new item", or "automate". 
+This article will give you a few JSON formatting examples on how to hide buttons in the command bar of a SharePoint list view, such as "add new item", or "automate". 
 
 
 # TL;DR;
 
-You can hide one or more buttons in the command bar of your SharePoint list by using the following json. Pick only the keys you want to hide!
+You can hide one or more buttons in the command bar of your SharePoint list by using the following JSON. Pick only the keys you want to hide!
 
-
+```json
 {
   "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
   "commandBarProps": {
@@ -94,27 +94,115 @@ You can hide one or more buttons in the command bar of your SharePoint list by u
   }
 }
 
+```
 
 
 # Intro
 
 The command bar in SharePoint Online list view has several buttons:
 
+* Add new item
+* Edit in grid view
+* Undo
+* Share
+* Export
+* Forms
+* Automate
+* Integrate
+* Alert me
+* Manage my alerts
 
 
-And some extra ones that appear when you select an item:
+And some extra buttons that appear in the command bar when you select an item:
+
+* Edit
+* Share
+* Copy link
+* Comment
+* Delete
+* Version history
 
 
+<img src="/articles/images/hidebuttons7.png" >
 
-
-IMG
-
-A list of command bar buttons with the corresponding key:
+<img src="/articles/images/hidebuttons.png" >
 
 
 # Hide a button in the command bar
-If you want to hide e.g. "add new item" button in the command bar of your SharePoint Online list, navigate to 
+
+If you want to hide e.g. "add new item" button in the command bar of your SharePoint Online list, navigate to the view name on the right (e.g. "All Items"), and click "Format current view"
+
+<img src="/articles/images/hidebuttons3.png" >
+
+ At the bottom there is an Advanced Mode button. You may need to scroll. Click on the Advanced Mode:
+
+<img src="/articles/images/hidebuttons2.png" >
+
+and enter the JSON code with your selected keys.  
+
+<img src="/articles/images/hidebuttons4.png" >
 
 
 
-Examples
+Mind you, the buttons are only hidden. The functionalities still exist. Hiding the keys from the SharePoint list does not affect users' permissions. If they find a creative way (e.g. via Graph API) to add a new item, or create a flow starting from Power Platform entry point - they can still do it.
+
+### A list of command bar buttons with the corresponding key
+
+The keys have very intuitive names. Most of them are called exactly by their display name (the name you see in the user interface). There are only a few exceptions. Here you can find the list of command bar buttons with the corresponding key:
+
+| Name | Key |
+| -------- | ------- |
+| Add new item | new |
+| Edit in grid view | editInGridView |
+| Undo | undo |
+| Share | share |
+| Export | export |
+| Forms | manageForms |
+| Automate| automate |
+| Alert me | alertMe |
+| Manage my alerts | manageAlert |
+| Edit | edit |
+| Copy link | copyLink |
+| Comment | comment |
+| Delete | delete |
+| Version history | versionHistory |
+
+# Examples
+
+### Example 1
+
+Hide the alerts functionality - "Alert me" and "Manage my alerts":
+
+<img src="/articles/images/hidebuttons5.png" >
+
+
+```json
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/sp/v2/row-formatting.schema.json",
+  "commandBarProps": {
+    "commands": [
+      {
+        "key": "alertMe",
+        "hide": true
+      },
+      {
+        "key": "manageAlert",
+        "hide": true
+      }
+    ]
+  }
+}
+
+```
+
+### Example 2
+
+Hide **Share**, **Export**, and **Automate** buttons from the command bar of the SharePoint list:
+
+<img src="/articles/images/hidebuttons4.png" >
+
+### Example 3
+
+Hide **Forms** button from the command bar of the SharePoint list:
+
+<img src="/articles/images/hidebuttons6.png" >
