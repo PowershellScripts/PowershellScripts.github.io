@@ -18,6 +18,7 @@ In Microsoft 365 admin you can now compare various admin roles and select the on
 
 
 
+
 | Permissions                                                                                                                     | Security Administrator | Security Operator | Security Reader |
 |---------------------------------------------------------------------------------------------------------------------------------|------------------------|-------------------|-----------------|
 | Read all properties on sign-in reports, including privileged properties                                                         | ✔                      | ✔                 | ✔               |
