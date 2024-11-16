@@ -134,11 +134,11 @@ And some extra buttons that appear in the command bar when you select an item:
 
 If you want to hide e.g. "add new item" button in the command bar of your SharePoint Online list, navigate to the view name on the right (e.g. "All Items"), and click "Format current view"
 
-<img src="/articles/images/hidebuttons3.png" >
+<img src="/articles/img/hidebuttons3.png" >
 
  At the bottom there is an Advanced Mode button. You may need to scroll. Click on the Advanced Mode:
 
-<img src="/articles/images/hidebuttons2.png" >
+<img src="/articles/img/hidebuttons2.png" >
 
 and enter the JSON code with your selected keys.  
 
