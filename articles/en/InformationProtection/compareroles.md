@@ -116,6 +116,6 @@ Sample comparison between Security Administrator, Security Operator and Security
 
 ### Compliance Administrator vs Compliance Data Administrator vs Global Reader
 
-Sample comparison between Security Administrator, Security Operator and Security Reader. It lists only the first 35 granular permissions out of the 95 being compared at the time of writing this. 
+Sample comparison between Compliance Administrator, Compliance Data Administrator, and Global Reader. It lists only some of the first granular permissions out of all the permissions that are being compared. 
 
 <img src="/articles/img/compareroles8.PNG" >

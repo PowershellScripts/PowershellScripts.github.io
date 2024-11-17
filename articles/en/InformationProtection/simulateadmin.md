@@ -19,7 +19,7 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 
 <br/>
 
-<img src="/articles/img/compareroles5.PNG" >
+<img src="/articles/img/simulateadmin.PNG" >
 
 
 <br/><br/><br/>
@@ -28,7 +28,7 @@ Because there are currently ??? admin roles at the time of writing this, you can
 
 <br/>
 
-<img src="/articles/img/simulateadmin.PNG" >
+<img src="/articles/img/simulateadmin2.PNG" >
 
 <br/><br/><br/>
 
@@ -36,16 +36,23 @@ Filter or search by name:
 
 <br/>
 
-<img src="/articles/img/simulateadmin2.PNG" >
+
 
 <img src="/articles/img/simulateadmin3.PNG" >
 
 
 <br/><br/><br/>
 
-Once you have selected the admin role to test, click on **Run As** . It will redirect you to a new browser tab, where you will be able to navigate through your Microsoft 365 tenant as the selected admin role. Mind you, all changes made to your tenant settings during that test will remain. 
+After selecting the admin role you want to test, click on **Run As**. This will open a new browser tab. In this tab, you can navigate your Microsoft 365 tenant as the selected admin role. Keep in mind that any changes you make to tenant settings during the test are permanent. Make sure to proceed with caution while testing.
 
 <img src="/articles/img/compareroles6.PNG" >
 
+<br/><br/><br/>
 
-<video src="/articles/vid/RoleRunAs.mp4" width="320" height="240" controls></video>
+# Summary 
+
+A short video showing the **Run As** option
+
+<video src="/articles/vid/RoleRunAs.mp4"  controls></video>
+
+<img src="/articles/img/compareroles5.PNG" >
