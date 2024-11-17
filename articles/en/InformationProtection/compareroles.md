@@ -15,11 +15,14 @@ In Microsoft 365 admin center you can now compare various admin roles and select
 
 
 
-<img src="/articles/img/hidebuttons7.png" >
-<img src="/articles/img/hidebuttons7.png" >
-<img src="/articles/img/hidebuttons7.png" >
-<img src="/articles/img/hidebuttons7.png" >
-<img src="/articles/img/hidebuttons7.png" >
+<img src="/articles/img/compareroles.png" >
+<img src="/articles/img/compareroles2.png" >
+<img src="/articles/img/compareroles3.png" >
+<img src="/articles/img/compareroles4.png" >
+<img src="/articles/img/compareroles5.png" >
+<img src="/articles/img/compareroles6.png" >
+
+
 
 
 
