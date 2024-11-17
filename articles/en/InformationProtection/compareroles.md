@@ -9,13 +9,17 @@ date: '2024-11-09'
 ---
 
 
-In Microsoft 365 admin you can now compare various admin roles and select the one with minimum privilege for your admin accounts.v The comparison lists detailed permissions of each role, which could be useful for Compliance or ISO Documentation.
+In Microsoft 365 admin center you can now compare various admin roles and select the one with minimum privilege for your admin accounts.v The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.
 
 
 
 
 
-
+<img src="/articles/img/hidebuttons7.png" >
+<img src="/articles/img/hidebuttons7.png" >
+<img src="/articles/img/hidebuttons7.png" >
+<img src="/articles/img/hidebuttons7.png" >
+<img src="/articles/img/hidebuttons7.png" >
 
 
 
