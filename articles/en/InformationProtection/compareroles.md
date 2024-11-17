@@ -11,7 +11,7 @@ date: '2024-11-09'
 
 # Compare Roles
 
-In Microsoft 365 admin center you can now compare various admin roles and select the one with minimum privilege for your admin accounts.v The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.
+In Microsoft 365 admin center you can now compare various admin roles and select the one with minimum privilege for your admin accounts. The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.
 
 
 
@@ -26,10 +26,20 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 <br/>
 
 <img src="/articles/img/compareroles2.PNG" >
-<img src="/articles/img/compareroles3.PNG" >
+
+<br/><br/><br/>
+
+The output provides a detailed comparison of the selected roles and their associated permissions. It highlights the specific actions and access levels granted to each role. This allows for a clear understanding of the differences between roles and their respective permissions.
+
+<br/>
 
 
 <img src="/articles/img/compareroles6.PNG" >
+
+<img src="/articles/img/compareroles3.PNG" >
+
+
+
 
 
 <img src="/articles/img/compareroles4.PNG" >
@@ -37,6 +47,10 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 
 
 
+
+# Sample Comparison
+
+Sample comparison between Security Administrator, Security Operator and Security Reader. It lists only the first 35 granular permissions out of the 95 being compared at the time of writing this. 
 
 
 
@@ -83,4 +97,3 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 
 
 
-# Run As
