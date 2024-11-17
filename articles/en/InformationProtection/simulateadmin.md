@@ -15,7 +15,7 @@ Managing roles and permissions is a critical part of administering Microsoft 365
 
 <br/><br/><br/>
 
-Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You will see a list of admin roles, such as AI Administrator, Knowledge Manager, Global Reader, SharePoint Administrator, Viva Pulse Administrator or Virtual Visits Administrator
+**Navigate to Microsoft 365 admin center and select Role Assignments** tab. You will see a list of admin roles, such as AI Administrator, Knowledge Manager, Global Reader, SharePoint Administrator, Viva Pulse Administrator or Virtual Visits Administrator :
 
 <br/>
 
@@ -24,7 +24,7 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 
 <br/><br/><br/>
 
-Because there are currently ??? admin roles at the time of writing this, you can easily sort them by category
+Because there are currently ??? admin roles at the time of writing this, you can easily sort them by Category :
 
 <br/>
 
@@ -32,7 +32,7 @@ Because there are currently ??? admin roles at the time of writing this, you can
 
 <br/><br/><br/>
 
-Filter or search by name:
+The admin roles can be also filtered or searched by name:
 
 <br/>
 
@@ -43,7 +43,18 @@ Filter or search by name:
 
 <br/><br/><br/>
 
-After selecting the admin role you want to test, click on **Run As**. This will open a new browser tab. In this tab, you can navigate your Microsoft 365 tenant as the selected admin role. Keep in mind that any changes you make to tenant settings during the test are permanent. Make sure to proceed with caution while testing.
+After selecting the admin role you want to test, click on **Run As**. 
+
+<br/>
+
+<img src="/articles/img/compareroles5.PNG" >
+
+
+<br/><br/><br/>
+
+This will open a new browser tab. In this tab, you can navigate your Microsoft 365 tenant as the selected admin role. Keep in mind that any changes you make to tenant settings during the test are permanent. Make sure to proceed with caution while testing.
+
+<br/>
 
 <img src="/articles/img/compareroles6.PNG" >
 
@@ -55,4 +66,3 @@ A short video showing the **Run As** option
 
 <video src="/articles/vid/RoleRunAs.mp4"  controls></video>
 
-<img src="/articles/img/compareroles5.PNG" >
