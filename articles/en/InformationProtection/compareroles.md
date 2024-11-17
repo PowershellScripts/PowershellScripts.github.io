@@ -19,8 +19,12 @@ In Microsoft 365 admin center you can now compare various admin roles and select
 
 <img src="/articles/img/compareroles.PNG" >
 
+<br/><br/><br/>
 
 Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You will see a list of admin roles. Select up to 3 admin roles and choose **Compare roles**
+
+<br/>
+
 <img src="/articles/img/compareroles2.PNG" >
 <img src="/articles/img/compareroles3.PNG" >
 
