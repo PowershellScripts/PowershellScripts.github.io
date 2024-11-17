@@ -41,7 +41,7 @@ The output provides a detailed comparison of the selected roles and their associ
 
 <br/><br/><br/>
 
-You can also Export the comparison using Export button. This will create a CSV file with a table and listed permissions.
+The permission comparison between selected admin roles can be exported by using the **Export comparison** button.
 
 
 <br/>
@@ -58,7 +58,7 @@ This will create a CSV file with a table and listed permissions.
 <img src="/articles/img/compareroles4.PNG" >
 
 
-
+<br/><br/><br/>
 
 
 # Sample Comparison
@@ -114,7 +114,7 @@ Sample comparison between Security Administrator, Security Operator and Security
 
 <br/><br/><br/>
 
-### Security Administrator vs Security Operator vs Security Reader
+### Compliance Administrator vs Compliance Data Administrator vs Global Reader
 
 Sample comparison between Security Administrator, Security Operator and Security Reader. It lists only the first 35 granular permissions out of the 95 being compared at the time of writing this. 
 
