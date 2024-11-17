@@ -9,6 +9,8 @@ date: '2024-11-09'
 ---
 
 
+# Compare Roles
+
 In Microsoft 365 admin center you can now compare various admin roles and select the one with minimum privilege for your admin accounts.v The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.
 
 
@@ -16,11 +18,19 @@ In Microsoft 365 admin center you can now compare various admin roles and select
 
 
 <img src="/articles/img/compareroles.PNG" >
+
+
+Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You will see a list of admin roles. Select up to 3 admin roles and choose **Compare roles**
 <img src="/articles/img/compareroles2.PNG" >
 <img src="/articles/img/compareroles3.PNG" >
+
+
+<img src="/articles/img/compareroles6.PNG" >
+
+
 <img src="/articles/img/compareroles4.PNG" >
 <img src="/articles/img/compareroles5.PNG" >
-<img src="/articles/img/compareroles6.PNG" >
+
 
 
 
@@ -63,3 +73,10 @@ In Microsoft 365 admin center you can now compare various admin roles and select
 | Read owners of policies                                                                                                         |                        |                   | ✔               |
 | Read all properties of access reviews of all reviewable resources in Microsoft Entra ID                                         |                        |                   | ✔               |
 | Manage all aspects of Microsoft Defender Advanced Threat Protection                                                             |                        | ✔                 |                 |
+
+
+
+
+
+
+# Run As
