@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Microsoft 365: simulating admin roles'
+title: 'Microsoft 365: Run As [Product] Admin'
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -66,3 +66,25 @@ A short video showing the **Run As** option
 
 <video src="/articles/vid/RoleRunAs.mp4"  controls></video>
 
+
+
+
+<!-- Default Statcounter code for runasadmin
+https://powershellscripts.github.io/articles/en/InformationProtection/simulateadmin/
+-->
+<script type="text/javascript">
+var sc_project=13062629; 
+var sc_invisible=1; 
+var sc_security="4f7c59cb"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13062629/0/4f7c59cb/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

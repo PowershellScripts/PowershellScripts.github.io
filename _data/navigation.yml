@@ -16,6 +16,10 @@
       link: /articles/en/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/
     - name: Audit your sensitivity labels with Powershell
       link: /articles/en/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/
+    - name: Compare admin role permissions
+      link: /articles/en/InformationProtection/compareroles/
+    - name: Run As Admin
+      link: /articles/en/InformationProtection/simulateadmin/
       
 - name: SharePoint Online
   link: /#
