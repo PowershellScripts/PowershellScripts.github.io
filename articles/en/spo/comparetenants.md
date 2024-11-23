@@ -19,7 +19,8 @@ You can find the script on [Github here](https://github.com/PowershellScripts/Sh
 
 From comparing configurations between INT and PROD environments, to migrating SharePoint settings, to troubleshooting issues, there are numerous reasons to compare the settings of two Microsoft 365 tenants.
 
-1. Migration Validation
+**1. Migration Validation**
+
 During tenant-to-tenant migrations, comparing SharePoint settings between two tenants ensures that critical configurations from source are replicated correctly in the target tenant.
 
 2. Compliance and Security Audits
