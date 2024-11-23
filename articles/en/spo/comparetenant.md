@@ -45,6 +45,9 @@ If a new policy or feature is enabled in one tenant, comparing with a baseline t
 
 # How - SPO Management Shell
 
+You need to connect to both tenants using the Connect-SPOService cmdlet and get the properties using the Get-SPOTenant cmdlet. 
+
+
 
 # How - PnP Powershell
 
