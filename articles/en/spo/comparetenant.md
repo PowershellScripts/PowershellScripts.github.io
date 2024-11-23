@@ -12,7 +12,7 @@ date: '2024-11-17'
 
 # TL; DR;
 
-You can find the script on Github here.
+You can find the script on [Github here](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Tenant%20Settings/Compare2tenants) .
 
 
 # Why
@@ -43,7 +43,14 @@ If a new policy or feature is enabled in one tenant, comparing with a baseline t
 
 
 
-# 
+# How - SPO Management Shell
+
+
+# How - PnP Powershell
+
+# How - CSOM
+
+
 
 
 
