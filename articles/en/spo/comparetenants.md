@@ -23,11 +23,14 @@ From comparing configurations between INT and PROD environments, to migrating Sh
 
 During tenant-to-tenant migrations, comparing SharePoint settings between two tenants ensures that critical configurations from source are replicated correctly in the target tenant.
 
-2. Compliance and Security Audits
+**2. Compliance and Security Audits**
+
 Comparing Microsoft 365 tenants helps identify discrepancies in security and compliance settings to ensure both environments meet organizational or regulatory requirements.
 
-3. Troubleshooting and Issue Resolution
+**3. Troubleshooting and Issue Resolution**
+
 Differences in tenant settings may explain functionality issues or inconsistencies in user experiences between tenants. If it works in your dev tenant, why doesn't it want to work in the Customer's?
+
 
 4. Standardization Across Organizations
 In organizations with multiple Microsoft 365 tenants (e.g., after mergers or acquisitions), comparing settings helps align configurations for consistency and streamlined operations.
