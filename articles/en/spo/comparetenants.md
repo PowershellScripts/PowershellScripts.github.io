@@ -298,3 +298,28 @@ Write-Host "Full comparison exported to FullTenantComparison.csv" -ForegroundCol
 [Get-SPOTenant](https://learn.microsoft.com/en-us/powershell/module/sharepoint-online/get-spotenant?view=sharepoint-ps)
 
 [Get-PnPTenant](https://pnp.github.io/powershell/cmdlets/Get-PnPTenant.html)
+
+
+
+
+
+
+<!-- Default Statcounter code for compare tenants
+https://powershellscripts.github.io/articles/en/spo/comparetenants/
+-->
+<script type="text/javascript">
+var sc_project=13063502; 
+var sc_invisible=1; 
+var sc_security="24b3c5af"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13063502/0/24b3c5af/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
