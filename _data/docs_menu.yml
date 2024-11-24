@@ -61,6 +61,8 @@
       link: /articles/en/SharePointOnline/getversionhistory
     - name: SharePoint list view - hide new button
       link: /articles/en/spo/hidebuttons
+    - name: Compare SharePoint tenant settings
+      link: /articles/en/spo/comparetenants
 
 
 - label: Viva
