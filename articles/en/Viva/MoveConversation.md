@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Move conversation to another community'
+title: 'Move Viva Engage conversation to another community'
 menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -9,7 +9,7 @@ date: '2024-10-03'
 ---
 
 # Move a post
-You can move a Viva Engage to another community:
+You can move a Viva Engage conversation to another community:
 
 
 

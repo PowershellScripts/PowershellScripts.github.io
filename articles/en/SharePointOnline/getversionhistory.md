@@ -159,6 +159,42 @@ $results | Export-Csv -Path $outputCsvPath -NoTypeInformation
 
 # See Also
 
-Get Version History on GitHub
+### [Get Version History on GitHub](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning)
+
+[Create a report on all file versions in the library](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Create%20a%20report%20on%20all%20file%20versions%20in%20the%20library)
+
+[Create a report on file versions in library or folder](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Create%20a%20report%20on%20file%20versions%20in%20library%20or%20folder)
+
+[Delete all previous file versions in a library](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Delete%20all%20previous%20file%20versions%20in%20a%20library)
+
+[Enable minor and major versions for all lists in one site](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Enable%20minor%20and%20major%20versions%20for%20all%20lists%20in%20one%20site)
+
+[Enable minor versions using Powershell and CSOM](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Enable%20minor%20versions%20using%20Powershell%20and%20CSOM)
+
+[Enable versioning for all lists in one site](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Enable%20versioning%20for%20all%20lists%20in%20one%20site)
+
+[Enable versioning for one list](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Enable%20versioning%20for%20one%20list)
+
+[Get versioning settings for all lists](https://github.com/PowershellScripts/SharePointOnline-ScriptSamples/tree/develop/Lists%20and%20Libraries%20Management/Versioning/Get%20versioning%20settings%20for%20all%20lists)
 
 
+
+<!-- Default Statcounter code for SPO getversionhistory
+https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/
+-->
+<script type="text/javascript">
+var sc_project=13065139; 
+var sc_invisible=1; 
+var sc_security="25edbfe7"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13065139/0/25edbfe7/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

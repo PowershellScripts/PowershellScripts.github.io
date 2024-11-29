@@ -29,8 +29,12 @@ Set-PnPWebHeader -HeaderLayout Compact
 Accepted values are: None, Standard, Compact, Minimal, Extended
 
 
-| None     | Compact | Extended | Minimal |
-| <br/><img src="/articles/images/header5.png" width="200"><br/> | <br/><img src="/articles/images/header6.PNG" width="200"><br/> | <br/><img src="/articles/images/header7.PNG" width="200"><br/> |<br/><img src="/articles/images/header8.PNG" width="200"><br/> |
+| Name      | Preview                                                                                                                                 |
+|-----------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| None      | <br/><img src="/articles/images/header5.png" width="400"><br/>                                                                         |
+| Compact   | <br/><img src="/articles/images/header6.PNG" width="400"><br/>                                                                         |
+| Extended  | <br/><img src="/articles/images/header7.PNG" width="400"><br/>                                                                         |
+| Minimal   | <br/><img src="/articles/images/header8.PNG" width="400"><br/>                                                                         |
 
 <br/>
 

@@ -9,7 +9,7 @@ date: '2024-03-24'
 ---
 
 <h1>Easy CamlQuery</h1>
-When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. If your list contains 10 elements, then loading them like this will present no issues. 
+When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. If your SharePoint list contains 10 elements, then loading them like this will present no issues. 
 
 ```
 CamlQuery camlQuery = new CamlQuery();
@@ -119,11 +119,16 @@ $ctx.ExecuteQuery()
 
 Display the view and its properties:
 
-
+```powershell
 Write-Output $view
+```
+
 or export it to CSV using:
 
+```powershell
 Export-CSV $view
+```
+
  
  <img src="/articles/images/easycaml5.png"><br/>
 

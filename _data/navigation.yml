@@ -36,6 +36,10 @@
       link: /articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
     - name: SharePoint content types - fieldlinks and fields
       link: /articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields
+    - name: What is SharePoint Online content type ID?
+      link: /articles/en/SharePointOnline/findctid
+    - name: Find content type ID using Powershell
+      link: /articles/en/SharePointOnline/findctIDPS
     - name: Export your folder structure to XML using Powershell
       link: /articles/en/SharePointOnline/Exportfolderstructure
     - name: Easy way to create CAML Query for list view
