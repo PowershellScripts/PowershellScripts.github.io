@@ -56,6 +56,9 @@ Navigate to list settings, under Advanced enable Content Type Management and rea
 <video src="/articles/vid/ctid.mp4"  controls></video>
 
 
+<br/><br/>
+
+
 <h1>Using REST API and Browser</h1>
 
 There is a nice trick how you can use GET Rest API directly in the browser without creating scripts or applications.  
