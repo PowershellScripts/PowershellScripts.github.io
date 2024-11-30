@@ -49,7 +49,7 @@ Quickly highlights SharePoint settings that may have been inadvertently changed 
 If a new policy or feature is enabled in one tenant, comparing with a baseline tenant helps evaluate its impact or appropriateness.
 
 
-
+<br/><br/>
 
 # Compare SharePoint tenant settings using SPO Management Shell
 
@@ -121,6 +121,10 @@ Write-Host "Differences exported to TenantComparison_Differences.csv" -Foregroun
 
 ```
 
+
+<br/><br/>
+
+
 # Compare SharePoint tenant settings using PnP Powershell
 
 You need to connect to both tenants using the `Connect-PnPOnline` cmdlet and get the properties using the `Get-PnPTenant` cmdlet. Then compare all the properties. Two files will be genrated:
@@ -188,6 +192,10 @@ Write-Host "Full comparison exported to FullTenantComparison.csv" -ForegroundCol
 
 
 ```
+
+
+<br/><br/>
+
 
 # Compare SharePoint tenant settings using CSOM
 
@@ -291,6 +299,8 @@ $FullComparison | Export-Csv -Path "FullTenantComparison.csv" -NoTypeInformation
 Write-Host "Full comparison exported to FullTenantComparison.csv" -ForegroundColor Green
 
 ```
+
+<br/><br/>
 
 
 # See Also

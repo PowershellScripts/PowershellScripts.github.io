@@ -31,10 +31,10 @@ Accepted values are: None, Standard, Compact, Minimal, Extended
 
 | Name      | Preview                                                                                                                                 |
 |-----------|-----------------------------------------------------------------------------------------------------------------------------------------|
-| None      | <br/><img src="/articles/images/header5.png" width="400"><br/>                                                                         |
-| Compact   | <br/><img src="/articles/images/header6.PNG" width="400"><br/>                                                                         |
-| Extended  | <br/><img src="/articles/images/header7.PNG" width="400"><br/>                                                                         |
-| Minimal   | <br/><img src="/articles/images/header8.PNG" width="400"><br/>                                                                         |
+| None      | <br/><img src="/articles/images/header5.png" width="600"><br/>                                                                         |
+| Compact   | <br/><img src="/articles/images/header6.PNG" width="600"><br/>                                                                         |
+| Extended  | <br/><img src="/articles/images/header7.PNG" width="600"><br/>                                                                         |
+| Minimal   | <br/><img src="/articles/images/header8.PNG" width="600"><br/>                                                                         |
 
 <br/>
 
