@@ -12,3 +12,13 @@ date: '2024-11-23'
 
 Manage Viva Engage topics without Topics license
 
+
+
+ https://your-domain.sharepoint.com/_layouts/15/TopicsManagement.aspx
+
+
+
+
+
+
+ 
