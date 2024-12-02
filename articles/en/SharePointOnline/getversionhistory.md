@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Get version history programmatically'
+title: 'Export file version history'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -11,6 +11,7 @@ date: '2024-08-11'
 # Overview
 
 Versioning in SharePoint Online is available for list items in all default SharePoint Online list types—including calendars, issue tracking lists, and custom lists. It is also available for all file types that can be stored in libraries, including Web Part pages. 
+You can export SharePoint file version history for record-keeping purposes or compliance reasons. 
 
 ### When versions are created
 
@@ -30,7 +31,7 @@ Based on: [How does versioning work in a list or library?](https://support.micro
 
 <br/><br/>
 
-# Retrieve versions for all files in one SharePoint Online library
+# Export version count for all files in one SharePoint Online library
 
 The following PnP Powershell cmdlets can help you retrieve the number of versions for each SharePoint file.
 
@@ -72,7 +73,7 @@ $results | Export-Csv -Path $outputCsvPath -NoTypeInformation
 
 <br/><br/>
 
-# Get version history for a single file
+# Get version history for a single SharePoint file
 
 Get the version history for a single SharePoint file programmatically, using PnP. You need the file path. The cmdlets export the version history to a csv file.
 
@@ -111,9 +112,9 @@ $results | Export-Csv -Path $outputCsvPath -NoTypeInformation
 ```
 
 
-# Get version history for all files in a library
+# Export version history for all files in a library
 
-Get version history and export it to a csv file. The cmdlets loop through all the files in a library.
+Get version history for each SharePoint files and export it to a csv file. The cmdlets loop through all the files in a SharePoint library.
 
 ```powershell
 

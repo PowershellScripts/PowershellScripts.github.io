@@ -25,7 +25,7 @@
   link: /#
   dropdown:
     - name: Customize your site header using PnP
-      link: /articles/en/SharePointOnline/Customize%20your%20site%20header%20using%20PnP/
+      link: /articles/en/SharePointOnline/setsiteheaderPnP/
     - name: Create SharePoint theme using Theme Generator tool
       link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
     - name: Migrate OneDrive across tenants
@@ -68,6 +68,10 @@
       link: /articles/en/spo/hidebuttons
     - name: Compare SharePoint tenant settings
       link: /articles/en/spo/comparetenants
+    - name: Create SharePoint dashboard
+      link: /articles/en/spo/createdashboard
+    - name: Customize your page header
+      link: /articles/en/SharePointOnline/custompageheader 
 
 - name: Viva
   link: /#
@@ -100,7 +104,11 @@
       link: /articles/en/Server/SharePoint%20Server%20-%20Troubleshooting%20Workflow%20Farm/
     - name: SharePoint Missing Access Request Settings
       link: /articles/en/Server/MissingAccessRequestSettings/
-      
+
+- name: Azure
+  link: /#
+    - name: Securing Azure Functions
+      link: /articles/en/Azure/Securing Azure Functions/
   
 - name: About Arleta
   link: /about/

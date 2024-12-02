@@ -24,7 +24,7 @@
 - label: SharePoint Online
   items:
     - name: Customize your site header using PnP
-      link: /articles/en/SharePointOnline/Customize your site header using PnP/
+      link: /articles/en/SharePointOnline/setsiteheaderPnP/
     - name: Create SharePoint theme using Theme Generator tool
       link: /articles/en/SharePointOnline/Create SharePoint theme using Theme Generator tool/
     - name: Migrate OneDrive across tenants
@@ -67,7 +67,10 @@
       link: /articles/en/spo/hidebuttons
     - name: Compare SharePoint tenant settings
       link: /articles/en/spo/comparetenants
-
+    - name: Create SharePoint dashboard
+      link: /articles/en/spo/createdashboard  
+    - name: Customize your page header
+      link: /articles/en/SharePointOnline/custompageheader 
 
 - label: Viva
   items:
