@@ -107,6 +107,7 @@
 
 - name: Azure
   link: /#
+  dropdown:
     - name: Securing Azure Functions
       link: /articles/en/Azure/Securing Azure Functions/
   
