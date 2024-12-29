@@ -31,9 +31,13 @@ Leaders are typically more visible on the platform, sharing personal and strateg
 
 
 
-<img src="/articles/images/leadersvscommunicators.PNG" width="400">
+<img src="/articles/images/leadervscomm.PNG" width="400">
 
 
-<img src="/articles/images/leadersvscommunicators2.PNG" width="400">
+<img src="/articles/images/leadervscomm2.PNG" width="400">
 
-<img src="/articles/images/leadersvscommunicators3.PNG" width="400">
+<img src="/articles/images/leadervscomm3.PNG" width="400">
+
+<img src="/articles/images/leadervscomm4.PNG" width="400">
+
+<img src="/articles/images/leadervscomm5.PNG" width="400">

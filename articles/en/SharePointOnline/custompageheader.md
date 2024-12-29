@@ -25,7 +25,7 @@ Set-PnPPage -Identity "MyPage" -HeaderType None
 Set-PnPPage -Identity "MyPage" -HeaderType Default
 ```
 
-<img src="/articles/img/pageheaderdeafult.PNG" width="600"><br/>
+<img src="/articles/img/pageheaderdefault.PNG" width="600"><br/>
 
 
 
