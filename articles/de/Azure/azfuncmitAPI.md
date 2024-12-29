@@ -247,14 +247,20 @@ Alle API-Aufrufe können mit Postman getestet werden. Sie können die Postman-So
 Postman bietet eine Option, Ihre Anmeldeinformationen zu speichern, um Ihre Anfragen zu beschleunigen. Da jedoch die Authentifizierung genau das ist, was Sie testen, um Ihre API-Management-Einrichtung zu überprüfen, sollten Sie diese Option nicht nutzen.
 
 <img src="/articles/images/SecureAzFunc/Github-SecAzFunc15.png" width="400">
+
+
 Zum Senden der Anfrage für das JWT sind folgende Angaben erforderlich:
 
-POST
-client_id
-client_secret
-grant_type
-scope
+* POST
+* client_id
+* client_secret
+* grant_type
+* scope
+
+
 <img src="/articles/images/SecureAzFunc/Github-SecAzFunc16.png" width="400">
+
+
 Setzen Sie Grant_type auf "client_credentials". Stellen Sie sicher, dass der Scope mit dem Bereich übereinstimmt, den Sie in Ihrer Azure-App-Registrierung definiert haben:
 
 <img src="/articles/images/SecureAzFunc/Github-SecAzFunc17.png" width="200"> <br/> <img src="/articles/images/SecureAzFunc/Github-SecAzFunc18.png" width="600"> ```
