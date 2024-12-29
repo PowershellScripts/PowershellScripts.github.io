@@ -190,13 +190,13 @@ Beispiel für eine Eingangsrichtlinie:
 <h4>Analyse der Werte:</h4> 
 
 * **backend-id="provisionierungacco"** Dies sollte auf Ihre Azure Function verweisen.
-openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration"
+* **openid-config url="https://login.microsoftonline.com/0da700fe-a3a7-4aaa-a43f-48a79eefc326/v2.0/.well-known/openid-configuration"**
 Jede App-Registrierung in Azure AD erhält einen öffentlich zugänglichen Endpunkt, der ihr OpenID-Konfigurationsdokument bereitstellt.
 Um das Konfigurationsdokument für Ihre App zu finden, navigieren Sie im Azure-Portal zu: Azure Active Directory >> App-Registrierungen >> Ihre App >> Endpunkte. Suchen Sie die URI unter OpenID Connect-Metadatendokument. Sie sollte ungefähr so aussehen:
 https://login.microsoftonline.com/YOURTENANTID/v2.0/.well-known/openid-configuration
 
-Pfad: /.well-known/openid-configuration
-Autoritäts-URL: https://login.microsoftonline.com/{tenant}/v2.0
+* Pfad: /.well-known/openid-configuration
+* Autoritäts-URL: https://login.microsoftonline.com/{tenant}/v2.0
 
 Weitere Informationen finden Sie unter OpenID Connect auf der Microsoft-Identitätsplattform.
 
