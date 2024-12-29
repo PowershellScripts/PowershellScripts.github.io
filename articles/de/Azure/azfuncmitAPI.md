@@ -168,6 +168,7 @@ Die Validierung von JWT-Token ist eine von vielen Zugriffsbeschränkungsrichtlin
 Beispiel für eine Eingangsrichtlinie:
 
 ```xml
+
 <inbound>
     <base />
     <set-backend-service id="apim-generated-policy" backend-id="provisionierungacco" />
@@ -183,6 +184,8 @@ Beispiel für eine Eingangsrichtlinie:
         </required-claims>
     </validate-jwt>
 </inbound>
+
+```
 
 <h4>Analyse der Werte:</h4> 
 
@@ -219,6 +222,7 @@ Die [OpenID-Spezifikation](https://openid.net/specs/openid-connect-core-1_0.html
 Ich überprüfe diesen Anspruch gerne, da er hilft, das Problem der erforderlichen Zuweisung zu vermeiden. Anstatt (oder zusätzlich zu) den Berechtigungen für Ihren Client zu Ihrer Backend-App können Sie im JWT überprüfen, wer die Anfrage sendet. Falls erforderlich, können mehrere Werte akzeptiert werden, z. B. in Szenarien, in denen 2 oder mehr Apps Ihre Azure Function aufrufen:
 
 ```xml
+
 <required-claims>
     <claim name="aud" match="any">
         <value>7e5ff242-8d3a-46a9-8890-45722c2f3d27</value>
@@ -230,6 +234,7 @@ Ich überprüfe diesen Anspruch gerne, da er hilft, das Problem der erforderlich
     </claim>
 </required-claims>
 
+```
 
 <br/><br/>
 
