@@ -13,7 +13,7 @@ date: '2024-12-29'
 
 As a leader or a corporate communicator managing campaign you can view the audience summary of your campaign.
 
-## Steps to View Viva Engage Analytics
+
 
 ### Access Campaign Insights
 Navigate to the campaign or post you want to analyze. Viva Engage provides a detailed audience summary for each campaign.
@@ -36,6 +36,12 @@ Dive deeper into interaction patterns to identify what content resonates best wi
 <img src="/articles/images/leadervscomm3.PNG" width="400">
 
 
+### Communkty Analytics
+All **licensed** users can access analytics for **public** communities. Analytics for private communities are available exclusively to their members. Community admins and corporate communicators have access to advanced metrics, such as time saved, individuals helped, and community optimization tips.
+
+<img src="/articles/img/veanalytics.png" width="400">
+
+
 
 ### Use filters 
 Apply filters to segment data by time period, demographics, or engagement type, making it easier to refine your strategies.
@@ -44,10 +50,11 @@ Apply filters to segment data by time period, demographics, or engagement type, 
 
 
 ### Export Data
-Export analytics for sharing with your team or creating reports to showcase campaign performance.
+Export analytics for sharing with your team or creating reports to showcase campaign performance. Select **Export Data** and choose the time window between 7, 28 and 365 days.
 
 
 
+<img src="/articles/img/veanalytics2.png" width="400">
 
 
 
