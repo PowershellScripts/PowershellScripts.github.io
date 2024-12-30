@@ -2,7 +2,6 @@
 layout: page
 title: 'Exchange Online: What mailboxes User has access to?'
 hero_image: '/img/IMG_20220521_140146.jpg'
-menubar: docs_menu
 show_sidebar: false
 hero_height: is-small
 date: '2024-12-30'
@@ -63,5 +62,6 @@ foreach($mailbox in $mailboxes){
 ## Other Languages
 This article is available in other languages:
 
-Exchange Online: Do jakich skrzynek użytkownik ma dostęp? (pl-PL)
+[Exchange Online: Do jakich skrzynek użytkownik ma dostęp? (pl-PL)](https://powershellscripts.github.io/articles/pl/mailboxes/)
+
 Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)
