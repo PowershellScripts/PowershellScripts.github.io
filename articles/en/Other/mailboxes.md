@@ -64,7 +64,7 @@ This article is available in other languages:
 
 [Exchange Online: Do jakich skrzynek użytkownik ma dostęp? (pl-PL)](https://powershellscripts.github.io/articles/pl/mailboxes/)
 
-Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)
+[Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)](https://powershellscripts.github.io/articles/fr/mailboxes/)
 
 
 

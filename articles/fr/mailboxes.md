@@ -78,6 +78,7 @@ Cet article est disponible dans d'autres langues :
 
 
 [Exchange Online: What mailboxes has User access to? (en-US)](https://powershellscripts.github.io/articles/en/Other/mailboxes/)
+
 [Exchange Online: Do jakich skrzynek użytkownik ma dostęp? (pl-PL)](https://powershellscripts.github.io/articles/pl/mailboxes/)
 
 

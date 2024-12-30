@@ -64,7 +64,7 @@ Artykul jest dostepny w innych jezykach:
 
 [Exchange Online: What mailboxes has User access to? (en-US)](https://powershellscripts.github.io/articles/en/Other/mailboxes/)
 
-Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)
+[Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)](https://powershellscripts.github.io/articles/fr/mailboxes/)
 
 
 
