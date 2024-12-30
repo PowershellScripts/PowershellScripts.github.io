@@ -32,6 +32,8 @@
       link: /articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/
     - name: Add content type using Powershell and CSOM
       link: /articles/en/SharePointOnline/Add%20content%20type/
+    - name: Enable content type management
+      link: /articles/en/spo/enablect/
     - name: SharePoint content types in Powershell - known errors
       link: /articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
     - name: SharePoint content types - fieldlinks and fields
