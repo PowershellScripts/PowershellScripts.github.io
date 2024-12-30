@@ -62,6 +62,30 @@ foreach($mailbox in $mailboxes){
 ## Powiazane artykuly
 Artykul jest dostepny w innych jezykach:
 
-Exchange Online: What mailboxes has User access to? (en-US)
+[Exchange Online: What mailboxes has User access to? (en-US)](https://powershellscripts.github.io/articles/en/Other/mailboxes/)
 
 Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)
+
+
+
+
+
+<!-- Default Statcounter code for Mailboxes
+https://powershellscripts.github.io/articles/en/Other/mailboxes/
+-->
+<script type="text/javascript">
+var sc_project=13073408; 
+var sc_invisible=1; 
+var sc_security="66de07d8"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13073408/0/66de07d8/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
