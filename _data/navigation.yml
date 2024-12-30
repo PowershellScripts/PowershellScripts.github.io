@@ -114,6 +114,14 @@
   dropdown:
     - name: Securing Azure Functions
       link: /articles/en/Azure/Securing Azure Functions/
+
+- name: Other
+  link: /#
+  dropdown:
+    - name: Modify Microsoft 365 group settings
+      link: /articles/en/Other/m365groupsettings/
+    - name: Exchange Online - What mailboxes User has access to?
+      link: /articles/en/Other/mailbox/
   
 - name: About Arleta
   link: /about/
