@@ -21,6 +21,7 @@ Content types in SharePoint help organize and manage various document types or i
 By default, SharePoint includes several predefined content types. However, to meet your organization's unique needs, you may need to create custom content types for specific document types or workflows.
 
 
+<br/><br/>
 
 ## User Interface
 
@@ -31,27 +32,27 @@ How to disable/enable content type management manually:
 
 2. On the right-hand side click List Settings.
  
- <img src="/articles/img/enablect.PNG" ><br/>
+ <img src="/articles/img/enablect.png" ><br/>
 
 
 4. In the Settings choose Advanced settings.
  
-  <img src="/articles/img/enablect2.PNG" ><br/>
+  <img src="/articles/img/enablect2.png" ><br/>
 
 
 5. Under Content types section, you can choose whether to allow or not the management of content types. Yes corresponds to $true in the script below, while No corresponds to $false:
  
 
- <img src="/articles/img/enablect3.PNG" ><br/>
+ <img src="/articles/img/enablect3.png" ><br/>
 
 
 
-
+<br/><br/>
 
 ## PnP Powershell
 
 
-### For one list
+#### For one list
 
 ```powershell
 Connect-PnPOnline -Url "https://yourtenant.sharepoint.com/sites/yoursite" -UseWebLogin
@@ -59,7 +60,7 @@ Set-PnPList -Identity "Documents" -ContentTypesEnabled $true
 ```
 
 
-### For all lists in the site collection
+#### For all lists in the site collection
 
 ```powershell
 # Connect to the SharePoint site
@@ -76,7 +77,7 @@ foreach ($list in $lists) {
 ```
 
 
-
+<br/><br/>
 
 ## PowerShell and CSOM
 
@@ -151,7 +152,7 @@ $ContentTypesEnabled = $true
 Set-SPOListsContentTypesEnabled -Username $Username -AdminPassword $AdminPassword -Url $Url -ContentTypesEnabled $ContentTypesEnabled
 ```
 
-### Key Points:
+#### Key Points:
 
 - **ContentTypesEnabled**:
     - Set this parameter to `$true` to enable content types or `$false` to disable them for all lists in the site.
@@ -165,7 +166,7 @@ Set-SPOListsContentTypesEnabled -Username $Username -AdminPassword $AdminPasswor
 - **Adding CSOM DLLs**: 
     - The script includes paths to the SharePoint CSOM DLLs, which are required for interacting with SharePoint Online using the Client-Side Object Model (CSOM).
 
-### Use Cases:
+#### Use Cases:
 
 - **Enable Content Types for all Lists**: 
     - You might use this script when you need to standardize content types across multiple lists in a SharePoint site.
