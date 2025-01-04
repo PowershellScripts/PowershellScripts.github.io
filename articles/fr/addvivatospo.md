@@ -1,16 +1,16 @@
 ---
 layout: page
-title: 'Add Viva Engage to your SharePoint pages'
+title: 'Ajoutez Viva Engage à vos pages SharePoint'
 menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2023-11-04'
+date: '2025-01-04'
 ---
 
 <h1>Intro</h1>
 
-SharePoint Online offers now the Viva Engage Conversations web part. The webpart allows page viewers to participate in discussions without exiting the SharePoint environment. You can use it to replace your old comments section with Viva Engage discussions.
+SharePoint Online propose désormais le composant Web Viva Engage Conversations. Ce composant permet aux visiteurs de la page de participer à des discussions sans quitter l'environnement SharePoint. Vous pouvez l'utiliser pour remplacer votre ancienne section de commentaires par des discussions Viva Engage.
 
 
 <h1>How?</h1>
