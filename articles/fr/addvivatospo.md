@@ -25,14 +25,14 @@ Modifiez votre page SharePoint Online et ajoutez une webpart. Faites défiler ve
 Prenez en compte les limitations de chaque webpart :  
 <br/><br/>
 
-<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="60">    **Conversations Viva Engage**      
+<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="60">    **Viva Engage Conversations**      
 * Vous ne pouvez pas sélectionner **une conversation spécifique** à afficher.  
 * Vous ne pouvez pas afficher les conversations horizontalement.  
 * Vous ne pouvez pas configurer l'affichage de conversations spécifiques (conversations sélectionnées).  
 * Fonctionne uniquement sur les pages modernes.  
 <br/>
 
-<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Points forts Viva Engage**    
+<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Viva Engage Highlights**    
 
 * Les utilisateurs ne peuvent voir que le premier message d'une conversation. Pour répondre, ils doivent cliquer sur un lien pour ouvrir Viva Engage.  
 * Les utilisateurs ne peuvent pas démarrer des conversations sous forme de questions, sondages ou éloges.  
@@ -42,38 +42,37 @@ Prenez en compte les limitations de chaque webpart :
 * Fonctionne uniquement sur les pages modernes.  
 
 
-**Highlights web part - Classic**
-* Doesn't work on a mobile device to view the page or with third-party cookies disabled.
-* Doesn't inherit the theme of the SharePoint page.
-* To set this up, you must use Viva Engage to look up the web address of the specific group, person, or topic or of your Viva Engage Home feed.
-* Users may have to log in to Viva Engage even though they have already signed in to Microsoft 365.
-* **Works with classic pages**
+**Webpart Points forts - Classique**  
+* Ne fonctionne pas sur un appareil mobile pour afficher la page ou lorsque les cookies tiers sont désactivés.  
+* N'hérite pas du thème de la page SharePoint.  
+* Pour configurer cela, vous devez utiliser Viva Engage pour rechercher l'adresse web du groupe, de la personne, du sujet spécifique ou de votre flux d'accueil Viva Engage.  
+* Les utilisateurs peuvent devoir se connecter à Viva Engage même s'ils sont déjà connectés à Microsoft 365.  
+* **Fonctionne avec les pages classiques**  
 
-  
 <br/><br/>
 <h1>Configuration</h1>
 
-In order to configure the Viva Engage Conversations webpart, select first type of source:
-* Community
-* User
-* Topic
-* Home feed
+Pour configurer la webpart Conversations Viva Engage, sélectionnez d'abord le type de source :  
+* Communauté  
+* Utilisateur  
+* Sujet  
+* Flux d'accueil  
 
-And then type for the specific name - e.g. user name, name of your community or tag.
+Ensuite, saisissez le nom spécifique - par exemple, le nom de l'utilisateur, le nom de votre communauté ou le tag.  
 <img src="/articles/images/GitHub-VivaEngage.PNG" width="300">
 
-<h3>Layout</h3>
-There are 2 layout options possible:
+<h3>Mise en page</h3>
+Il existe 2 options de mise en page possibles :  
 
-* feed or list
+* Flux ou liste  
 
-  <img src="/articles/images/GitHub-VivaEngage-conversations1.PNG" width="260">
-* highlights
+  <img src="/articles/images/GitHub-VivaEngage-conversations1.PNG" width="260">  
+* Points forts  
 
-  <img src="/articles/images/GitHub-VivaEngage-conversations2.PNG" width="260">
+  <img src="/articles/images/GitHub-VivaEngage-conversations2.PNG" width="260">  
 
+<h1>Voir aussi</h1>
 
-<h1>See Also</h1>
 <a href="https://support.microsoft.com/en-us/office/use-a-viva-engage-web-part-in-sharepoint-online-a53cfa0c-3d09-42c8-a286-1038a81c59da">Use a Viva Engage web part in SharePoint Online</a>
 
 
@@ -100,7 +99,3 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
 
 
-<br/><br/><br/>
-
-<h2>Comments? Questions?</h2>
-Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
