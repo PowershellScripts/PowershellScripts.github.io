@@ -52,7 +52,7 @@ Pour configurer la webpart Conversations Viva Engage, sélectionnez d'abord le t
 * Flux d'accueil  
 
 Ensuite, saisissez le nom spécifique - par exemple, le nom de l'utilisateur, le nom de votre communauté ou le tag.  
-<img src="/articles/images/GitHub-VivaEngage.PNG" width="300">
+<img src="/articles/imgfr/vehighlightsfr2.png" width="300">
 
 <h3>Mise en page</h3>
 Il existe 2 options de mise en page possibles :  
@@ -60,7 +60,9 @@ Il existe 2 options de mise en page possibles :
 * Flux ou liste  
 
   <img src="/articles/images/GitHub-VivaEngage-conversations1.PNG" width="260">  
-* Points forts  
+
+
+* Highlights
 
   <img src="/articles/images/GitHub-VivaEngage-conversations2.PNG" width="260">  
 
