@@ -8,36 +8,39 @@ hero_height: is-small
 date: '2025-01-04'
 ---
 
-<h1>Intro</h1>
+<h1>Introduction</h1>
 
 SharePoint Online propose désormais le composant Web Viva Engage Conversations. Ce composant permet aux visiteurs de la page de participer à des discussions sans quitter l'environnement SharePoint. Vous pouvez l'utiliser pour remplacer votre ancienne section de commentaires par des discussions Viva Engage.
 
 
-<h1>How?</h1>
+<h1>Ajoutez Viva Engage</h1>
 
-Edit your SharePoint Online page and add a webpart. Scroll down under Feeds section
+
+Modifiez votre page SharePoint Online et ajoutez une webpart. Faites défiler vers le bas sous la section Flux.  
 
 <img src="/articles/images/GitHub-VivaEngage1.PNG" width="400">
 <br/><br/>
+
 <h1>Limitations</h1>
-Mind the limitations of each webpart:
+Prenez en compte les limitations de chaque webpart :  
 <br/><br/>
 
-<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="60">    **Viva Engage Conversations**      
-* You can't select **a specific conversation** to display.
-* You can’t display conversations horizontally.
-* You can’t configure to display specific conversations (curated conversations).
-* Only works on modern pages.
+<img src="/articles/images/GitHub-VivaEngage-conversations.PNG" width="60">    **Conversations Viva Engage**      
+* Vous ne pouvez pas sélectionner **une conversation spécifique** à afficher.  
+* Vous ne pouvez pas afficher les conversations horizontalement.  
+* Vous ne pouvez pas configurer l'affichage de conversations spécifiques (conversations sélectionnées).  
+* Fonctionne uniquement sur les pages modernes.  
 <br/>
 
- <img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Viva Engage Highlights**    
+<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Points forts Viva Engage**    
 
-* Users can only view the first message in a conversation. To respond, the user must click a link to open Viva Engage.
-* Users cannot start conversations that are questions, polls, or praise.
-* Users cannot include gifs, files and videos in new conversations or replies.
-* You can't display all conversations for a topic, or all topics that one user participates in, and you can't display your home feed.
-* **To specify a conversation, you need the URL of the conversation.**
-* Only works on modern pages.
+* Les utilisateurs ne peuvent voir que le premier message d'une conversation. Pour répondre, ils doivent cliquer sur un lien pour ouvrir Viva Engage.  
+* Les utilisateurs ne peuvent pas démarrer des conversations sous forme de questions, sondages ou éloges.  
+* Les utilisateurs ne peuvent pas inclure de gifs, fichiers ou vidéos dans les nouvelles conversations ou réponses.  
+* Vous ne pouvez pas afficher toutes les conversations pour un sujet ou tous les sujets auxquels un utilisateur participe, et vous ne pouvez pas afficher votre flux d'accueil.  
+* **Pour spécifier une conversation, vous avez besoin de l'URL de la conversation.**  
+* Fonctionne uniquement sur les pages modernes.  
+
 
 **Highlights web part - Classic**
 * Doesn't work on a mobile device to view the page or with third-party cookies disabled.
