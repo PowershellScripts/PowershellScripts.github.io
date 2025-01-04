@@ -32,7 +32,7 @@ Prenez en compte les limitations de chaque webpart :
 * Fonctionne uniquement sur les pages modernes.  
 <br/>
 
-<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Viva Engage Highlights**    
+<img src="/articles/images/GitHub-VivaEngage-highlights.PNG" width="60">     **Viva Engage Recommandations**    
 
 * Les utilisateurs ne peuvent voir que le premier message d'une conversation. Pour répondre, ils doivent cliquer sur un lien pour ouvrir Viva Engage.  
 * Les utilisateurs ne peuvent pas démarrer des conversations sous forme de questions, sondages ou éloges.  
@@ -41,13 +41,6 @@ Prenez en compte les limitations de chaque webpart :
 * **Pour spécifier une conversation, vous avez besoin de l'URL de la conversation.**  
 * Fonctionne uniquement sur les pages modernes.  
 
-
-**Webpart Points forts - Classique**  
-* Ne fonctionne pas sur un appareil mobile pour afficher la page ou lorsque les cookies tiers sont désactivés.  
-* N'hérite pas du thème de la page SharePoint.  
-* Pour configurer cela, vous devez utiliser Viva Engage pour rechercher l'adresse web du groupe, de la personne, du sujet spécifique ou de votre flux d'accueil Viva Engage.  
-* Les utilisateurs peuvent devoir se connecter à Viva Engage même s'ils sont déjà connectés à Microsoft 365.  
-* **Fonctionne avec les pages classiques**  
 
 <br/><br/>
 <h1>Configuration</h1>
