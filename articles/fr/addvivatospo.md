@@ -72,6 +72,7 @@ Il existe 2 options de mise en page possibles :
 
 
 
+
 <!-- Default Statcounter code for Add Viva Engage to your
 SharePoi
 https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi
