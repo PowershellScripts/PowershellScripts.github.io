@@ -19,3 +19,55 @@ Les types de contenu dans SharePoint aident à organiser et à gérer divers typ
 
 Par défaut, SharePoint inclut plusieurs types de contenu prédéfinis. Cependant, pour répondre aux besoins uniques de votre organisation, vous pourriez avoir besoin de créer des types de contenu personnalisés pour des types de documents ou des flux de travail spécifiques.  
 
+
+<br/><br/>
+
+
+## Interface Utilisateur
+
+Comment activer ou désactiver la gestion des types de contenu manuellement :
+
+1. Ouvrez la liste ou la bibliothèque où vous souhaitez modifier le paramètre.
+
+2. Sur le côté droit, cliquez sur **Paramètres de la liste**.
+
+   <img src="/articles/img/enablect.png" ><br/>
+
+3. Dans les **Paramètres**, choisissez **Paramètres avancés**.
+
+   <img src="/articles/img/enablect2.png" ><br/>
+
+4. Dans la section **Types de contenu**, vous pouvez choisir d’autoriser ou non la gestion des types de contenu. **Oui** correspond à `$true` dans le script ci-dessous, tandis que **Non** correspond à `$false` :
+
+   <img src="/articles/img/enablect3.png" ><br/>
+
+
+
+   <br/><br/>
+
+
+
+## PnP PowerShell
+
+#### Pour une liste
+
+```powershell
+Connect-PnPOnline -Url "https://votrelocataire.sharepoint.com/sites/votresite" -UseWebLogin
+Set-PnPList -Identity "Documents" -ContentTypesEnabled $true
+```
+
+#### Pour toutes les listes de la collection de sites
+
+```powershell
+# Connectez-vous au site SharePoint
+Connect-PnPOnline -Url "https://votrelocataire.sharepoint.com/sites/votresite" -UseWebLogin
+
+# Récupérez toutes les listes du site
+$lists = Get-PnPList
+
+# Parcourez chaque liste et activez les types de contenu
+foreach ($list in $lists) {
+    Set-PnPList -Identity $list -ContentTypesEnabled $true
+    Write-Host "Types de contenu activés pour la liste : $($list.Title)"
+}
+```
