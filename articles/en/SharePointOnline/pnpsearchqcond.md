@@ -167,6 +167,8 @@ This query structure allows you to dynamically adjust search queries based on th
 [PnP Search query examples with KQL](https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex/)
 
 
+
+
 <!-- Default Statcounter code for PnP Search conditional
 https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/
 -->
@@ -180,10 +182,10 @@ document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+
 "statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<noscript><div class="statcounter"><a title="free web stats"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
 src="https://c.statcounter.com/13018562/0/ef85d292/0/"
-alt="free web stats"
+alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
