@@ -13,7 +13,7 @@ This article shows how to use Site Pages library in Power Automate flows.
 
 If you are trying to use Site Pages library for Power Automate triggers and actions such as **Get File**, **When a file is deleted** or **When a file is created or modified (properties only)**, the Site Pages library will not come up in the suggestions in your dropdown
 
-<img src="/articles/img/PASitePages.png" >
+<img src="/articles/img/PASitePages.png" width="600">
 
 
 If you type the Site Pages library name manually, you may receive the following error when saving your Power Automate flow:
@@ -23,14 +23,14 @@ Fehler beim Speichern des Flows. Code: DynamicOperationRequestClientFailure, Mel
 
 </span>
 
-<img src="/articles/img/PASitePages2.png" >
+<img src="/articles/img/PASitePages2.png" width="600">
 
 
 <h1> Solution </h1>
 
 In your Power Automate flow use Library GUID instead of the Site Pages Library name to solve it.
 
-<img src="/articles/img/PASitePages3.png" >
+<img src="/articles/img/PASitePages3.png" width="600">
 
 
 <br/><br/>
@@ -40,7 +40,7 @@ In your Power Automate flow use Library GUID instead of the Site Pages Library n
 Go to Site Pages Library >> Gear Icon >> Library Settings  >> Copy the GUID from url
 
 
-<img src="/articles/img/PASitePages4.png" >
+<img src="/articles/img/PASitePages4.png" width="600">
 
 
 Make sure you remove the HTML encoding %7B and %7D.
