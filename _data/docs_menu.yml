@@ -1,7 +1,7 @@
 - label: Power Platform
   items:
     - name: 'Express Design: Your app in minutes'
-      link: /articles/en/PowerPlatform/Express Design Your app in minutes/
+      link: /articles/en/PowerPlatform/expressdesign/
     - name: 'Who created most flows?'
       link: /articles/en/PowerPlatform/Who created most flows/
     - name: 'Recycle vs delete SharePoint list'
