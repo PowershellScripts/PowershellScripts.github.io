@@ -215,3 +215,28 @@ Hide **Share**, **Export**, and **Automate** buttons from the command bar of the
 Hide **Forms** button from the command bar of the SharePoint list:
 
 <img src="/articles/images/hidebuttons6.png" >
+
+
+
+
+
+
+<!-- Default Statcounter code for hide buttons
+https://powershellscripts.github.io/articles/en/spo/hidebuttons/
+-->
+<script type="text/javascript">
+var sc_project=13078073; 
+var sc_invisible=1; 
+var sc_security="0820e95d"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13078073/0/0820e95d/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

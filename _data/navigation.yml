@@ -8,6 +8,8 @@
       link: /articles/en/PowerPlatform/Who%20created%20most%20flows/
     - name: Recycle vs delete SharePoint list
       link: /articles/en/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/
+    - name: Site Pages library in Power Automate Flow
+      link: /articles/en/PowerPlatform/sitepages/
 
 - name: Information Protection
   link: /#
@@ -19,7 +21,7 @@
     - name: Compare admin role permissions
       link: /articles/en/InformationProtection/compareroles/
     - name: Run As Admin
-      link: /articles/en/InformationProtection/simulateadmin/
+      link: /articles/en/InformationProtection/runasadmin/
       
 - name: SharePoint Online
   link: /#

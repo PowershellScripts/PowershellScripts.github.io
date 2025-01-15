@@ -2,10 +2,12 @@
   items:
     - name: 'Express Design: Your app in minutes'
       link: /articles/en/PowerPlatform/expressdesign/
-    - name: 'Who created most flows?'
+    - name: Who created most flows?
       link: /articles/en/PowerPlatform/Who created most flows/
-    - name: 'Recycle vs delete SharePoint list'
+    - name: Recycle vs delete SharePoint list
       link: /articles/en/PowerPlatform/Recycle vs Delete SharePoint list/
+    - name: Site Pages library in Power Automate Flow
+      link: /articles/en/PowerPlatform/sitepages/
 
 
 
@@ -18,7 +20,7 @@
     - name: Compare admin role permissions
       link: /articles/en/InformationProtection/compareroles/
     - name: Run As Admin
-      link: /articles/en/InformationProtection/simulateadmin/
+      link: /articles/en/InformationProtection/runasadmin/
 
 
 - label: SharePoint Online
