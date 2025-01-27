@@ -37,7 +37,7 @@
       link: /articles/en/SharePointOnline/SharePoint content types in Powershell - known errors
     - name: SharePoint content types - fieldlinks and fields
       link: /articles/en/SharePointOnline/SharePoint content types - fieldlinks and fields
-    - name: What is SharePoint Online content type ID?
+    - name: Find content type ID
       link: /articles/en/SharePointOnline/findctid
     - name: Find content type ID using Powershell
       link: /articles/en/SharePointOnline/findctIDPS

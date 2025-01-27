@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'What is SharePoint Online content type ID?'
+title: 'Find content type ID'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
