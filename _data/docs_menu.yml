@@ -113,7 +113,7 @@
 - label: Azure
   items:
     - name: Securing Azure Functions
-      link: /articles/en/Azure/Securing Azure Functions/
+      link: /articles/en/Azure/SecuringAzureFunctions/
 
 - label: Diverse
   items:
