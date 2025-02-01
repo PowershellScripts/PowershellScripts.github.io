@@ -13,79 +13,30 @@
         <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
             <div class="navbar-start">
                 {% if site.data.navigation %}
-                    {% for item in site.data.navigation %}
-                        {% if item.dropdown %}
-                            <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
-                                <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">
-                                    {{ item.name }}
-                                    <span class="icon is-small"><i class="fas fa-angle-down"></i></span>
-                                </a>
-                                <div class="navbar-dropdown">
-                                    {% for subitem in item.dropdown %}
-                                        {% if subitem.dropdown %}
-                                            <div class="navbar-item has-dropdown is-hoverable">
-                                                <a href="{{ subitem.link | relative_url }}" class="navbar-link {% if page.url contains subitem.link %}is-active{% endif %}">
-                                                    {{ subitem.name }}
-                                                    <span class="icon is-small"><i class="fas fa-angle-right"></i></span>
-                                                </a>
-                                                <div class="navbar-dropdown">
-                                                    {% for subsubitem in subitem.dropdown %}
-                                                        <a href="{{ subsubitem.link | relative_url }}" class="navbar-item {% if subsubitem.link == page.url %}is-active{% endif %}">{{ subsubitem.name }}</a>
-                                                    {% endfor %}
-                                                </div>
-                                            </div>
-                                        {% else %}
-                                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                                        {% endif %}
-                                    {% endfor %}
-                                </div>
-                            </div>
-                        {% else %}
-                            <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
-                        {% endif %}
-                    {% endfor %}
+                {% for item in site.data.navigation %}
+                    {% if item.dropdown %}
+                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                        <div class="navbar-dropdown">
+                            {% for subitem in item.dropdown %}
+                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                            {% endfor %}
+                        </div>
+                    </div>
+                    {% else %}
+                    <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
+                    {% endif %}
+                {% endfor %}
                 {% endif %}
             </div>
             <div class="navbar-end">
-                <a href=""><img src="../../../../flag.png" alt="Language Flag" /></a>
+                <a href=""><img src="../../../../flag.png"/></a>
                 <a class="navbar-item" href="#">
                     <i class="fas fa-icon-name"></i> 
                 </a>
             </div>
+
+
         </div>
     </div>
 </nav>
-
-<!-- Add this JavaScript to handle the dropdown toggle behavior -->
-<script>
-    document.addEventListener('DOMContentLoaded', () => {
-        // Dropdowns
-        const dropdowns = document.querySelectorAll('.navbar-item.has-dropdown');
-        
-        dropdowns.forEach(dropdown => {
-            const link = dropdown.querySelector('.navbar-link');
-            const dropdownMenu = dropdown.querySelector('.navbar-dropdown');
-
-            // Add event listener for click
-            link.addEventListener('click', (event) => {
-                event.preventDefault(); // Prevent default link behavior
-                const isActive = dropdownMenu.classList.contains('is-active');
-                document.querySelectorAll('.navbar-dropdown').forEach(menu => {
-                    menu.classList.remove('is-active'); // Close other dropdowns
-                });
-                if (!isActive) {
-                    dropdownMenu.classList.add('is-active'); // Open the clicked dropdown
-                }
-            });
-
-            // Optional: Add hover behavior for desktop
-            dropdown.addEventListener('mouseenter', () => {
-                dropdownMenu.classList.add('is-active');
-            });
-
-            dropdown.addEventListener('mouseleave', () => {
-                dropdownMenu.classList.remove('is-active');
-            });
-        });
-    });
-</script>
