@@ -18,7 +18,7 @@
                             <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                                 <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">
                                     {{ item.name }} 
-                                    {% if item.dropdown %}<span class="icon is-small"><i class="fas fa-angle-down"></i></span>{% endif %}
+                                    <span class="icon is-small"><i class="fas fa-angle-down"></i></span>
                                 </a>
                                 <div class="navbar-dropdown">
                                     {% for subitem in item.dropdown %}
@@ -26,7 +26,7 @@
                                             <div class="navbar-item has-dropdown is-hoverable">
                                                 <a href="{{ subitem.link | relative_url }}" class="navbar-link {% if page.url contains subitem.link %}is-active{% endif %}">
                                                     {{ subitem.name }}
-                                                    {% if subitem.dropdown %}<span class="icon is-small"><i class="fas fa-angle-right"></i></span>{% endif %}
+                                                    <span class="icon is-small"><i class="fas fa-angle-right"></i></span>
                                                 </a>
                                                 <div class="navbar-dropdown">
                                                     {% for subsubitem in subitem.dropdown %}
@@ -55,3 +55,32 @@
         </div>
     </div>
 </nav>
+
+<!-- Add this JavaScript to handle the dropdown toggle behavior -->
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        // Dropdowns
+        const dropdowns = document.querySelectorAll('.navbar-item.has-dropdown');
+        
+        dropdowns.forEach(dropdown => {
+            const link = dropdown.querySelector('.navbar-link');
+            const dropdownMenu = dropdown.querySelector('.navbar-dropdown');
+
+            // Add event listener for click or hover
+            link.addEventListener('click', (event) => {
+                event.preventDefault(); // Prevent default link behavior
+                dropdownMenu.classList.toggle('is-active');
+                dropdown.classList.toggle('is-active');
+            });
+
+            // Optional: Add hover behavior for desktop
+            dropdown.addEventListener('mouseenter', () => {
+                dropdownMenu.classList.add('is-active');
+            });
+
+            dropdown.addEventListener('mouseleave', () => {
+                dropdownMenu.classList.remove('is-active');
+            });
+        });
+    });
+</script>
