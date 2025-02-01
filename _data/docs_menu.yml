@@ -25,7 +25,7 @@
 
 - label: SharePoint Online
   items:
-    - label: Design and Branding
+     - label: Design and Branding
       items:
         - name: Customize your site header using PnP
           link: /articles/en/SharePointOnline/setsiteheaderPnP/
