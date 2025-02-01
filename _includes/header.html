@@ -16,12 +16,18 @@
                     {% for item in site.data.navigation %}
                         {% if item.dropdown %}
                             <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
-                                <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }} <span class="icon is-small"><i class="fas fa-angle-down"></i></span></a>
+                                <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">
+                                    {{ item.name }} 
+                                    {% if item.dropdown %}<span class="icon is-small"><i class="fas fa-angle-down"></i></span>{% endif %}
+                                </a>
                                 <div class="navbar-dropdown">
                                     {% for subitem in item.dropdown %}
                                         {% if subitem.dropdown %}
                                             <div class="navbar-item has-dropdown is-hoverable">
-                                                <a href="{{ subitem.link | relative_url }}" class="navbar-link {% if page.url contains subitem.link %}is-active{% endif %}">{{ subitem.name }} <span class="icon is-small"><i class="fas fa-angle-right"></i></span></a>
+                                                <a href="{{ subitem.link | relative_url }}" class="navbar-link {% if page.url contains subitem.link %}is-active{% endif %}">
+                                                    {{ subitem.name }}
+                                                    {% if subitem.dropdown %}<span class="icon is-small"><i class="fas fa-angle-right"></i></span>{% endif %}
+                                                </a>
                                                 <div class="navbar-dropdown">
                                                     {% for subsubitem in subitem.dropdown %}
                                                         <a href="{{ subsubitem.link | relative_url }}" class="navbar-item {% if subsubitem.link == page.url %}is-active{% endif %}">{{ subsubitem.name }}</a>
