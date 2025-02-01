@@ -17,7 +17,7 @@
                         {% if item.dropdown %}
                             <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                                 <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">
-                                    {{ item.name }} 
+                                    {{ item.name }}
                                     <span class="icon is-small"><i class="fas fa-angle-down"></i></span>
                                 </a>
                                 <div class="navbar-dropdown">
@@ -66,11 +66,16 @@
             const link = dropdown.querySelector('.navbar-link');
             const dropdownMenu = dropdown.querySelector('.navbar-dropdown');
 
-            // Add event listener for click or hover
+            // Add event listener for click
             link.addEventListener('click', (event) => {
                 event.preventDefault(); // Prevent default link behavior
-                dropdownMenu.classList.toggle('is-active');
-                dropdown.classList.toggle('is-active');
+                const isActive = dropdownMenu.classList.contains('is-active');
+                document.querySelectorAll('.navbar-dropdown').forEach(menu => {
+                    menu.classList.remove('is-active'); // Close other dropdowns
+                });
+                if (!isActive) {
+                    dropdownMenu.classList.add('is-active'); // Open the clicked dropdown
+                }
             });
 
             // Optional: Add hover behavior for desktop
