@@ -25,16 +25,17 @@
 
 - label: SharePoint Online
   items:
-    -label: Design and Branding
-     items:
+    - label: Design and Branding
+      items:
         - name: Customize your site header using PnP
           link: /articles/en/SharePointOnline/setsiteheaderPnP/
         - name: Customize your page header
-          link: /articles/en/SharePointOnline/custompageheader 
+          link: /articles/en/SharePointOnline/custompageheader
         - name: Create SharePoint theme using Theme Generator tool
-          link: /articles/en/SharePointOnline/Create SharePoint theme using Theme Generator tool/
+          link: /articles/en/SharePointOnline/Create-SharePoint-theme-using-Theme-Generator-tool/
         - name: SharePoint list view - hide new button
           link: /articles/en/spo/hidebuttons
+
 
     -label: Content Types
      items:
