@@ -1,6 +1,7 @@
+---
 - label: Power Platform
   items:
-    - name: 'Express Design: Your app in minutes'
+    - name: "Express Design: Your app in minutes"
       link: /articles/en/PowerPlatform/expressdesign/
     - name: Who created most flows?
       link: /articles/en/PowerPlatform/Who created most flows/
@@ -8,21 +9,18 @@
       link: /articles/en/PowerPlatform/Recycle vs Delete SharePoint list/
     - name: Site Pages library in Power Automate Flow
       link: /articles/en/PowerPlatform/sitepages/
-
-
-
 - label: Information Protection
   items:
     - name: Site classification with PnP
-      link: /articles/en/InformationProtection/Your SharePoint Online site classification with PnP/
+      link: /articles/en/InformationProtection/Your SharePoint Online site
+        classification with PnP/
     - name: Audit your sensitivity labels with Powershell
-      link: /articles/en/InformationProtection/Audit your sensitivity labels with Powershell/
+      link: /articles/en/InformationProtection/Audit your sensitivity labels with
+        Powershell/
     - name: Compare admin role permissions
       link: /articles/en/InformationProtection/compareroles/
     - name: Run As Admin
       link: /articles/en/InformationProtection/runasadmin/
-
-
 - label: SharePoint Online
   items:
     - label: Design and Branding
@@ -36,30 +34,26 @@
             Generator tool/
         - name: SharePoint list view - hide new button
           link: /articles/en/spo/hidebuttons
-
-
-    -label: Content Types
-     items:
-
+    - label: Content Types
+      items:
         - name: Add content type using Powershell and CSOM
           link: /articles/en/SharePointOnline/Add content type/
         - name: SharePoint content types in Powershell - known errors
-          link: /articles/en/SharePointOnline/SharePoint content types in Powershell - known errors
+          link: /articles/en/SharePointOnline/SharePoint content types in Powershell -
+            known errors
         - name: SharePoint content types - fieldlinks and fields
-          link: /articles/en/SharePointOnline/SharePoint content types - fieldlinks and fields
+          link: /articles/en/SharePointOnline/SharePoint content types - fieldlinks and
+            fields
         - name: Find content type ID
           link: /articles/en/SharePointOnline/findctid
         - name: Find content type ID using Powershell
           link: /articles/en/SharePointOnline/findctIDPS
-
-    -label: Permissions
-     items:
+    - label: Permissions
+      items:
         - name: Add SharePoint site permissions to a group using PnP
           link: /articles/en/SharePointOnline/addpermgroup
         - name: SharePoint Claims Deep Dive
           link: /articles/en/SharePointOnline/spoclaims
-
-
     - name: Migrate OneDrive across tenants
       link: /articles/en/SharePointOnline/Migrate OneDrive across tenants/
     - name: Export your folder structure to XML using Powershell
@@ -72,7 +66,6 @@
       link: /articles/en/SharePointOnline/pnpsearchqcond
     - name: PnP Search query examples with KQL
       link: /articles/en/SharePointOnline/pnpsearchqex
-    
     - name: Update SharePoint list item without changing the modified date
       link: /articles/en/SharePointOnline/systemupdateitem
     - name: Update SharePoint folder without creating a new version
@@ -80,19 +73,13 @@
     - name: Count files in a folder using Powershell
       link: /articles/en/SharePointOnline/countfiles
     - name: Count files or items with unique permissions using Powershell
-      link: /articles/en/SharePointOnline/countfilesunique  
+      link: /articles/en/SharePointOnline/countfilesunique
     - name: Get version history programmatically
       link: /articles/en/SharePointOnline/getversionhistory
-
     - name: Compare SharePoint tenant settings
       link: /articles/en/spo/comparetenants
     - name: Create SharePoint dashboard
-      link: /articles/en/spo/createdashboard  
-
-
-
-
-
+      link: /articles/en/spo/createdashboard
 - label: Viva
   items:
     - name: Add Viva Engage to your SharePoint pages
@@ -117,23 +104,19 @@
       link: /articles/en/Viva/removeresources/
     - name: View Analytics in Viva Engage
       link: /articles/en/Viva/viewanalytics/
-
-
-
 - label: Server
   items:
     - name: Office Online Server Troubleshooting in Sharepoint Environment
-      link: /articles/en/Server/Office Online Server Troubleshooting in Sharepoint Environment/
+      link: /articles/en/Server/Office Online Server Troubleshooting in Sharepoint
+        Environment/
     - name: SharePoint Server - Troubleshooting Workflow Farm
       link: /articles/en/Server/SharePoint Server - Troubleshooting Workflow Farm/
     - name: SharePoint Missing Access Request Settings
       link: /articles/en/Server/MissingAccessRequestSettings/
-
 - label: Azure
   items:
     - name: Securing Azure Functions
       link: /articles/en/Azure/SecuringAzureFunctions/
-
 - label: Diverse
   items:
     - name: Modify Microsoft 365 group settings
