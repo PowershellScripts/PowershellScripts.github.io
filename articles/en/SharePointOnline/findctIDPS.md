@@ -358,7 +358,7 @@ Get-SPOContentType | where {$_.Name -eq "Task"} | select id
 
 # See Also
 
-[Get content type ID using User Interface](https://powershellscripts.github.io/articles/en/SharePointOnline/findctID/)
+[Get content type ID using User Interface](https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/)
 
 
 
