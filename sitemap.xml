@@ -28,12 +28,12 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2023-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -48,7 +48,7 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -108,27 +108,27 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Server/SharePoint%20Server%20-%20Troubleshooting%20Workflow%20Farm/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Server/MissingAccessRequestSettings/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2023-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Azure/SecuringAzureFunctions/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Other/m365groupsettings/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -138,17 +138,17 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/about/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2022-02-02T23:40:54+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/setsiteheaderPnP/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2024-04-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
