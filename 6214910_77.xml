@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+		<!--	created with www.mysitemapgenerator.com	-->
+		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+	<loc>https://powershellscripts.github.io/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>1.0</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/PowerPlatform/expressdesign/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/PowerPlatform/Who%20created%20most%20flows/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/PowerPlatform/Recycle%20vs%20Delete%20SharePoint%20list/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/Your%20SharePoint%20Online%20site%20classification%20with%20PnP/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivity%20labels%20with%20Powershell/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/compareroles/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/runasadmin/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/Closeconversation/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/removeleader/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/MoveConversation/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/communityadmin/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/removeresources/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/viewanalytics/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Server/SharePoint%20Server%20-%20Troubleshooting%20Workflow%20Farm/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Server/MissingAccessRequestSettings/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Azure/SecuringAzureFunctions/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Other/m365groupsettings/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Other/mailboxes/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/about/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/setsiteheaderPnP/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Add%20content%20type/</loc>
+	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/Exportfolderstructure/</loc>
+	<lastmod>2025-02-02T23:40:58+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/</loc>
+	<lastmod>2025-02-02T23:40:59+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/HideTeamsPrompt/</loc>
+	<lastmod>2025-02-02T23:40:59+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqex/</loc>
+	<lastmod>2025-02-02T23:40:59+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/pnpsearchqcond/</loc>
+	<lastmod>2025-02-02T23:40:59+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/addpermgroup/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/spoclaims/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/systemupdateitem/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/systemupdatefolder/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/countfiles/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/countfilesunique/</loc>
+	<lastmod>2025-02-02T23:41:00+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/hidebuttons/</loc>
+	<lastmod>2025-02-02T23:41:01+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/getversionhistory/</loc>
+	<lastmod>2025-02-02T23:41:01+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/createdashboard/</loc>
+	<lastmod>2025-02-02T23:41:01+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/comparetenants/</loc>
+	<lastmod>2025-02-02T23:41:02+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/pl/mailboxes/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/fr/mailboxes/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/findctIDPS/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/custompageheader/</loc>
+	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/</loc>
+	<lastmod>2025-02-02T23:41:04+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+</urlset>
