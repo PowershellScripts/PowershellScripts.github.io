@@ -37,7 +37,7 @@ Comment activer ou désactiver la gestion des types de contenu manuellement :
 
    <img src="/articles/img/enablect2.png" ><br/>
 
-4. Dans la section **Types de contenu**, vous pouvez choisir d’autoriser ou non la gestion des types de contenu. **Oui** correspond à `$true` dans le script ci-dessous, tandis que **Non** correspond à `$false` :
+4. Dans la section **Types de contenu**, vous pouvez choisir d’autoriser ou non la gestion des types de contenu. **Oui** activera la gestion des types de contenu supplémentaires pour votre liste. Cela correspond à `$true` dans le script ci-dessous. **Non** signifie que les types de contenu supplémentaires et la gestion des types de contenu doivent être désactivés, tandis que **Non** correspond à `$false` :
 
    <img src="/articles/img/enablect3.png" ><br/>
 
@@ -49,6 +49,8 @@ Comment activer ou désactiver la gestion des types de contenu manuellement :
 
 ## PnP PowerShell
 
+Pour activer ou désactiver la gestion des types de contenu dans une liste SharePoint à l'aide de PowerShell, vous pouvez utiliser les cmdlets PnP PowerShell ou SharePoint Online Management Shell. Voici comment procéder :
+
 #### Pour une liste
 
 ```powershell
@@ -56,7 +58,11 @@ Connect-PnPOnline -Url "https://votrelocataire.sharepoint.com/sites/votresite" -
 Set-PnPList -Identity "Documents" -ContentTypesEnabled $true
 ```
 
+<br/>
+
 #### Pour toutes les listes de la collection de sites
+
+Le script ci-dessous active la gestion des types de contenu pour toutes les listes et bibliothèques dans une collection de sites SharePoint Online :
 
 ```powershell
 # Connectez-vous au site SharePoint
@@ -68,7 +74,7 @@ $lists = Get-PnPList
 # Parcourez chaque liste et activez les types de contenu
 foreach ($list in $lists) {
     Set-PnPList -Identity $list -ContentTypesEnabled $true
-    Write-Host "Types de contenu activés pour la liste : $($list.Title)"
+    Write-Host "Types de contenu actives pour la liste : $($list.Title)"
 }
 ```
 

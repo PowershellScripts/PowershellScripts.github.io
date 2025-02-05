@@ -11,6 +11,8 @@ date: '2024-08-03'
 
 ## Why Enable Content Type Management?
 
+If you want to use multiple content types in your SharePoint list, you need to enable content type management first.
+
 Enabling content type management is crucial for customizing how specific types of content are handled and tracked within your SharePoint site. It’s especially useful if you need to:
 
 * Allow or limit the use of custom content types across lists and libraries.
@@ -71,7 +73,7 @@ $lists = Get-PnPList
 
 # Loop through each list and enable content types
 foreach ($list in $lists) {
-    Set-PnPList -Identity $list -ContentTypesEnabled $true
+    Set-PnPList -Identity $list -ContentTypesEnabled $true   # change to $false if you want to disable the content types
     Write-Host "Content types enabled for list: $($list.Title)"
 }
 ```
@@ -81,7 +83,7 @@ foreach ($list in $lists) {
 
 ## PowerShell and CSOM
 
-For all lists.
+I used to love the Powershell and CSOM mixture, but in the meantime, PnP got sooo much better. Go for PnP unless you have a reason to use CSOM. The example below enables content type management for all lists in one site collection.
 
 ```powershell
 
@@ -175,6 +177,14 @@ Set-SPOListsContentTypesEnabled -Username $Username -AdminPassword $AdminPasswor
     - You can run the script with `$ContentTypesEnabled = $false` to disable content type management if required.
 
 
+
+
+<br/><br/>
+
+## Other Languages
+This article is available in other languages:
+
+[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/enablect.md)
 
 
 

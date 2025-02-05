@@ -101,3 +101,12 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 <h2>Comments? Questions?</h2>
 Feel free to post them [here](https://github.com/PowershellScripts/PowershellScripts.github.io/issues/new/choose)
+
+
+
+<br/><br/>
+
+## Other Languages
+This article is available in other languages:
+
+[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/addvivatospo.md)

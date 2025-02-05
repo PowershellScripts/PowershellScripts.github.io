@@ -81,7 +81,7 @@ Cet article est disponible dans d'autres langues :
 
 [Exchange Online: Do jakich skrzynek użytkownik ma dostęp? (pl-PL)](https://powershellscripts.github.io/articles/pl/mailboxes/)
 
-
+[Exchange Online: ¿A qué buzones tiene acceso el usuario? (es-ES)](https://powershellscripts.github.io/articles/es/mailboxes/)
 
 
 

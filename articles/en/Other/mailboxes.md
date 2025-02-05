@@ -66,7 +66,7 @@ This article is available in other languages:
 
 [Exchange Online: lister les boîtes aux lettres auxquelles un utilisateur a accès (fr-FR)](https://powershellscripts.github.io/articles/fr/mailboxes/)
 
-
+[Exchange Online: ¿A qué buzones tiene acceso el usuario? (es-ES)](https://powershellscripts.github.io/articles/es/mailboxes/)
 
 
 <!-- Default Statcounter code for Mailboxes
