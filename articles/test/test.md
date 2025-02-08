@@ -129,20 +129,20 @@ h3::before {
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 2"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
+	<li style="--i: 4"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
 		<span style="display: block; text-align: right;">2024-01-05
 		<h3>Site Pages library in Power Automate Flow</h3></span>
 		<p>This article shows how to use Site Pages library in Power Automate flows.</p>
 	</a></li>
 
-	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
+	<li style="--i: 5"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
 		<span style="display: block; text-align: right;">2024-12-30
 		<h3>Exchange Online: What mailboxes User has access to?</h3></span>
 		<p>The article describes a way how to verify user’s access rights to other people’s mailboxes.</p>
 	</a></li>
 
 
-	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
+	<li style="--i: 6"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
 		<span style="display: block; text-align: right;">2024-12-30
 		<h3>Exchange Online: What mailboxes User has access to?</h3></span>
 		<p>The article describes a way how to verify user’s access rights to other people’s mailboxes.</p>
