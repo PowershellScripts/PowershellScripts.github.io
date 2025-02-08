@@ -129,20 +129,20 @@ h3::before {
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
+	<li style="--i: 2"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
 		<span style="display: block; text-align: right;">2024-01-05
 		<h3>Site Pages library in Power Automate Flow</h3></span>
 		<p>This article shows how to use Site Pages library in Power Automate flows.</p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
+	<li style="--i: 3"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
 		<span style="display: block; text-align: right;">2024-12-30
 		<h3>Exchange Online: What mailboxes User has access to?</h3></span>
 		<p>The article describes a way how to verify user’s access rights to other people’s mailboxes.</p>
 	</a></li>
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/mailboxes/">
 		<span style="display: block; text-align: right;">2024-12-30
 		<h3>Exchange Online: What mailboxes User has access to?</h3></span>
 		<p>The article describes a way how to verify user’s access rights to other people’s mailboxes.</p>
@@ -168,14 +168,14 @@ h3::before {
 		<p>The “Run As” feature in the Microsoft 365 admin center allows administrators to simulate and test various admin roles. It allows to test the permissions associated with every Microsoft 365 admin role.</p>
 	</a></li>
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/InformationProtection/runasadmin/">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/InformationProtection/runasadmin/">
 		<span style="display: block; text-align: right;">2024-11-16
 		<h3>Microsoft 365: Run As [Product] Admin</h3></span>
 		<p>The “Run As” feature in the Microsoft 365 admin center allows administrators to simulate and test various admin roles. It allows to test the permissions associated with every Microsoft 365 admin role.</p>
 	</a></li>
 
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/InformationProtection/compareroles/">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/InformationProtection/compareroles/">
 		<span style="display: block; text-align: right;">2024-11-09
 		<h3>Microsoft 365: compare admin role permissions</h3></span>
 		<p>In Microsoft 365 admin center you can now compare various administrators’ roles and select the one with minimum privilege for your admin accounts. The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.</p>
@@ -343,9 +343,10 @@ Links to my older Social Technet Articles:
 
 <h3>Content Types</h3>
 
-* [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx)
+<li> [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx) </li>
 
 * [SharePoint Online content types in Powershell: Get](http://social.technet.microsoft.com/wiki/contents/articles/31151.sharepoint-online-content-types-in-powershell-get.aspx)
+
 * [SharePoint Online content types in Powershell: Edit](https://social.technet.microsoft.com/wiki/contents/articles/31444.sharepoint-online-content-types-in-powershell-edit.aspx)
 * [SharePoint Online: Turn on support for multiple content types in a list or library using Powershell](https://social.technet.microsoft.com/wiki/contents/articles/30038.sharepoint-online-turn-on-support-for-multiple-content-types-in-a-list-or-library-using-powershell.aspx)
 * [SharePoint Online content types in PowerShell: Group property](http://social.technet.microsoft.com/wiki/contents/articles/31725.sharepoint-online-content-types-in-powershell-group-property.aspx)
