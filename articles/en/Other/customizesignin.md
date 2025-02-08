@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Customize M365 login page'
+title: 'Customize Microsoft 365 login page'
 hero_image: '/img/IMG_20220521_140146.jpg'
 menubar: docs_menu
 show_sidebar: false
@@ -9,4 +9,66 @@ date: '2025-02-08'
 ---
 
 
-Navigate to Microsoft Entra ID and scroll down to Company Branding
+With Microsoft 365, you can customize your sign-in page using your own colors and logos, delivering a company-branded experience for your users. Instead of a standard login page like this:
+
+<img src="/articles/img/customizesignin7.png" width="600" alt="Microsoft 365 login page">
+
+you can tailor the experience with your company's colors and logos, creating a personalized Microsoft 365 sign-in experience for your users.
+
+<br/>
+
+### Set Company Branding in Login Page
+
+Navigate to Microsoft Entra ID and scroll down to Company Branding.
+
+
+<img src="/articles/img/customizesignin.png" width="600" alt="company branding in Microsoft Entra ID">
+
+
+There are two options. YOu can either customize the sign in page for all the users (default experience) or tailor the Microsoft 365 login page differently for every language the company supports.
+
+In both cases, the default sign-in experience and by language-experience, there are multiple design settings to choose from.
+
+<br/>
+
+### Background
+
+Select icon, background image and background color for your Company sign-in page.
+
+<img src="/articles/img/customizesignin2.png" width="600" alt="company branding in Microsoft Entra ID">
+
+<br/>
+
+### Layout
+
+Decide whether you want to show header or footer. Optionally you can upload your custom CSS.
+
+<img src="/articles/img/customizesignin3.png" width="600" alt="company branding in Microsoft Entra ID">
+
+
+<br/>
+
+### Header
+
+Select header logo.
+
+<img src="/articles/img/customizesignin4.png" width="600" alt="company branding in Microsoft Entra ID">
+
+
+<br/>
+
+### Footer
+
+Select whether you want to show Privacy&Cookies notice and/or Terms of Use information. You can link both to your custom company pages.
+
+<img src="/articles/img/customizesignin5.png" width="600" alt="company branding in Microsoft Entra ID">
+
+
+<br/>
+
+### Sign-in form
+
+Upload your logos and enter the text that should appear on the sign-in page. Optionally, you can show a password reset link if your company allows self-service password reset.
+
+
+<img src="/articles/img/customizesignin6.png" width="600" alt="company branding in Microsoft Entra ID">

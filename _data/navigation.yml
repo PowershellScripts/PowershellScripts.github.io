@@ -132,6 +132,8 @@
       link: /articles/en/Other/m365groupsettings/
     - name: Exchange Online - What mailboxes User has access to?
       link: /articles/en/Other/mailboxes/
+    - name: Customize Microsoft 365 login page
+      link: /articles/en/Other/customizesignin/
   
 - name: About Arleta
   link: /about/

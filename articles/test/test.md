@@ -129,19 +129,19 @@ h3::before {
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/vivavsteams/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/vivavsteams/">
 		<span style="display: block; text-align: right;">2024-02-08
 		<h3>Viva Engage vs Teams</h3></span>
 		<p>A comparison of Viva Engage and Teams to help you understand when to use each</p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/whyviva/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/whyviva/">
 		<span style="display: block; text-align: right;">2024-02-02
 		<h3>Why use Viva Engage?</h3></span>
 		<p>This article outlines the advantages and purposes of using Viva Engage.</p>
 	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/sitepages/">
 		<span style="display: block; text-align: right;">2024-01-05
 		<h3>Site Pages library in Power Automate Flow</h3></span>
 		<p>This article shows how to use Site Pages library in Power Automate flows.</p>
@@ -154,7 +154,7 @@ h3::before {
 	</a></li>
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/viewanalytics/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/viewanalytics/">
 		<span style="display: block; text-align: right;">2024-12-29
 		<h3>Viva Engage: View Analytics</h3></span>
 		<p>As a leader or a corporate communicator managing campaign you can view the audience summary of your campaign. Have a look at some of the cool options that Viva Engage is offering.</p>
@@ -194,13 +194,13 @@ h3::before {
 	</a></li>
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/removeresources/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/removeresources/">
 		<span style="display: block; text-align: right;">2024-11-03
 		<h3>Remove Community Resources in Viva Engage</h3></span>
 		<p>On the right-hand side of your Viva Engage Community you can see the available Resources such as SharePoint Site, Planner and OneNote. With the newest update from Microsoft you can now hide these Resources on the main page of the Viva Engage Community.</p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/MoveConversation/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/MoveConversation/">
 		<span style="display: block; text-align: right;">2024-10-03
 		<h3>Move Viva Engage conversation to another community</h3></span>
 		<p>You can move a Viva Engage conversation to another community or stop users from moving posts to your community.</p>
@@ -284,13 +284,13 @@ h3::before {
 		<p>KQL (Keyword Query Language) is a syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules with some examples.</p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
@@ -309,31 +309,31 @@ h3::before {
 	</a></li>
  
 
- 	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
+ 	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
 		<span style="display: block; text-align: right;">2024-02-17
 		<h3>Remove a Viva Engage leader</h3></span>		
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences. When you want to remove the leader functionalities from a user, you need to remove him from the leaders list in the Viva Admin Center. </p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Now, you can post on behalf of another person in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Configure it through Yammer’s settings section... </p>
 	</a></li>
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva Engage: Leaders vs Corporate Communicators</h3></span>		
 		<p>Viva Engage provides two special privileged roles that allow users for extra communication capabilities. One of them is Leaders and the other Corporate Communicator. The article compares the two roles. </p>
 	</a></li>
  
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
@@ -348,7 +348,7 @@ Links to my older Social Technet Articles:
 
 <h3>Content Types</h3>
 
-<li> [SharePoint Online content types in Powershell: Add](https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx) </li>
+<a href="https://social.technet.microsoft.com/wiki/contents/articles/31051.sharepoint-online-content-types-in-powershell-add.aspx">SharePoint Online content types in Powershell: Add</a>
 
 * [SharePoint Online content types in Powershell: Get](http://social.technet.microsoft.com/wiki/contents/articles/31151.sharepoint-online-content-types-in-powershell-get.aspx)
 
