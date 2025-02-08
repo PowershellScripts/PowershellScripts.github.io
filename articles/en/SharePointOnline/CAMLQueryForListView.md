@@ -50,9 +50,9 @@ Creating a complex query, however, can present quite a challenge. To make sure e
 
 A simple query is often more easily typed directly. Writing CamlQuery in a complex scenario is usually time-consuming and prone to error. A way around it is to use GUI and create a specific view in SharePoint list/library:
 
-<img src="/articles/images/easycaml1.png" width="200"><br/>
+<img src="/articles/images/easycaml1.png" width="200" alt="screenshot showing view creation in SharePoint library"><br/>
 
- <img src="/articles/images/easycaml2.png"><br/>
+ <img src="/articles/images/easycaml2.png" alt="screenshot showing view creation in SharePoint library"><br/>
 
 You can set the view to be private so that your users do not see this temporary view.
 
@@ -62,7 +62,7 @@ Now that the view is created and you verified you see only the selected items, p
 <h3>Method 1: Using REST Endpoint and browser</h3>
 Find list and view's GUID. Open the created list view in edit mode and copy the url:
 
- <img src="/articles/images/easycaml3.png"><br/>
+ <img src="/articles/images/easycaml3.png" alt="screenshot showing how to find view GUID"><br/>
  
 https://tenant.sharepoint.com/\_layouts/15/ViewEdit.aspx?**List=%7B4E998310-BCE0-4647-BB77-0183EA3E48A8%7D**&**View=%7B47FA121F-B26F-4CCD-B785-70DF105597F7%7D**&Source=%252Fsites%252FtestFlow%252F%255Flayouts%252F15%252Flistedit%252Easpx%253FList%253D%25257B4e998310%252Dbce0%252D4647%252Dbb77%252D0183ea3e48a8%25257D
 
@@ -76,9 +76,9 @@ In your browser enter
 ```
 https://TENANT.sharepoint.com/sites/SITENAME/_api/web/lists/getbyid('4E998310-BCE0-4647-BB77-0183EA3E48A8')/Views/getbyid('47FA121F-B26F-4CCD-B785-70DF105597F7')
 ```
-replacing your tenant and site collection names, the list GUID and view GUID with values from the view created in the previous point. I like to use Internet Explorer for this step, because it renders a very nice and readable XML:
+replacing your tenant and site collection names, the list GUID and view GUID with values from the view created in the previous point. I like to use Edge for this step, because it renders a very nice and readable XML:
 
- <img src="/articles/images/easycaml4.png"><br/>
+ <img src="/articles/images/easycaml4.png" alt="screenshot showing view XML in Edge"><br/>
 
  
 Take the value from ViewQuery. 
@@ -130,7 +130,7 @@ Export-CSV $view
 ```
 
  
- <img src="/articles/images/easycaml5.png"><br/>
+ <img src="/articles/images/easycaml5.png" alt="screenshot showing export view cmdlet"><br/>
 
 <br/><br/><br/>
 

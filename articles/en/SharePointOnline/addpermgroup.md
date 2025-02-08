@@ -8,6 +8,17 @@ hero_height: is-small
 date: '2024-08-01'
 ---
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDDFG3RZTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NDDFG3RZTJ');
+</script>
+
+
 
 # Introduction
 Using the PnP PowerShell module, you can assign permissions to an existing group within the Microsoft 365 environment. It can be a SharePoint group, security group or Microsoft 365 group. Keep in mind that claims can make it a bit complex. For a detailed explanation, have a look at the Claims Deep Dive article.
@@ -38,7 +49,7 @@ Set-PnPListPermission -Identity test1 -User "MyGroupName" -AddRole 'Contribute'
 ```
 
 
-<img src="/articles/images/addpermtogroup6.png"><br/>
+<img src="/articles/images/addpermtogroup6.png" alt="Screenshot showing the process of adding permissions to a group in a SharePoint environment"><br/>
 
 <br/>
 
@@ -55,11 +66,11 @@ Set-PnPListPermission -Identity test1 -User "sichgroup3" -AddRole 'Read'
 
 You can retrieve the security group ID by going to Entra ID >> Groups 
 
-<img src="/articles/images/addpermtogroup.png"><br/>
+<img src="/articles/images/addpermtogroup.png" alt="Screenshot showing how to retrieve group security ID using UI"><br/>
 
 or by using `Get-PnPAzureADGroup` cmdlet:
 
-<img src="/articles/images/addpermtogroup2.png"><br/>
+<img src="/articles/images/addpermtogroup2.png" alt="Screenshot showing how to retrieve group security ID using Powershell"><br/>
 
 <br/>
 
@@ -74,12 +85,12 @@ Some examples how to retrieve a Microsoft 365 group using PnP cmdlets:
 
 * ```Get-PnPAzureADGroup | where {$_.GroupTypes -eq "Unified"}```
 
-<img src="/articles/images/addpermtogroup3.png"><br/>
+<img src="/articles/images/addpermtogroup3.png" alt="Screenshot showing how to retrieve group using Powershell"><br/>
 
 
 * ```Get-PnPAzureADGroup | where {$_.DisplayName -eq "test"}```
 
-<img src="/articles/images/addpermtogroup4.png"><br/>
+<img src="/articles/images/addpermtogroup4.png" alt="Screenshot showing how to retrieve group using Powershell"><br/>
 
 
 
@@ -105,7 +116,7 @@ Set-PnPListPermission -Identity test1 -User "c:0-.f|rolemanager|spo-grid-all-use
 
 One of the places where you can see the ID of your Everyone except external users group is SharePoint Online Site permissions.
 
- <img src="/articles/images/addpermtogroup5.png"><br/>
+ <img src="/articles/images/addpermtogroup5.png" alt="Screenshot showing how to retrieve group security ID using UI"><br/>
  
 <br/><br/><br/>
 
@@ -123,7 +134,7 @@ The following cmdlet adds permissions to an existing SharePoint group. You can u
 Set-PnPWebPermission -Group "test345" -AddRole "Contribute"
 ```
 
-<img src="/articles/images/addpermtogroup6.png"><br/>
+<img src="/articles/images/addpermtogroup6.png" alt="Screenshot showing how to retrieve group using Powershell"><br/>
 
 <br/>
 
@@ -139,11 +150,11 @@ Set-PnPWebPermission  -User "sichgroup3" -AddRole 'Read'
 
 You can retrieve the security group ID by going to Entra ID >> Groups 
 
-<img src="/articles/images/addpermtogroup.png"><br/>
+<img src="/articles/images/addpermtogroup.png" alt="Screenshot showing how to retrieve group security ID using UI"><br/>
 
 or by using `Get-PnPAzureADGroup` cmdlet:
 
-<img src="/articles/images/addpermtogroup2.png"><br/>
+<img src="/articles/images/addpermtogroup2.png" alt="Screenshot showing how to retrieve group security ID using Powershell"><br/>
 
 
 
@@ -162,12 +173,12 @@ Some examples how to retrieve a Microsoft 365 group using PnP cmdlets:
 
 * ```Get-PnPAzureADGroup | where {$_.GroupTypes -eq "Unified"}```
 
-<img src="/articles/images/addpermtogroup3.png"><br/>
+<img src="/articles/images/addpermtogroup3.png" alt="Screenshot showing how to retrieve group using Powershell"><br/>
 
 
 * ```Get-PnPAzureADGroup | where {$_.DisplayName -eq "test"}```
 
-<img src="/articles/images/addpermtogroup4.png"><br/>
+<img src="/articles/images/addpermtogroup4.png" alt="Screenshot showing how to retrieve group using Powershell"><br/>
 
 
 
@@ -196,7 +207,7 @@ Set-PnPWebPermission -User "c:0-.f|rolemanager|spo-grid-all-users/7110ff4b-10a6-
 
 One of the places where you can see the ID of your Everyone except external users group is SharePoint Online Site permissions.
 
- <img src="/articles/images/addpermtogroup5.png"><br/>
+ <img src="/articles/images/addpermtogroup5.png" alt="Screenshot showing how to retrieve group security ID using UI"><br/>
 
 <br/><br/><br/>
 

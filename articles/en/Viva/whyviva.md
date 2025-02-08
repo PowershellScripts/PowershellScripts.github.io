@@ -1,12 +1,22 @@
 ---
 layout: page
 title: 'Why use Viva Engage?'
-menubar: docs_menu
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
 date: '2025-02-02'
 ---
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDDFG3RZTJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-NDDFG3RZTJ');
+</script>
+
 
 # Why use Viva Engage?
 
@@ -80,3 +90,8 @@ Some ideas for your communities:
 * Leadership Spotlight: A weekly feature on different leaders and their contributions to the company.
 
 
+
+
+# See Also
+
+[Get started with Viva Engage](https://support.microsoft.com/en-us/topic/get-started-with-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
