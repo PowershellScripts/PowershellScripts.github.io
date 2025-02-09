@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 'Microsoft 365 Tips and Tricks'
-menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -216,7 +215,7 @@ Enjoy!
 	
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/countfilesunique/">
 		<span style="display: block; text-align: right;">2024-08-11
-		<h3>Count files or items with unique permissions using Powershell</h3></span>
+		<h3> Count files or items with unique permissions using Powershell</h3></span>
 		<p>Using PnP Powershell you can programmatically count files in a folder or the entire library in SharePoint Online that have unique permissions.</p>
 	</a></li>
 
@@ -328,8 +327,6 @@ Enjoy!
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
 	</a></li>
-
-
 
 
 </div>
