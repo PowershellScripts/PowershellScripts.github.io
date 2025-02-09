@@ -18,7 +18,7 @@ Enjoy!
 <script type="text/javascript" async src="//l.getsitecontrol.com/p43nv0p7.js"></script>
 
 <style>
-body {
+#main-page body {
 	--h: 212deg;
 	--l: 43%;
 	--brandColor: hsl(var(--h), 71%, var(--l));
@@ -109,26 +109,7 @@ body {
 	color: white;
 }
 
-@media (min-width: 40em) {
-	li {
-		margin: 3rem auto;
-		padding: 2rem 2rem 3rem;
-	}
-	
-	h3 {
-		font-size: 2.25rem;
-		margin: 0 0 2rem;
-	}
 
-	sub {
-		margin: 0 0 0rem;
-		align-items: right;
-	}
-	
-	h3::before {
-		margin-right: 1.5rem;
-	}
-}
 </style>
 
 
