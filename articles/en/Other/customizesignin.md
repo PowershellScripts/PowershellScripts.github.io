@@ -77,3 +77,26 @@ Upload your logos and enter the text that should appear on the sign-in page. Opt
 ### Review and Save 
 
 Enjoy the login page with company branding!
+
+
+
+
+<!-- Default Statcounter code for M365 custom sign in
+https://powershellscripts.github.io/articles/en/Other/customizesignin/
+-->
+<script type="text/javascript">
+var sc_project=13085843; 
+var sc_invisible=1; 
+var sc_security="8aa306f4"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13085843/0/8aa306f4/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

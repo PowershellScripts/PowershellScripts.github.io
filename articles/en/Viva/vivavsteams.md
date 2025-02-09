@@ -93,3 +93,25 @@ Microsoft Teams, on the other hand, is primarily a **work and collaboration tool
 # See Also
 
 [Why use Viva Engage?](https://powershellscripts.github.io/articles/en/Viva/whyviva/)
+
+
+
+<!-- Default Statcounter code for whyvivaplusteams
+https://powershellscripts.github.io/articles/en/Viva/whyviva/
+-->
+<script type="text/javascript">
+var sc_project=13085848; 
+var sc_invisible=1; 
+var sc_security="4c9b32e5"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13085848/0/4c9b32e5/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
