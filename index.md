@@ -46,18 +46,18 @@ body {
 	color: black;
 }
 
-p {
+#main-page p {
 	margin: 0;
 	line-height: 1.6;
 }
 
-ol {
+#main-page ol {
 	list-style: none;
 	counter-reset: list;
 	padding: 0 1rem;
 }
 
-li {
+#main-page li {
 	--stop: calc(100% / var(--length) * var(--i));
 	--l: 62%;
 	--l2: 88%;
@@ -76,7 +76,7 @@ li {
 	background-color: white;
 }
 
-li::before {
+#main-page li::before {
 	content: '';
 	display: block;
 	width: 100%;
@@ -87,14 +87,14 @@ li::before {
 	background: linear-gradient(to right, var(--c1) var(--stop), var(--c2) var(--stop));
 }
 
-h3 {
+#main-page h3 {
 	display: flex;
 	align-items: baseline;
 	margin: 0 0 0rem;
 	color: rgb(70 70 70);
 }
 
-h3::before {
+#main-page h3::before {
 	display: flex;
 	justify-content: center;
 	align-items: center;
