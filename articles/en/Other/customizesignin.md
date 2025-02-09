@@ -2,7 +2,6 @@
 layout: page
 title: 'Customize Microsoft 365 login page'
 hero_image: '/img/IMG_20220521_140146.jpg'
-menubar: docs_menu
 show_sidebar: false
 hero_height: is-small
 date: '2025-02-08'
@@ -17,7 +16,7 @@ you can tailor the experience with your company's colors and logos, creating a p
 
 <br/>
 
-### Set Company Branding in Login Page
+### Set Company Branding on the Login Page
 
 Navigate to Microsoft Entra ID and scroll down to Company Branding.
 
@@ -25,7 +24,7 @@ Navigate to Microsoft Entra ID and scroll down to Company Branding.
 <img src="/articles/img/customizesignin.png" width="600" alt="company branding in Microsoft Entra ID">
 
 
-There are two options. YOu can either customize the sign in page for all the users (default experience) or tailor the Microsoft 365 login page differently for every language the company supports.
+There are two options. You can either customize the sign in page for all the users (default experience) or tailor the Microsoft 365 login page differently for every language the company supports.
 
 In both cases, the default sign-in experience and by language-experience, there are multiple design settings to choose from.
 
@@ -72,3 +71,9 @@ Upload your logos and enter the text that should appear on the sign-in page. Opt
 
 
 <img src="/articles/img/customizesignin6.png" width="600" alt="company branding in Microsoft Entra ID">
+
+
+
+### Review and Save 
+
+Enjoy the login page with company branding!

@@ -129,13 +129,13 @@ h3::before {
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/vivavsteams/">
+	<li style="--i: 17"><a href="https://powershellscripts.github.io/articles/en/Viva/vivavsteams/">
 		<span style="display: block; text-align: right;">2024-02-08
 		<h3>Viva Engage vs Teams</h3></span>
 		<p>A comparison of Viva Engage and Teams to help you understand when to use each</p>
 	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/whyviva/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/whyviva/">
 		<span style="display: block; text-align: right;">2024-02-02
 		<h3>Why use Viva Engage?</h3></span>
 		<p>This article outlines the advantages and purposes of using Viva Engage.</p>
@@ -154,7 +154,7 @@ h3::before {
 	</a></li>
 
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/viewanalytics/">
+	<li style="--i: 19"><a href="https://powershellscripts.github.io/articles/en/Viva/viewanalytics/">
 		<span style="display: block; text-align: right;">2024-12-29
 		<h3>Viva Engage: View Analytics</h3></span>
 		<p>As a leader or a corporate communicator managing campaign you can view the audience summary of your campaign. Have a look at some of the cool options that Viva Engage is offering.</p>
@@ -194,7 +194,7 @@ h3::before {
 	</a></li>
 
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/removeresources/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/removeresources/">
 		<span style="display: block; text-align: right;">2024-11-03
 		<h3>Remove Community Resources in Viva Engage</h3></span>
 		<p>On the right-hand side of your Viva Engage Community you can see the available Resources such as SharePoint Site, Planner and OneNote. With the newest update from Microsoft you can now hide these Resources on the main page of the Viva Engage Community.</p>
