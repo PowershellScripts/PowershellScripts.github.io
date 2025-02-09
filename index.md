@@ -18,7 +18,6 @@ Enjoy!
 <script type="text/javascript" async src="//l.getsitecontrol.com/p43nv0p7.js"></script>
 
 <style>
-
 body {
 	--h: 212deg;
 	--l: 43%;
@@ -28,23 +27,23 @@ body {
 	background-color: whitesmoke;
 }
 
-a:link {
-  color: black;
+#main-page a:link {
+	color: black;
 }
 
 /* visited link */
-a:visited {
-  color: black;
+#main-page a:visited {
+	color: black;
 }
 
 /* mouse over link */
-a:hover {
-  color: black;
+#main-page a:hover {
+	color: black;
 }
 
 /* selected link */
-a:active {
-  color: black;
+#main-page a:active {
+	color: black;
 }
 
 p {
@@ -130,9 +129,11 @@ h3::before {
 		margin-right: 1.5rem;
 	}
 }
-
-
 </style>
+
+
+<div id="main-page">
+ 
 
 <ol style="--length: 5" role="list">
 
@@ -348,3 +349,6 @@ h3::before {
 	</a></li>
 
 
+
+
+</div>
