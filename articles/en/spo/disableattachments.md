@@ -16,13 +16,13 @@ Modern SharePoint lists often allow users to attach files to list items. However
 
 You can disable the attachments in your SharePoint list directly in the browser and for a single list I would recommend this approach
 
-[![IMAGE ALT TEXT](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://youtu.be/i8In3duIdq0 "Video Title")
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ypm0qhYxz90" frameborder="0" allowfullscreen></iframe>
 
 
 test
 
 
-<video src="https://youtu.be/i8In3duIdq0"  controls></video>
+[Watch on YouTube](https://www.youtube.com/watch?v=Ypm0qhYxz90)
 
 ## Powershell
 

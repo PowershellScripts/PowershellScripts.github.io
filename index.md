@@ -117,6 +117,24 @@ Enjoy!
 
 <ol style="--length: 5" role="list">
 
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/customizesignin/">
+		<span style="display: block; text-align: right;">2025-02-09
+		<h3>Disable attachments in SharePoint list</h3></span>
+		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
+	</a></li>
+
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/customizesignin/">
+		<span style="display: block; text-align: right;">2025-02-09
+		<h3>Create download link to SharePoint file</h3></span>
+		<p>When you create a link to a file in SharePoint using the standard method, it opens in the browser by default. Make the file downloadable instead, by customizing the link.</p>
+	</a></li>
+
+
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/customizesignin/">
+		<span style="display: block; text-align: right;">2025-02-08
+		<h3>Customize Microsoft 365 login page</h3></span>
+		<p>With Microsoft 365, you can customize your sign-in page and have a company-branded login experience for your users.</p>
+	</a></li>
 
 	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/vivavsteams/">
 		<span style="display: block; text-align: right;">2025-02-08
@@ -195,7 +213,7 @@ Enjoy!
 		<p>You can move a Viva Engage conversation to another community or stop users from moving posts to your community.</p>
 	</a></li>
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/findctidPS/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/findctIDPS/">
 		<span style="display: block; text-align: right;">2024-08-18
 		<h3>Find content type ID using Powershell</h3></span>
 		<p>Content type IDs in SharePoint uniquely identify the content type. This article helps you find the ID using Powershell.</p>
@@ -273,13 +291,13 @@ Enjoy!
 		<p>KQL (Keyword Query Language) is a syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules with some examples.</p>
 	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
@@ -298,35 +316,47 @@ Enjoy!
 	</a></li>
  
 
- 	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
+ 	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
 		<span style="display: block; text-align: right;">2024-02-17
 		<h3>Remove a Viva Engage leader</h3></span>		
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences. When you want to remove the leader functionalities from a user, you need to remove him from the leaders list in the Viva Admin Center. </p>
 	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Now, you can post on behalf of another person in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Configure it through Yammer’s settings section... </p>
 	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva Engage: Leaders vs Corporate Communicators</h3></span>		
 		<p>Viva Engage provides two special privileged roles that allow users for extra communication capabilities. One of them is Leaders and the other Corporate Communicator. The article compares the two roles. </p>
 	</a></li>
  
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
 	</a></li>
 
 
-</div>
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Server/Office Online Server Troubleshooting in Sharepoint Environment/">
+		<span style="display: block; text-align: right;">2023-11-05
+		<h3>Office Online Server Troubleshooting in Sharepoint Environment</h3></span>
+		<p>Office Online Server Troubleshooting in Sharepoint Environment</p>
+	</a></li>
+
+
+    <li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/InformationProtection/Audit your sensitivity labels with Powershell/">
+		<span style="display: block; text-align: right;">2022-08-05
+		<h3>Audit your sensitivity labels with Powershell</h3></span>
+		<p>Audit your sensitivity labels with Powershell</p>
+	</a></li>
+

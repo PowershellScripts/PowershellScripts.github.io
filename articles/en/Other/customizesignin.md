@@ -73,6 +73,7 @@ Upload your logos and enter the text that should appear on the sign-in page. Opt
 <img src="/articles/img/customizesignin6.png" width="600" alt="company branding in Microsoft Entra ID">
 
 
+<br/>
 
 ### Review and Save 
 

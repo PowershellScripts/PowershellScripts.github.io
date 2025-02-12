@@ -28,7 +28,7 @@
             'FR','GG','GR','HR','HU','IE','IM','IT','JE','LT','LU',
             'LV','MT','NL','PL','PT','RO','SE','SI','SK'
           ],
-          'wait_for_update': 500,
+          'wait_for_update': 5,
       });
       // Default settings
       gtag('consent', 'default', {
@@ -39,12 +39,12 @@
           'functionality_storage': 'granted',
           'personalization_storage': 'granted',
           'security_storage': 'granted',
-          'wait_for_update': 500,
+          'wait_for_update': 5,
       });
       gtag('set', 'ads_data_redaction', true);
       gtag('set', 'url_passthrough', false);
   </script>
-  
+
     {% unless site.hide_share_buttons %}
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma-social@1/bin/bulma-social.min.css">
     {% endunless %}

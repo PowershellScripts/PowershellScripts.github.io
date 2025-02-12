@@ -15,17 +15,17 @@ When you create a link to a file in SharePoint using the standard method, it ope
 
 Navigate to your library and select the file. Click on three dots (...) and select **Download**
 
-<img src="/articles/img/downloadable.PNG" width="600" alt="screenshot showing a SharePoint library"><br/>
+<img src="/articles/img/downloadable.png" width="600" alt="screenshot showing a SharePoint library"><br/>
 
 In your browser click on the download icon open the **Download History**
 
 
-<img src="/articles/img/downloadable2.PNG" width="600" alt="screenshot showing a SharePoint library"><br/>
+<img src="/articles/img/downloadable2.png" width="600" alt="screenshot showing a SharePoint library"><br/>
 
 
 Copy the link from your download history:
 
-<img src="/articles/img/downloadable3.PNG" width="600" alt="screenshot showing downloads history"><br/>
+<img src="/articles/img/downloadable3.png" width="600" alt="screenshot showing downloads history"><br/>
 
 
 
