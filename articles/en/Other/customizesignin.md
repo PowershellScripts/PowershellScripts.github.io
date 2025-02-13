@@ -82,6 +82,13 @@ Enjoy the login page with company branding!
 
 
 
+## Other Languages
+
+This article is available in other languages:
+
+[Personaliza tu Página de Inicio de Sesión en Microsoft 365](https://powershellscripts.github.io/articles/es/personaliza/)
+
+
 <!-- Default Statcounter code for M365 custom sign in
 https://powershellscripts.github.io/articles/en/Other/customizesignin/
 -->

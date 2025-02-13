@@ -117,13 +117,13 @@ Enjoy!
 
 <ol style="--length: 5" role="list">
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/customizesignin/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
 		<span style="display: block; text-align: right;">2025-02-09
 		<h3>Disable attachments in SharePoint list</h3></span>
 		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
 	</a></li>
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/customizesignin/">
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/downloadable">
 		<span style="display: block; text-align: right;">2025-02-09
 		<h3>Create download link to SharePoint file</h3></span>
 		<p>When you create a link to a file in SharePoint using the standard method, it opens in the browser by default. Make the file downloadable instead, by customizing the link.</p>
@@ -334,7 +334,7 @@ Enjoy!
 		<p>Viva Engage provides two special privileged roles that allow users for extra communication capabilities. One of them is Leaders and the other Corporate Communicator. The article compares the two roles. </p>
 	</a></li>
  
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/">
+	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/leaderpost/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>

@@ -77,6 +77,10 @@
       link: /articles/en/spo/comparetenants
     - name: Create SharePoint dashboard
       link: /articles/en/spo/createdashboard
+    - name: Disable attachments in SharePoint list
+      link: /articles/en/spo/disableattachments
+    - name: Create download link to SharePoint file
+      link: /articles/en/spo/downloadable
 
 
 - name: Viva
@@ -85,7 +89,7 @@
     - name: Add Viva Engage to your SharePoint pages
       link: /articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/
     - name: Post as a leader to specific groups
-      link: /articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/
+      link: /articles/en/Viva/leaderpost/
     - name: How to post as a delegate
       link: /articles/en/Viva/How%20to%20post%20as%20delegate/
     - name: How to close a Viva Engage conversation
