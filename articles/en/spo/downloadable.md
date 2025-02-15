@@ -35,3 +35,25 @@ Copy the link from your download history:
 
 
 <iframe width="660" height="400" src="https://www.youtube.com/embed/Ypm0qhYxz90" frameborder="0" allowfullscreen></iframe>
+
+
+
+<!-- Default Statcounter code for disattachplusdownloadable
+https://powershellscripts.github.io/articles/en/spo/disableattachments/
+-->
+<script type="text/javascript">
+var sc_project=13087706; 
+var sc_invisible=1; 
+var sc_security="cd768061"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13087706/0/cd768061/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
