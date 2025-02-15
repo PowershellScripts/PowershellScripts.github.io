@@ -20,17 +20,17 @@ puedes adaptar la experiencia con los colores y logotipos de tu empresa, creando
 
 Navega a Microsoft Entra ID y desplázate hacia abajo hasta la sección **Personalización de marca de empresa**.
 
-<img src="/articles/img/customizesignines.png" width="600" alt="marca de empresa en Microsoft Entra ID">
+<img src="/articles/img/es/customizesignines.png" width="600" alt="marca de empresa en Microsoft Entra ID">
 
 
 Hay muchas configuraciones para revisar, así que veámoslas una por una.
 
-<img src="/articles/img/customizesignines2.png" width="600" alt="marca de empresa en Microsoft Entra ID">
+<img src="/articles/img/es/customizesignines2.png" width="600" alt="marca de empresa en Microsoft Entra ID">
 
 Primero, elige cuántas experiencias de inicio de sesión deseas ofrecer para tu empresa.  
 Hay dos opciones. Puedes personalizar la página de inicio de sesión para todos los usuarios (**experiencia predeterminada**) o adaptar la página de inicio de sesión de Microsoft 365 de forma diferente para cada idioma que soporte la empresa.
 
-<img src="/articles/img/customizesignines3.png" width="600" alt="marca de empresa en Microsoft Entra ID">
+<img src="/articles/img/es/customizesignines3.png" width="600" alt="marca de empresa en Microsoft Entra ID">
 
 En ambos casos, tanto en la experiencia de inicio de sesión predeterminada como en la experiencia por idioma, hay múltiples configuraciones de diseño para elegir.
 
