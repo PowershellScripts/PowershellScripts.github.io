@@ -33,8 +33,6 @@
       link: /articles/en/SharePointOnline/custompageheader 
     - name: Create SharePoint theme using Theme Generator tool
       link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
-    - name: Customize your page header
-      link: /articles/en/SharePointOnline/custompageheader
     - name: Add content type using Powershell and CSOM
       link: /articles/en/SharePointOnline/Add%20content%20type/
     - name: Enable content type management

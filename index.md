@@ -117,12 +117,8 @@ Enjoy!
 
 <ol style="--length: 5" role="list">
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
-		<span style="display: block; text-align: right;">2025-02-09
-		<h3>Disable attachments in SharePoint list</h3></span>
-		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
-	</a></li>
-	
+
+
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
 		<span style="display: block; text-align: right;">2025-02-09
 		<h3>Disable attachments in SharePoint list</h3></span>
@@ -185,7 +181,12 @@ Enjoy!
 		<p>A dashboard in SharePoint is a page primarily designed for mobile use, providing users with quick access to essential tools and resources. Use PnP Powershell and choose Dashboard layout to create a dashboard.</p>
 	</a></li>
 
-
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/custompageheader/">
+		<span style="display: block; text-align: right;">2024-11-23
+		<h3>Customize your page header</h3></span>
+		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
+	</a></li>
+	
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/comparetenants/">
 		<span style="display: block; text-align: right;">2024-11-17
 		<h3>Compare SharePoint tenant settings</h3></span>
