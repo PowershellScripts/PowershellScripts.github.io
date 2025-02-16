@@ -122,6 +122,18 @@ Enjoy!
 		<h3>Disable attachments in SharePoint list</h3></span>
 		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
 	</a></li>
+	
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
+		<span style="display: block; text-align: right;">2025-02-09
+		<h3>Disable attachments in SharePoint list</h3></span>
+		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
+	</a></li>
+
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
+		<span style="display: block; text-align: right;">2025-02-09
+		<h3>Disable attachments in SharePoint list</h3></span>
+		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
+	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/downloadable">
 		<span style="display: block; text-align: right;">2025-02-09

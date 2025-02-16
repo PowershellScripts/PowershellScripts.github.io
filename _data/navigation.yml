@@ -29,6 +29,8 @@
 
     - name: Customize your site header using PnP
       link: /articles/en/SharePointOnline/setsiteheaderPnP/
+    - name: Customize your page header
+      link: /articles/en/SharePointOnline/custompageheader 
     - name: Create SharePoint theme using Theme Generator tool
       link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
     - name: Customize your page header
@@ -81,6 +83,8 @@
       link: /articles/en/spo/disableattachments
     - name: Create download link to SharePoint file
       link: /articles/en/spo/downloadable
+    - name: Report on files with unique permissions
+      link: /articles/en/spo/listfilesunique
 
 
 - name: Viva
