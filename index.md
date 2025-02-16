@@ -119,10 +119,10 @@ Enjoy!
 
 
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
-		<span style="display: block; text-align: right;">2025-02-09
-		<h3>Disable attachments in SharePoint list</h3></span>
-		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/listfilesunique/">
+		<span style="display: block; text-align: right;">2025-02-15
+		<h3>Report on files with unique permissions</h3></span>
+		<p>Show your users which files have permissions different than the rest of the library. For security and administrative purposes the library owners review the files and the granted access regularly.</p>
 	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/disableattachments/">
@@ -186,7 +186,7 @@ Enjoy!
 		<h3>Customize your page header</h3></span>
 		<p>You may want to disable list attachments to maintain a cleaner or more secure list environment. Here's how you can do this for one or multiple lists.</p>
 	</a></li>
-	
+
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/comparetenants/">
 		<span style="display: block; text-align: right;">2024-11-17
 		<h3>Compare SharePoint tenant settings</h3></span>
