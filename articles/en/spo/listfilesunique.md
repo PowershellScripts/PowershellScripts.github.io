@@ -7,9 +7,19 @@ hero_height: is-small
 date: '2025-02-09'
 ---
 
-Files with unique permissions usually 
+
+Show your users which files have unique permissions. 
+
+Files with unique permissions often have different individuals granted access. It is crucial to identify them for security and administrative purposes. It is important that site and library owners review the files and the granted access regularly.
+
+Using PowerShell, you can generate a detailed report of such files and export the list to a CSV file for easy reference. Additionally, consider creating a custom view in SharePoint Online. This way users can directly see files which require their attention.
 
 
+
+# Generate the report
+
+
+```Powershell
 
 # Define the list name
 $listName = "YourListName"
@@ -41,3 +51,6 @@ $uniqueItems | Export-Csv -Path $outputCsvPath -NoTypeInformation -Encoding UTF8
 
 # Output the result
 Write-Host "Details of items with unique permissions have been exported to $outputCsvPath"
+
+
+```
