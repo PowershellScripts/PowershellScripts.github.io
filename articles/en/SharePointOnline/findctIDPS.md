@@ -279,7 +279,7 @@ foreach($cc in $ctx.Web.ContentTypes)
 <br/>
 
 # PowerShell SPOMod
-An old favourite of mine, slowly getting deprecated, but I am mentioning it here out of sentiment.
+An old favourite of mine, close to being deprecated, but I am mentioning it here out of sentiment.
 
 ### Prerequisites
 

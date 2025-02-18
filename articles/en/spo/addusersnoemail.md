@@ -7,29 +7,77 @@ hero_height: is-small
 date: '2025-02-15'
 ---
 
+Usually, if you invite users to your site, they will receive an email notification. Here is how to avoid it.
 
 
-# Internal
+# Entire site
 
 
-To invite a user to a SharePoint library without sending an email, first, navigate to the library and open its Settings or Manage Access panel. Click Grant Access or Share, and enter the user’s name or email address. Select their desired permission level (e.g., Read, Edit). Before finalizing, ensure to uncheck or disable the Notify by Email option. Once done, click Share or Grant Access, and the user will be granted access without receiving an email notification.
+To invite a user to your SharePoint Online site without sending an email, first, navigate to your site and open the Site Access panel. 
+
+<img src="/articles/img/inviteusersnoemail.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+
+Enter the user’s name or email address. 
+
+<img src="/articles/img/inviteusersnoemail2.PNG" width="600" alt="screenshot of sharing SharePoint site"><br/>
 
 
-# Guests
+Select their desired permission level (e.g., Read, Edit). Uncheck or disable the Notify by Email option. 
+
+<img src="/articles/img/inviteusersnoemail3.PNG" width="600" alt="screenshot of sharing SharePoint site"><br/>
+
+
+Once done, click Share, and the user will be granted access without receiving an email notification.
 
 
 
 
 
+# Library
+
+In order to invite your user to library only and not other libraries or lists in your site, you need to to first break permission inheritance.
+
+Usually libraries have the same permissions as the site collection (they inherit permissions). If a library needs special permissions (more or less), it needs to have unique permissions.
+
+* Navigate to library settings. Click on the gear icon in the top right corner and then select Library Settings:
+
+
+<img src="/articles/img/inviteusersnoemail5.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+
+
+* Select **Permissions for this document library**
+
+<img src="/articles/img/inviteusersnoemail6.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+
+
+* Select **Stop Inheriting Permissions**
+
+<img src="/articles/img/inviteusersnoemail7.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+
+You will receive a prompt to confirm your decision. Select **Yes**.
+
+*You are about to create unique permissions for this document library. Changes made to the parent site permissions will no longer affect this document library.*
+
+
+
+* Once the library has unique permissions, a new button will appear. Select **Grant Permissions**
+
+<img src="/articles/img/inviteusersnoemail8.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+
+
+
+* Enter user's name or email adress und uncheck **Send an email invitation**
+
+
+<img src="/articles/img/inviteusersnoemail8.PNG" width="600" alt="screenshot of SharePoint site"><br/>
 
 
 
 
 
+<br/><br/>
 
-
-
-
+## Happy sharing !
 
 
 

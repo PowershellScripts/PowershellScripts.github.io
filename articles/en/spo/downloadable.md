@@ -28,6 +28,12 @@ Copy the link from your download history:
 <img src="/articles/img/downloadable3.png" width="600" alt="screenshot showing downloads history"><br/>
 
 
+It looks similar to: https://TENANT.sharepoint.com/sites/EWZ/_layouts/15/download.aspx?UniqueId=cf6f2e20%2D8050%2D439e%2Dbf00%2D8827ca8bac19
+
+
+You can also create the downloadable link on your own by replacing TENANT, SITENAME and UNIQUEID with your values in the following template:
+
+https://TENANT.sharepoint.com/sites/SITENAME/_layouts/15/download.aspx?UniqueId=UNIQUEID
 
 <br/>
 

@@ -118,6 +118,11 @@ Enjoy!
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/addusersnoemail/">
+		<span style="display: block; text-align: right;">2025-02-15
+		<h3>Add users to SharePoint without sending them an email</h3></span>
+		<p>Usually, if you invite users to your site, they will receive an email notification. Here is how to avoid it.</p>
+	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/listfilesunique/">
 		<span style="display: block; text-align: right;">2025-02-15
