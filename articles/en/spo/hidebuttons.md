@@ -5,7 +5,7 @@ image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2024-11-09'
+date: '2024-11-09 Updated: 2025-02-16'
 ---
 
 
@@ -175,6 +175,8 @@ The keys have very intuitive names. Most of them are called exactly by their dis
 
 
 <br/>
+
+Full list available here: [Command bar customization syntax reference](https://learn.microsoft.com/en-us/sharepoint/dev/declarative-customization/view-commandbar-formatting) 
 
 # Examples
 

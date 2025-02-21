@@ -90,6 +90,19 @@ Some ideas for your communities:
 * Leadership Spotlight: A weekly feature on different leaders and their contributions to the company.
 
 
+# Adoption of new Products and Services
+
+Adoption needs a lot of information. Viva Engage helps to answer users' questions, explore topics, and usage scenarios. The analytics available in Viva Engage capture your users' sentiment, preventing potential dissent. This way you can address potential concerns proactively.
+
+Some ideas for your communities:
+
+* Adoption Allies
+* Solution Seekers
+* Copilot
+* Momentum Hub
+* InsightCircle
+
+
 <br/><br/>
 
 # See Also
