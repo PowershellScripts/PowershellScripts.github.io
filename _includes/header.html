@@ -15,14 +15,11 @@
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
-                    <!-- First-level dropdown (open on click) -->
-                    <div class="navbar-item has-dropdown" :class="{ 'is-active': item.isActive }" x-data="{ open: false }">
-                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}" @click.prevent="open = !open">
-                            {{ item.name }}
-                        </a>
-                        <div class="navbar-dropdown" x-show="open" @click.outside="open = false" style="display: none;">
+                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                        <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
-                                {% if subitem.dropdown %}
+                            {% if subitem.dropdown %}
                                 <!-- Second-level dropdown (hoverable) -->
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a href="{{ subitem.link | relative_url }}" class="navbar-link">{{ subitem.name }}</a>
@@ -33,26 +30,25 @@
                                     </div>
                                 </div>
                                 {% else %}
-                                <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                                {% endif %}
+                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                            {% endif %}
                             {% endfor %}
                         </div>
                     </div>
                     {% else %}
-                    <!-- Non-dropdown first-level link -->
                     <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                     {% endif %}
                 {% endfor %}
                 {% endif %}
             </div>
-     
-        
             <div class="navbar-end">
-                <a href=""><img src="../../../../flag.png" /></a>
+                <a href=""><img src="../../../../flag.png"/></a>
                 <a class="navbar-item" href="#">
-                    <i class="fas fa-icon-name"></i>
+                    <i class="fas fa-icon-name"></i> 
                 </a>
             </div>
+
+
         </div>
     </div>
 </nav>
