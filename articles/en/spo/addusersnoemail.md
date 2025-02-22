@@ -19,12 +19,12 @@ To invite a user to your SharePoint Online site without sending an email, first,
 
 Enter the user’s name or email address. 
 
-<img src="/articles/img/inviteusersnoemail2.png" width="600" alt="screenshot of sharing SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail2.png" width="400" alt="screenshot of sharing SharePoint site"><br/>
 
 
 Select their desired permission level (e.g., Read, Edit). Uncheck or disable the Notify by Email option. 
 
-<img src="/articles/img/inviteusersnoemail3.png" width="600" alt="screenshot of sharing SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail3.png" width="400" alt="screenshot of sharing SharePoint site"><br/>
 
 
 Once done, click Share, and the user will be granted access without receiving an email notification.
@@ -42,7 +42,7 @@ Usually libraries have the same permissions as the site collection (they inherit
 * Navigate to library settings. Click on the gear icon in the top right corner and then select Library Settings:
 
 
-<img src="/articles/img/inviteusersnoemail5.png" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail5.png" width="400" alt="screenshot of SharePoint site"><br/>
 
 
 * Select **Permissions for this document library**
