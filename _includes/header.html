@@ -19,19 +19,7 @@
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
-                            {% if subitem.dropdown %}
-                                <!-- Second-level dropdown (hoverable) -->
-                                <div class="navbar-item has-dropdown is-hoverable">
-                                    <a href="{{ subitem.link | relative_url }}" class="navbar-link">{{ subitem.name }}</a>
-                                    <div class="navbar-dropdown">
-                                        {% for subsubitem in subitem.dropdown %}
-                                        <a href="{{ subsubitem.link | relative_url }}" class="navbar-item">{{ subsubitem.name }}</a>
-                                        {% endfor %}
-                                    </div>
-                                </div>
-                                {% else %}
                             <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
-                            {% endif %}
                             {% endfor %}
                         </div>
                     </div>
