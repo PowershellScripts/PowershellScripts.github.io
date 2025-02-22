@@ -92,7 +92,7 @@ Some ideas for your communities:
 
 # Adoption of new Products and Services
 
-Adoption needs a lot of information. Viva Engage helps to answer users' questions, explore topics, and usage scenarios. The analytics available in Viva Engage capture your users' sentiment, preventing potential dissent. This way you can address potential concerns proactively.
+Adoption needs a lot of information. Viva Engage helps to answer users' questions, explore topics, and usage scenarios. The analytics available in Viva Engage capture your users' sentiment, allowing you to gather prevailing opinions and prevent potential dissent. This way you can address their concerns at every level, especially before these concerns gain momentum and lead to potential problems.
 
 Some ideas for your communities:
 
