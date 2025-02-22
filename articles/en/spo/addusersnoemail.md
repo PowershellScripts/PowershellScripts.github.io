@@ -15,16 +15,16 @@ Usually, if you invite users to your site, they will receive an email notificati
 
 To invite a user to your SharePoint Online site without sending an email, first, navigate to your site and open the Site Access panel. 
 
-<img src="/articles/img/inviteusersnoemail.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 Enter the user’s name or email address. 
 
-<img src="/articles/img/inviteusersnoemail2.PNG" width="600" alt="screenshot of sharing SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail2.png" width="600" alt="screenshot of sharing SharePoint site"><br/>
 
 
 Select their desired permission level (e.g., Read, Edit). Uncheck or disable the Notify by Email option. 
 
-<img src="/articles/img/inviteusersnoemail3.PNG" width="600" alt="screenshot of sharing SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail3.png" width="600" alt="screenshot of sharing SharePoint site"><br/>
 
 
 Once done, click Share, and the user will be granted access without receiving an email notification.
@@ -42,17 +42,17 @@ Usually libraries have the same permissions as the site collection (they inherit
 * Navigate to library settings. Click on the gear icon in the top right corner and then select Library Settings:
 
 
-<img src="/articles/img/inviteusersnoemail5.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail5.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 
 * Select **Permissions for this document library**
 
-<img src="/articles/img/inviteusersnoemail6.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail6.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 
 * Select **Stop Inheriting Permissions**
 
-<img src="/articles/img/inviteusersnoemail7.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail7.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 You will receive a prompt to confirm your decision. Select **Yes**.
 
@@ -62,14 +62,14 @@ You will receive a prompt to confirm your decision. Select **Yes**.
 
 * Once the library has unique permissions, a new button will appear. Select **Grant Permissions**
 
-<img src="/articles/img/inviteusersnoemail8.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail8.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 
 
 * Enter user's name or email adress und uncheck **Send an email invitation**
 
 
-<img src="/articles/img/inviteusersnoemail8.PNG" width="600" alt="screenshot of SharePoint site"><br/>
+<img src="/articles/img/inviteusersnoemail8.png" width="600" alt="screenshot of SharePoint site"><br/>
 
 
 
