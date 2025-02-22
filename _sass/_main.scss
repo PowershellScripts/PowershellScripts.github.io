@@ -22,10 +22,20 @@ $hero-darken: $dark !default;
 .navbar-dropdown {
   position: relative;
 
-  .navbar-dropdown {
-      position: absolute;
-      top: 0;
-      left: 100%;
-      margin-left: 0.5rem;
+  .has-dropdown {
+      position: relative;
+
+      &:hover .navbar-dropdown {
+          display: block;
+      }
+
+      .navbar-dropdown {
+          display: none;
+          position: absolute;
+          left: 100%; /* Aligns to the right of the parent dropdown */
+          top: 0;
+          z-index: 10; /* Ensures the submenu appears above other content */
+      }
   }
 }
+
