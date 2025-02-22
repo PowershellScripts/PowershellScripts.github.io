@@ -15,13 +15,11 @@
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
-                    <!-- First-level dropdown -->
-                    <div class="navbar-item has-dropdown {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
+                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
                         <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
                                 {% if subitem.dropdown %}
-                                <!-- Second-level dropdown -->
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a href="{{ subitem.link | relative_url }}" class="navbar-link">{{ subitem.name }}</a>
                                     <div class="navbar-dropdown">
@@ -37,14 +35,11 @@
                         </div>
                     </div>
                     {% else %}
-                    <!-- Non-dropdown first-level link -->
                     <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                     {% endif %}
                 {% endfor %}
                 {% endif %}
             </div>
-         
-        
             <div class="navbar-end">
                 <a href=""><img src="../../../../flag.png" /></a>
                 <a class="navbar-item" href="#">
