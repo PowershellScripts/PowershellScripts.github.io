@@ -17,6 +17,15 @@ $hero-darken: $dark !default;
 @import "showcase";
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
-.gh-sponsor {
-  color: #ea4aaa;
+
+
+.navbar-dropdown {
+  position: relative;
+
+  .navbar-dropdown {
+      position: absolute;
+      top: 0;
+      left: 100%;
+      margin-left: 0.5rem;
+  }
 }
