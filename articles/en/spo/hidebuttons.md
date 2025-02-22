@@ -5,7 +5,7 @@ image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2024-11-09 <br/> Updated: 2025-02-16' <br/> 'Updated: 2025-02-16'
+date: '2024-11-09 <br/> Updated: 2025-02-16'
 ---
 
 
