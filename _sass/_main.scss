@@ -18,25 +18,35 @@ $hero-darken: $dark !default;
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
 
-
 .navbar-dropdown {
   position: relative;
 
-  .has-dropdown {
-      position: relative;
+  /* First-Level Dropdowns */
+  .has-dropdown > .navbar-dropdown {
+      display: none;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      z-index: 10;
+  }
 
-      &:hover .navbar-dropdown {
-          display: block;
-      }
+  .has-dropdown:hover > .navbar-dropdown,
+  .has-dropdown:focus-within > .navbar-dropdown {
+      display: block;
+  }
 
-      .navbar-dropdown {
-          display: none;
-          position: absolute;
-          left: 100%; /* Aligns to the right of the parent dropdown */
-          top: 0;
-          z-index: 10; /* Ensures the submenu appears above other content */
-      }
+  /* Second-Level Dropdowns */
+  .has-dropdown.is-hoverable > .navbar-dropdown {
+      display: none;
+      position: absolute;
+      left: 100%; /* Aligns to the right of the parent dropdown */
+      top: 0;
+  }
+
+  .has-dropdown.is-hoverable:hover > .navbar-dropdown {
+      display: block;
   }
 }
+
 
 
