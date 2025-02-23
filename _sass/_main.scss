@@ -18,35 +18,32 @@ $hero-darken: $dark !default;
 @import "../node_modules/bulma-block-list/src/block-list.scss";
 
 
-.navbar-dropdown {
+/* Prevent navbar from growing vertically */
+.navbar-menu {
+  overflow: visible;
   position: relative;
-
-  /* First-Level Dropdowns */
-  .has-dropdown > .navbar-dropdown {
-      display: none;
-      position: absolute;
-      left: 0;
-      top: 100%;
-      z-index: 10;
-  }
-
-  .has-dropdown:hover > .navbar-dropdown,
-  .has-dropdown:focus-within > .navbar-dropdown {
-      display: block;
-  }
-
-  /* Second-Level Dropdowns */
-  .has-dropdown.is-hoverable > .navbar-dropdown {
-      display: none;
-      position: absolute;
-      left: 100%; /* Aligns to the right of the parent dropdown */
-      top: 0;
-  }
-
-  .has-dropdown.is-hoverable:hover > .navbar-dropdown {
-      display: block;
-  }
+  height: auto;
 }
+
+/* Ensure dropdown content appears over the navbar */
+.navbar-dropdown {
+  position: absolute;
+  background-color: #ffffff; /* Match your dropdown background color */
+  z-index: 1000;
+}
+
+/* Keep dropdown within bounds */
+.navbar-item.has-dropdown:hover .navbar-dropdown {
+  display: block;
+  top: 100%; /* Position below the parent item */
+  left: 0;
+}
+
+/* Optional: Add some shadow for better visibility */
+.navbar-dropdown {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
 
 
 
