@@ -26,25 +26,27 @@
 - name: SharePoint Online
   link: /#
   dropdown:
-
+    - name: Content Types
+      link: /#
+      dropdown:
+        - name: Add content type using Powershell and CSOM
+          link: /articles/en/SharePointOnline/Add%20content%20type/
+        - name: Enable content type management
+          link: /articles/en/spo/enablect/
+        - name: SharePoint content types in Powershell - known errors
+          link: /articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
+        - name: SharePoint content types - fieldlinks and fields
+          link: /articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields
+        - name: Find content type ID
+          link: /articles/en/SharePointOnline/findctid
+        - name: Find content type ID using Powershell
+          link: /articles/en/SharePointOnline/findctIDPS   
     - name: Customize your site header using PnP
       link: /articles/en/SharePointOnline/setsiteheaderPnP/
     - name: Customize your page header
       link: /articles/en/SharePointOnline/custompageheader 
     - name: Create SharePoint theme using Theme Generator tool
       link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
-    - name: Add content type using Powershell and CSOM
-      link: /articles/en/SharePointOnline/Add%20content%20type/
-    - name: Enable content type management
-      link: /articles/en/spo/enablect/
-    - name: SharePoint content types in Powershell - known errors
-      link: /articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors
-    - name: SharePoint content types - fieldlinks and fields
-      link: /articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields
-    - name: Find content type ID
-      link: /articles/en/SharePointOnline/findctid
-    - name: Find content type ID using Powershell
-      link: /articles/en/SharePointOnline/findctIDPS
     - name: Migrate OneDrive across tenants
       link: /articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/
     - name: Export your folder structure to XML using Powershell
@@ -114,7 +116,7 @@
       link: /articles/en/Viva/whyviva/
     - name: Viva Engage vs Teams
       link: /articles/en/Viva/vivavsteams/
-    - name: Web Design
+    - name: Web Design   
       link: /services/web-design/
       dropdown:
         - name: UX Design
