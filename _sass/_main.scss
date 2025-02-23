@@ -91,13 +91,13 @@ $hero-darken: $dark !default;
 .navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link::after {
   content: "▶"; /* Right-pointing arrow */
   color: rgba(255, 255, 255, 0.5); /* White arrow, almost transparent */
-  margin-left: 1rem; /* Increased spacing from the text */
+  margin-left: 5rem; /* Increased spacing from the text */
   font-size: 0.9rem; /* Slightly smaller size */
 }
 
 /* Fix text indentation to match other second-level items */
 .navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
   text-indent: 0; /* Remove indentation */
-  padding-left: 1rem; /* Align padding with other items */
+  padding-left: 0rem; /* Align padding with other items */
 }
 
