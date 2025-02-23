@@ -77,7 +77,7 @@ $hero-darken: $dark !default;
   display: flex; /* Make the entire line interactive */
   align-items: center; /* Align text and arrow */
   justify-content: space-between; /* Space between text and arrow */
-  padding: 0.5rem 1rem; /* Same padding as other items */
+  padding: 0.25rem 1rem; /* Same padding as other items */
   background-color: transparent; /* Default background */
   color: #000000; /* Black text by default */
 }
