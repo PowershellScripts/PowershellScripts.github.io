@@ -72,28 +72,32 @@ $hero-darken: $dark !default;
 }
 
 
-/* Full line hover effect */
+/* Full line hover effect for second-level items with dropdowns */
 .navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
-  display: flex; /* Ensure the entire line is clickable */
-  align-items: center; /* Center the text and arrow */
-  justify-content: space-between; /* Space the arrow and text */
+  display: flex; /* Make the entire line interactive */
+  align-items: center; /* Align text and arrow */
+  justify-content: space-between; /* Space between text and arrow */
+  padding: 0.5rem 1rem; /* Same padding as other items */
   background-color: transparent; /* Default background */
-  color: #000000; /* Default font color */
-  padding: 0.5rem 1rem; /* Adjust padding for a full-line effect */
+  color: #000000; /* Black text by default */
 }
 
 .navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link:hover {
-  background-color: #f5f5f5; /* Light gray background for the entire line */
-  color: #000000; /* Keep font black */
+  background-color: #f5f5f5; /* Light grey background for the entire line */
+  color: #000000; /* Keep text black */
 }
 
-/* Adjust arrow direction */
+/* Arrow customization */
 .navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link::after {
   content: "▶"; /* Right-pointing arrow */
-  margin-left: 0.5rem; /* Add spacing between text and arrow */
-  transform: rotate(0deg); /* Default: pointing right */
+  color: rgba(255, 255, 255, 0.5); /* White arrow, almost transparent */
+  margin-left: 1rem; /* Increased spacing from the text */
+  font-size: 0.9rem; /* Slightly smaller size */
 }
 
-.navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown:hover > .navbar-link::after {
-  transform: rotate(0deg); /* No rotation on hover, arrow stays pointing right */
+/* Fix text indentation to match other second-level items */
+.navbar-item.has-dropdown .navbar-dropdown .navbar-item.has-dropdown > .navbar-link {
+  text-indent: 0; /* Remove indentation */
+  padding-left: 1rem; /* Align padding with other items */
 }
+
