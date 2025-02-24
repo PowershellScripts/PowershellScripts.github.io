@@ -263,7 +263,7 @@ Enjoy!
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/enablect">
 		<span style="display: block; text-align: right;">2024-08-03
-		<h3>Update SharePoint list item without changing the modified date</h3></span>
+		<h3>Enable content type management</h3></span>
 		<p>If you want to use multiple content types in your SharePoint list, you need to enable content type management first. Here is how to do it using PnP POwershell, Powershell & CSOM or simply your browser.</p>
 	</a></li>
 
@@ -330,7 +330,7 @@ Enjoy!
  	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/CAMLQueryForListView/">
 		<span style="display: block; text-align: right;">2024-03-24
 		<h3>Easy way to create CAML Query for list view</h3></span>
-		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. To make sure every slash and value are exactly where they should be, it's easier to create a view using User Interface and then copy the CAML Query behind it. In this article, I am showing how to do it</p>
+		<p>When loading thousands of SharePoint list items, you may want to limit the number of retrieved results. The GetItems(CamlQuery) method allows you to define a Collaborative Application Markup Language (CAML) query that specifies which items to return. Creating a complex query, however, can present quite a challenge. Every slash and value need to be exactly where they should. This article shows you how to do it easily and well.</p>
 	</a></li>
  
 
