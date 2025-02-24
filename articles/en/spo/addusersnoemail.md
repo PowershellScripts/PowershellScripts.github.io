@@ -10,7 +10,7 @@ date: '2025-02-15'
 Usually, if you invite users to your site, they will receive an email notification. Here is how to avoid it.
 
 
-# Entire site
+# Share the entire site
 
 
 To invite a user to your SharePoint Online site without sending an email, first, navigate to your site and open the Site Access panel. 
@@ -33,9 +33,9 @@ Once done, click Share, and the user will be granted access without receiving an
 
 
 
-# Library
+# Share only one library
 
-In order to invite your user to library only and not other libraries or lists in your site, you need to to first break permission inheritance.
+In order to invite your user to library only and not other libraries or lists in your site, you need to first break permission inheritance.
 
 Usually libraries have the same permissions as the site collection (they inherit permissions). If a library needs special permissions (more or less), it needs to have unique permissions.
 
