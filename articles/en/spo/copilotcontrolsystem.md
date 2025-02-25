@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'How to adjust Copilot settings'
+title: 'Copilot Control System'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'

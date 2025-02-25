@@ -132,22 +132,21 @@ Write-Host "Details of items with unique permissions have been updated and expor
 
 
 
-<!-- Default Statcounter code for disattachplusdownloadable
-https://powershellscripts.github.io/articles/en/spo/disableattachments/
+<!-- Default Statcounter code for SPO listfilesunique
+https://powershellscripts.github.io/articles/en/spo/listfilesunique
 -->
 <script type="text/javascript">
-var sc_project=13087706; 
+var sc_project=13093075; 
 var sc_invisible=1; 
-var sc_security="cd768061"; 
-var sc_client_storage="disabled"; 
+var sc_security="6f567729"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"
 async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13087706/0/cd768061/1/"
-alt="Web Analytics"
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13093075/0/6f567729/1/"
+alt="Web Analytics Made Easy - Statcounter"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->

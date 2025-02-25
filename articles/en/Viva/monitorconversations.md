@@ -127,3 +127,23 @@ Among other hidden gems in the Community Analytics you can monitor sentiment of 
 
 [Viva Engage: View Analytics](https://powershellscripts.github.io/articles/en/Viva/viewanalytics/)
 [View and manage analytics in Viva Engage](https://learn.microsoft.com/en-us/viva/engage/analytics)
+
+
+<!-- Default Statcounter code for VEmonitorviva
+https://powershellscripts.github.io/articles/en/Viva/monitorconversations/
+-->
+<script type="text/javascript">
+var sc_project=13093070; 
+var sc_invisible=1; 
+var sc_security="cc81db00"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13093070/0/cc81db00/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
