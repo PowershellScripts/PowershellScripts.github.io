@@ -58,35 +58,4 @@
     </div>
 </nav>
 
-<script>
-    function toggleDropdown(event) {
-        event.preventDefault();
-    
-        // Find the parent dropdown container
-        const parentItem = event.target.closest('.has-dropdown');
-    
-        // Toggle the active state
-        if (parentItem.classList.contains('is-active')) {
-            parentItem.classList.remove('is-active');
-        } else {
-            // Close all other dropdowns
-            document.querySelectorAll('.navbar-item.has-dropdown.is-active').forEach(item => {
-                item.classList.remove('is-active');
-            });
-    
-            // Open the clicked dropdown
-            parentItem.classList.add('is-active');
-        }
-    }
-    
-    // Close dropdowns when clicking outside
-    document.addEventListener('click', function (event) {
-        const target = event.target;
-        if (!target.closest('.has-dropdown')) {
-            document.querySelectorAll('.navbar-item.has-dropdown.is-active').forEach(item => {
-                item.classList.remove('is-active');
-            });
-        }
-    });
-    </script>
     
