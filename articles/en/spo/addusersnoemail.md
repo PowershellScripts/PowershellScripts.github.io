@@ -88,16 +88,17 @@ https://powershellscripts.github.io/articles/en/spo/addusersnoemail
 -->
 <script type="text/javascript">
 var sc_project=13093074; 
-var sc_invisible=1; 
+var sc_invisible=0; 
 var sc_security="75971e4b"; 
+var scJsHost = "https://";
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
 </script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
 <noscript><div class="statcounter"><a title="Web Analytics"
 href="https://statcounter.com/" target="_blank"><img
 class="statcounter"
-src="https://c.statcounter.com/13093074/0/75971e4b/1/"
+src="https://c.statcounter.com/13093074/0/75971e4b/0/"
 alt="Web Analytics"
 referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 <!-- End of Statcounter Code -->
