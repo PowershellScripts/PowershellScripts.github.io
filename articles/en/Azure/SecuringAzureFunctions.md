@@ -7,6 +7,26 @@ hero_height: is-small
 date: '2023-12-15'
 ---
 
+<!-- Default Statcounter code for Azure - all
+https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions/
+-->
+<script type="text/javascript">
+var sc_project=12962351; 
+var sc_invisible=0; 
+var sc_security="ab89bc3d"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12962351/0/ab89bc3d/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
 <sup>Disclaimer 
 I am not an Azure expert. I haven't been doing it for the last 50 years and I haven't tested every nook and cranny of the service. I just did a considerable number of Azure Functions with API Management, and troubleshooted all kinds of errors. Together it amounted to quite a compendium of testing/verification/troubleshooting steps that I wanted to share with you and the future me  :)
 </sup>
@@ -392,22 +412,4 @@ Feel free to post them [here](https://github.com/PowershellScripts/PowershellScr
 
 
 
-<!-- Default Statcounter code for Azure - all
-https://powershellscripts.github.io/articles/en/Azure/Securing%20Azure%20Functions/
--->
-<script type="text/javascript">
-var sc_project=12962351; 
-var sc_invisible=1; 
-var sc_security="ab89bc3d"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics
-Made Easy - Statcounter" href="https://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/12962351/0/ab89bc3d/1/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+

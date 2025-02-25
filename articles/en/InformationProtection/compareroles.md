@@ -9,6 +9,26 @@ date: '2024-11-09'
 ---
 
 
+<!-- Default Statcounter code for compare roles
+https://powershellscripts.github.io/articles/en/InformationProtection/compareroles/
+-->
+<script type="text/javascript">
+var sc_project=13062630; 
+var sc_invisible=0; 
+var sc_security="aedba8fe"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13062630/0/aedba8fe/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
 # Compare Admin Roles
 
 In Microsoft 365 admin center you can now compare various administrators' roles and select the one with minimum privilege for your admin accounts. The comparison lists detailed permissions of each role, and can be used for Compliance or ISO Documentation.
@@ -123,23 +143,3 @@ Sample comparison between Compliance Administrator, Compliance Data Administrato
 
 
 
-
-<!-- Default Statcounter code for compare roles
-https://powershellscripts.github.io/articles/en/InformationProtection/compareroles/
--->
-<script type="text/javascript">
-var sc_project=13062630; 
-var sc_invisible=1; 
-var sc_security="aedba8fe"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13062630/0/aedba8fe/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->

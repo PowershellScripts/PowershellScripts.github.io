@@ -7,6 +7,26 @@ hero_height: is-small
 date: '2022-08-17'
 ---
 
+<!-- Default Statcounter code for Audit sensitivity labels
+with PS
+https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivit
+-->
+<script type="text/javascript">
+var sc_project=12764960; 
+var sc_invisible=0; 
+var sc_security="9671f253"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12764960/0/9671f253/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
 
 ## Sensitivity labels
 
@@ -81,26 +101,7 @@ Audit matrix allows you to see the entire overview of labels, their actions, cap
 [Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
 
 
-<!-- Default Statcounter code for Audit sensitivity labels
-with PS
-https://powershellscripts.github.io/articles/en/InformationProtection/Audit%20your%20sensitivit
--->
-<script type="text/javascript">
-var sc_project=12764960; 
-var sc_invisible=1; 
-var sc_security="9671f253"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/12764960/0/9671f253/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+
 
 
 

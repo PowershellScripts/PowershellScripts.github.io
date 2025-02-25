@@ -7,6 +7,26 @@ hero_height: is-small
 date: '2025-02-08'
 ---
 
+<!-- Default Statcounter code for M365 custom sign in
+https://powershellscripts.github.io/articles/en/Other/customizesignin/
+-->
+<script type="text/javascript">
+var sc_project=13085843; 
+var sc_invisible=0; 
+var sc_security="8aa306f4"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13085843/0/8aa306f4/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
 
 With Microsoft 365, you can customize your sign-in page using your own colors and logos, delivering a company-branded experience for your users. Instead of a standard login page like this:
 
@@ -89,22 +109,3 @@ This article is available in other languages:
 [Personaliza tu Página de Inicio de Sesión en Microsoft 365](https://powershellscripts.github.io/articles/es/personaliza/)
 
 
-<!-- Default Statcounter code for M365 custom sign in
-https://powershellscripts.github.io/articles/en/Other/customizesignin/
--->
-<script type="text/javascript">
-var sc_project=13085843; 
-var sc_invisible=1; 
-var sc_security="8aa306f4"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics
-Made Easy - Statcounter" href="https://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/13085843/0/8aa306f4/1/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->

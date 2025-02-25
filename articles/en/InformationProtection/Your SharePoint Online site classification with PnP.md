@@ -9,6 +9,28 @@ hero_height: is-small
 date: '2022-05-16'
 ---
 
+<!-- Default Statcounter code for Site classification with
+PnP
+https://powershellscripts.github.io/articles/en/InformationProtection/Your%20SharePoint%20Onlin
+-->
+<script type="text/javascript">
+var sc_project=12941097; 
+var sc_invisible=0; 
+var sc_security="a9c90e89"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/12941097/0/a9c90e89/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+
 ## First: Enable the capability
 Site classification has to be enabled at the Azure AD level.
 After enabling the site classification capability at the Azure AD level, you see an additional field *How sensitive is your data?* while creating new sites. Site classification allows you to define the sensitivity of your data on site level and group your sites based on the sensitivity of the information they contain.
@@ -92,23 +114,4 @@ Absolutely necessary one-time step to enable sensitivity labels on site level:<b
 [Sensitivity labels: Enable labels for groups and sites](https://social.technet.microsoft.com/wiki/contents/articles/54499.sensitivity-labels-enable-labels-for-groups-and-sites.aspx)
 
 
-<!-- Default Statcounter code for Site classification with
-PnP
-https://powershellscripts.github.io/articles/en/InformationProtection/Your%20SharePoint%20Onlin
--->
-<script type="text/javascript">
-var sc_project=12941097; 
-var sc_invisible=1; 
-var sc_security="a9c90e89"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics
-Made Easy - Statcounter" href="https://statcounter.com/"
-target="_blank"><img class="statcounter"
-src="https://c.statcounter.com/12941097/0/a9c90e89/1/"
-alt="Web Analytics Made Easy - Statcounter"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+

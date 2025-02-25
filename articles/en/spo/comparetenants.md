@@ -319,7 +319,7 @@ https://powershellscripts.github.io/articles/en/spo/comparetenants/
 -->
 <script type="text/javascript">
 var sc_project=13063502; 
-var sc_invisible=1; 
+var sc_invisible=0; 
 var sc_security="24b3c5af"; 
 var sc_client_storage="disabled"; 
 </script>
