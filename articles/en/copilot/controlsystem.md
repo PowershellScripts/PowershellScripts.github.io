@@ -21,7 +21,7 @@ The Microsoft 365 Copilot Readiness Report is a relatively fresh feature designe
 
 <img src="/articles/img/copilot3.png" width="600">
 
-**Key Features:**
+
 
 ##### **User Eligibility Assessment**
 Identifies which users meet the technical requirements for Microsoft 365 Copilot. To use a Copilot license, users must additionally have an eligible Microsoft 365 or Office 365 license for business, enterprise, or education. 
@@ -43,7 +43,7 @@ Identifies which users meet the technical requirements for Microsoft 365 Copilot
 <img src="/articles/img/copilot6.png" width="400">
 
 
-#### Report Availability
+#### Report 
 - The report is typically available within **72 hours** of activation.
 - Usage data may reflect a latency of up to **72 hours**, ensuring administrators have access to timely and relevant information.
 
@@ -51,22 +51,24 @@ Identifies which users meet the technical requirements for Microsoft 365 Copilot
 As a new product, the report is being continuously enhanced. Check for the newest updates at [Learn.Microsoft.com](https://learn.microsoft.com/en-us/microsoft-365/admin/activity-reports/microsoft-365-copilot-readiness?view=o365-worldwide)
 
 
-
+<br/><br/>
 
 ## Resources
 
 Microsoft provides extensive resources to help with Copilot learning and adoption. These include technical guides, documentation, and best practices to get you up to speed efficiently.
 
 
-<img src="/articles/img/copilot7.png" width="400">
+<img src="/articles/img/copilot7.png" width="800">
 
-Some of them are:
+
+
+Some of them are listed below:
 
 [Microsoft 365 Copilot documentation](https://learn.microsoft.com/en-gb/copilot/microsoft-365/)
 
-[Microsoft's commitment to responsible AI](https://www.microsoft.com/en-GB/ai/principles-and-approach/)  available for download [here](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf?culture=en-gb&country=gb)
+[Microsoft's commitment to responsible AI](https://www.microsoft.com/en-GB/ai/principles-and-approach/)  - available for download as PDF [here](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf?culture=en-gb&country=gb)
 
-[Copilot Adoption Hub](https://adoption.microsoft.com/en-GB/Copilot/) including some great [resources for Small Business](https://adoption.microsoft.com/en-gb/copilot/smb/)
+[Copilot Adoption Hub](https://adoption.microsoft.com/en-GB/Copilot/) - including some great [resources for Small Business](https://adoption.microsoft.com/en-gb/copilot/smb/)
 
 
 [Copilot Success Kit](https://adoption.microsoft.com/en-us/copilot/success-kit/)
@@ -79,7 +81,9 @@ Some of them are:
 
 [Copilot Dashboard in Viva Insights ](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard)
 
-And the great news is that the Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. 
+The great news is that any customer with a Microsoft 365 or Office 365 subscription for business or enterprise,plus active Exchange Online account, can **view** (important) the Copilot Dashboard. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. 
+
+If you are wondering where to find it, have a look here: [How do I get to Copilot Dashboard?](https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/)
 
 
 
@@ -87,3 +91,25 @@ And the great news is that the Microsoft Copilot Dashboard in Viva Insights is a
 
 
 
+
+
+
+<!-- Default Statcounter code for Copilot-all
+https://powershellscripts.github.io/articles/en/copilot/controlsystem/
+-->
+<script type="text/javascript">
+var sc_project=13093998; 
+var sc_invisible=1; 
+var sc_security="3e9d4e7b"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13093998/0/3e9d4e7b/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
