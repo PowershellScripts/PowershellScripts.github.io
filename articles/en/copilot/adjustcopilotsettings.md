@@ -13,7 +13,7 @@ date: '2025-02-23'
 
 
 
-<img src="/articles/img/copilot11.png" width="600">
+<img src="/articles/img/copilot11.png" width="800">
 
 
 

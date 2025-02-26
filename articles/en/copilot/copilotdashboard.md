@@ -12,14 +12,16 @@ date: '2025-02-22'
 Navigate to https://insights.cloud.microsoft/#/CopilotDashboard/ . The link works for every Microsoft 365 tenant.
 
 
-#### Licensing requirements
+## Licensing requirements
 
 The great news is that the Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. 
 
 You do not need a paid Viva Insights license nor a Microsoft 365 Copilot license to view the dashboard. 
 
 
-##### However, there is always a trick :) 
+<br/><br/>
+
+### However, there is always a trick :) 
 
 <i>A minimum of 10 assigned Viva Insights licenses, or 50 assigned Copilot licenses, is required for data processing to kick off. Data processing takes an estimated three to five days following license assignment.</i>
 

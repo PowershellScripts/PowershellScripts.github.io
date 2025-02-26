@@ -125,7 +125,7 @@
       link: /articles/en/Viva/monitorconversations/
 
 
-- label: Copilot
+- name: Copilot
   link: /#
   dropdown:
       - name: Copilot Control System
