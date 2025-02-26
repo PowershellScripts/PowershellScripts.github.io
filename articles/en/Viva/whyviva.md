@@ -7,16 +7,6 @@ hero_height: is-small
 date: '2025-02-02'
 ---
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-NDDFG3RZTJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-NDDFG3RZTJ');
-</script>
-
 
 # Why use Viva Engage?
 
