@@ -13,7 +13,10 @@ Hi all
 
 Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365 services.
 
-Enjoy!
+ <p> Enjoy! </p>
+
+<br/>
+
 <script type="text/javascript" async src="//l.getsitecontrol.com/p43nv0p7.js"></script>
 
 <style>
@@ -118,16 +121,19 @@ Enjoy!
 <ol style="--length: 5" role="list">
 
 
+
+
+
 	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/copilot/controlsystem/">
 		<span style="display: block; text-align: right;">2025-02-16
 		<h3>Copilot Control System</h3></span>
-		<p>The The **Copilot Control System** is your central hub for managing all aspects of **Copilot** in Microsoft 365.  Where can it help you? </p>
+		<p>The Copilot Control System is your central hub for managing all aspects of Copilot in Microsoft 365.  Where can it help you? </p>
 	</a></li>
 
 	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/monitorconversations/">
 		<span style="display: block; text-align: right;">2025-02-16
 		<h3>Monitor Viva Engage conversations</h3></span>
-		<p>There are several ways to monitor Viva Engage converations: analysing user sentiment, monitoring keywords for legal issues, or encouraging users to report problematic content. Let's have a look at them! </p>
+		<p>Analyze user sentiment, monitor keywords for legal issues, or encourage users to report problematic content. All out of the box and at hand's reach. Let's have a look at them! </p>
 	</a></li>
 
 

@@ -126,11 +126,12 @@
 
 
 - label: Copilot
-  items:
+  link: /#
+  dropdown:
       - name: Copilot Control System
         link: /articles/en/copilot/controlsystem
         
-        
+
 - name: Server
   link: /#
   dropdown:

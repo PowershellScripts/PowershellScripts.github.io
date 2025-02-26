@@ -21,12 +21,12 @@ To monitor Viva Engage conversations, you need to have administrative permission
 - Click on the **gear icon** in the top-right corner (**Settings**).  
 - Select **Edit network admin settings** from the dropdown menu.  
 
-<img src="/articles/img/monitorviva3.png" width="700" alt=">
+<img src="/articles/img/monitorviva3.png" width="700" alt="network admin settings">
 
 3. Navigate to Monitoring Tools  
 - In the Admin Center, look for the **Content and Security** section.  
 
-<img src="/articles/img/monitorviva4.png" width="700">
+<img src="/articles/img/monitorviva4.png" width="700" alt="screenshot showing network admin settings">
 
 
 <br/><br/>
@@ -39,7 +39,7 @@ Keyword monitoring allows Viva Engage admin to track specific terms or phrases t
 - In the Admin Center, go to **Content and Security > Keyword Monitoring**.  
 - Click on **Add Keywords** to define the terms or phrases you want to monitor.  
 
-<img src="/articles/img/monitorviva.png" width="400">
+<img src="/articles/img/monitorviva.png" width="400" alt="screenshot showing keywords monitoring">
 
 2. Define Keywords Strategically  
 Add keywords related to:  
@@ -65,7 +65,7 @@ Sometimes, specific conversations may violate community guidelines or pose risks
 #### Enabling Reporting  
 Before reporting can be used, the feature must be enabled by administrators.  
 
-<img src="/articles/img/monitorviva5.png" width="700">
+<img src="/articles/img/monitorviva5.png" width="700" alt="screenshot showing reporting settings">
 
 **For Administrators:**  
 1. Log in to **Viva Engage** and go to the **Admin Center**.  
@@ -73,8 +73,10 @@ Before reporting can be used, the feature must be enabled by administrators.
 3. Set up notifications to ensure moderators are alerted when content is reported. 
 4. Fill the **Pre-submission instructions for user** and **Post-submission instructions to user**
 
+<br/>
+
 For example:
-> Before submitting a report, users should:  
+> Before submitting a report, please follow these guidelines:  
 > - **Review the Conversation:** Ensure the content genuinely violates guidelines or policies.  
 > - **Understand Reporting Criteria:** Reports should align with organizational rules, such as flagging content for harassment, spam, or sensitive information exposure.  
 > - **Consider Context:** Make sure the reported content doesn’t involve misunderstandings or taken-out-of-context remarks.  
@@ -93,7 +95,7 @@ Once reporting is enabled, users can report conversations or posts directly from
 4. Add additional comments if necessary to explain the issue.  
 
 
-<img src="/articles/img/monitorviva6.png" width="500">
+<img src="/articles/img/monitorviva6.png" width="500" alt="screenshot showing a viva engage post being reported">
 
 
 <br/><br/>
@@ -105,19 +107,22 @@ Community Analytics allows you to track the overall sentiment of conversations w
 **How to Access Sentiment Data:**  
 1. Click on **See full community analytics**
 
-<img src="/articles/img/monitorviva8.png" width="600">
+<img src="/articles/img/monitorviva8.png" width="600" alt="screenshot showing community analytics">
 
 
 You will be able to see Member activity, Views on posts, Messages posted, Reactions on messages as well as most common post types (Discussion, Poll, etc.) 
 
-<img src="/articles/img/monitorviva9.png" width="600">
+<img src="/articles/img/monitorviva9.png" width="600" alt="screenshot showing community analytics">
+
+
+<br/><br/>
 
 
 ## Monitor Sentiment with Community Analytics 
 
 Among other hidden gems in the Community Analytics you can monitor sentiment of yours users:
 
-<img src="/articles/img/monitorviva7.png" width="600">
+<img src="/articles/img/monitorviva7.png" width="600" alt="screenshot showing community analytics">
 
 
 

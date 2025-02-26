@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 'Copilot Control System'
-menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -13,28 +12,28 @@ date: '2025-02-22'
 
 The **Copilot Control System** is your central hub for managing all aspects of **Copilot** in Microsoft 365.
 
-<img src="/articles/img/copilot2.png" width="400">
+<img src="/articles/img/copilot2.png" width="700">
 
 
 ## Readiness Report
 
 The Microsoft 365 Copilot Readiness Report is a relatively fresh feature designed to help administrators assess their organization's preparedness for deploying Microsoft 365 Copilot. It provides insights into user eligibility, license management, and application usage.
 
-<img src="/articles/img/copilot3.png" width="400">
+<img src="/articles/img/copilot3.png" width="600">
 
 **Key Features:**
 
 ##### **User Eligibility Assessment**
 Identifies which users meet the technical requirements for Microsoft 365 Copilot. To use a Copilot license, users must additionally have an eligible Microsoft 365 or Office 365 license for business, enterprise, or education. 
 
-<img src="/articles/img/copilot4.png" width="400">
+<img src="/articles/img/copilot4.png" width="800">
 
 
 
 ##### **License Management**
 - The report tracks available Copilot licenses. 
 
-<img src="/articles/img/copilot8.png" width="400">
+<img src="/articles/img/copilot8.png" width="600">
 
 
 
@@ -56,13 +55,31 @@ As a new product, the report is being continuously enhanced. Check for the newes
 
 ## Resources
 
-Microsoft provides many, many resources for Copilot learning or adoption
+Microsoft provides extensive resources to help with Copilot learning and adoption. These include technical guides, documentation, and best practices to get you up to speed efficiently.
+
 
 <img src="/articles/img/copilot7.png" width="400">
 
+Some of them are:
+
+[Microsoft 365 Copilot documentation](https://learn.microsoft.com/en-gb/copilot/microsoft-365/)
+
+[Microsoft's commitment to responsible AI](https://www.microsoft.com/en-GB/ai/principles-and-approach/)  available for download [here](https://cdn-dynmedia-1.microsoft.com/is/content/microsoftcorp/microsoft/final/en-us/microsoft-brand/documents/Microsoft-Responsible-AI-Standard-General-Requirements.pdf?culture=en-gb&country=gb)
+
+[Copilot Adoption Hub](https://adoption.microsoft.com/en-GB/Copilot/) including some great [resources for Small Business](https://adoption.microsoft.com/en-gb/copilot/smb/)
+
+
+[Copilot Success Kit](https://adoption.microsoft.com/en-us/copilot/success-kit/)
+
+[Technical Readiness Guide](https://adoption.microsoft.com/files/copilot/4_TechnicalReadinessGuide_Microsoft365Copilot.pptx) 
 
 
 
+## Copilot Dashboard
+
+[Copilot Dashboard in Viva Insights ](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard)
+
+And the great news is that the Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. Neither a paid Viva Insights license nor a Microsoft 365 Copilot license is required to view the dashboard. 
 
 
 
