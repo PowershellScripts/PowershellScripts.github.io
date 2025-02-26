@@ -12,51 +12,51 @@ date: '2025-02-16'
 
 ## Viva Engage Security 
 
-To monitor Viva Engage conversations, you need to have administrative permissions or roles that allow you to manage the network settings. Here’s how to get started:  
+To monitor Viva Engage conversations, you need to have administrative permissions or roles that allow you to manage the network settings, e.g. Viva Engage Admin or Network Admin. Here’s how to get started:  
 
-#### 1. Log in to Viva Engage  
+1. Log in to Viva Engage  
 - Navigate to [Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage) or access it via **Microsoft Teams** under the **Viva Engage tab**.  
 
-#### 2. Access the Admin Center  
+2. Access the Admin Center  
 - Click on the **gear icon** in the top-right corner (**Settings**).  
-- Select **Network Admin** from the dropdown menu.  
+- Select **Edit network admin settings** from the dropdown menu.  
 
-#### 3. Navigate to Monitoring Tools  
+<img src="/articles/img/monitorviva3.png" width="700" alt=">
+
+3. Navigate to Monitoring Tools  
 - In the Admin Center, look for the **Content and Security** section.  
 
+<img src="/articles/img/monitorviva4.png" width="700">
 
-<img src="/articles/img/monitorviva3.png" width="400">
 
-
-<img src="/articles/img/monitorviva4.png" width="400">
-
+<br/><br/>
 
 ## Keyword Monitoring  
 
-Keyword monitoring allows administrators to track specific terms or phrases that might indicate issues, trends, or compliance violations. Here’s how to set it up:  
+Keyword monitoring allows Viva Engage admin to track specific terms or phrases that might indicate issues, trends, or compliance violations. Here’s how to set it up:  
 
-#### 1. Enable Keyword Monitoring  
+1. Enable Keyword Monitoring  
 - In the Admin Center, go to **Content and Security > Keyword Monitoring**.  
 - Click on **Add Keywords** to define the terms or phrases you want to monitor.  
 
 <img src="/articles/img/monitorviva.png" width="400">
 
-#### 2. Define Keywords Strategically  
+2. Define Keywords Strategically  
 Add keywords related to:  
 - **Compliance Risks**: GDPR, PCI, HIPAA.  
 - **Sensitive Topics**: Harassment, Confidential, Incident.  
 - **Productivity Trends**: Feedback, Delay, Success.  
 
-#### 3. Review Alerts  
+3. Review Alerts  
 - Set up email notifications or alerts when monitored keywords are used in conversations.  
 - Assign responsible moderators to review flagged posts promptly.  
 
 
-Email bodies will include the detected keyword and an inline view of the conversation for public communities. For private community conversations, a link to the detected conversation/message will be provided. Recipients must have access to the community to view the conversation.  
+>Email bodies will include the detected keyword and an inline view of the conversation for public communities. For private community conversations, a link to the detected conversation/message will be provided. Recipients must have access to the community to view the conversation.  
 
 
 
-
+<br/><br/>
 
 ## Reporting Conversations  
 
@@ -65,7 +65,7 @@ Sometimes, specific conversations may violate community guidelines or pose risks
 #### Enabling Reporting  
 Before reporting can be used, the feature must be enabled by administrators.  
 
-<img src="/articles/img/monitorviva5.png" width="400">
+<img src="/articles/img/monitorviva5.png" width="700">
 
 **For Administrators:**  
 1. Log in to **Viva Engage** and go to the **Admin Center**.  
@@ -81,7 +81,7 @@ For example:
 
 
 
-
+<br/>
 
 #### Reporting for Users  
 Once reporting is enabled, users can report conversations or posts directly from the interface.  
@@ -93,10 +93,10 @@ Once reporting is enabled, users can report conversations or posts directly from
 4. Add additional comments if necessary to explain the issue.  
 
 
-<img src="/articles/img/monitorviva6.png" width="400">
+<img src="/articles/img/monitorviva6.png" width="500">
 
 
-
+<br/><br/>
 
 ## Monitor Activity with Community Analytics  
 
@@ -105,19 +105,19 @@ Community Analytics allows you to track the overall sentiment of conversations w
 **How to Access Sentiment Data:**  
 1. Click on **See full community analytics**
 
-<img src="/articles/img/monitorviva8.png" width="400">
+<img src="/articles/img/monitorviva8.png" width="600">
 
 
 You will be able to see Member activity, Views on posts, Messages posted, Reactions on messages as well as most common post types (Discussion, Poll, etc.) 
 
-<img src="/articles/img/monitorviva9.png" width="400">
+<img src="/articles/img/monitorviva9.png" width="600">
 
 
 ## Monitor Sentiment with Community Analytics 
 
 Among other hidden gems in the Community Analytics you can monitor sentiment of yours users:
 
-<img src="/articles/img/monitorviva7.png" width="400">
+<img src="/articles/img/monitorviva7.png" width="600">
 
 
 

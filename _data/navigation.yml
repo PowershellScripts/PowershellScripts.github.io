@@ -125,6 +125,12 @@
       link: /articles/en/Viva/monitorconversations/
 
 
+- label: Copilot
+  items:
+      - name: Copilot Control System
+        link: /articles/en/copilot/controlsystem
+        
+        
 - name: Server
   link: /#
   dropdown:
@@ -135,11 +141,6 @@
     - name: SharePoint Missing Access Request Settings
       link: /articles/en/Server/MissingAccessRequestSettings/
 
-- name: Azure
-  link: /#
-  dropdown:
-    - name: Securing Azure Functions
-      link: /articles/en/Azure/SecuringAzureFunctions/
 
 - name: Other
   link: /#
@@ -150,6 +151,8 @@
       link: /articles/en/Other/mailboxes/
     - name: Customize Microsoft 365 login page
       link: /articles/en/Other/customizesignin/
+    - name: Securing Azure Functions
+      link: /articles/en/Azure/SecuringAzureFunctions/
   
 - name: About Arleta
   link: /about/

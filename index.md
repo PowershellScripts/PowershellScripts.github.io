@@ -118,6 +118,19 @@ Enjoy!
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/copilot/controlsystem/">
+		<span style="display: block; text-align: right;">2025-02-16
+		<h3>Copilot Control System</h3></span>
+		<p>The The **Copilot Control System** is your central hub for managing all aspects of **Copilot** in Microsoft 365.  Where can it help you? </p>
+	</a></li>
+
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/monitorconversations/">
+		<span style="display: block; text-align: right;">2025-02-16
+		<h3>Monitor Viva Engage conversations</h3></span>
+		<p>There are several ways to monitor Viva Engage converations: analysing user sentiment, monitoring keywords for legal issues, or encouraging users to report problematic content. Let's have a look at them! </p>
+	</a></li>
+
+
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/addusersnoemail/">
 		<span style="display: block; text-align: right;">2025-02-15
 		<h3>Add users to SharePoint without sending them an email</h3></span>

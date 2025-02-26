@@ -112,6 +112,11 @@
       link: /articles/en/Viva/monitorconversations/
 
 
+- label: Copilot
+  items:
+      - name: Copilot Control System
+        link: /articles/en/copilot/controlsystem
+        
 
 - label: Server
   items:
@@ -122,10 +127,6 @@
     - name: SharePoint Missing Access Request Settings
       link: /articles/en/Server/MissingAccessRequestSettings/
 
-- label: Azure
-  items:
-    - name: Securing Azure Functions
-      link: /articles/en/Azure/SecuringAzureFunctions/
 
 - label: Diverse
   items:
@@ -135,3 +136,5 @@
       link: /articles/en/Other/mailboxes/
     - name: Customize Microsoft 365 login page
       link: /articles/en/Other/customizesignin/
+    - name: Securing Azure Functions
+      link: /articles/en/Azure/SecuringAzureFunctions/
