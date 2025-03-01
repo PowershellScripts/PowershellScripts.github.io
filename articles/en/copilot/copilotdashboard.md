@@ -9,7 +9,7 @@ date: '2025-02-22'
 ---
 
 
-Navigate to https://insights.cloud.microsoft/#/CopilotDashboard/ . The link works for every Microsoft 365 tenant.
+Navigate to [https://insights.cloud.microsoft/#/CopilotDashboard/](https://insights.cloud.microsoft/#/CopilotDashboard/) . The link works for every Microsoft 365 tenant.
 
 
 ## Licensing requirements
