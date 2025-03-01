@@ -32,6 +32,14 @@ That means that as long as you do not have those licenses, all you will see is t
 <img src="/articles/img/copilot12.png" width="700">
 
 
+<br/><br/>
+
+### With more licenses
+
+
+<img src="/articles/img/copilot22.png" width="700">
+
+
 
 <br/><br/>
 
