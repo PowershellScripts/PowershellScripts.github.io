@@ -12,9 +12,21 @@ date: '2025-02-23'
 ## Copilot Settings 
 
 
+In Copilot Control System under Settings you can find a lot of possible adjustments. The exact number of settings depends on your tenant, the available licenses, and your own permissions
+
+For example:
 
 <img src="/articles/img/copilot11.png" width="800">
 
+
+With Viva licensing:
+
+<img src="/articles/img/copilot23.png" width="800">
+
+
+As a SharePoint Admin:
+
+<img src="/articles/img/copilot24.png" width="800">
 
 
 

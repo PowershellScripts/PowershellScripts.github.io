@@ -40,15 +40,17 @@ That means that as long as you do not have those licenses, all you will see is t
 <img src="/articles/img/copilot22.png" width="700">
 
 
+### With Copilot and Viva Insights 
+
+To initiate data processing, you need to meet the minimum requirements of either 10 assigned Viva Insights licenses or 50 assigned Copilot licenses. Once these requirements are fulfilled, data processing will automatically begin and is expected to take approximately three to five days after license assignment.
+
+Once completed, the dashboard will look like this:
+
+<img src="/articles/img/copilot14.png" width="700">
+
+<sup>Image source: https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard </sup>
 
 <br/><br/>
-
-## Other Languages
-
-This article is available in other languages:
-
-[Personaliza tu Página de Inicio de Sesión en Microsoft 365](https://powershellscripts.github.io/articles/es/personaliza/)
-
 
 
 
