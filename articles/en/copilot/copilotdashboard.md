@@ -33,6 +33,16 @@ That means that as long as you do not have those licenses, all you will see is t
 
 
 
+<br/><br/>
+
+## Other Languages
+
+This article is available in other languages:
+
+[Personaliza tu Página de Inicio de Sesión en Microsoft 365](https://powershellscripts.github.io/articles/es/personaliza/)
+
+
+
 
 
 <!-- Default Statcounter code for Copilot-all

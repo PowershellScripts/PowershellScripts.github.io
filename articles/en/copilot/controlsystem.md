@@ -76,6 +76,7 @@ Some of them are listed below:
 [Technical Readiness Guide](https://adoption.microsoft.com/files/copilot/4_TechnicalReadinessGuide_Microsoft365Copilot.pptx) 
 
 
+<br/><br/>
 
 ## Copilot Dashboard
 
