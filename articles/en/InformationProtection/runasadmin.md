@@ -8,25 +8,7 @@ hero_height: is-small
 date: '2024-11-16'
 ---
 
-<!-- Default Statcounter code for runasadmin
-https://powershellscripts.github.io/articles/en/InformationProtection/simulateadmin/
--->
-<script type="text/javascript">
-var sc_project=13062629; 
-var sc_invisible=0; 
-var sc_security="4f7c59cb"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13062629/0/4f7c59cb/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
+
 
 This article describes how to use run as admin option in Microsoft 365 admin center.
 
@@ -112,3 +94,24 @@ The functionality can help you answer the following questions:
 * Can a Power Platform Administrator view Power BI dashboards?
 
 
+
+
+<!-- Default Statcounter code for runasadmin
+https://powershellscripts.github.io/articles/en/InformationProtection/simulateadmin/
+-->
+<script type="text/javascript">
+var sc_project=13062629; 
+var sc_invisible=0; 
+var sc_security="4f7c59cb"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13062629/0/4f7c59cb/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

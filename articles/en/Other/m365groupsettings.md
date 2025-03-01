@@ -9,27 +9,6 @@ date: '2024-07-21'
 ---
 
 
-<!-- Default Statcounter code for m365groupSettings
-https://powershellscripts.github.io/articles/en/Other/m365groupsettings/
--->
-<script type="text/javascript">
-var sc_project=13025470; 
-var sc_invisible=0; 
-var sc_security="229b5a6c"; 
-var sc_client_storage="disabled"; 
-</script>
-<script type="text/javascript"
-src="https://www.statcounter.com/counter/counter.js"
-async></script>
-<noscript><div class="statcounter"><a title="Web Analytics"
-href="https://statcounter.com/" target="_blank"><img
-class="statcounter"
-src="https://c.statcounter.com/13025470/0/229b5a6c/1/"
-alt="Web Analytics"
-referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
-<!-- End of Statcounter Code -->
-
-
 # Intro
 
 Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettings cmdlet can be viewed and managed in various places within the Microsoft 365 admin center. However, not all settings may have a direct user interface (UI) counterpart, as some configurations are more advanced and typically managed through PowerShell.
@@ -151,3 +130,22 @@ New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '623
 
 
 
+<!-- Default Statcounter code for m365groupSettings
+https://powershellscripts.github.io/articles/en/Other/m365groupsettings/
+-->
+<script type="text/javascript">
+var sc_project=13025470; 
+var sc_invisible=0; 
+var sc_security="229b5a6c"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13025470/0/229b5a6c/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
