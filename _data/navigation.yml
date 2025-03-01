@@ -130,6 +130,11 @@
   dropdown:
       - name: Copilot Control System
         link: /articles/en/copilot/controlsystem
+      - name: How do I get to Copilot Dashboard?
+        link: /articles/en/copilot/copilotdashboard
+      - name: How to adjust Copilot settings?
+        link: /articles/en/copilot/adjustcopilotsettings
+        
         
 
 - name: Server
