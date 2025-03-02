@@ -13,17 +13,17 @@ date: '2025-02-23'
 
 In Copilot Control System under Settings you can find a lot of possible adjustments. The exact number of settings depends on your tenant, the available licenses, and your own permissions.
 
-For example:
+#### For example:
 
 <img src="/articles/img/copilot11.png" width="800">
 
 
-With Viva licensing:
+#### With Viva licensing:
 
 <img src="/articles/img/copilot23.png" width="800">
 
 
-As a SharePoint Admin:
+#### As a SharePoint Admin:
 
 <img src="/articles/img/copilot24.png" width="800">
 
@@ -57,7 +57,7 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 <img src="/articles/img/copilot32.png" width="800">
 
 
-
+<br/><br/>
 
 
 # Extensions
@@ -67,7 +67,7 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 <img src="/articles/img/copilot33.png" width="800">
 
 
-
+<br/><br/>
 
 
 # See Also
