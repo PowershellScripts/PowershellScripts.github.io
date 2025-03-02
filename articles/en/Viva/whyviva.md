@@ -100,7 +100,12 @@ Some ideas for your communities:
 [Get started with Viva Engage](https://support.microsoft.com/en-us/topic/get-started-with-viva-engage-729f9fce-3aa6-4478-888c-a1543918c284)
 
 
+<br/><br/>
 
+## Other Languages
+This article is available in other languages:
+
+[Pourquoi Viva Engage ?](https://powershellscripts.github.io/articles/fr/pourquoiviva/)
 
 <!-- Default Statcounter code for whyvivaplusteams
 https://powershellscripts.github.io/articles/en/Viva/whyviva/

@@ -60,9 +60,17 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 
 
 
+# Extensions
 
 
 
+<img src="/articles/img/copilot33.png" width="800">
+
+
+
+
+
+# See Also
 
 
 
