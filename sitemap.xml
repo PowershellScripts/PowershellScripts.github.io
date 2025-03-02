@@ -107,6 +107,21 @@
 	<priority>0.2</priority>
 </url>
 <url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/whyviva/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/vivavsteams/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/monitorconversations/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
 	<loc>https://powershellscripts.github.io/articles/en/Server/Office%20Online%20Server%20Troubleshooting%20in%20Sharepoint%20Environment/</loc>
 	<lastmod>2024-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
@@ -137,9 +152,39 @@
 	<priority>0.2</priority>
 </url>
 <url>
+	<loc>https://powershellscripts.github.io/articles/en/Other/customizesignin/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
 	<loc>https://powershellscripts.github.io/about/</loc>
 	<lastmod>2022-02-02T23:40:54+01:00</lastmod>
 	<priority>0.8</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/copilot/controlsystem/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/addusersnoemail/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/listfilesunique/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/disableattachments/</loc>
+	<lastmod>2025-03-02T12:51:05+01:00</lastmod>
+	<priority>0.2</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/setsiteheaderPnP/</loc>
@@ -232,13 +277,23 @@
 	<priority>0.2</priority>
 </url>
 <url>
+	<loc>https://powershellscripts.github.io/articles/es/personaliza/</loc>
+	<lastmod>2025-03-02T12:51:15+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
 	<loc>https://powershellscripts.github.io/articles/pl/mailboxes/</loc>
-	<lastmod>2024-02-02T23:41:03+01:00</lastmod>
+	<lastmod>2025-03-02T12:51:15+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/fr/mailboxes/</loc>
-	<lastmod>2024-02-02T23:41:03+01:00</lastmod>
+	<lastmod>2025-03-02T12:51:15+01:00</lastmod>
+	<priority>0.4</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/es/mailboxes/</loc>
+	<lastmod>2025-03-02T12:51:15+01:00</lastmod>
 	<priority>0.4</priority>
 </url>
 <url>
