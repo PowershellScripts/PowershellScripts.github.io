@@ -100,6 +100,11 @@ Quelques idées pour vos communautés :
 
 
 
+<br/><br/>
+
+## Autres Langues
+
+Cet article est disponible dans d'autres langues :
 
 
 

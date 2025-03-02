@@ -81,6 +81,16 @@ foreach ($list in $lists) {
 
 
 
+<br/><br/>
+
+## Autres Langues
+
+Cet article est disponible dans d'autres langues :
+
+[Enable content type management](https://powershellscripts.github.io/articles/en/spo/enablect/)
+
+
+
 
 <!-- Default Statcounter code for SPO enable ct
 https://powershellscripts.github.io/articles/en/spo/enablect/

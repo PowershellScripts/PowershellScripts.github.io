@@ -72,6 +72,17 @@ Il existe 2 options de mise en page possibles :
 
 
 
+<br/><br/>
+
+## Autres Langues
+
+Cet article est disponible dans d'autres langues :
+
+[Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/)
+
+
+
+
 <!-- Default Statcounter code for Add Viva Engage to your
 SharePoi
 https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi
