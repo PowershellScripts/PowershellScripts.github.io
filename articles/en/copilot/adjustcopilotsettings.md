@@ -73,7 +73,7 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 # See Also
 
 
-
+[Copilot Control System](https://powershellscripts.github.io/articles/en/copilot/controlsystem/)
 
 
 
