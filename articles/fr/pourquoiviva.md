@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Pourquoi Viva Engage ?'
+title: 'Viva Engage : Pourquoi l’adopter ?'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -12,6 +12,8 @@ date: '2025-03-01'
 # Pourquoi utiliser Viva Engage ?
 
 Dans un environnement de travail de plus en plus rapide et digitalisé, favoriser l'engagement et la collaboration des employés est essentiel pour le succès d'une organisation. Viva Engage, une composante de la suite Microsoft Viva, offre une plateforme qui répond à ces besoins. Mais comment l'entreprise profite-t-elle des interactions entre ses employés ?  
+
+<br/><br/>
 
 # Rétention et turnover des employés  
 
@@ -36,6 +38,8 @@ Viva Engage offre un espace d'interaction permettant aux employés de se sentir 
 Ces communautés peuvent remplacer, soutenir ou compléter les événements traditionnels tels que les activités de team building, les réunions générales ou les événements de réseautage. Elles sont particulièrement importantes si vous souhaitez établir des liens entre différents départements.  
 
 
+<br/><br/>
+
 # Favoriser un sentiment d'appartenance
 
 Tout le monde veut se sentir apprécié. Les programmes de reconnaissance des employés aident à atteindre cet objectif. Viva Engage peut remplacer ou compléter les événements formels de reconnaissance par une reconnaissance régulière et entre pairs, via des communautés dédiées ou des publications interactives.  
@@ -50,6 +54,9 @@ Quelques idées pour vos communautés :
 * Réussites en apprentissage  
 * Moments de mentorat  
 
+
+<br/><br/>
+
 # Collecte d’idées et collaboration
 
 Les employés peuvent collecter des réponses, partager leur expertise et échanger des idées entre équipes. Viva Engage peut aider à stimuler l’innovation, réduire les silos et connecter les collaborateurs à travers l’organisation.  
@@ -58,6 +65,9 @@ Quelques idées pour vos communautés :
 * Cobayes recherchés :)  
 * Experts en JavaScript  
 * Champions de la technologie  
+
+
+<br/><br/>
 
 # Dialogue bidirectionnel avec les leaders
 
@@ -72,6 +82,9 @@ Quelques idées pour vos communautés :
 * Voix des employés : Une plateforme pour écouter les retours des employés et leurs nouvelles idées  
 * Prise de pouls : Mises à jour régulières où les dirigeants partagent les principaux indicateurs de l'entreprise et sollicitent les retours des employés sur les prochaines étapes.  
 * Lumière sur les leaders : Un focus hebdomadaire sur différents dirigeants et leurs contributions à l'entreprise.  
+
+
+<br/><br/>
 
 # Adoption de nouveaux produits et services
 
