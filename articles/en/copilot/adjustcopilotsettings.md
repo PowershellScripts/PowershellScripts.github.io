@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 'How to adjust Copilot settings?'
-menubar: docs_menu
+menubar: docs_menu_co
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -12,7 +12,7 @@ date: '2025-02-23'
 ## Copilot Settings 
 
 
-In Copilot Control System under Settings you can find a lot of possible adjustments. The exact number of settings depends on your tenant, the available licenses, and your own permissions
+In Copilot Control System under Settings you can find a lot of possible adjustments. The exact number of settings depends on your tenant, the available licenses, and your own permissions.
 
 For example:
 
@@ -27,6 +27,47 @@ With Viva licensing:
 As a SharePoint Admin:
 
 <img src="/articles/img/copilot24.png" width="800">
+
+
+
+
+Let us go through them one by one
+
+
+# Copilot image generation
+
+Copilot image generation decides whether Copilot can suggest generated images or only stock images.
+There are 2 options to choose from:
+
+* **Allow Copilot image generation (recommended)**. Users can create images in Microsoft 365 apps and Designer
+* **Don't allow.** Copilot will only provide stock or brand images when prompted.
+
+
+<img src="/articles/img/copilot31.png" width="800">
+
+
+
+
+
+# Copilot in Power Platform and Dynamics 365
+
+Manages settings specific to agents and Copilot agents in Power Platform and Dynamics 365 products. It redirects to Power Platform Admin Center where you can see more of the related settings:
+
+
+<img src="/articles/img/copilot32.png" width="800">
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
