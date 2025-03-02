@@ -75,6 +75,15 @@ There are 2 layout options possible:
 
 
 
+<br/><br/>
+
+## Other Languages
+This article is available in other languages:
+
+[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/addvivatospo/)
+
+
+
 <!-- Default Statcounter code for Add Viva Engage to your
 SharePoi
 https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoi

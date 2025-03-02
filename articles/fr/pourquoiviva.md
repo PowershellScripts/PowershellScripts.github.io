@@ -106,6 +106,7 @@ Quelques idées pour vos communautés :
 
 Cet article est disponible dans d'autres langues :
 
+[Why use Viva Engage?](https://powershellscripts.github.io/articles/en/Viva/whyviva/)
 
 
 
