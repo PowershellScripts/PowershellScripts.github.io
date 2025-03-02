@@ -1,7 +1,6 @@
 ---
 layout: page
 title: 'How to adjust Copilot settings?'
-menubar: docs_menu_co
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -31,8 +30,9 @@ As a SharePoint Admin:
 
 
 
-Let us go through them one by one
+Let us go through some of them.
 
+<br/><br/>
 
 # Copilot image generation
 
@@ -46,7 +46,7 @@ There are 2 options to choose from:
 <img src="/articles/img/copilot31.png" width="800">
 
 
-
+<br/><br/>
 
 
 # Copilot in Power Platform and Dynamics 365

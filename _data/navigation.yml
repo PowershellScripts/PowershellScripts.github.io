@@ -50,6 +50,19 @@
           link: /articles/en/SharePointOnline/custompageheader 
         - name: Create SharePoint theme using Theme Generator tool
           link: /articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/
+    - name: Permissions
+      link: /#
+      dropdown:
+          - name: Add SharePoint site permissions to a group using PnP
+            link: /articles/en/SharePointOnline/addpermgroup
+          - name: SharePoint Claims Deep Dive
+            link: /articles/en/SharePointOnline/spoclaims
+          - name: Count files or items with unique permissions using Powershell
+            link: /articles/en/SharePointOnline/countfilesunique 
+          - name: Report on files with unique permissions
+            link: /articles/en/spo/listfilesunique
+          - name: Add users to SharePoint without sending them an email
+            link: /articles/en/spo/addusersnoemail
     - name: Migrate OneDrive across tenants
       link: /articles/en/SharePointOnline/Migrate%20OneDrive%20across%20tenants/
     - name: Export your folder structure to XML using Powershell
@@ -62,18 +75,12 @@
       link: /articles/en/SharePointOnline/pnpsearchqcond
     - name: PnP Search query examples with KQL
       link: /articles/en/SharePointOnline/pnpsearchqex
-    - name: Add SharePoint site permissions to a group using PnP
-      link: /articles/en/SharePointOnline/addpermgroup
-    - name: SharePoint Claims Deep Dive
-      link: /articles/en/SharePointOnline/spoclaims
     - name: Update SharePoint list item without changing the modified date
       link: /articles/en/SharePointOnline/systemupdateitem
     - name: Update SharePoint folder without creating a new version
       link: /articles/en/SharePointOnline/systemupdatefolder
     - name: Count files in a folder using Powershell
       link: /articles/en/SharePointOnline/countfiles
-    - name: Count files or items with unique permissions using Powershell
-      link: /articles/en/SharePointOnline/countfilesunique  
     - name: Get version history programmatically
       link: /articles/en/SharePointOnline/getversionhistory  
     - name: SharePoint list view - hide new button
@@ -86,10 +93,7 @@
       link: /articles/en/spo/disableattachments
     - name: Create download link to SharePoint file
       link: /articles/en/spo/downloadable
-    - name: Report on files with unique permissions
-      link: /articles/en/spo/listfilesunique
-    - name: Add users to SharePoint without sending them an email
-      link: /articles/en/spo/addusersnoemail
+
   
 
 - name: Viva

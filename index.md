@@ -122,9 +122,13 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 
 
 
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/">
+		<span style="display: block; text-align: right;">2025-02-22
+		<h3>How do I get to Copilot Dashboard?</h3></span>
+		<p>Copilot Dashboard provides insights and metrics such as readiness, adoption, impact, and sentiment, to help you with your Copilot adoption. Where can you find all this goodness? </p>
+	</a></li>
 
-
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/copilot/controlsystem/">
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/controlsystem/">
 		<span style="display: block; text-align: right;">2025-02-16
 		<h3>Copilot Control System</h3></span>
 		<p>The Copilot Control System is your central hub for managing all aspects of Copilot in Microsoft 365.  Where can it help you? </p>
