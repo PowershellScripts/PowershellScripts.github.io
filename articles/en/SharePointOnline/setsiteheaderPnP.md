@@ -54,7 +54,7 @@ Accepted values: None, Neutral, Soft, Strong
 
 
 
-The exact colors are defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/en/SharePointOnline/Generate%20SharePoint%20theme%20using%20Theme%20Generator%20tool/) and [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences).
+The exact colors are defined in your theme palette. For more details on color schemes available in your SharePoint Online site theme, have a look at [Generate SharePoint theme using Theme Generator tool](/articles/en/SharePointOnline/Create%20SharePoint%20theme%20using%20Theme%20Generator%20tool/) and [Available Theme Tokens and Their Occurrences](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/use-theme-colors-in-your-customizations#available-theme-tokens-and-their-occurrences).
 
 <br/>
 

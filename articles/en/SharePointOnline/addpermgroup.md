@@ -27,7 +27,7 @@ Get-PnPRoleDefinition | select name, RoleTypeKind, description
 
 # Add permissions for a SharePoint Online list
 
-The following cmdlets add permissions for an existing SharePoint list. In case you would like to break the permission inheritance on a list from its parent first, you can use [Set-PnPList -BreakRoleInheritance](Set-PnPList.md#-breakroleinheritance).
+The following cmdlets add permissions for an existing SharePoint list. In case you would like to break the permission inheritance on a list from its parent first, you can use [Set-PnPList -BreakRoleInheritance](https://pnp.github.io/powershell/cmdlets/Set-PnPList.html#-breakroleinheritance).
 
 <br/>
 

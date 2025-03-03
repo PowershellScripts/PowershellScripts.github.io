@@ -381,6 +381,12 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
+ 	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/ctfieldlinks/">
+		<span style="display: block; text-align: right;">2023-12-30
+		<h3>SharePoint content types - fieldlinks and fields</h3></span>
+		<p>SharePoint Online list columns are represented as either Field or FieldRef Element (ContentType) elements in the various SharePoint schemas, such as site, list, and content type definitions. The article lists in details the differences, usage and comparisons.</p>
+	</a></li>
+
 	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>

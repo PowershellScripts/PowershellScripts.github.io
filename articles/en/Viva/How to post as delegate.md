@@ -38,7 +38,7 @@ The delegates can also edit and delete posts. The delegates can also write comme
 
 <h1>See Also</h1>
 
-[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/)
+[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/leaderpost/)
 
 [Add Viva Engage to your SharePoint pages](https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/)
 

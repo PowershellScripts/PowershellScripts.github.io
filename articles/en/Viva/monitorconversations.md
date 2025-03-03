@@ -141,6 +141,7 @@ https://powershellscripts.github.io/articles/en/Viva/monitorconversations/
 var sc_project=13093070; 
 var sc_invisible=1; 
 var sc_security="cc81db00"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

@@ -7,7 +7,7 @@ hero_height: is-small
 date: '2023-12-30'
 ---
 
-Columns are represented as either Field or FieldRef Element (ContentType) elements in the various SharePoint schemas, such as site, list, and content type definitions. The columns are represented as Field elements in site and list definitions. However, the column references are represented as FieldRef Element (ContentType) elements in content type definitions. In simple words SPFields are fields themselves, while SPFieldLinks are references to the fields.
+SharePoint Online list columns are represented as either Field or FieldRef Element (ContentType) elements in the various SharePoint schemas, such as site, list, and content type definitions. The columns are represented as Field elements in site and list definitions. However, the column references are represented as FieldRef Element (ContentType) elements in content type definitions. In simple words SPFields are fields themselves, while SPFieldLinks are references to the fields.
 
 It stems from the fact that Lists and Webs contain the actual fields with field data. A content type, on the other hand, only holds Field Reference, which simply points at the corresponding field in the list or web. As explained in MSDN:
  

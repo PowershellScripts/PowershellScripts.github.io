@@ -45,7 +45,7 @@ Remove the leader role from the user by clicking the trash bin icon:
 
 # See Also
 
-[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/)
+[Post as a leader to specific groups](https://powershellscripts.github.io/articles/en/Viva/leaderpost/)
 
 
 <!-- Default Statcounter code for Viva Remove leader

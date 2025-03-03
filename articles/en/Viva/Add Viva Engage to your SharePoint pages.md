@@ -118,4 +118,4 @@ Feel free to post them [here](https://github.com/PowershellScripts/PowershellScr
 ## Other Languages
 This article is available in other languages:
 
-[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/addvivatospo.md)
+[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/addvivatospo)

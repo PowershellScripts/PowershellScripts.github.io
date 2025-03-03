@@ -139,6 +139,7 @@ https://powershellscripts.github.io/articles/en/spo/listfilesunique
 var sc_project=13093075; 
 var sc_invisible=1; 
 var sc_security="6f567729"; 
+var sc_client_storage="disabled"; 
 </script>
 <script type="text/javascript"
 src="https://www.statcounter.com/counter/counter.js"

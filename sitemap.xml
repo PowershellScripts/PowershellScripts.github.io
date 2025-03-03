@@ -57,7 +57,7 @@
 	<priority>0.2</priority>
 </url>
 <url>
-	<loc>https://powershellscripts.github.io/articles/en/Viva/Post%20as%20a%20leader%20to%20specific%20groups/</loc>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/leaderpost/</loc>
 	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
@@ -297,13 +297,8 @@
 	<priority>0.4</priority>
 </url>
 <url>
-	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields/</loc>
-	<lastmod>2024-11-02T23:41:03+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20-%20fieldlinks%20and%20fields/</loc>
-	<lastmod>2023-02-02T23:41:03+01:00</lastmod>
+	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/ctfieldlinks/</loc>
+	<lastmod>2025-03-02T23:41:03+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -324,11 +319,6 @@
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/custompageheader/</loc>
 	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
-	<priority>0.2</priority>
-</url>
-<url>
-	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/SharePoint%20content%20types%20in%20Powershell%20-%20known%20errors/</loc>
-	<lastmod>2023-02-02T23:41:04+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 </urlset>

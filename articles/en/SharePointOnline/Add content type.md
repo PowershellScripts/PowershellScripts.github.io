@@ -585,7 +585,7 @@ $ContentTypeID="0x01200200C44754774BD8D4449F4B7E3FE70A7E0E"
 ## See Also
 
 
-[Enable content type management](https://powershellscripts.github.io/articles/en/spo/enablect.md)
+[Enable content type management](https://powershellscripts.github.io/articles/en/spo/enablect)
 
 
 

@@ -90,6 +90,7 @@ https://powershellscripts.github.io/articles/en/spo/addusersnoemail
 var sc_project=13093074; 
 var sc_invisible=0; 
 var sc_security="75971e4b"; 
+var sc_client_storage="disabled"; 
 var scJsHost = "https://";
 document.write("<sc"+"ript type='text/javascript' src='" +
 scJsHost+

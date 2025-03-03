@@ -184,7 +184,7 @@ Set-SPOListsContentTypesEnabled -Username $Username -AdminPassword $AdminPasswor
 ## Other Languages
 This article is available in other languages:
 
-[Ajoutez Viva Engage à vos pages SharePoint](https://powershellscripts.github.io/articles/fr/enablect.md)
+[Activer la gestion des types de contenu](https://powershellscripts.github.io/articles/fr/enablect)
 
 
 
