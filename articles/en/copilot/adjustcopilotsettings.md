@@ -62,12 +62,18 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 
 # Extensions
 
-
+Under the Copilot Extensions tab you can ,anage who can use Copilot with installed apps and extensions from Microsoft or other providers.
 
 <img src="/articles/img/copilot33.png" width="800">
 
 
 <br/><br/>
+
+
+# Microsoft 365 Copilot self-service trials and purchases
+
+Control product trials and purchases to enable for end users in your organization.
+
 
 
 # See Also
