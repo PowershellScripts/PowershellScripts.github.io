@@ -14,7 +14,7 @@ date: '2025-02-23'
 The Settings in the Copilot Control System offers various configuration options. You can find them in the Admin Center under the tab Copilot.
 Many settings redirect to other admin centers. Mind you, you might need extra permissions for access.
 
-Direct link to your settings: [https://admin.microsoft.com/#/copilot/settings](https://admin.microsoft.com/#/copilot/settings) 
+Direct link to your settings: [https://admin.microsoft.com/#/copilot/settings](https://admin.microsoft.com/#/copilot/settings) . The link works for every Microsoft 365 tenant.
 
 - Copilot diagnostic logs  
 - Copilot image generation  
@@ -107,7 +107,7 @@ Controls product trials and purchases to enable for end users in your organizati
 
 Sets whether the Copilot should be pinned on the navigation bar or optional for the users. Requires Global Administrator permission.
 
-<img src="/articles/img/copilot35.png" width="800">
+<img src="/articles/img/copilot35.png" width="400">
 
 
 
@@ -133,10 +133,11 @@ Additionally to those settings, you can pin Copilot in
 
 ### Windows taskbar
 
-Follow this guidance on how to configure Copilot in the Windows taskbar for your users using Intune.
-https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11
+Follow this guidance on how to configure Copilot in the Windows taskbar for your users using Intune:
+[https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11](https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11)
 
 
+<br/><br/>
 
 
 # Web search for Microsoft 365 Copilot and Microsoft 365 Copilot Chat
@@ -144,13 +145,19 @@ https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs
 If enabled, Copilot can reference web content to improve the quality of its responses to user prompts.
 
 
-<img src="/articles/img/copilot38.png" width="800" alt="pinned copilot">
-
-<img src="/articles/img/copilot39.png" width="800" alt="pinned copilot">
-
 Use Cloud Policies to configure the web search setting.
 
-https://config.office.com/officeSettings/officePolicy/createv2
+Direct link to Cloud Policies:
+[https://config.office.com/officeSettings/officePolicy/createv2](https://config.office.com/officeSettings/officePolicy/createv2)
+
+The link works on every tenant.
+
+
+
+<img src="/articles/img/copilot38.png" width="800" alt="pinned copilot">
+
+<img src="/articles/img/copilot39.png" width="400" alt="pinned copilot">
+
 
 
 
@@ -158,7 +165,12 @@ https://config.office.com/officeSettings/officePolicy/createv2
 
 #### The small print
 
-<img src="/articles/img/copilot40.png" width="800" alt="pinned copilot">
+<img src="/articles/img/copilot40.png" width="600" alt="pinned copilot">
+
+
+
+
+<br/><br/>
 
 
 
