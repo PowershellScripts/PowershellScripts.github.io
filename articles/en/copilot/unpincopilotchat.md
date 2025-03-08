@@ -22,8 +22,6 @@ Requires Global Administrator permission.
 
 
 
-If you are just starting your journey with Copilot, remember that Copilot Chat is pinned by default for users with a Microsoft 365 Copilot license.
-
 Any changes you make (pin, unpin) can take up to **48 hours** to go into effect. 
 
 Where is and what is th navigation bar? Well, it's the menu on the left. That's how Copilot looks pinned on the navigation bar:

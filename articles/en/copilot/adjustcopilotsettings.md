@@ -165,6 +165,7 @@ The link works on every tenant.
 
 #### The small print
 
+
 <img src="/articles/img/copilot40.png" width="600" alt="pinned copilot">
 
 
