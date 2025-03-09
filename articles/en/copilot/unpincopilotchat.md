@@ -24,10 +24,9 @@ Requires Global Administrator permission.
 
 Any changes you make (pin, unpin) can take up to **48 hours** to go into effect. 
 
-Where is and what is th navigation bar? Well, it's the menu on the left. That's how Copilot looks pinned on the navigation bar:
+Where is and what is the navigation bar? Well, it's the menu on the left. That's how Copilot looks pinned on the navigation bar:
 
 <img src="/articles/img/copilot37.png" width="800" alt="pinned copilot">
-
 
 
 
@@ -38,6 +37,7 @@ Additionally to those settings, you can pin Copilot in
 
 
 # Teams
+
 
 
 
