@@ -14,6 +14,10 @@ Copilot Chat is pinned by default for users with a Microsoft 365 Copilot license
 
 # How to unpin Copilot chat?
 
+Navigate to the Settings in the Copilot Control System. You can find them in the Admin Center under the tab Copilot.
+
+
+Direct link to your settings: [https://admin.microsoft.com/#/copilot/settings](https://admin.microsoft.com/#/copilot/settings) . The link works for every Microsoft 365 tenant.
 
 
 Requires Global Administrator permission.
