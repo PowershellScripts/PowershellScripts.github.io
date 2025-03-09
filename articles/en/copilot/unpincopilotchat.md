@@ -30,7 +30,11 @@ Where is and what is th navigation bar? Well, it's the menu on the left. That's 
 
 
 
+
 Additionally to those settings, you can pin Copilot in
 
 * Teams
 * Windows taskbar
+
+
+# Teams
