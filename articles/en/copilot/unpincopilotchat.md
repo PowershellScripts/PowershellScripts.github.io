@@ -42,3 +42,8 @@ Additionally to those settings, you can pin Copilot in
 
 
 # Windows taskbar
+
+
+
+# See Also
+
