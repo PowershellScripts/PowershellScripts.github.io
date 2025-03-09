@@ -38,3 +38,7 @@ Additionally to those settings, you can pin Copilot in
 
 
 # Teams
+
+
+
+# Windows taskbar
