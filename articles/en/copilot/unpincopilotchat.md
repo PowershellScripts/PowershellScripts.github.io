@@ -8,8 +8,12 @@ hero_height: is-small
 date: '2025-03-08'
 ---
 
+This article 
 
-Copilot Chat is pinned by default for users with a Microsoft 365 Copilot license.
+Copilot Chat is pinned by default for users with a Microsoft 365 Copilot license. Copilot is pinned in the navigation bar of your Microsoft 365:
+
+<img src="/articles/img/copilot37.png" width="800" alt="pinned copilot">
+
 
 
 # How to unpin Copilot chat?
@@ -27,10 +31,6 @@ Requires Global Administrator permission.
 
 
 Any changes you make (pin, unpin) can take up to **48 hours** to go into effect. 
-
-Where is and what is the navigation bar? Well, it's the menu on the left. That's how Copilot looks pinned on the navigation bar:
-
-<img src="/articles/img/copilot37.png" width="800" alt="pinned copilot">
 
 
 
