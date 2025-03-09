@@ -8,7 +8,10 @@ hero_height: is-small
 date: '2025-03-08'
 ---
 
-This article 
+This article shows you how to pin and unpin Copilot from the navigation bar, Teams and Windows taskbar.
+
+
+# Default
 
 Copilot Chat is pinned by default for users with a Microsoft 365 Copilot license. Copilot is pinned in the navigation bar of your Microsoft 365:
 
