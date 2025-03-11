@@ -30,7 +30,7 @@ Viva Engage is a tool primarily designed to foster **employee engagement**, **cu
    - **Example:** Use the "Leader's News" feature to update employees on company goals, milestones, or new initiatives.
 
 3. **Employee Recognition and Social Sharing:**
-   - It’s great for amplifying recognition programs and allowing employees to celebrate each other's contributions and successes. 
+   - It's great for amplifying recognition programs and allowing employees to celebrate each other's contributions and successes. 
    - **Example:** Implement a **“Employee of the Month”** program or shout-outs where employees recognize their colleagues’ contributions.
 
 

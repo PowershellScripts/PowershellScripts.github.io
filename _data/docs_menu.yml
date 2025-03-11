@@ -141,4 +141,4 @@
     - name: Customize Microsoft 365 login page
       link: /articles/en/Other/customizesignin/
     - name: Securing Azure Functions
-      link: /articles/en/Azure/SecuringAzureFunctions/
+      link: /articles/en/Other/SecuringAzureFunctions/

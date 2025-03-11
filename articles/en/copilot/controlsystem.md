@@ -89,9 +89,9 @@ If you are wondering where to find it, have a look here: [How do I get to Copilo
 
 
 
+# See Also
 
-
-
+[How to adjust Copilot settings?](https://powershellscripts.github.io/articles/en/copilot/adjustcopilotsettings/)
 
 
 

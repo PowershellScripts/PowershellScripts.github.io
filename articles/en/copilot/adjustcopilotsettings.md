@@ -79,6 +79,59 @@ Manages settings specific to agents and Copilot agents in Power Platform and Dyn
 <img src="/articles/img/copilot32.png" width="800">
 
 
+In the Power Platform Admin Center Copilot in Power Apps you can
+
+
+* Enable Copilot preview features for people who make apps
+
+* Allow Copilot authors to publish from Copilot Studio when AI features are enabled. (Publish bots with AI features)
+
+
+<img src="/articles/img/copilot41.png" width="400">
+
+
+## Data regions
+
+Copilots and generative AI features aren't available in all regions and languages. In some cases, even where there is capacity in the region, data must still move outside of the region for availability reasons. For this reason and depending on where your environment is hosted, you might need to allow data movement across regions to use Copilots and generative AI features.
+When you allow data movement across regions, your inputs (prompts) and outputs (results) might move outside of your region to the location where the generative AI feature is hosted. Microsoft, however, promise that [they don't use your data to train, retrain, or improve Azure OpenAI Service foundation models.](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot?WT.mc_id=ppac_inproduct_settings&tabs=new#regions-where-data-is-processed-for-copilots-and-generative-ai-features).
+Special rules apply for Europe. For EU Data Boundary Services, processing of Customer Data and Personal Data remains within the EU Data Boundary as committed in the Product Terms.
+
+The following table shows data residency for storage and data processing at the time of writing this article (February 2025). For the latest information please refer to [Learn.Microsoft.com](https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot?WT.mc_id=ppac_inproduct_settings&tabs=new#regions-where-data-is-processed-for-copilots-and-generative-ai-features)
+
+| Region where your Power Platform or Dynamics 365 environment is hosted | Region where Azure OpenAI Service is hosted        | Region where data is stored and processed for Bing Search |
+|-------------------------------------------------------------------------|----------------------------------------------------|----------------------------------------------------------|
+| United States                                                          | In region*                                         | United States                                            |
+| Europe**                                                               | Spain, Sweden, or Switzerland                     | United States                                            |
+| France                                                                 | Spain, Sweden, or Switzerland                     | United States                                            |
+| Germany                                                                | Spain, Sweden, or Switzerland                     | United States                                            |
+| Norway                                                                 | Spain, Sweden, or Switzerland                     | United States                                            |
+| Switzerland                                                            | Spain, Sweden, or Switzerland                     | United States                                            |
+| Asia                                                                   | United States                                     | United States                                            |
+| Brazil                                                                 | United States                                     | United States                                            |
+| Canada                                                                 | United States                                     | United States                                            |
+| Japan                                                                  | United States                                     | United States                                            |
+| Korea                                                                  | United States                                     | United States                                            |
+| Singapore                                                              | United States                                     | United States                                            |
+| South Africa                                                           | United States                                     | United States                                            |
+| United Arab Emirates                                                   | United States                                     | United States                                            |
+| Australia                                                              | In region* or United States                      | United States                                            |
+| India                                                                  | In region* or United States                      | United States                                            |
+| United Kingdom                                                         | In region*, Spain, Sweden, or Switzerland         | United States                                            |
+| Government cloud (GCC, GCC High)                                       | In region*                                         | United States                                            |
+
+> *Within the geographical region of your Power Platform or Dynamics 365 environment
+> **Note that your Power Platform and Dynamics 365 environments are hosted in the EU Data Boundary, we use an Azure OpenAI endpoint in the same boundary.
+
+<sup> Source: https://learn.microsoft.com/en-us/power-platform/admin/geographical-availability-copilot?WT.mc_id=ppac_inproduct_settings&tabs=new </sup>
+
+
+
+You can view the settings for your regions in Power Platform Admin >> Copilot under Governance:
+
+
+<img src="/articles/img/copilot42.png" width="400">
+
+
 <br/><br/>
 
 
@@ -129,6 +182,19 @@ Additionally to those settings, you can pin Copilot in
 
 ### Teams
 
+You can pin Copilot using the same [app policies](https://learn.microsoft.com/en-us/microsoftteams/teams-app-setup-policies#pin-apps) you are using for every other app. Navigate to **Teams Admin Center** and go to **Manage Apps**
+
+<img src="/articles/img/copilot44.png" width="800" alt="Teams admin center">
+
+
+Find Copilot and make it available to your users. You can choose a selected group or everyone.
+
+<img src="/articles/img/copilot47.png" width="800" alt="Teams admin center">
+
+
+Under **Setup Policies** define whether the Copilot should be pinned by default and for which users:
+
+<img src="/articles/img/copilot46.png" width="400" alt="Teams admin center">
 
 
 ### Windows taskbar
@@ -144,6 +210,61 @@ Follow this guidance on how to configure Copilot in the Windows taskbar for your
 
 If enabled, Copilot can reference web content to improve the quality of its responses to user prompts.
 
+
+## What does that mean?
+
+1. **Expanded Knowledge Base:** Copilot accesses real-time web content to provide information beyond its existing training data.
+2. **Dynamic Updates:** Ensures responses reflect recent changes, trends, or updates on a given topic.
+3. **Contextual Awareness:** Enables the integration of additional details, examples, and references in its output.
+
+
+#### Examples
+
+**Example 1**
+**Prompt:** "What are the latest trends in artificial intelligence for 2025?"  
+**Response:** Copilot uses web-based reports or articles discussing new AI breakthroughs, like advancements in generative AI or machine learning applications.
+
+**Example 2**
+**Prompt:** "What is the weather forecast for this weekend in New York City?"  
+**Response:** Copilot fetches live weather updates.
+
+**Example 3**
+**Prompt:** "Which is better for my team, Jira or Trello?"  
+**Response:** Copilot compares data from the vendors' sites. It can give you a table comparing features, pricing, reviews, and offer a concise summary for decision-making.
+
+**Example 4**
+**Prompt:** "What time is the next flight from London to New York City on British Airways?"  
+**Response:** With web search setting on, Copilot retrieves live flight schedules and displays accurate timing from airports or airlines.
+
+---
+
+## Benefits
+- **Improved Accuracy:** Delivers responses based on the latest and most reliable web content.
+- **Increased Efficiency:** Saves users time by performing complex searches.
+
+
+---
+
+## Considerations
+- **Reliability of Sources:** As with all AI searches, the quality of the response depends on the credibility of the web content Copilot accesses.
+
+- **Privacy Concerns:** Administrators should ensure web referencing complies with data protection policies, particularly in secure environments.
+
+
+Mind you the generated search query is different from the user's original prompt. It consists of a few words generated by the user's prompt. Some examples of the information that **isn't** included in the generated search query sent to the Bing search service:
+
+* The user's entire prompt, unless the prompt is very short (for example, "local weather")
+
+* Entire Microsoft 365 files (for example, emails or documents) or files uploaded into Copilot
+
+* Entire web pages or PDFs summarized by Copilot in Microsoft Edge (only for Microsoft 365 Copilot Chat)
+
+<sup> Based on: https://learn.microsoft.com/en-gb/copilot/microsoft-365/manage-public-web-access </sup>
+
+
+<br/>
+
+## Configuration
 
 Use Cloud Policies to configure the web search setting.
 
@@ -181,8 +302,7 @@ The link works on every tenant.
 [Copilot Control System](https://powershellscripts.github.io/articles/en/copilot/controlsystem/)
 
 
-
-
+[Copilot Chat vsus. Microsoft 365 Copilot What's the difference?](https://techcommunity.microsoft.com/discussions/microsoft365copilot/copilot-chat-vsus-microsoft-365-copilot-whats-the-difference/4382855)
 
 
 

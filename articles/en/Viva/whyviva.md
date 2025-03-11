@@ -34,7 +34,7 @@ referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
 
 # Why use Viva Engage?
 
-In today’s fast-paced and increasingly digital workplace, fostering employee engagement and collaboration is essential for organizational success. Viva Engage, a part of the Microsoft Viva suite, provides a platform that fill those needs. But how does the Company profit from users chatting together?
+In today's fast-paced and increasingly digital workplace, fostering employee engagement and collaboration is essential for organizational success. Viva Engage, a part of the Microsoft Viva suite, provides a platform that fill those needs. But how does the Company profit from users chatting together?
 
 
 # Employee retention and turnover

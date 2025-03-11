@@ -52,7 +52,7 @@ Make sure you remove the HTML encoding %7B and %7D.
 
 A short video showing how to get the Library GUID 
 
-<video src="/articles/vid/LibraryGUID.mp4"  controls></video>
+<iframe width="660" height="400" src="https://www.youtube.com/embed/rb2-SkWlN44" frameborder="0" allowfullscreen></iframe>
 
 
 

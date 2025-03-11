@@ -75,3 +75,6 @@ Once completed, the dashboard will look like this:
 
 
 
+# See Also
+
+[How to adjust Copilot settings?](https://powershellscripts.github.io/articles/en/copilot/adjustcopilotsettings/)

@@ -12,7 +12,7 @@ date: '2025-02-16'
 
 ## Viva Engage Security 
 
-To monitor Viva Engage conversations, you need to have administrative permissions or roles that allow you to manage the network settings, e.g. Viva Engage Admin or Network Admin. Here’s how to get started:  
+To monitor Viva Engage conversations, you need to have administrative permissions or roles that allow you to manage the network settings, e.g. Viva Engage Admin or Network Admin. Here's how to get started:  
 
 1. Log in to Viva Engage  
 - Navigate to [Microsoft Viva Engage](https://www.microsoft.com/en-us/microsoft-viva/engage) or access it via **Microsoft Teams** under the **Viva Engage tab**.  
@@ -33,7 +33,7 @@ To monitor Viva Engage conversations, you need to have administrative permission
 
 ## Keyword Monitoring  
 
-Keyword monitoring allows Viva Engage admin to track specific terms or phrases that might indicate issues, trends, or compliance violations. Here’s how to set it up:  
+Keyword monitoring allows Viva Engage admin to track specific terms or phrases that might indicate issues, trends, or compliance violations. Here's how to set it up:  
 
 1. Enable Keyword Monitoring  
 - In the Admin Center, go to **Content and Security > Keyword Monitoring**.  
@@ -79,7 +79,7 @@ For example:
 > Before submitting a report, please follow these guidelines:  
 > - **Review the Conversation:** Ensure the content genuinely violates guidelines or policies.  
 > - **Understand Reporting Criteria:** Reports should align with organizational rules, such as flagging content for harassment, spam, or sensitive information exposure.  
-> - **Consider Context:** Make sure the reported content doesn’t involve misunderstandings or taken-out-of-context remarks.  
+> - **Consider Context:** Make sure the reported content doesn't involve misunderstandings or taken-out-of-context remarks.  
 
 
 

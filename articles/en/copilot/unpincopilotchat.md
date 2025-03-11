@@ -45,12 +45,33 @@ Additionally to those settings, you can pin Copilot in
 
 # Teams
 
+You can unpin Copilot using the same [app policies](https://learn.microsoft.com/en-us/microsoftteams/teams-app-setup-policies#pin-apps) you are using for every other app. Navigate to **Teams Admin Center** and go to **Manage Apps**
+
+<img src="/articles/img/copilot44.png" width="800" alt="Teams admin center">
 
 
+Find Copilot and make it unavailable to your users. 
 
-# Windows taskbar
+<img src="/articles/img/copilot47.png" width="800" alt="Teams admin center">
+
+
+Under **Setup Policies** define whether the Copilot should be pinned by default and for which users. Verify whether one of the policies is not pinning the Copilot in Teams.
+
+<img src="/articles/img/copilot46.png" width="400" alt="Teams admin center">
+
+
+### Windows taskbar
+
+Follow this guidance on how to configure Copilot in the Windows taskbar for your users using Intune:
+[https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11](https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11)
+
+
 
 
 
 # See Also
+
+[How to adjust Copilot settings?](https://powershellscripts.github.io/articles/en/copilot/adjustcopilotsettings/)
+
+[Copilot Chat vsus. Microsoft 365 Copilot What's the difference?](https://techcommunity.microsoft.com/discussions/microsoft365copilot/copilot-chat-vsus-microsoft-365-copilot-whats-the-difference/4382855)
 
