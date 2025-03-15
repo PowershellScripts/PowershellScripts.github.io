@@ -126,7 +126,7 @@ The following table shows data residency for storage and data processing at the 
 
 
 
-You can view the settings for your regions in Power Platform Admin >> Copilot under Governance:
+You can view the settings for your regions in Power Platform Admin >> Copilot >> Governance:
 
 
 <img src="/articles/img/copilot42.png" width="400">
@@ -204,14 +204,15 @@ Follow this guidance on how to configure Copilot in the Windows taskbar for your
 
 
 <br/><br/>
-
+---
+<br/>
 
 # Web search for Microsoft 365 Copilot and Microsoft 365 Copilot Chat
 
 If enabled, Copilot can reference web content to improve the quality of its responses to user prompts.
 
 
-## What does that mean?
+### What does that mean?
 
 1. **Expanded Knowledge Base:** Copilot accesses real-time web content to provide information beyond its existing training data.
 2. **Dynamic Updates:** Ensures responses reflect recent changes, trends, or updates on a given topic.
@@ -236,16 +237,16 @@ If enabled, Copilot can reference web content to improve the quality of its resp
 **Prompt:** "What time is the next flight from London to New York City on British Airways?"  
 **Response:** With web search setting on, Copilot retrieves live flight schedules and displays accurate timing from airports or airlines.
 
----
 
-## Benefits
+
+### Benefits
 - **Improved Accuracy:** Delivers responses based on the latest and most reliable web content.
 - **Increased Efficiency:** Saves users time by performing complex searches.
 
 
----
 
-## Considerations
+
+### Considerations
 - **Reliability of Sources:** As with all AI searches, the quality of the response depends on the credibility of the web content Copilot accesses.
 
 - **Privacy Concerns:** Administrators should ensure web referencing complies with data protection policies, particularly in secure environments.
@@ -281,7 +282,11 @@ The link works on every tenant.
 
 
 
-<br/><br/>
+<br/>
+
+---
+
+<br/>
 
 
 #### The small print
