@@ -18,13 +18,13 @@ The solution applies to: SharePoint Server 2013, SharePoint Server 2016, SharePo
 
 When you navigate to the Site Settings > Site permissions and see the following view:
 
- <img src="/articles/images/mes1.png" width="400">
+ <img src="/articles/images/mes1.png" width="400" alt="SharePoint site permissions" >
 
 Verify Outgoing Email Settings in Central Administration:
 
-<img src="/articles/images/mes2.png" width="400">
+<img src="/articles/images/mes2.png" width="400" alt="SharePoint site permissions" >
 
-<img src="/articles/images/mes3.png" width="400">
+<img src="/articles/images/mes3.png" width="400" alt="SharePoint site permissions" >
 
 Check out the following articles for possible configurations:
 
@@ -38,16 +38,16 @@ Check out the following articles for possible configurations:
 
 The Access Request Setting is absent when the subsite inherits permissions from its parent:
 
-<img src="/articles/images/mes4.png" width="400">
+<img src="/articles/images/mes4.png" width="400" alt="SharePoint site permissions" >
 
 Stop inheriting permissions and the setting becomes available:
 
-<img src="/articles/images/mes5.png" width="400">
+<img src="/articles/images/mes5.png" width="400" alt="SharePoint site permissions" >
 
 
 Results:
 
-<img src="/articles/images/mes6.png" width="400">
+<img src="/articles/images/mes6.png" width="400" alt="SharePoint site permissions" >
 
 
 

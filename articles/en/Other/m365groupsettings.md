@@ -20,15 +20,15 @@ Microsoft 365 group settings configured using the Set-PnPMicrosoft365GroupSettin
 
 You can check settings for the entire company
 
-<img src="/articles/images/m365groupsettings2.PNG" width="600" >
+<img src="/articles/images/m365groupsettings2.PNG" width="600" alt="m365 setting" >
 
 or for the specific group
 
-<img src="/articles/images/m365groupsettings3.PNG" width="600" > 
+<img src="/articles/images/m365groupsettings3.PNG" width="600" alt="m365 setting" > 
 
 There are several templates you can use and modify:
 
-<img src="/articles/images/m365groupsettings.PNG" width="600" > 
+<img src="/articles/images/m365groupsettings.PNG" width="600" alt="m365 setting templates" > 
 
 <br/><br/>
 
@@ -98,7 +98,7 @@ Set-PnPMicrosoft365GroupSettings -Identity $groupSettingId -Values @{"AllowToAdd
 
 we can modify the following setting:
 
-<img src="/articles/images/m365groupsettings7.PNG" width="600" > 
+<img src="/articles/images/m365groupsettings7.PNG" width="600" alt="m365 setting" > 
 
 
 <br/><br/>
@@ -113,7 +113,7 @@ New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '08d
 New-PnPMicrosoft365GroupSettings: Bad Request (400): ObjectSettingsTemplate '62375ab9-6b52-47ed-826b-58e47e0e304b' is not supported for DirectoryObjectClass 'Group'. paramName: SettingTemplateId, paramValue: 62375ab9-6b52-47ed-826b-58e47e0e304b, objectType: System.Guid
 ```
 
-<img src="/articles/images/m365groupsettings5.PNG" > 
+<img src="/articles/images/m365groupsettings5.PNG" alt="m365 setting" > 
 
 <br/><br/>
 

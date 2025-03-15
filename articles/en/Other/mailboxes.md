@@ -22,7 +22,7 @@ arleta - identity of the mailbox, e.g. arleta@testova365.onmicrosoft.com
 
 In the screenshot below you can see that user2@testova365.onmicrosoft.com has FullAccess rights on the mailbox. But how to check which and how many mailboxes user2 has access to?
 
-<img src="/articles/img/mail.png" width="600" > 
+<img src="/articles/img/mail.png" width="600" alt="m365 mailbox rights" > 
 
 
 <br/><br/>
@@ -40,7 +40,7 @@ foreach($mailbox in $mailboxes){
     }
 ```
 
-<img src="/articles/img/mail2.png" width="600" > 
+<img src="/articles/img/mail2.png" width="600" alt="m365 mailbox rights" > 
 
 The AccessRights columns display the access level to each individual mailbox.  User's own mailbox will not be displayed.
 

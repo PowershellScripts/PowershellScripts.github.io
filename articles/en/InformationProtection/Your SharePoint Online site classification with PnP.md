@@ -32,7 +32,7 @@ Connect-AzureAD
 Get-AzureADDirectorySetting
 ```
 
-<img src="/articles/images/classification8.PNG" width="400">
+<img src="/articles/images/classification8.PNG" width="400" alt="site classification setting" >
 
 
 If you see any existing settings like in the screenshot above, probably someone else in your organization already set them.
@@ -46,7 +46,7 @@ Use **Get-PnPSiteClassification** cmdlet to retrieve the existing site classific
 ```
 Get-PnPSiteClassification
 ```
-<img src="/articles/images/classification3.PNG" width="400">
+<img src="/articles/images/classification3.PNG" width="400" alt="site classification setting" >
 
  
 ### Using AzureADPreview
@@ -57,7 +57,7 @@ Use [**Get-AzureADDirectorySetting**](https://docs.microsoft.com/en-us/powershel
 ### Results
 In the User Interface you can see these values when you create a new site:
 
- <img src="/articles/images/classification2.PNG" width="400">
+ <img src="/articles/images/classification2.PNG" width="400" alt="site classification setting" >
 
 
 
@@ -69,14 +69,14 @@ Use **Update-PnPSiteClassification** cmdlet to set the available classifications
 ```
 Update-PnPSiteClassification -Classifications "HBI", "CRI", "LBI"
 ```
- <img src="/articles/images/classification4.PNG" width="400"> 
+ <img src="/articles/images/classification4.PNG" width="400" alt="site classification setting" > 
 
 
 ### Update usage guidelines url
 ```
 Update-PnPSiteClassification -UsageGuidelinesUrl "https://powershellscripts.github.io/"
 ```
- <img src="/articles/images/classification6.PNG" width="400">
+ <img src="/articles/images/classification6.PNG" width="400" alt="site classification setting" >
 
 
 
