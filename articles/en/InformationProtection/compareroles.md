@@ -17,7 +17,7 @@ In Microsoft 365 admin center you can now compare various administrators' roles 
 
 
 
-<img src="/articles/img/compareroles.PNG" >
+<img src="/articles/img/compareroles.PNG" alt="screenshot comparing admin roles">
 
 <br/><br/><br/>
 
@@ -25,7 +25,7 @@ Navigate to Microsoft 365 admin center and select **Role Assignments** tab. You 
 
 <br/>
 
-<img src="/articles/img/compareroles2.PNG" >
+<img src="/articles/img/compareroles2.PNG" alt="screenshot comparing admin roles">
 
 <br/><br/><br/>
 
@@ -36,7 +36,7 @@ The output provides a detailed comparison of the selected roles and their associ
 
 
 
-<img src="/articles/img/compareroles3.PNG" >
+<img src="/articles/img/compareroles3.PNG" alt="screenshot comparing admin roles">
 
 
 <br/><br/><br/>
@@ -46,7 +46,7 @@ The permission comparison between selected admin roles can be exported by using 
 
 <br/>
 
-<img src="/articles/img/compareroles7.PNG" >
+<img src="/articles/img/compareroles7.PNG" alt="screenshot comparing admin roles">
 
 <br/><br/><br/>
 
@@ -55,7 +55,7 @@ This will create a CSV file with a table and listed permissions.
 
 <br/>
 
-<img src="/articles/img/compareroles4.PNG" >
+<img src="/articles/img/compareroles4.PNG" alt="screenshot comparing admin roles" >
 
 
 <br/><br/><br/>
@@ -118,7 +118,7 @@ Sample comparison between Security Administrator, Security Operator and Security
 
 Sample comparison between Compliance Administrator, Compliance Data Administrator, and Global Reader. It lists only some of the first granular permissions out of all the permissions that are being compared. 
 
-<img src="/articles/img/compareroles8.PNG" >
+<img src="/articles/img/compareroles8.PNG" alt="screenshot comparing admin roles" >
 
 
 

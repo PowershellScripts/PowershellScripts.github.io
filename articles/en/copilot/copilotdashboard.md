@@ -49,7 +49,7 @@ That means that as long as you do not have those licenses, all you will see is t
 
 
 
-<img src="/articles/img/copilot12.png" width="700">
+<img src="/articles/img/copilot12.png" width="700" alt="copilot dashbaord">
 
 
 <br/><br/>
@@ -57,7 +57,7 @@ That means that as long as you do not have those licenses, all you will see is t
 ### With more licenses
 
 
-<img src="/articles/img/copilot22.png" width="700">
+<img src="/articles/img/copilot22.png" width="700" alt="copilot dashbaord">
 
 
 ### With Copilot and Viva Insights 
@@ -66,7 +66,7 @@ To initiate data processing, you need to meet the minimum requirements of either
 
 Once completed, the dashboard will look like this:
 
-<img src="/articles/img/copilot14.png" width="700">
+<img src="/articles/img/copilot14.png" width="700" alt="copilot dashbaord">
 
 <sup>Image source: https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard </sup>
 

@@ -29,7 +29,7 @@ Direct link to your settings: [https://admin.microsoft.com/#/copilot/settings](h
 
 Requires Global Administrator permission.
 
-<img src="/articles/img/copilot35.png" width="400">
+<img src="/articles/img/copilot35.png" width="400" alt="copilot">
 
 
 

@@ -180,26 +180,34 @@ Additionally to those settings, you can pin Copilot in
 * Windows taskbar
 
 
+<br/><br/>
+
 ### Teams
 
 You can pin Copilot using the same [app policies](https://learn.microsoft.com/en-us/microsoftteams/teams-app-setup-policies#pin-apps) you are using for every other app. Navigate to **Teams Admin Center** and go to **Manage Apps**
 
 <img src="/articles/img/copilot44.png" width="800" alt="Teams admin center">
 
+<br/>
 
 Find Copilot and make it available to your users. You can choose a selected group or everyone.
 
 <img src="/articles/img/copilot47.png" width="800" alt="Teams admin center">
 
 
+<br/>
+
 Under **Setup Policies** define whether the Copilot should be pinned by default and for which users:
 
 <img src="/articles/img/copilot46.png" width="400" alt="Teams admin center">
 
 
+<br/><br/>
+
 ### Windows taskbar
 
 Follow this guidance on how to configure Copilot in the Windows taskbar for your users using Intune:
+
 [https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11](https://learn.microsoft.com/en-us/windows/configuration/taskbar/pinned-apps?tabs=intune&pivots=windows-11)
 
 
@@ -208,6 +216,7 @@ Follow this guidance on how to configure Copilot in the Windows taskbar for your
 <br/>
 
 # Web search for Microsoft 365 Copilot and Microsoft 365 Copilot Chat
+
 
 If enabled, Copilot can reference web content to improve the quality of its responses to user prompts.
 
@@ -218,33 +227,39 @@ If enabled, Copilot can reference web content to improve the quality of its resp
 2. **Dynamic Updates:** Ensures responses reflect recent changes, trends, or updates on a given topic.
 3. **Contextual Awareness:** Enables the integration of additional details, examples, and references in its output.
 
+<br/>
 
 #### Examples
 
 **Example 1**
+
 **Prompt:** "What are the latest trends in artificial intelligence for 2025?"  
 **Response:** Copilot uses web-based reports or articles discussing new AI breakthroughs, like advancements in generative AI or machine learning applications.
 
 **Example 2**
+
 **Prompt:** "What is the weather forecast for this weekend in New York City?"  
 **Response:** Copilot fetches live weather updates.
 
 **Example 3**
+
 **Prompt:** "Which is better for my team, Jira or Trello?"  
 **Response:** Copilot compares data from the vendors' sites. It can give you a table comparing features, pricing, reviews, and offer a concise summary for decision-making.
 
 **Example 4**
+
 **Prompt:** "What time is the next flight from London to New York City on British Airways?"  
 **Response:** With web search setting on, Copilot retrieves live flight schedules and displays accurate timing from airports or airlines.
 
 
+<br/>
 
 ### Benefits
 - **Improved Accuracy:** Delivers responses based on the latest and most reliable web content.
 - **Increased Efficiency:** Saves users time by performing complex searches.
 
 
-
+<br/>
 
 ### Considerations
 - **Reliability of Sources:** As with all AI searches, the quality of the response depends on the credibility of the web content Copilot accesses.
@@ -284,12 +299,9 @@ The link works on every tenant.
 
 <br/>
 
----
-
-<br/>
 
 
-#### The small print
+### The small print
 
 
 <img src="/articles/img/copilot40.png" width="600" alt="pinned copilot">

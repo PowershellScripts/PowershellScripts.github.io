@@ -12,35 +12,35 @@ date: '2025-02-22'
 
 The **Copilot Control System** is your central hub for managing all aspects of **Copilot** in Microsoft 365.
 
-<img src="/articles/img/copilot2.png" width="700">
+<img src="/articles/img/copilot2.png" width="700" alt="copilot control system">
 
 
 ## Readiness Report
 
 The Microsoft 365 Copilot Readiness Report is a relatively fresh feature designed to help administrators assess their organization's preparedness for deploying Microsoft 365 Copilot. It provides insights into user eligibility, license management, and application usage.
 
-<img src="/articles/img/copilot3.png" width="600">
+<img src="/articles/img/copilot3.png" width="600" alt="copilot control system">
 
 
 
 ##### **User Eligibility Assessment**
 Identifies which users meet the technical requirements for Microsoft 365 Copilot. To use a Copilot license, users must additionally have an eligible Microsoft 365 or Office 365 license for business, enterprise, or education. 
 
-<img src="/articles/img/copilot4.png" width="800">
+<img src="/articles/img/copilot4.png" width="800" alt="copilot control system">
 
 
 
 ##### **License Management**
 - The report tracks available Copilot licenses. 
 
-<img src="/articles/img/copilot8.png" width="600">
+<img src="/articles/img/copilot8.png" width="600" alt="copilot control system">
 
 
 
 ##### **Microsoft 365 Copilot Usage**
 - Track the usage of Microsoft 365 applications that integrate seamlessly with Copilot, gaining insights into user engagement and adoption.
 
-<img src="/articles/img/copilot6.png" width="400">
+<img src="/articles/img/copilot6.png" width="400" alt="copilot control system">
 
 
 #### Report 
@@ -58,7 +58,7 @@ As a new product, the report is being continuously enhanced. Check for the newes
 Microsoft provides extensive resources to help with Copilot learning and adoption. These include technical guides, documentation, and best practices to get you up to speed efficiently.
 
 
-<img src="/articles/img/copilot7.png" width="800">
+<img src="/articles/img/copilot7.png" width="800" alt="copilot control system">
 
 
 

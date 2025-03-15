@@ -22,14 +22,14 @@ Run as Admin allows you to test the permissions associated with every Microsoft 
 
 Navigate to Microsoft 365 admin center and select **Role Assignments** tab. 
 
-<img src="/articles/img/runasadmin.png" >
+<img src="/articles/img/runasadmin.png" alt="screenshot showing admin roles" >
 
 
 You will see a list of admin roles, such as AI Administrator, Knowledge Manager, Global Reader, SharePoint Administrator, Viva Pulse Administrator or Virtual Visits Administrator :
 
 <br/>
 
-<img src="/articles/img/simulateadmin.PNG" >
+<img src="/articles/img/simulateadmin.PNG" alt="screenshot listing admin roles" >
 
 
 <br/><br/><br/>
@@ -38,7 +38,7 @@ Because there are currently over 100 admin roles in Microsoft 365 at the time of
 
 <br/>
 
-<img src="/articles/img/simulateadmin2.PNG" >
+<img src="/articles/img/simulateadmin2.PNG" alt="screenshot comparing admin roles" >
 
 <br/><br/><br/>
 
@@ -48,7 +48,7 @@ The admin roles can be also filtered or searched by name:
 
 
 
-<img src="/articles/img/simulateadmin3.PNG" >
+<img src="/articles/img/simulateadmin3.PNG" alt="screenshot comparing admin roles" >
 
 
 <br/><br/><br/>
@@ -57,7 +57,7 @@ After selecting the Microsoft 365 admin role you want to test, such as SharePoin
 
 <br/>
 
-<img src="/articles/img/compareroles5.PNG" >
+<img src="/articles/img/compareroles5.PNG" alt="screenshot comparing admin roles" >
 
 
 <br/><br/><br/>
@@ -66,7 +66,7 @@ This will open a new browser tab. In this tab, you can navigate your Microsoft 3
 
 <br/>
 
-<img src="/articles/img/compareroles6.PNG" >
+<img src="/articles/img/compareroles6.PNG" alt="screenshot comparing admin roles" >
 
 <br/><br/><br/>
 
