@@ -121,6 +121,18 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/">
+		<span style="display: block; text-align: right;">2025-02-22
+		<h3>How do I get to Copilot Dashboard?</h3></span>
+		<p>Copilot Dashboard provides insights and metrics such as readiness, adoption, impact, and sentiment, to help you with your Copilot adoption. Where can you find all this goodness? </p>
+	</a></li>
+
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/adjustcopilotsettings/">
+		<span style="display: block; text-align: right;">2025-02-23
+		<h3>How to adjust Copilot settings?</h3></span>
+		<p>The Settings in the Copilot Control System offers various configuration options. Pin, upin copilot apps, allow image generation and adjust data residency.</p>
+	</a></li>
+
 
 	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/">
 		<span style="display: block; text-align: right;">2025-02-22
