@@ -121,10 +121,10 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/copilotdashboard/">
-		<span style="display: block; text-align: right;">2025-02-22
-		<h3>How do I get to Copilot Dashboard?</h3></span>
-		<p>Copilot Dashboard provides insights and metrics such as readiness, adoption, impact, and sentiment, to help you with your Copilot adoption. Where can you find all this goodness? </p>
+	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/unpincopilotchat/">
+		<span style="display: block; text-align: right;">2025-03-08
+		<h3>How to unpin Copilot chat?</h3></span>
+		<p>This article shows you how to pin and unpin Copilot from the navigation bar, Teams and Windows taskbar. </p>
 	</a></li>
 
 	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/adjustcopilotsettings/">
