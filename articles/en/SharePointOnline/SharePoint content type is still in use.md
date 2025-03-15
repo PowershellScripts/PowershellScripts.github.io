@@ -13,7 +13,7 @@ You navigate to SharePoint List -> List Settings -> Scroll down to content types
 <img src="/articles/images/Github-CTinUse1.png" width="400" alt="SharePoint content type error message">
 Click delete this content type and receive the following error message:
 
- <img src="/articles/images/Github-CTinuse2.png" width="400">
+ <img src="/articles/images/Github-CTinuse2.png" width="400" alt="SharePoint content type error message">
 
 Most likely one of the items is still the content type. The following cmdlets will show how to find and remove such items.
 
