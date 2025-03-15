@@ -82,26 +82,26 @@ You can also set the position of your SharePoint Online site logo. <strong>Impor
 ```powershell
 Set-PnPWebHeader -LogoAlignment Middle
 ```
-<img src="/articles/images/header15.png" width="400"><br/>
+<img src="/articles/images/header15.png" width="400" alt="SharePoint site header"><br/>
 <br/>
 
 ```powershell
 Set-PnPWebHeader -LogoAlignment Right
 ```
-<img src="/articles/images/header14.png" width="400"><br/>
+<img src="/articles/images/header14.png" width="400" alt="SharePoint site header"><br/>
 <br/><br/>
 
 ## Set Site Header Background Image
 ```powershell
 Set-PnPWebHeader -HeaderBackgroundImageUrl /sites/floow1/SiteAssets/sitelogo.jpg
 ```
-<img src="/articles/images/header16.png" width="400"><br/>
+<img src="/articles/images/header16.png" width="400" alt="SharePoint site header"><br/>
 
 
 ### Set Focal Point of the Header Background Image
 These cmdlets work only with Extended Header Layout. They set the position of the focal point (the yellow circle that you can see in the User Interface):
 
-<img src="/articles/images/header17.PNG" width="200"><br/>
+<img src="/articles/images/header17.PNG" width="200" alt="SharePoint site header"><br/>
 
 ```powershell
 Set-PnPWebHeader -HeaderBackgroundImageFocalX 200
@@ -110,7 +110,7 @@ Set-PnPWebHeader -HeaderBackgroundImageFocalY 2
 
 Site Header Background Image after the update:
 
-<img src="/articles/images/header18.png" width="400"><br/>
+<img src="/articles/images/header18.png" width="400" alt="SharePoint site header"><br/>
 
 
 <br/><br/>

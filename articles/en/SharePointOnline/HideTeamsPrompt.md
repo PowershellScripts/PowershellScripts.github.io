@@ -12,7 +12,7 @@ date: '2024-03-24'
 
 In SharePoint, when a site is created without being associated with a Microsoft 365 group or a Microsoft Teams team, users typically encounter a teamify prompt displayed in the bottom left corner of the site interface. This prompt serves as a notification to users that the site does not have the collaborative features and functionalities associated with sites integrated with Teams or Microsoft 365 groups. 
 
-<img src="/articles/images/teamify1.PNG"><br/>
+<img src="/articles/images/teamify1.PNG" alt="hide teamify prompt"><br/>
 
 <br/>
 <h1>Method 1</h1>

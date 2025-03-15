@@ -10,7 +10,7 @@ date: '2024-01-01'
 <h1>Issue description</h1>
 You navigate to SharePoint List -> List Settings -> Scroll down to content types -> Open a content type
  
-<img src="/articles/images/Github-CTinUse1.png" width="400">
+<img src="/articles/images/Github-CTinUse1.png" width="400" alt="SharePoint content type error message">
 Click delete this content type and receive the following error message:
 
  <img src="/articles/images/Github-CTinuse2.png" width="400">
