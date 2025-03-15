@@ -161,7 +161,7 @@ Set-PnPImageListItemColumn -List "Demo List" -Identity 1 -Field "Thumbnail" -Ser
 # Update item permissions
 You can also update item permissions without creating a new version and without updating the modified date. Use `-SystemUpdate` parameter.
 
-<img src="/articles/images/systemupdate1.PNG">
+<img src="/articles/images/systemupdate1.PNG"  alt="updated SharePoint item permissions" >
 
 <sup>From: https://pnp.github.io/powershell/cmdlets/Set-PnPListItemPermission.html </sup>
 
