@@ -19,13 +19,13 @@ Using PnP you can customize your page header
 Set-PnPPage -Identity "MyPage" -HeaderType None
 ```
 
-<img src="/articles/img/pageheadernone.PNG" width="600"><br/>
+<img src="/articles/img/pageheadernone.PNG" width="600" alt="SharePoint page header" ><br/>
 
 ```powershell
 Set-PnPPage -Identity "MyPage" -HeaderType Default
 ```
 
-<img src="/articles/img/pageheaderdefault.PNG" width="600"><br/>
+<img src="/articles/img/pageheaderdefault.PNG" width="600" alt="SharePoint page header" ><br/>
 
 
 

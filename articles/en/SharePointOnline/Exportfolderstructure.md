@@ -179,7 +179,7 @@ $xmlDoc.Save($XMLPath)
 
 # Sample results
 
-  <img src="/articles/images/Github-XML2.png" width="400">
+  <img src="/articles/images/Github-XML2.png" width="400" alt="SharePoint sample results">
 
 
 # See Also
