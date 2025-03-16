@@ -21,32 +21,19 @@ Click delete this content type and receive the following error message:
 <img src="/articles/img/ctremove.png" width="200">
 
 
-Solution
+# Solution
 
-We did the Thinker pose, shouted loudly %#$%#% (still no improvement) and resorted to something that almost never fails - PowerShell.
 
-To save you from hurting your fists, we are sharing the solution below:
+The error message means that somewhere out there there are still items using that content type you are trying to delete. There are several ways you can fix it:
 
-We have already PowerShell ISE and SharePoint Online SDK installed. So in the ISE Window let's go right away and add the paths to the SDK:
+* User Interface (Browser)
+* PNP Powershell
+* CSOM + Powershell
+* REST API
 
-Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.dll"
- 
-Add-Type -Path "c:\Program Files\Common Files\microsoft shared\Web Server Extensions\15\ISAPI\Microsoft.SharePoint.Client.Runtime.dll"
 
-Enter the data of the site:
 
-$Username="mszasz@trial.onmicrosoft.com"
- 
-$AdminPassword=Read-Host -Prompt "Password" -AsSecureString
- 
-$AdminUrl="https://trial.sharepoint.com/sites/firstsite"
-
-and the content type id.
-
-How to find the content type id?
-1. Navigate to Site>Site settings > Content types
-
-or
+## User Interface (Browser)
 
 Enter the URL of the site where you want to remove the content type. At the end of the URL add /_layouts/15/mngctype.aspx 
 
