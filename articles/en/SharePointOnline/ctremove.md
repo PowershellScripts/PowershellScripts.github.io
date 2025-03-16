@@ -1,10 +1,10 @@
 ---
 layout: page
-title: 'Remove stuck site content type'
+title: 'Content Type is still in use - How to remove stuck site content type'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2023-12-30'
+date: '2025-03-09'
 ---
 
 
@@ -137,11 +137,7 @@ Deleted the content type from the User Interface (sorry PowerShell for betrayal.
  
 
 
-Fixed the issue. Bravo again for the power of PowerShell and its infinite help!
 
-Thanks also to Mada for the inspiration.
-
-Let's hope, dear reader, your fists have been saved :)
 
 
 Download
