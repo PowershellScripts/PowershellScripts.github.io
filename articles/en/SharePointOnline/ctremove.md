@@ -11,8 +11,14 @@ date: '2025-03-09'
 # Issue 
 
 
+You navigate to SharePoint List -> List Settings -> Scroll down to content types -> Open a content type
 
 <img src="/articles/img/ctremove0.png" width="200">
+
+
+Click delete this content type and receive the following error message:
+
+<img src="/articles/img/ctremove.png" width="200">
 
 
 Solution
