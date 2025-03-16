@@ -1,3 +1,16 @@
+---
+layout: page
+title: 'Manage your content types'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2025-03-15'
+---
+
+
+
+
+
 Get All Content Types
 ​Content types can be retrieved as a collection of content types, belonging either to a Web or List.
 
