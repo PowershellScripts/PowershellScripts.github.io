@@ -1,3 +1,14 @@
+---
+layout: page
+title: 'Remove stuck site content type'
+hero_image: '/img/IMG_20220521_140146.jpg'
+show_sidebar: false
+hero_height: is-small
+date: '2023-12-30'
+---
+
+
+
 One day the site content types got stuck and would not budge from a site. We cursed, begged and clicked a hundred times - none of these would get the desired result. We tried hitting the PC box harder but somehow it also didn't bring any improvement. The first hurt so actually the situation changed for the worse.
 
 Solution
