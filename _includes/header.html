@@ -10,33 +10,76 @@
                 <span aria-hidden="true"></span>
             </a>
         </div>
-        <div class="navbar-menu" id="navMenu" :class="{ 'is-active': openNav }">
+        <div class="navbar-menu" id="navMenu">
             <div class="navbar-start">
                 {% if site.data.navigation %}
                 {% for item in site.data.navigation %}
                     {% if item.dropdown %}
-                    <div class="navbar-item has-dropdown is-hoverable {% if site.fixed_navbar == 'bottom' %} has-dropdown-up {% endif %}">
-                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}">{{ item.name }}</a>
+                    <!-- First-level dropdown (open on click) -->
+                    <div class="navbar-item has-dropdown">
+                        <a href="{{ item.link | relative_url }}" class="navbar-link {% if page.url contains item.link %}is-active{% endif %}" onclick="toggleDropdown(event)">
+                            {{ item.name }}
+                        </a>
                         <div class="navbar-dropdown">
                             {% for subitem in item.dropdown %}
-                            <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                                {% if subitem.dropdown %}
+                                <!-- Second-level dropdown (hoverable) -->
+                                <div class="navbar-item has-dropdown is-hoverable">
+                                    <a href="{{ subitem.link | relative_url }}" class="navbar-link">{{ subitem.name }}</a>
+                                    <div class="navbar-dropdown">
+                                        {% for subsubitem in subitem.dropdown %}
+                                        <a href="{{ subsubitem.link | relative_url }}" class="navbar-item">{{ subsubitem.name }}</a>
+                                        {% endfor %}
+                                    </div>
+                                </div>
+                                {% else %}
+                                <a href="{{ subitem.link | relative_url }}" class="navbar-item {% if subitem.link == page.url %}is-active{% endif %}">{{ subitem.name }}</a>
+                                {% endif %}
                             {% endfor %}
                         </div>
                     </div>
                     {% else %}
+                    <!-- Non-dropdown first-level link -->
                     <a href="{{ item.link | relative_url }}" class="navbar-item {% if item.link == page.url %}is-active{% endif %}">{{ item.name }}</a>
                     {% endif %}
                 {% endfor %}
                 {% endif %}
-            </div>
-            <div class="navbar-end">
-                <a href=""><img src="../../../../flag.png"/></a>
-                <a class="navbar-item" href="#">
-                    <i class="fas fa-icon-name"></i> 
-                </a>
             </div>
 
 
         </div>
     </div>
 </nav>
+
+<script>
+    function toggleDropdown(event) {
+        event.preventDefault();
+    
+        // Find the parent dropdown container
+        const parentItem = event.target.closest('.has-dropdown');
+    
+        // Toggle the active state
+        if (parentItem.classList.contains('is-active')) {
+            parentItem.classList.remove('is-active');
+        } else {
+            // Close all other dropdowns
+            document.querySelectorAll('.navbar-item.has-dropdown.is-active').forEach(item => {
+                item.classList.remove('is-active');
+            });
+    
+            // Open the clicked dropdown
+            parentItem.classList.add('is-active');
+        }
+    }
+    
+    // Close dropdowns when clicking outside
+    document.addEventListener('click', function (event) {
+        const target = event.target;
+        if (!target.closest('.has-dropdown')) {
+            document.querySelectorAll('.navbar-item.has-dropdown.is-active').forEach(item => {
+                item.classList.remove('is-active');
+            });
+        }
+    });
+    </script>
+    
