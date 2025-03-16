@@ -8,8 +8,12 @@ date: '2025-03-09'
 ---
 
 
+# Issue 
 
-One day the site content types got stuck and would not budge from a site. We cursed, begged and clicked a hundred times - none of these would get the desired result. We tried hitting the PC box harder but somehow it also didn't bring any improvement. The first hurt so actually the situation changed for the worse.
+
+
+<img src="/articles/img/ctremove0.png" width="200">
+
 
 Solution
 
