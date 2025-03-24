@@ -1,6 +1,7 @@
 ---
 layout: page
 title: 'How to leave Viva Engage community?'
+menubar: docs_menu_ve
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
@@ -24,13 +25,16 @@ Navigate to your community. Select three dots (...)
 You will see an expanded menu. Select **Leave Community**.
 
 
+<br/><br/>
+
+
 After you have left the Viva Engage Community, a button **Join** will become available:
 
 
 <img src="/articles/img/veleavecommunity1.png" width="600" alt="screenshot showing how to leave a community">
 
 
-
+<br/><br/>
 
 # See Also
 

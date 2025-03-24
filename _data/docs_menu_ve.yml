@@ -1,0 +1,35 @@
+
+- label: Viva
+  items:
+    - name: Add Viva Engage to your SharePoint pages
+      link: /articles/en/Viva/Add Viva Engage to your SharePoint pages/
+    - name: Post as a leader to specific groups
+      link: /articles/en/Viva/leaderpost/
+    - name: How to post as a delegate
+      link: /articles/en/Viva/How to post as delegate/
+    - name: How to close a conversation
+      link: /articles/en/Viva/Closeconversation/
+    - name: Manage Viva Engage with Graph API
+      link: /articles/en/Viva/vivagraphapi/
+    - name: Leaders vs corporate communicators
+      link: /articles/en/Viva/leadervscommunicator/
+    - name: Remove a Viva Engage leader
+      link: /articles/en/Viva/removeleader/
+    - name: Move conversation
+      link: /articles/en/Viva/MoveConversation/
+    - name: Viva Engage Community Admin
+      link: /articles/en/Viva/communityadmin/
+    - name: Remove Community Resources in Viva Engage
+      link: /articles/en/Viva/removeresources/
+    - name: View Analytics in Viva Engage
+      link: /articles/en/Viva/viewanalytics/
+    - name: Why use Viva?
+      link: /articles/en/Viva/whyviva/
+    - name: Viva Engage vs Teams
+      link: /articles/en/Viva/vivavsteams/
+    - name: Monitor Viva Engage conversations
+      link: /articles/en/Viva/monitorconversations/
+    - name: How to leave Viva Engage community?
+      link: /articles/en/Viva/leavecommunity/
+    - name: How to post announcement in Viva Engage?
+      link: /articles/en/Viva/postannouncement/
