@@ -357,13 +357,13 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 		<p>KQL (Keyword Query Language) is a syntax used primarily within Microsoft products like SharePoint and Microsoft Search to formulate search queries. Understanding its basic rules and operators such as `AND`, `OR`, and other principles is crucial for constructing effective search queries. Here’s a breakdown of these rules with some examples.</p>
 	</a></li>
 
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/vivagraphapi/">
 		<span style="display: block; text-align: right;">2024-06-02
 		<h3>Manage Viva Engage with Graph API</h3></span>
 		<p>Get, create and manage your Viva Engage communities using Graph API. Examples with Graph Explorer and explanation of the API. Read on... </p>
 	</a></li>
 	
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/Closeconversation/">
 		<span style="display: block; text-align: right;">2024-05-26
 		<h3>Close conversations in Viva Engage</h3></span>
 		<p>There is a variety of reasons why you should be closing Viva Engage conversations. A guide to keeping your Viva Engage community in orderly fashion</p>
@@ -382,37 +382,37 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 	</a></li>
  
 
- 	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
+ 	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/removeleader/">
 		<span style="display: block; text-align: right;">2024-02-17
 		<h3>Remove a Viva Engage leader</h3></span>		
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences. When you want to remove the leader functionalities from a user, you need to remove him from the leaders list in the Viva Admin Center. </p>
 	</a></li>
 
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/How%20to%20post%20as%20delegate/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva: How to post as a delegate</h3></span>		
 		<p>Now, you can post on behalf of another person in Viva Engage. This feature allows Viva Engage users to assign a delegate who can post on behalf of them. Configure it through Yammer’s settings section... </p>
 	</a></li>
 
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/leadervscommunicator/">
 		<span style="display: block; text-align: right;">2024-02-03
 		<h3>Viva Engage: Leaders vs Corporate Communicators</h3></span>		
 		<p>Viva Engage provides two special privileged roles that allow users for extra communication capabilities. One of them is Leaders and the other Corporate Communicator. The article compares the two roles. </p>
 	</a></li>
  
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/leaderpost/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/leaderpost/">
 		<span style="display: block; text-align: right;">2024-01-14
 		<h3>Post as a leader to specific groups</h3></span>
 		<p>The leadership feature in Viva allows you to identify the leaders in your organization and the leaders to reach their targeted audiences.</p>
 	</a></li>
  
- 	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/ctfieldlinks/">
+ 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/SharePointOnline/ctfieldlinks/">
 		<span style="display: block; text-align: right;">2023-12-30
 		<h3>SharePoint content types - fieldlinks and fields</h3></span>
 		<p>SharePoint Online list columns are represented as either Field or FieldRef Element (ContentType) elements in the various SharePoint schemas, such as site, list, and content type definitions. The article lists in details the differences, usage and comparisons.</p>
 	</a></li>
 
-	<li style="--i: 20"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/Add%20Viva%20Engage%20to%20your%20SharePoint%20pages/">
 		<span style="display: block; text-align: right;">2023-11-04
 		<h3>Add Viva Engage to your SharePoint pages</h3></span>
 		<p>Viva Engage Conversations web part allows page viewers to participate in discussions without exiting the SharePoint environment. Use it to replace your old comments section with Viva Engage discussions.</p>
