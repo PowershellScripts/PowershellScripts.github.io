@@ -53,7 +53,8 @@ Each SharePoint content type ID must be **unique within a SharePoint site collec
 
 Navigate to list settings, under Advanced enable Content Type Management and read the content type ID from the URL:
 
-<video src="/articles/vid/ctid.mp4"  controls></video>
+
+<iframe src="https://www.youtube.com/embed/iUlWXX-20mk" frameborder="0" allowfullscreen></iframe>
 
 
 <br/><br/>
