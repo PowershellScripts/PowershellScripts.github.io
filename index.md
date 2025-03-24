@@ -121,6 +121,19 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/postannouncement/">
+		<span style="display: block; text-align: right;">2025-03-23
+		<h3>How to post announcement in Viva Engage?</h3></span>
+		<p>This article shows how to post an announcement in Viva Engage Community.</p>
+	</a></li>
+
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/leavecommunity/">
+		<span style="display: block; text-align: right;">2025-03-22
+		<h3>How to leave Viva Engage community?</h3></span>
+		<p>This article shows how to leave a community in Viva Engage.</p>
+	</a></li>
+
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/cthowtocreate/">
 		<span style="display: block; text-align: right;">2025-03-22
 		<h3>How to create SharePoint content type</h3></span>
