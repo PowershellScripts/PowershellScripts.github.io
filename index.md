@@ -121,6 +121,12 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/cthowtocreate/">
+		<span style="display: block; text-align: right;">2025-03-22
+		<h3>How to create SharePoint content type</h3></span>
+		<p>A content type can be a form, a document template you want to use to gather information. Behind the scenes, a content type in SharePoint is a reusable collection of metadata (columns), workflows, and behavior settings for items in a list or library. Here is a step-by-step guide to create a content type in SharePoint Online.</p>
+	</a></li>
+
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/ctget/">
 		<span style="display: block; text-align: right;">2025-03-15
 		<h3>List SharePoint content types</h3></span>

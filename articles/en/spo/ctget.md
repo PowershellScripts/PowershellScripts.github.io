@@ -19,10 +19,12 @@ A Content Type in SharePoint is a reusable collection of metadata, templates, an
 
 This article shows you how to get all or selected content types that you have in your list or your SharePoint site.
 
+<br/><br/>
+
 # List or Library
 
 
-## User Interface - Browser
+### User Interface - Browser
 
 Navigate to Library or List Settings. There you will see Content Types available for this library or list. 
 
@@ -37,7 +39,7 @@ If the Content Types section is completely missing from your view, make sure to 
 
 <br/><br/>
 
-## PnP Powershell - Get all content types
+### PnP Powershell - Get all content types
 
 ```powershell
 
@@ -72,7 +74,7 @@ Disconnect-PnPOnline
 <br/>
 
 
-## PnP Powershell - Get a content type by id
+### PnP Powershell - Get a content type by id
 
 ```powershell
 
@@ -105,7 +107,7 @@ Disconnect-PnPOnline
 
 <br/>
 
-## PnP Powershell - Get a content type by name
+### PnP Powershell - Get a content type by name
 
 
 ```powershell
@@ -144,7 +146,7 @@ Disconnect-PnPOnline
 # Site
 
 
-## User Interface (Browser)
+### User Interface (Browser)
 
 Navigate to Site Settings.
 
@@ -158,7 +160,7 @@ Open the Site Settings and under Web Designer Galleries you will find a link to 
 
 <br/><br/>
 
-## PnP Powershell - Get all content types
+### PnP Powershell - Get all content types
 
 
 ```powershell
@@ -189,7 +191,7 @@ Disconnect-PnPOnline
 <br/>
 
 
-## CSOM - Get a content type by id
+### CSOM - Get a content type by id
 
 ```powershell
 

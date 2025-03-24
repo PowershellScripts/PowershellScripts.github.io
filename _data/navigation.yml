@@ -41,6 +41,10 @@
           link: /articles/en/SharePointOnline/findctid
         - name: Find content type ID using Powershell
           link: /articles/en/SharePointOnline/findctIDPS
+        - name: List SharePoint content types
+          link: /articles/en/spo/ctget/
+        - name: How to create SharePoint content type
+          link: /articles/en/spo/cthowtocreate 
     - name: Design and Branding
       link: /#
       dropdown:         

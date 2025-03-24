@@ -43,6 +43,12 @@
       link: /articles/en/SharePointOnline/findctid
     - name: Find content type ID using Powershell
       link: /articles/en/SharePointOnline/findctIDPS
+    - name: Enable content type management
+      link: /articles/en/spo/enablect/
+    - name: List SharePoint content types
+      link: /articles/en/spo/ctget/
+    - name: How to create SharePoint content type
+      link: /articles/en/spo/cthowtocreate       
     - name: Export your folder structure to XML using Powershell
       link: /articles/en/SharePointOnline/Exportfolderstructure
     - name: Easy way to create CAML Query for list view
