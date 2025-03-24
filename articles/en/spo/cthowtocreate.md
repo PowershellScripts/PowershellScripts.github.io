@@ -29,16 +29,21 @@ In the site settings select **Content Types**. Click on **Create**.
 <img src="/articles/img/ctcreate0.png" width="600">
 
 
+A side menu will open. Enter name, description, category and parent content type. **Parent content type** is especially important because it decides if your content type becomes available on your list or library. For example, if you choose a Document as your parent content type, your custom content type can be added to document libraries but not lists. If you choose an Item as your parent content type, your custom content type will be offered in lists.
 
 
-<img src="/articles/img/ctcreate1.png" width="600">
+<img src="/articles/img/ctcreate1.png" width="800">
 
 
 Once the content type is created, add the columns/properties that you need. 
 
-<img src="/articles/img/ctcreate3.png" width="600">
+<img src="/articles/img/ctcreate3.png" width="800">
 
 
+Now that your content type is ready, you can add it to your list or library and start using it.
+
+
+<br/>
 
 # Add the Content Type to List or Library
 
@@ -51,7 +56,11 @@ If the content management is enabled, go to your list or library and click on **
 
 Select the content type that you created.
 
+<img src="/articles/img/ctcreate4.png" width="600">
 
+
+
+<br/><br/>
 
 # See Also
 
