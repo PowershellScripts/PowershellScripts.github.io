@@ -241,3 +241,29 @@ if ($ContentType -ne $null) {
 
 
 [Find content type ID](https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/)
+
+
+
+
+
+
+
+<!-- Default Statcounter code for SPO enable ct
+https://powershellscripts.github.io/articles/en/spo/enablect/
+-->
+<script type="text/javascript">
+var sc_project=13073435; 
+var sc_invisible=1; 
+var sc_security="a5c7940a"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13073435/0/a5c7940a/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

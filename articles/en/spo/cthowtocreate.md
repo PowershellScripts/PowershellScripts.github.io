@@ -19,7 +19,7 @@ To create a content type that will be available for all lists and libraries in y
   2. Select **Site information** > View all site settings.
 
 
-<img src="/articles/img/ctget4.PNG" width="600">
+<img src="/articles/img/ctget4.png" width="600">
 
 
 In the site settings select **Content Types**. Click on **Create**.
@@ -46,7 +46,7 @@ First of all, make sure you have [enabled content type management](https://power
 
 If the content management is enabled, go to your list or library and click on **Add column**. Scroll to the bottom of your column list and select **Add a content type**
 
-<img src="/articles/img/ctcreate2.PNG" width="600">
+<img src="/articles/img/ctcreate2.png" width="600">
 
 
 Select the content type that you created.
@@ -61,3 +61,28 @@ Select the content type that you created.
 
 
 [Find content type ID](https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/)
+
+
+
+
+
+
+<!-- Default Statcounter code for SPO enable ct
+https://powershellscripts.github.io/articles/en/spo/enablect/
+-->
+<script type="text/javascript">
+var sc_project=13073435; 
+var sc_invisible=1; 
+var sc_security="a5c7940a"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13073435/0/a5c7940a/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
