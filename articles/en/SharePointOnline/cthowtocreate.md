@@ -13,11 +13,11 @@ A content type can be a form, a document template you want to use to gather info
 
 # List or Library
 
+First of all, make sure you have [enabled content type management](https://powershellscripts.github.io/articles/en/spo/enablect/) in your library.
 
 
 
-
-
+<img src="/articles/img/ctcreate2.PNG" width="600">
 
 
 
@@ -32,11 +32,22 @@ A content type can be a form, a document template you want to use to gather info
 
 # Site
 
-To create a content type that will be available for all lists and libraries in your site collection, navigate to **Site Settings** and select **Content Types**
+To create a content type that will be available for all lists and libraries in your site collection, navigate to **Site Settings** 
+
+
+<img src="/articles/img/ctget4.PNG" width="600">
+
+
+and select **Content Types**. Click on **Create**.
+
+
+
+<img src="/articles/img/ctcreate0.png" width="600">
 
 
 
 
+<img src="/articles/img/ctcreate1.png" width="600">
 
 
 

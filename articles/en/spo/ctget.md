@@ -14,7 +14,7 @@ date: '2025-03-15'
 A Content Type in SharePoint is a reusable collection of metadata, templates, and settings that define the structure and behavior of a specific type of content across a site or library. It allows organizations to standardize and manage information consistently. For example, a "Contract" content type might include specific metadata fields like "Contract Number," "Expiration Date," and "Client Name," along with a document template. By associating content types with lists or libraries, users can easily create and manage content that aligns with organizational standards, improving consistency, compliance, and searchability. Content types are foundational for building efficient information architectures in SharePoint.
 
 
-<img src="/articles/img/ctget1.PNG" width="600">
+<img src="/articles/img/ctget1.png" width="600">
 
 
 This article shows you how to get all or selected content types that you have in your list or your SharePoint site.
@@ -24,10 +24,15 @@ This article shows you how to get all or selected content types that you have in
 
 ## User Interface - Browser
 
-Navigate to Library or List Settings. There you will see Content Types available for this library or list. If the Content Types section is completely missing from your view, make sure to [enable content type management](https://powershellscripts.github.io/articles/en/spo/enablect/) first.
+Navigate to Library or List Settings. There you will see Content Types available for this library or list. 
 
 
-<img src="/articles/img/ctget2.PNG" width="600">
+<img src="/articles/img/ctget2.png" width="600">
+
+
+
+If the Content Types section is completely missing from your view, make sure to [enable content type management](https://powershellscripts.github.io/articles/en/spo/enablect/) first.
+
 
 
 <br/><br/>
@@ -143,12 +148,12 @@ Disconnect-PnPOnline
 
 Navigate to Site Settings.
 
-<img src="/articles/img/ctget3.PNG" width="600">
+<img src="/articles/img/ctget3.png" width="600">
 
 Open the Site Settings and under Web Designer Galleries you will find a link to a list of your site content types.
 
 
-<img src="/articles/img/ctget4.PNG" width="600">
+<img src="/articles/img/ctget4.png" width="600">
 
 
 <br/><br/>
