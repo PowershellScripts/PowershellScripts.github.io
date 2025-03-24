@@ -22,3 +22,18 @@ Copilot Dashboard Auto Enablement
 Copilot Dashboard Delegation
 Copilot Assisted Value
 Copilot in Microsoft Viva Insights
+
+
+
+
+externe fonts entfernen
+
+
+Images outside the critical viewport can be lazy-loaded.
+When images are lazy-loaded using loading="lazy", when they scroll into the viewport, freeing up early load for other tasks.
+
+/articles/images/easycaml1.png
+/articles/images/easycaml2.png
+/articles/images/easycaml3.png
+/articles/images/easycaml4.png
+/articles/images/easycaml5.png

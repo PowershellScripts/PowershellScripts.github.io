@@ -121,6 +121,13 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/ctget/">
+		<span style="display: block; text-align: right;">2025-03-15
+		<h3>List SharePoint content types</h3></span>
+		<p>This article shows you how to get all or selected content types that you have in your list or your SharePoint site.</p>
+	</a></li>
+
+
 	<li style="--i: 9"><a href="https://powershellscripts.github.io/articles/en/copilot/unpincopilotchat/">
 		<span style="display: block; text-align: right;">2025-03-08
 		<h3>How to unpin Copilot chat?</h3></span>
