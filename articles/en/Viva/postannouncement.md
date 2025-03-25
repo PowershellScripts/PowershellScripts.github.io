@@ -37,6 +37,18 @@ Once the announcement is posted, you will see the Announcement icon in the top l
 
 <br/><br/>
 
+# No Announcement Icon
+
+If you are missing the announcement icon:
+
+<img src="/articles/img/vepostannouncement.png" width="600" alt="screenshot showing how to post an announcement in Viva Engage">
+
+
+you don't have enough [rights to post an announcement](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248). Verify if you are a leader or a Community Admin.
+
+
+<br/><br/>
+
 # See Also
 
 
