@@ -2,7 +2,6 @@
 layout: page
 title: 'SharePoint Claims Deep Dive'
 hero_image: '/img/IMG_20220521_140146.jpg'
-menubar: docs_menu
 show_sidebar: false
 hero_height: is-small
 date: '2024-08-01'

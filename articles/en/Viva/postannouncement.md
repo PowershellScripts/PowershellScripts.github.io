@@ -35,6 +35,7 @@ Once the announcement is posted, you will see the Announcement icon in the top l
 <img src="/articles/img/vepostannouncement1.png" width="600" alt="screenshot showing a posted announcement in Viva Engage">
 
 
+<br/><br/>
 
 # See Also
 
