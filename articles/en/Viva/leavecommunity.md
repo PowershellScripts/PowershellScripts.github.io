@@ -34,6 +34,16 @@ After you have left the Viva Engage Community, a button **Join** will become ava
 <img src="/articles/img/veleavecommunity1.png" width="600" alt="screenshot showing how to leave a community">
 
 
+
+<br/><br/>
+
+# Short Video
+
+Showing how to leave a Viva Engage community.
+
+<iframe src="https://www.youtube.com/embed/qeojlP2---E" width="660" height="400" frameborder="0" allowfullscreen></iframe>
+
+
 <br/><br/>
 
 # See Also

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'How to post announcement in Viva Engage?'
+title: 'How to post announcement in Viva Engage'
 menubar: docs_menu_ve
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
@@ -9,12 +9,21 @@ date: '2025-03-23'
 ---
 
 
-This article shows how to post an announcement in Viva Engage Community.
+This article shows how to post an announcement in Viva Engage. The announcement will appear in Teams and mobile.
+
+
+# Community vs Storyline Announcement
+
+Community and Storyline Announcements are different things. Community Admin can post announcements in their communities. Leaders, corporate communicators and delegates can post announcements in their storylines.
+
+Community Announcements are available in the basic Viva Engage plan (eg. included in E3). **Storyline Announcements need additional licensing**. For additional info, check out the [support article](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248).
+
+<br/><br/>
 
 # Post an Announcement
 
 
-In your Community start a post. Below the text click on the Announcement (loudspeaker) icon. You should see a warning message in grey below. It will tell you that this post will be immediately shared with all community members.
+In your Community or Storyline start a post. Below the text click on the Announcement (loudspeaker) icon. You should see a warning message in grey below. It will tell you that this post will be immediately shared with all community members.
 
 <img src="/articles/img/vepostannouncement.png" width="600" alt="screenshot showing how to post an announcement in Viva Engage">
 
@@ -45,6 +54,15 @@ If you are missing the announcement icon:
 
 
 you don't have enough [rights to post an announcement](https://support.microsoft.com/en-us/topic/storyline-announcements-in-viva-engage-8db19630-ecd0-4d1e-b735-437aea62e248). Verify if you are a leader or a Community Admin.
+
+
+<br/><br/>
+
+# Short Video
+
+Showing how to post an announcement.
+
+<iframe src="https://www.youtube.com/embed/vMpr6moZJ7o" width="660" height="400" frameborder="0" allowfullscreen></iframe>
 
 
 <br/><br/>
