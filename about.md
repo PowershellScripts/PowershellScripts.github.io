@@ -20,34 +20,47 @@ I am SharePoint MCSA, Productivity MSCE, and Microsoft MVP :)
 Welcome to my articles!
 
 
+<br/><br/>
+
 
 # MVP
 
 I am Microsoft MVP (Most Valuable Professional) since 2007.
 
+<br/>
 
 # Certifications
 
-I have over 20 passed Microsoft exams and multiple certifications, including:
+I have over **20 passed Microsoft exams** and multiple certifications, including:
 
+#### Microsoft 365
 * Administering Information Protection and Compliance in Microsoft 365
+* Microsoft® Certified Solutions Associate: Office 365
 
+<br/>
 
+#### AI
 * Microsoft Certified: Azure AI Engineer Associate
 
+#### Power Platform
 * Analyzing Data with Microsoft Power BI
 
+#### Azure 
 * Microsoft Azure Administrator
 * Implementing Microsoft Azure Infrastructure Solutions
 
-* Developing Microsoft SharePoint Server 2013 Core Solutions
+#### SharePoint Server
 * Managing Microsoft SharePoint Server 2016
 * Advanced Solutions of Microsoft SharePoint Server 2013
 
-* Programming in HTML5 with JavaScript and CSS3
 * Server Virtualization with Windows Server Hyper-V and System Center Specialist
 * Administering Windows Server 2012
 
+#### Programming
+* Developing Microsoft SharePoint Server 2013 Core Solutions
+* Programming in HTML5 with JavaScript and CSS3
+
+<br/>
 
 # Applied Skills
 
