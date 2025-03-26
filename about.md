@@ -33,11 +33,11 @@ I am Microsoft MVP (Most Valuable Professional) since 2007.
 
 I have over **20 passed Microsoft exams** and multiple certifications, including:
 
+<br/>
+
 #### Microsoft 365
 * Administering Information Protection and Compliance in Microsoft 365
 * Microsoft® Certified Solutions Associate: Office 365
-
-<br/>
 
 #### AI
 * Microsoft Certified: Azure AI Engineer Associate
@@ -64,7 +64,7 @@ I have over **20 passed Microsoft exams** and multiple certifications, including
 
 # Applied Skills
 
-While still in development, I am huge of fan of this type of examination and have currently 6 of them :)
+They are still in development, but I am already a huge fan of this type of examination and currently have 6 of them :)
 
 * Microsoft Applied Skills: Prepare security and compliance to support Microsoft 365 Copilot  
 * Microsoft Applied Skills: Implement AI models with Microsoft Power Platform AI Builder  
