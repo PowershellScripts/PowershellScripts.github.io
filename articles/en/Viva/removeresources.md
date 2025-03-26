@@ -94,6 +94,16 @@ Some organizations choose to hide this feature to discourage users from storing 
 
 <br/><br/>
 
+# Short Video
+
+Short video showing how to remove community resources 
+
+<iframe src="https://www.youtube.com/embed/4fNuio01uxM" width="660" height="400" frameborder="0" allowfullscreen></iframe>
+
+
+
+<br/><br/>
+
 # See Also
 
 [Manage Viva Engage community resources](https://support.microsoft.com/en-us/topic/manage-viva-engage-community-resources-08fc99bf-c36c-425b-9a98-079e62510135#:~:text=Click%20on%20the%20three%2Ddot,switch%20off%20the%20corresponding%20toggle.)

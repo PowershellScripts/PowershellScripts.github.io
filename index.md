@@ -121,6 +121,11 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/postmultiplecommunities/">
+		<span style="display: block; text-align: right;">2025-03-24
+		<h3>How to post to multiple communities in Viva Engage?</h3></span>
+		<p>This article gives you an answer.</p>
+	</a></li>
 
 	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/postannouncement/">
 		<span style="display: block; text-align: right;">2025-03-23
