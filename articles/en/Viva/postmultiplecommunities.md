@@ -25,9 +25,9 @@ You can select **one** community when creating a Viva Engage post.
 <img src="/articles/img/vepostmultiple.png" width="600" alt="screenshot showing how to post in Viva Engage">
 
 
-After selecting a community or storyline, you can add more people, but additional communities cannot be included.
+After selecting a community or storyline, you can add more people, but additional communities cannot be included:
 
-<img src="/articles/img/vepostannouncement.png" width="600" alt="screenshot showing how to add people to a post in Viva Engage">
+<img src="/articles/img/vepostmultiple1.png" width="600" alt="screenshot showing how to add people to a post in Viva Engage">
 
 
 

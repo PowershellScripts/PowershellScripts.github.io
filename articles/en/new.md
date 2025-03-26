@@ -37,3 +37,8 @@ When images are lazy-loaded using loading="lazy", when they scroll into the view
 /articles/images/easycaml3.png
 /articles/images/easycaml4.png
 /articles/images/easycaml5.png
+
+
+
+
+enable folders in Site Pages library
