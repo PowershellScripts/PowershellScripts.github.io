@@ -49,7 +49,7 @@ I have over **20 passed Microsoft exams** and multiple certifications, including
 * Microsoft Azure Administrator
 * Implementing Microsoft Azure Infrastructure Solutions
 
-#### SharePoint Server
+#### (SharePoint) Server
 * Managing Microsoft SharePoint Server 2016
 * Advanced Solutions of Microsoft SharePoint Server 2013
 

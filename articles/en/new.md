@@ -42,3 +42,6 @@ When images are lazy-loaded using loading="lazy", when they scroll into the view
 
 
 enable folders in Site Pages library
+
+
+secret properties of labels
