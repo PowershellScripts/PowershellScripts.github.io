@@ -17,7 +17,9 @@ A Content Type in SharePoint is a reusable collection of metadata, templates, an
 <img src="/articles/img/ctget1.png" width="600">
 
 
-This article shows you how to get all or selected content types that you have in your list or your SharePoint site.
+This article shows you how to get all or selected content types that you have in your:
+* list or library
+* SharePoint site.
 
 <br/><br/>
 

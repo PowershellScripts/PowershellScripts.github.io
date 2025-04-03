@@ -121,6 +121,31 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/spo/approvefiles/">
+		<span style="display: block; text-align: right;">2025-04-03
+		<h3>Approve site pages using PnP</h3></span>
+		<p>Especially useful if you need to approve a lot of files in a batch. Works for approving SharePoint pages, news items, or library files.</p>
+	</a></li>
+
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/spo/foldersinsitepages/">
+		<span style="display: block; text-align: right;">2025-04-01
+		<h3>Enable folders in SharePoint Site Pages library</h3></span>
+		<p>By default, folders in the Site Pages library of SharePoint are not visible when using the New button. This is how to enable them.</p>
+	</a></li>
+
+
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/privatecontentmode/">
+		<span style="display: block; text-align: right;">2025-03-29
+		<h3>Private content mode will retire as of June 30th, 2025</h3></span>
+		<p>Viva Engage will no longer support private content mode. What is it? What are the alternatives? </p>
+	</a></li>
+
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/translate/">
+		<span style="display: block; text-align: right;">2025-03-25
+		<h3>Auto-translate Viva Engage posts</h3></span>
+		<p>Viva Engage offers automated translation of posts for users. The article shows you how it works and how to enable it for your users.</p>
+	</a></li>
+
 	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/postmultiplecommunities/">
 		<span style="display: block; text-align: right;">2025-03-24
 		<h3>How to post to multiple communities in Viva Engage?</h3></span>

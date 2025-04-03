@@ -3,7 +3,7 @@
 		<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 	<loc>https://powershellscripts.github.io/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2025-04-02T23:40:54+01:00</lastmod>
 	<priority>1.0</priority>
 </url>
 <url>
@@ -43,7 +43,7 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/InformationProtection/runasadmin/</loc>
-	<lastmod>2025-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2025-04-02T23:40:54+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -158,7 +158,7 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/about/</loc>
-	<lastmod>2022-02-02T23:40:54+01:00</lastmod>
+	<lastmod>2025-04-02T23:40:54+01:00</lastmod>
 	<priority>0.8</priority>
 </url>
 <url>
@@ -303,7 +303,7 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/</loc>
-	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<lastmod>2025-04-02T23:41:03+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -384,6 +384,31 @@
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/Viva/postannouncement/</loc>
 	<lastmod>2025-03-23T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/postmultiplecommunities/</loc>
+	<lastmod>2025-03-25T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/translate/</loc>
+	<lastmod>2025-03-25T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Viva/privatecontentmode/</loc>
+	<lastmod>2025-03-29T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/foldersinsitepages/</loc>
+	<lastmod>2025-04-01T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/approvefiles/</loc>
+	<lastmod>2025-04-03T23:41:03+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 </urlset>

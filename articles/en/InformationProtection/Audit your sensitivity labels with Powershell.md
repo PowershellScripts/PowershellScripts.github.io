@@ -4,7 +4,7 @@ title: 'Audit sensitivity labels with Powershell'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2022-08-17'
+date: '2022-08-17 <br/>Updated: 2025-04-05'
 ---
 
 
@@ -20,7 +20,7 @@ The sensitivity labels will show as already applied labels, if they are being ap
 
 Install Exchange Online module and Connect to Security & Compliance Center PowerShell.
 ```powershell
-Install-Module -Name ExchangeOnlineManagement -RequiredVersion 2.0.5
+Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.6.0
 Connect-IPPSSession -UserPrincipalName User@contoso.com
 ```
 
