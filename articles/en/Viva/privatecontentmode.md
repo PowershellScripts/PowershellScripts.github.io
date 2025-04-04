@@ -14,7 +14,7 @@ date: '2025-03-29'
 Private Content Mode in Viva Engage is an admin-only setting that allows administrators to view private messages between users and posts in private groups they are not members of.
 
 
-<img src="/articles/images/veprivatecontentmode.png" width="400">
+<img src="/articles/img/veprivatecontentmode.png" width="400">
 
 
 <br/>
@@ -33,9 +33,9 @@ Global Administrator or Groups Administrator can search for private communities 
 
 ## Message ID: MC1045211
 
-*Viva Engage will no longer support private content mode, present within the classic Yammer admin center. Verified admins will no longer be able to enable or disable this feature. If the feature was left on by a verified admin, then it will be disabled for them.  There are alternative methods that can fulfill the needs previously met by private content mode:  Viewing private community content without being a member: Users with the Global Administrator or Groups Administrator role can search for private communities within Engage and join these communities without requiring explicit approvals. Learn more about other Entra ID roles here (https://Microsoft Entra built-in roles - Microsoft Entra ID | Microsoft Learn). Viewing community admins and members for private communities without being a member: Since Engage Communities are backed by Microsoft 365 groups, the list of group owners and group members are visible within Entra ID for all users. Learn more about group management here (https://Learn about groups, group membership, and access - Microsoft Entra | Microsoft Learn). Handling legal/audit cases in Engage: Compliance administrators, eDiscovery managers, and eDiscovery administrators can access, search, and export private community and private message content on Viva Engage. Learn more about our eDiscovery standard solution here (https://learn.microsoft.com/en-us/purview/edisc). Admins are also able to perform network data exports (https://learn.microsoft.com/en-us/viva/engage/eac-as-manage-data) which can be manipulated to handle other advanced use cases.*
+*Viva Engage will no longer support private content mode, present within the classic Yammer admin center. Verified admins will no longer be able to enable or disable this feature. If the feature was left on by a verified admin, then it will be disabled for them.  There are alternative methods that can fulfill the needs previously met by private content mode:  Viewing private community content without being a member: Users with the Global Administrator or Groups Administrator role can search for private communities within Engage and join these communities without requiring explicit approvals. Viewing community admins and members for private communities without being a member: Since Engage Communities are backed by Microsoft 365 groups, the list of group owners and group members are visible within Entra ID for all users. Handling legal/audit cases in Engage: Compliance administrators, eDiscovery managers, and eDiscovery administrators can access, search, and export private community and private message content on Viva Engage. Learn more about our eDiscovery standard solution [here](https://learn.microsoft.com/en-us/purview/edisc). Admins are also able to perform [network data exports](https://learn.microsoft.com/en-us/viva/engage/eac-as-manage-data) which can be manipulated to handle other advanced use cases.*
 
-##### What you need to do to prepare
+###### *What you need to do to prepare*
 *There will be no exceptions to the retirement which will be done on June 30th, 2025. We recommend you communicate clearly and early to admins of this impending change and coordinate an effort to understand the alternative solutions proposed above.*
 
 

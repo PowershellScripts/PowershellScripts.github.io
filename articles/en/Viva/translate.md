@@ -16,12 +16,12 @@ When a post is in a different language than your default, a **Show Translation**
 Click on it to see the text translated using Microsoft's AI-powered translation services. The language is automatically recognized.
 
 
-<img src="/articles/images/vetranslate1.png" width="400">
+<img src="/articles/img/vetranslate1.png" width="400">
 
 
 You can revert to the original language at any time.
 
-<img src="/articles/images/vetranslate2.png" width="400">
+<img src="/articles/img/vetranslate2.png" width="400">
 
 <br/>
 
@@ -29,7 +29,7 @@ You can revert to the original language at any time.
 
 The setting can be adjusted only in the classic admin center at the time of writing this (March 2025).
 
-<img src="/articles/images/vetranslate.png" width="400">
+<img src="/articles/img/vetranslate.png" width="400">
 
 
 

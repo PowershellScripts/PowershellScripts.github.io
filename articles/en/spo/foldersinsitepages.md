@@ -40,7 +40,7 @@ To enable folders in the **Site Pages** library, follow these steps:
 
 
 
-<img src="/articles/images/spomakenewfolder.png" width="400">
+<img src="/articles/img/spomakenewfolder.png" width="400">
 
 Now you can create folders and organize your pages!
 
