@@ -11,7 +11,7 @@ date: '2025-03-29'
 ## What is Private Content Mode?
 
 
-Private Content Mode in Viva Engage is an admin-only setting that allows administrators to view private messages between users and posts in private groups they are not members of.
+Private Content Mode in Viva Engage is an admin-only setting that allows administrators to view private messages between users and posts in private groups they are not members of. You can find it only in the classic Admin Center of Viva Engage.
 
 
 <img src="/articles/img/veprivatecontentmode.png" width="400">

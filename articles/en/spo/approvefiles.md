@@ -38,11 +38,15 @@ In order to approve a news or a page in SharePoint, you need to set _ModerationS
 Set-PnPListItem -List "Site Pages" -Identity 1090 -Values @{"_ModerationStatus" = "0"}
 ```
 
-There are 4 values for the Moderation Status
+There are 4 values for the Moderation Status:
+
 0 - Approved
+
 1 - Rejected
-2 -
-3 -
+
+2 - Pending
+
+3 - Draft
 
 <br/>
 
@@ -63,7 +67,7 @@ foreach ($page in $pages) {
     Set-PnPListItem -List "Site Pages" -Identity $itemId -Values @{"_ModerationStatus" = "0"}
 }
 
-Write-Host "All pages have been approved!"
+Write-Host "All pages have been approved"
 ```
 
 <br/>
@@ -102,11 +106,15 @@ foreach ($page in $pages) {
     Set-PnPListItem -List "Site Pages" -Identity $itemId -Values @{"_ModerationStatus" = "1"}
 }
 
-Write-Host "All pages have been rejected!"
+Write-Host "All pages have been rejected"
 
 ```
 
 
+
+# See Also
+
+[Set-PnPListItem](https://pnp.github.io/powershell/cmdlets/Set-PnPListItem.html)
 
 
 <!-- Default Statcounter code for spo - sitepagesAll

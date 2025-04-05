@@ -42,6 +42,8 @@ To enable folders in the **Site Pages** library, follow these steps:
 
 <img src="/articles/img/spomakenewfolder.png" width="400">
 
+<br/>
+
 Now you can create folders and organize your pages!
 
 

@@ -18,6 +18,8 @@ Click on it to see the text translated using Microsoft's AI-powered translation 
 
 <img src="/articles/img/vetranslate1.png" width="400">
 
+<br/>
+
 
 You can revert to the original language at any time.
 
@@ -27,7 +29,7 @@ You can revert to the original language at any time.
 
 # Enable in Admin Center
 
-The setting can be adjusted only in the classic admin center at the time of writing this (March 2025).
+At the time of writing this (March 2025) the setting can be adjusted only in the classic admin center .
 
 <img src="/articles/img/vetranslate.png" width="400">
 
