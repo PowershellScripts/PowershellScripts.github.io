@@ -43,7 +43,7 @@ Make sure all are uninstalled.
 Get-Module -ListAvailable | where {$_.Name -match "Exchange"}
 ```
 
-Install the newest version. Check here to see the current version. Optionally, you can also skip the RequiredVersion parameter.
+Install the newest version. Check [here](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.7.2) to see the current version. Optionally, you can also skip the RequiredVersion parameter.
 
 
 ```powershell
@@ -53,7 +53,11 @@ Import-Module -Name ExchangeOnlineManagement -MinimumVersion 3.0.0 -Force
 ```
 
 
+# See Also
 
+[Connect to Exchange Online Powershell](https://learn.microsoft.com/en-us/powershell/exchange/connect-to-exchange-online-powershell?view=exchange-ps)
+
+[ExchangeOnlineManagement in Powershell Gallery](https://www.powershellgallery.com/packages/ExchangeOnlineManagement/3.7.2)
 
 
 <!-- Default Statcounter code for m365groupSettings
