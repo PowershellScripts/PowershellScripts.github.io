@@ -8,30 +8,70 @@ date: '2025-04-06'
 ---
 
 
-ExchangeOnlineManagement fails to connect
-
-
-Connect-ExchangeOnline -UserPrincipalName
-InvalidOperation: You cannot call a method on a null-valued expression.
-
-
-Check how many you have. If it's more than one, it is likely to cause an issue. Unless you have a very good reason to keep multiple versions, it's best to have only **one**.
+# ExchangeOnlineManagement fails to connect
 
 ```powershell
-get-module -ListAvailable | where {$_.Name -match "Exchange"}
+Connect-ExchangeOnline -UserPrincipalName
+InvalidOperation: You cannot call a method on a null-valued expression.
+```
 
+
+🔧 Troubleshooting ExchangeOnlineManagement Connection Issues
+When trying to connect to Exchange Online using the **Connect-ExchangeOnline** cmdlet from the ExchangeOnlineManagement PowerShell module, you might encounter the following error:
+
+>> InvalidOperation: You cannot call a method on a null-valued expression.
+
+
+This error typically indicates that something went wrong during the initialization of the module or authentication process. 
+
+
+Check how many ExchangeOnlineManagement modules you have. If it's more than one, it is likely to cause an issue. Unless you have a very good reason to keep multiple versions, it's best to have only **one**.
+
+```powershell
+Get-Module -ListAvailable | where {$_.Name -match "Exchange"}
+```
 
 Uninstall all your modules. It will allow for a clean start.
 
+```powershell
 Uninstall-Module -Name ExchangeOnlineManagement -force
+```
 
 Make sure all are uninstalled.
 
-get-module -ListAvailable | where {$_.Name -match "Exchange"}
-
+```powershell
+Get-Module -ListAvailable | where {$_.Name -match "Exchange"}
+```
 
 Install the newest version. Check here to see the current version. Optionally, you can also skip the RequiredVersion parameter.
 
+
+```powershell
 Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.6.0
 
-import-module -Name ExchangeOnlineManagement -MinimumVersion 3.0.0 -force
+Import-Module -Name ExchangeOnlineManagement -MinimumVersion 3.0.0 -Force
+```
+
+
+
+
+
+<!-- Default Statcounter code for m365groupSettings
+https://powershellscripts.github.io/articles/en/Other/m365groupsettings/
+-->
+<script type="text/javascript">
+var sc_project=13025470; 
+var sc_invisible=0; 
+var sc_security="229b5a6c"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13025470/0/229b5a6c/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
