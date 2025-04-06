@@ -9,6 +9,7 @@ date: '2025-04-06'
 
 
 # ExchangeOnlineManagement fails to connect
+🔧 Troubleshooting ExchangeOnlineManagement Connection Issues
 
 ```powershell
 Connect-ExchangeOnline -UserPrincipalName
@@ -16,7 +17,7 @@ InvalidOperation: You cannot call a method on a null-valued expression.
 ```
 
 
-🔧 Troubleshooting ExchangeOnlineManagement Connection Issues
+
 
 When trying to connect to Exchange Online using the **Connect-ExchangeOnline** cmdlet from the ExchangeOnlineManagement PowerShell module, you might encounter the following error:
 
