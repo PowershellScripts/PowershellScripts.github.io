@@ -121,7 +121,7 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
-	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/Other/exologinfails/">
+	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/exologinfails/">
 		<span style="display: block; text-align: right;">2025-04-06
 		<h3>ExchangeOnlineManagement fails to connect</h3></span>
 		<p>How to troubleshoot.</p>
