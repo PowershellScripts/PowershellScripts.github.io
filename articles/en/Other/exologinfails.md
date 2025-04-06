@@ -17,6 +17,7 @@ InvalidOperation: You cannot call a method on a null-valued expression.
 
 
 🔧 Troubleshooting ExchangeOnlineManagement Connection Issues
+
 When trying to connect to Exchange Online using the **Connect-ExchangeOnline** cmdlet from the ExchangeOnlineManagement PowerShell module, you might encounter the following error:
 
 > InvalidOperation: You cannot call a method on a null-valued expression.
@@ -52,6 +53,7 @@ Install-Module -Name ExchangeOnlineManagement -RequiredVersion 3.6.0
 Import-Module -Name ExchangeOnlineManagement -MinimumVersion 3.0.0 -Force
 ```
 
+<br/>
 
 # See Also
 
