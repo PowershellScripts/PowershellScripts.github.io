@@ -4,9 +4,8 @@ title: 'Content Type is still in use - How to remove stuck site content type'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2025-03-09'
+date: '2025-04-05'
 ---
-
 
 # Issue 
 
@@ -33,111 +32,173 @@ The error message means that somewhere out there there are still items using tha
 
 
 
-## User Interface (Browser)
+<h1>User Interface (Browser)</h1>
 
-Enter the URL of the site where you want to remove the content type. At the end of the URL add /_layouts/15/mngctype.aspx 
+Step 1. Navigate to the list. Modify the view:
 
-At the end of step 1, you should have: https://trialtrial125.sharepoint.com/_layouts/15/mngctype.aspx
+ <img src="/articles/img/ctinuse.png"
 
-2. Click on the content type you want to remove.
+Step 2. Include Content type column:
 
+ <img src="/articles/img/ctinuse1.png"
 
-3. In the browser's URL bar you will see something like:
+Step 3. Save the view.
 
-https://trialtrial125.sharepoint.com/_layouts/15/start.aspx#/_layouts/15/ManageContentType.aspx?ctype=0x0101009148F5A04DDD49CBA7127AADA5FB792B006973ACD696DC4858A76371B2FB2F439A&Source=https%3A%2F%2Ftrialtrial125%2Esharepoint%2Ecom%2F%5Flayouts%2F15%2Fmngctype%2Easpx
+Step 4. In the list click on the content type column and select the content type you are about to delete.
 
-The numbers marked in red are the id of the content type (not the same as the GUID). More reading content type id: Content Type IDs
-This content type id is:
-
-$ContentTypeID="0x00A7470EADF4194E2E9ED1031B61DA0884030065B86AF41E46E8408DF47ED47A09578701"
-
-The function itself:
+ 
+ <img src="/articles/img/ctinuse2.png"
 
 
-function Remove-Contenttype
- 
-{
- 
-param (
- 
-  [Parameter(Mandatory=$true,Position=1)]
- 
-        [string]$Username,
- 
-        [Parameter(Mandatory=$true,Position=2)]
- 
-        $AdminPassword,
- 
-        [Parameter(Mandatory=$true,Position=3)]
- 
-        [string]$Url,
- 
-[Parameter(Mandatory=$true,Position=4)]
- 
-        $ContentTypeID
- 
-  
- 
-)
- 
-#$password = ConvertTo-SecureString -string $AdminPassword -AsPlainText -Force
- 
-  $ctx=New-Object Microsoft.SharePoint.Client.ClientContext($Url)
- 
-  $ctx.Credentials = New-Object Microsoft.SharePoint.Client.SharePointOnlineCredentials($Username, $AdminPassword)
- 
-  $ctx.ExecuteQuery()
- 
-  
- 
- $ctx.Load($ctx.Web)
- 
-  $ct=$ctx.Web.ContentTypes
- 
-$ctx.Load($ct)
- 
-$ctx.ExecuteQuery()
- 
-Write-Host $ctx.Web.Url $ct.Count.ToString()
- 
-$ctx.Web.ContentTypes.GetById($ContentTypeID).DeleteObject()
- 
-$ctx.ExecuteQuery()
+Step 6. Either delete the items or change their content type under properties.
 
+  <img src="/articles/img/ctinuse3.png"
+
+ 
+
+
+# Powershell
+
+It works better if you don't know in which list the content type is bein used. Powershell allows you to scan through multiple lists quickly.
+
+### With content type name 
+Content type name is easier because you already know the name of your content type. However, if there is a chance that you may have 2 different content types with the same name, you should be using the script with content type id, not name. For a script with content type id, scroll below.
+
+
+```powershell
+
+# Specify your site and your client ID
+Connect-PnPOnline -Url "https://acco967.sharepoint.com/sites/EWZ" -Interactive  -ClientId 00000000-4ead-4642-93a9-0000000000    
+
+# Specify the name of your content type
+$ContentTypeName = "MyCustomComment"   
+
+# Get all lists in the site
+$lists = Get-PnPList
+
+# Initialize results
+$results = @()
+
+foreach ($list in $lists) {
+    # Skip hidden or system lists
+    if ($list.Hidden -or $list.BaseTemplate -eq 101) { # 101 is the template ID for document libraries
+        continue
+    }
+
+    # Get items in the list with the specified content type
+    $items = Get-PnPListItem -List $list.Title -Query "<View><Query><Where><Eq><FieldRef Name='ContentType' /><Value Type='Computed'>$ContentTypeName</Value></Eq></Where></Query></View>" -PageSize 1000
+
+    # Count the items and get their URLs
+    $count = $items.Count
+    if ($count -gt 0) {
+        $itemUrls = $items | ForEach-Object {
+            "$($_.FieldValues.FileRef)"
+        }
+
+        # Add the results to the output
+        $results += [PSCustomObject]@{
+            ListName  = $list.Title
+            ItemCount = $count
+            ItemUrls  = $itemUrls -join ", "
+        }
+    }
 }
 
-All that remains is to run the cmdlet (still in the .ps1 file!)
+# Display the results
+if ($results.Count -eq 0) {
+    Write-Output "No items with content type '$ContentTypeName' found."
+} else {
+    $results | Format-Table -AutoSize
+}
 
-Remove-Contenttype -Username $Username -AdminPassword $AdminPassword -Url $AdminUrl -ContentTypeID $ContentTypeID
+# Optionally export the results to a CSV file
+$results | Export-Csv -Path "ContentTypeReport.csv" 
 
-The full script can be downloaded here.
+# Disconnect from SharePoint
+Disconnect-PnPOnline
 
-Run the script in any PowerShell. It should ask you for your admin password.
 
-Results
+```
 
- 
 
-Some of the content types were removed in the first go (Yey!). Additionally received the site URL from where they were removed and how many content types remained (just as a security precaution).
 
-In some of the cases, though, it failed. As a consolation we received a meaningful message from PowerShell:
-"Content type MYNAME at sites/MYSITENAME is read only"
 
-A short trip to the user interface solved the issue:
+
+### With content type id
+
+You can find content type ID [using browser](https://powershellscripts.github.io/articles/en/SharePointOnline/findctid/) or [Powershell](https://powershellscripts.github.io/articles/en/SharePointOnline/findctIDPS/).
+
+
+
+```powershell
+
+# Connect to the SharePoint site
+Connect-PnPOnline -Url "https://acco967.sharepoint.com/sites/EWZ" -Interactive  -ClientId 00000000-4ead-4642-93a9-0000000000    # Specify your site and your client ID
+
+# Define the Content Type ID to search for
+$ContentTypeId = "0x0101001234567890ABCDE"
+
+# Get all lists in the site
+$lists = Get-PnPList
+
+# Initialize results
+$results = @()
+
+foreach ($list in $lists) {
+    # Skip hidden or system lists
+    if ($list.Hidden -or $list.BaseTemplate -eq 101) { # 101 is the template ID for document libraries
+        continue
+    }
+
+    # Get items in the list with the specified content type
+     $items = Get-PnPListItem -List $list.Title -Query "<View><Query><Where><BeginsWith><FieldRef Name='ContentTypeId' /><Value Type='Text'>$ContentTypeId</Value></BeginsWith></Where></Query></View>" -PageSize 1000
+
+    # Count the items and get their URLs
+    $count = $items.Count
+    if ($count -gt 0) {
+        $itemUrls = $items | ForEach-Object {
+            "$($_.FieldValues.FileRef)"
+        }
+
+        # Add the results to the output
+        $results += [PSCustomObject]@{
+            ListName  = $list.Title
+            ItemCount = $count
+            ItemUrls  = $itemUrls -join ", "
+        }
+    }
+}
+
+# Display the results
+if ($results.Count -eq 0) {
+    Write-Output "No items with content type ID '$ContentTypeId' found."
+} else {
+    $results | Format-Table -AutoSize
+}
+
+# Optionally export the results to a CSV file
+$results | Export-Csv -Path "ContentTypeReport.csv" 
+
+# Disconnect from SharePoint
+Disconnect-PnPOnline
+
+
+```
+
+
+# Read Only
+
+If your content type is read only, you need to change that setting first.
+
+Navigate to:
 
 1. Site settings
 2. Site content types
 3. Click on the name of the content type
 4. Advanced settings
-5. Should this content type be read only? Well, NO
-Deleted the content type from the User Interface (sorry PowerShell for betrayal...)
- 
+5. Should this content type be read only? Select NO
 
 
+# See Also
 
-
-
-Download
-The script is available also for download from the TechNet Script Gallery:
-
-Remove content type from SharePoint site using PowerShell
+[List SharePoint content types](https://powershellscripts.github.io/articles/en/spo/ctget/)

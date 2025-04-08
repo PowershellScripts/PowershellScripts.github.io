@@ -34,7 +34,7 @@ Navigate to [https://insights.cloud.microsoft/#/CopilotDashboard/](https://insig
 
 ## Licensing requirements
 
-The great news is that the Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. 
+The great news is that the Microsoft Copilot Dashboard in Viva Insights is available to any customer with a Microsoft 365 or Office 365 subscription for business or enterprise, and who has an active Exchange Online account. [Source](https://learn.microsoft.com/en-us/viva/insights/org-team-insights/copilot-dashboard)
 
 You do not need a paid Viva Insights license nor a Microsoft 365 Copilot license to view the dashboard. 
 

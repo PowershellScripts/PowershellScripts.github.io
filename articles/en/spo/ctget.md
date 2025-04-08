@@ -90,8 +90,14 @@ Connect-PnPOnline -Url $SiteUrl -Interactive
 # Specify the content type ID
 $ContentTypeId = "0x0101001234567890ABCDEF1234567890ABCDEF" # Replace with your Content Type ID
 
+# Specify the list name
+$ListName = "YourListName"
+
+# Get the list
+$List = Get-PnPList -Identity $ListName
+
 # Get the content type by ID
-$ContentType = Get-PnPContentType | Where-Object { $_.Id.StringValue -eq $ContentTypeId }
+$ContentType = Get-PnPContentType -List $List | Where-Object { $_.Id.StringValue -eq $ContentTypeId }
 
 # Check if content type is found
 if ($ContentType) {
@@ -124,8 +130,14 @@ Connect-PnPOnline -Url $SiteUrl -Interactive
 # Specify the content type name
 $ContentTypeName = "Your Content Type Name" # Replace with the name of your content type
 
+# Specify the list name
+$ListName = "YourListName"
+
+# Get the list
+$List = Get-PnPList -Identity $ListName
+
 # Get the content type by name
-$ContentType = Get-PnPContentType | Where-Object { $_.Name -eq $ContentTypeName }
+$ContentType = Get-PnPContentType -List $List | Where-Object { $_.Name -eq $ContentTypeName }
 
 # Check if content type is found
 if ($ContentType) {

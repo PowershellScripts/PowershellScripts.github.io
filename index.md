@@ -121,10 +121,22 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 <ol style="--length: 5" role="list">
 
 
+	<li style="--i: 18"><a href="https://powershellscripts.github.io/articles/en/Viva/changelanguage/">
+		<span style="display: block; text-align: right;">2025-04-06
+		<h3>Change language of your Viva Engage</h3></span>
+		<p>Every user can set their language in Viva Engage. The setting works separately from browser settings and the settings in their user profile.</p>
+	</a></li>
+
 	<li style="--i: 7"><a href="https://powershellscripts.github.io/articles/en/Other/exologinfails/">
 		<span style="display: block; text-align: right;">2025-04-06
 		<h3>ExchangeOnlineManagement fails to connect</h3></span>
 		<p>How to troubleshoot.</p>
+	</a></li>
+
+	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/ctremove/">
+		<span style="display: block; text-align: right;">2025-04-05
+		<h3>Content Type is still in use - How to remove stuck site content type</h3></span>
+		<p>How to troubleshoot and remove a stuck content type.</p>
 	</a></li>
 
 	<li style="--i: 12"><a href="https://powershellscripts.github.io/articles/en/spo/approvefiles/">

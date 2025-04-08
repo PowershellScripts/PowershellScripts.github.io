@@ -7,3 +7,55 @@ show_sidebar: false
 hero_height: is-small
 date: '2025-04-06'
 ---
+
+
+
+Every user can change their language in Viva Engage. The setting works separately from browser settings and the settings in their user profile.
+
+
+In the top right corner select **Settings** icon:
+
+
+<img src="/articles/img/vechangelg.png">
+
+
+
+Under **Language** section select your language from a dropdown:
+
+
+<img src="/articles/img/vechangelg2.png">
+
+
+<br/>
+
+
+There are currently 27 languages supported:
+
+- **Catalan** - `ca-ES`
+- **Chinese (Simplified)** - `zh-CN`
+- **Chinese (Traditional)** - `zh-TW`
+- **Czech** - `cs-CZ`
+- **Danish** - `da-DK`
+- **German** - `de-DE`
+- **Greek** - `el-GR`
+- **English** - `en-US`
+- **Spanish** - `es-ES`
+- **Finnish** - `fi-FI`
+- **French** - `fr-FR`
+- **Hungarian** - `hu-HU`
+- **Indonesian** - `id-ID`
+- **Italian** - `it-IT`
+- **Japanese** - `ja-JP`
+- **Korean** - `ko-KR`
+- **Norwegian (Bokmål)** - `nb-NO`
+- **Dutch** - `nl-NL`
+- **Polish** - `pl-PL`
+- **Portuguese (Brazil)** - `pt-BR`
+- **Portuguese (Portugal)** - `pt-PT`
+- **Romanian** - `ro-RO`
+- **Russian** - `ru-RU`
+- **Swedish** - `sv-SE`
+- **Thai** - `th-TH`
+- **Turkish** - `tr-TR`
+- **Ukrainian** - `uk-UA`
+

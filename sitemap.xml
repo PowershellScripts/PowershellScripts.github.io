@@ -313,7 +313,7 @@
 </url>
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/SharePointOnline/findctIDPS/</loc>
-	<lastmod>2025-02-02T23:41:03+01:00</lastmod>
+	<lastmod>2025-04-08T23:41:03+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 <url>
@@ -409,6 +409,16 @@
 <url>
 	<loc>https://powershellscripts.github.io/articles/en/spo/approvefiles/</loc>
 	<lastmod>2025-04-03T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/spo/ctremove/</loc>
+	<lastmod>2025-04-08T23:41:03+01:00</lastmod>
+	<priority>0.2</priority>
+</url>
+<url>
+	<loc>https://powershellscripts.github.io/articles/en/Other/exologinfails/</loc>
+	<lastmod>2025-04-08T23:41:03+01:00</lastmod>
 	<priority>0.2</priority>
 </url>
 </urlset>

@@ -4,7 +4,7 @@ title: 'Find content type ID using Powershell'
 hero_image: '/img/IMG_20220521_140146.jpg'
 show_sidebar: false
 hero_height: is-small
-date: '2024-08-18'
+date: '2024-08-18 <br/>Updated: 2025-04-05'
 ---
 
 # Intro
@@ -279,7 +279,7 @@ foreach($cc in $ctx.Web.ContentTypes)
 <br/>
 
 # PowerShell SPOMod
-An old favourite of mine, close to being deprecated, but I am mentioning it here out of sentiment.
+An old favourite of mine, deprecated, but I am mentioning it here out of sentiment.
 
 ### Prerequisites
 
