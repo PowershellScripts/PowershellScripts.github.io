@@ -12,12 +12,12 @@ date: '2025-04-05'
 
 You navigate to SharePoint List -> List Settings -> Scroll down to content types -> Open a content type
 
-<img src="/articles/img/ctremove0.png" width="200">
+<img src="/articles/img/ctremove0.png" width="600">
 
 
 Click delete this content type and receive the following error message:
 
-<img src="/articles/img/ctremove.png" width="200">
+<img src="/articles/img/ctremove.png" width="600">
 
 
 # Solution
@@ -31,31 +31,33 @@ The error message means that somewhere out there there are still items using tha
 * REST API
 
 
+<br/>
 
-<h1>User Interface (Browser)</h1>
+# User Interface (Browser)
 
 Step 1. Navigate to the list. Modify the view:
 
- <img src="/articles/img/ctinuse.png"
+ <img src="/articles/img/ctinuse.png">
 
 Step 2. Include Content type column:
 
- <img src="/articles/img/ctinuse1.png"
+ <img src="/articles/img/ctinuse1.png">
 
 Step 3. Save the view.
 
 Step 4. In the list click on the content type column and select the content type you are about to delete.
 
  
- <img src="/articles/img/ctinuse2.png"
+ <img src="/articles/img/ctinuse2.png">
 
 
 Step 6. Either delete the items or change their content type under properties.
 
-  <img src="/articles/img/ctinuse3.png"
+  <img src="/articles/img/ctinuse3.png">
 
  
 
+<br/>
 
 # Powershell
 
@@ -185,6 +187,7 @@ Disconnect-PnPOnline
 
 ```
 
+<br/>
 
 # Read Only
 
@@ -198,6 +201,9 @@ Navigate to:
 4. Advanced settings
 5. Should this content type be read only? Select NO
 
+
+
+<br/>
 
 # See Also
 

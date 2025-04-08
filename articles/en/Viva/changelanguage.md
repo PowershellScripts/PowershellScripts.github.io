@@ -23,7 +23,7 @@ In the top right corner select **Settings** icon:
 Under **Language** section select your language from a dropdown:
 
 
-<img src="/articles/img/vechangelg2.png">
+<img src="/articles/img/vechangelg1.png">
 
 
 <br/>
