@@ -24,6 +24,7 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 	--h: 212deg;
 	--l: 43%;
 	--brandColor: hsl(var(--h), 71%, var(--l));
+	font-family: Montserrat, sans-serif;
 	margin: 0;
 	background-color: whitesmoke;
 }
