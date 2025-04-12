@@ -59,3 +59,26 @@ There are currently 27 languages supported:
 - **Turkish** - `tr-TR`
 - **Ukrainian** - `uk-UA`
 
+
+
+
+
+<!-- Default Statcounter code for VE change language
+https://powershellscripts.github.io/articles/en/Viva/changelanguage/
+-->
+<script type="text/javascript">
+var sc_project=13116808; 
+var sc_invisible=1; 
+var sc_security="3463ca4a"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/13116808/0/3463ca4a/1/"
+alt="Web Analytics"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->

@@ -61,7 +61,7 @@ Step 6. Either delete the items or change their content type under properties.
 
 # Powershell
 
-It works better if you don't know in which list the content type is bein used. Powershell allows you to scan through multiple lists quickly.
+Powershell is a better choice if you don't know in which list the content type is being used and there is a lot of them. Powershell allows you to scan through multiple lists quickly.
 
 ### With content type name 
 Content type name is easier because you already know the name of your content type. However, if there is a chance that you may have 2 different content types with the same name, you should be using the script with content type id, not name. For a script with content type id, scroll below.
@@ -83,7 +83,7 @@ $results = @()
 
 foreach ($list in $lists) {
     # Skip hidden or system lists
-    if ($list.Hidden -or $list.BaseTemplate -eq 101) { # 101 is the template ID for document libraries
+    if ($list.Hidden) { 
         continue
     }
 
@@ -148,7 +148,7 @@ $results = @()
 
 foreach ($list in $lists) {
     # Skip hidden or system lists
-    if ($list.Hidden -or $list.BaseTemplate -eq 101) { # 101 is the template ID for document libraries
+    if ($list.Hidden) { 
         continue
     }
 
@@ -208,3 +208,27 @@ Navigate to:
 # See Also
 
 [List SharePoint content types](https://powershellscripts.github.io/articles/en/spo/ctget/)
+
+
+
+
+
+<!-- Default Statcounter code for SPO ctremove
+https://powershellscripts.github.io/articles/en/spo/ctremove/
+-->
+<script type="text/javascript">
+var sc_project=13116809; 
+var sc_invisible=1; 
+var sc_security="0782bf04"; 
+var sc_client_storage="disabled"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="Web Analytics
+Made Easy - Statcounter" href="https://statcounter.com/"
+target="_blank"><img class="statcounter"
+src="https://c.statcounter.com/13116809/0/0782bf04/1/"
+alt="Web Analytics Made Easy - Statcounter"
+referrerPolicy="no-referrer-when-downgrade"></a></div></noscript>
+<!-- End of Statcounter Code -->
