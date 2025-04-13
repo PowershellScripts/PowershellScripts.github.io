@@ -20,6 +20,8 @@ In the trigger configuration, add an input field by clicking Add an input.
 
 Choose Dropdown from the list of available input types.
 
+
+
 ### Configure the Dropdown
 Enter a Label for the dropdown field. This will be the question or prompt shown to the user.
 
@@ -30,3 +32,7 @@ List each option you want users to choose from.
 Example: Enter options like "Option 1," "Option 2," and "Option 3."
 
 Optionally, set a Default Value.
+
+
+
+## See Also
