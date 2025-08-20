@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 'Create Dropdown Fields for User Input in Power Automate'
+title: 'Create dropdown field for user input in Power Automate'
 menubar: docs_menu
 image: 'https://unsplash.com/s/photos/random'
 hero_image: '/img/IMG_20220521_140146.jpg'
@@ -20,7 +20,7 @@ In the trigger configuration, add an input field by clicking Add an input.
 
 Choose Dropdown from the list of available input types.
 
-
+<br/>
 
 ### Configure the Dropdown
 Enter a Label for the dropdown field. This will be the question or prompt shown to the user.
@@ -34,6 +34,9 @@ Example: Enter options like "Option 1," "Option 2," and "Option 3."
 Optionally, set a Default Value.
 
 
+<img src="/articles/img/padropdown.png" width="200">
+
 <br/>
 
-## See Also
+
+

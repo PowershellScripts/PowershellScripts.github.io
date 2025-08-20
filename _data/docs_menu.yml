@@ -8,7 +8,8 @@
       link: /articles/en/PowerPlatform/Recycle vs Delete SharePoint list/
     - name: Site Pages library in Power Automate Flow
       link: /articles/en/PowerPlatform/sitepages/
-
+    - name: Create Dropdown Fields for User Input in Power Automate
+      link: /articles/en/PowerPlatform/dropdownuserinput
 
 
 - label: Information Protection
