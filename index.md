@@ -120,8 +120,13 @@ Welcome to Tips and Tricks on SharePoint, Power Platform and other Microsoft 365
 
 <ol style="--length: 5" role="list">
 
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/cannotcallchildflow">
+		<span style="display: block; text-align: right;">2025-07-12
+		<h3>Cannot call a child flow </h3></span>
+		<p>Some reasons why you may not be able to call a child flow and how to fix them.</p>
+	</a></li>
 
-	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/Viva/changelanguage/">
+	<li style="--i: 16"><a href="https://powershellscripts.github.io/articles/en/PowerPlatform/dropdownuserinput/">
 		<span style="display: block; text-align: right;">2025-04-12
 		<h3>Create Dropdown Field for User Input in Power Automate</h3></span>
 		<p>A 1-minute guide on how to create a dropdown field for user input in Power Automate</p>
