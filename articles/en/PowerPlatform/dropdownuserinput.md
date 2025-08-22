@@ -34,7 +34,7 @@ Example: Enter options like "Option 1," "Option 2," and "Option 3."
 Optionally, set a Default Value.
 
 
-<img src="/articles/img/padropdown.png" width="200">
+<img src="/articles/img/padropdown.png" width="800">
 
 <br/>
 

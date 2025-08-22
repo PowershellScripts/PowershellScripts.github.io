@@ -32,11 +32,11 @@ At this time, you can't pass connections from the parent flow to the child flow.
 
 If your flow uses anything other than built-in actions or the Microsoft Dataverse connector, you need to update the flow to use the connections embedded in the flow. To do this, go to the child flow's properties page, and then select Edit in the Run only users tile.
 
-<img src="/articles/img/paembeddedconnections.png" width="200">
+<img src="/articles/img/paembeddedconnections.png" width="800">
 
 In the pane that appears, for each connection used in the flow, you will need to select <b>Use this connection</b> instead of <b>Provided by run-only user</b>.
 
-<img src="/articles/img/paembeddedconnections2.png" width="200">
+<img src="/articles/img/paembeddedconnections2.png" width="800">
 
 
 <br/><br/>
@@ -65,7 +65,7 @@ This is the one you use when a parent flow calls a child flow via the Run a Chil
 
 The input body for trigger 'manual' of type 'Request' did not match its schema definition. Error details: 'Required properties are missing from object: location.'.
 
-<img src="/articles/img/pa_childflow2.png" width="200">
+<img src="/articles/img/pa_childflow2.png" width="800">
 
 ### Explanation
 
@@ -81,7 +81,7 @@ Fill out the required parameters. If the child flow has changed, re-add the acti
 
 There is a bug with Power Automate where extra parameters can just appear. If you remove them and correct the child flow - they will reappear again some time later. For me in spring 2025 they kept reappearing every Thursday :)
 
-<img src="/articles/img/pa_childflow.png" width="200">
+<img src="/articles/img/pa_childflow.png" width="800">
 
 You can either fill them out and leave ugly like this, or use a nice solution provided by Ian Grieve here:
 [Working with Power Automate Child Flows: Error Encountered With Surprise Extra Parameters for a Child Flow](https://www.azurecurve.co.uk/2024/03/working-with-power-automate-child-flows-error-encountered-with-surprise-extra-parameters-for-a-child-flow/)
@@ -92,4 +92,4 @@ You can either fill them out and leave ugly like this, or use a nice solution pr
 
 # See Also
 
-[Create child flows] (https://learn.microsoft.com/en-us/power-automate/create-child-flows)
+[Create child flows](https://learn.microsoft.com/en-us/power-automate/create-child-flows)
