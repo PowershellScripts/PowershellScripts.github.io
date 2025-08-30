@@ -23,7 +23,7 @@ Cannot call a child flow: Workflow cannot be used as a child workflow because ch
 
 ### Explanation
 
-As per  [Create child flows] (https://learn.microsoft.com/en-us/power-automate/create-child-flows)
+As per  [Create child flows](https://learn.microsoft.com/en-us/power-automate/create-child-flows)
 
 At this time, you can't pass connections from the parent flow to the child flow. If you don't do this, you receive an error that states that the name cannot be used as a child workflow because child workflows only support embedded connections.
 
@@ -36,7 +36,7 @@ If your flow uses anything other than built-in actions or the Microsoft Datavers
 
 In the pane that appears, for each connection used in the flow, you will need to select <b>Use this connection</b> instead of <b>Provided by run-only user</b>.
 
-<img src="/articles/img/paembeddedconnections2.png" width="800">
+<img src="/articles/img/paembeddedconnections2.png" width="500">
 
 
 <br/><br/>
@@ -46,16 +46,18 @@ In the pane that appears, for each connection used in the flow, you will need to
 
 If you do not see the child flow in the dropdown of the action "Run child flow":
 
-1. Make sure you have the permissions to open the child flow.
+1. **Make sure you have the permissions to open the child flow.**
+
 Can you open the flow with your account?
 
-2. Make sure the flow is in the same solution as parent. If not, add the existing flow to the solution.
+2. **Make sure the flow is in the same solution as parent.** If not, add the existing flow to the solution.
+
 Open the parent flow solution. Do you the child flow there?
 
-3. Make sure the flow has an appropriate trigger
+3. **Make sure the flow has an appropriate trigger.**
 
-The only supported trigger is *Manually trigger a flow*.
-This is the one you use when a parent flow calls a child flow via the Run a Child Flow action.
+The only supported trigger for a child flow is *Manually trigger a flow*.
+
 
 <br/><br/>
 
